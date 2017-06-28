@@ -60,7 +60,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="brands.csv" />
-    <None Include="LoadTest1.loadtest">
+    <None Include="ApiPromotionEvalTest.loadtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Storefront-AddProductToCart.webtest">
