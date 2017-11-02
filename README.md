@@ -9,7 +9,8 @@
 - Categories: 325	
 - Properties: 120	
 - Associations: 40000	
-- Property values: 200000	
+- Property values: 200000
+- Languages: 3
 #### Platform settings					
 - Smart cache: Enabled
 - Indexed search provider: Lucene		
