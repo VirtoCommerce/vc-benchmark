@@ -26,8 +26,8 @@
 #### Platform API ver. 2.13.17
 ![image](https://user-images.githubusercontent.com/7566324/32313123-df2db3a6-bfa9-11e7-927c-36891040678b.png)
 
-#### Stress storefront test upon to 250 users - mixed (category browsing 30%, product details 40%, add product to cart 10%, search by phrase 20%)
+#### Stress test for storefront upon to 250 users - mixed (category browsing 30%, product details 40%, add product to cart 10%, search by phrase 20%)
 ![image](https://user-images.githubusercontent.com/7566324/32313148-058f802e-bfaa-11e7-81d1-0b83451feb29.png)
 
-#### Stress API test upon to 250 Users - mixed ( /search/products 30%, /products 40%, /pricing/evaluate  10%, /api/cart 20%)
+#### Stress test for API upon to 250 Users - mixed ( /search/products 30%, /products 40%, /pricing/evaluate  10%, /api/cart 20%)
 ![image](https://user-images.githubusercontent.com/7566324/32313173-272ae746-bfaa-11e7-8c2e-25c8635bf403.png)
