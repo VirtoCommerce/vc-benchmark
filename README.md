@@ -19,7 +19,7 @@ Users	Duraton (min)	Load pattern
 - Load pattern: Constant
 - Duration: 2 min
 
-## Results graphs
+## Results Charts
 #### Storefront  ver 3.0. Theme: vc-default-theme
 ![image](https://user-images.githubusercontent.com/7566324/32313109-c38e3fd0-bfa9-11e7-8c3e-885a9539c7b3.png)
 
