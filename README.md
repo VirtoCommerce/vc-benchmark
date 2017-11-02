@@ -13,8 +13,7 @@
 #### Platform settings					
 - Smart cache: Enabled
 - Indexed search provider: Lucene		
-#### Load pattern					
-Users	Duraton (min)	Load pattern			
+#### Load pattern				
 - Users: 25	
 - Load pattern: Constant
 - Duration: 2 min
