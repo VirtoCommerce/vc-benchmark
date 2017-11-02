@@ -29,5 +29,5 @@
 #### Stress test for storefront upon to 250 users - mixed (category browsing 30%, product details 40%, add product to cart 10%, search by phrase 20%)
 ![image](https://user-images.githubusercontent.com/7566324/32313148-058f802e-bfaa-11e7-81d1-0b83451feb29.png)
 
-#### Stress test for API upon to 250 Users - mixed ( /search/products 30%, /products 40%, /pricing/evaluate  10%, /api/cart 20%)
+#### Stress test for platform API upon to 250 Users - mixed ( /search/products 30%, /products 40%, /pricing/evaluate  10%, /api/cart 20%)
 ![image](https://user-images.githubusercontent.com/7566324/32313173-272ae746-bfaa-11e7-8c2e-25c8635bf403.png)
