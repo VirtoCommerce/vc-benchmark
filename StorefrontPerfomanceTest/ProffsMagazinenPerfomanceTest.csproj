@@ -77,19 +77,35 @@
     <None Include="ApiTest-TaxEval.webtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="brands-slug.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="brands.csv" />
-    <None Include="LoadTest.loadtest">
+    <None Include="categories-slug.csv" />
+    <None Include="categories.csv" />
+    <None Include="LoadTest1.loadtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Storefront-AddProductToCart-recorded.webtest">
+    <None Include="products.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="proffs-bowsing-brand-recorded.webtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Storefront-BrowsingCategory-recorded.webtest">
+    <None Include="proffs-bowsing-category-recorded.webtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Storefront-ProductDetail-recorded.webtest">
+    <None Include="proffs-product-details-recorded.webtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="proffs-search-by-keyword-recorded.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="proffs-staging-mixed-recorded.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Storefront-AddProductToCart-recorded.webtest" />
+    <None Include="Storefront-BrowsingCategory-recorded.webtest" />
     <None Include="Storefront-Mixed-recorded.webtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -100,15 +116,12 @@
     <None Include="Proff-ApiTest-Indexed.webtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Storefront-SearchByBrand-recorded.webtest">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <None Include="Storefront-ProductDetail-recorded.webtest" />
+    <None Include="Storefront-SearchByBrand-recorded.webtest" />
     <None Include="Storefront-SearchByBrand.webtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Storefront-SearchByPhrase-recorded.webtest">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <None Include="Storefront-SearchByPhrase-recorded.webtest" />
     <None Include="Storefront-SearchByPhrase.webtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -133,6 +146,9 @@
     <None Include="Storefront-BrowsingCategory.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="products-slugs.csv" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

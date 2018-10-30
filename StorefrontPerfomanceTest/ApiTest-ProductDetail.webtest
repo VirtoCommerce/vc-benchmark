@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<WebTest Name="ApiTest-Products-load" Id="c97891fd-1bfb-4377-b6a9-e0fa3bad89db" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="" ResultsLocale="">
+<WebTest Name="ApiTest-ProductDetail" Id="c97891fd-1bfb-4377-b6a9-e0fa3bad89db" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="" ResultsLocale="">
   <Items>
     <Request Method="POST" Guid="fc8398c7-c547-4d0f-9dcd-bb27b0b7f4b1" Version="1.1" Url="http://mc103//admin/api/catalog/products/plenty" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
       <QueryStringParameters>
-        <QueryStringParameter Name="api_key" Value="d40b3423c6b84fe4958996597ffe9575" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="api_key" Value="c3b4621e294949bcab797b180d954e66" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
       </QueryStringParameters>
       <StringHttpBody ContentType="application/json;charset=UTF-8" InsertByteOrderMark="False">WwB7AHsARABhAHQAYQBTAG8AdQByAGMAZQAxAC4ASQB0AGUAbQAuAEkAZAB9AH0AXQA=</StringHttpBody>
     </Request>

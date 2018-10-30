@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <WebTest Name="Storefront-ProductDetail" Id="7abdfb77-6b83-4a30-a6de-36176249c91d" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="" ResultsLocale="">
   <Items>
-    <Request Method="GET" Guid="d8c29f74-32b3-4ada-aec7-dcd070c7fc4d" Version="1.1" Url="http://vc-storefront-core.com/product/{{DataSource1.Item.Id}}" ThinkTime="0" Timeout="300" ParseDependentRequests="False" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+    <Request Method="GET" Guid="d8c29f74-32b3-4ada-aec7-dcd070c7fc4d" Version="1.1" Url="http://localhost:8888/{{DataSource1.products-slugs#csv.SLUG}}" ThinkTime="0" Timeout="300" ParseDependentRequests="False" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
   </Items>
   <DataSources>
-    <DataSource Name="DataSource1" Provider="System.Data.SqlClient" Connection="Data Source=(local);Initial Catalog=VirtoCommerce2;Integrated Security=True">
+    <DataSource Name="DataSource1" Provider="Microsoft.VisualStudio.TestTools.DataSource.CSV" Connection="|DataDirectory|\products-slugs.csv">
       <Tables>
-        <DataSourceTable Name="Item" SelectColumns="SelectOnlyBoundColumns" AccessMethod="Unique" />
+        <DataSourceTable Name="products-slugs#csv" SelectColumns="SelectOnlyBoundColumns" AccessMethod="Unique" />
       </Tables>
     </DataSource>
   </DataSources>
