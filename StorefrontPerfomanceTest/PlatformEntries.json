@@ -1,0 +1,1393 @@
+﻿{
+  "IsNotEmpty": false,
+  "Users": [],
+  "Settings": [],
+  "DynamicPropertyDictionaryItems": [
+    {
+      "PropertyId": "06f2b34a71cd4c37834ed54b84c5c1af",
+      "Name": "Black Friday",
+      "DisplayNames": [],
+      "CreatedDate": "2018-11-12T08:40:18.493",
+      "ModifiedDate": "2018-11-12T08:40:18.493",
+      "CreatedBy": "admin",
+      "ModifiedBy": "admin",
+      "Id": "507ed54480e4408a86edfb9cbf487a24"
+    },
+    {
+      "PropertyId": "06f2b34a71cd4c37834ed54b84c5c1af",
+      "Name": "Cyber Monday",
+      "DisplayNames": [],
+      "CreatedDate": "2018-11-12T08:40:18.493",
+      "ModifiedDate": "2018-11-12T08:40:18.493",
+      "CreatedBy": "admin",
+      "ModifiedBy": "admin",
+      "Id": "f807ba21053f4dccb74a3350d0b4e5f1"
+    },
+    {
+      "PropertyId": "06f2b34a71cd4c37834ed54b84c5c1af",
+      "Name": "None",
+      "DisplayNames": [],
+      "CreatedDate": "2018-11-12T08:40:18.493",
+      "ModifiedDate": "2018-11-12T08:40:18.493",
+      "CreatedBy": "admin",
+      "ModifiedBy": "admin",
+      "Id": "66721af4c31c49789cf780dc163ff2b4"
+    },
+    {
+      "PropertyId": "Marketing_DynamicContentItem_Available_For_Property",
+      "Name": "Both",
+      "DisplayNames": [
+        {
+          "Locale": "en-US",
+          "Name": "Both"
+        },
+        {
+          "Locale": "se-SE",
+          "Name": "Both"
+        }
+      ],
+      "CreatedDate": "2015-12-27T21:39:53.907",
+      "ModifiedDate": "2015-12-27T21:39:53.907",
+      "CreatedBy": "ProffsExt",
+      "ModifiedBy": "unknown",
+      "Id": "09528ffbf2b84c66be1628323f11fc2f"
+    },
+    {
+      "PropertyId": "Marketing_DynamicContentItem_Available_For_Property",
+      "Name": "Customer",
+      "DisplayNames": [
+        {
+          "Locale": "en-US",
+          "Name": "Customer"
+        },
+        {
+          "Locale": "se-SE",
+          "Name": "Customer"
+        }
+      ],
+      "CreatedDate": "2015-12-27T21:39:53.907",
+      "ModifiedDate": "2015-12-27T21:39:53.907",
+      "CreatedBy": "ProffsExt",
+      "ModifiedBy": "unknown",
+      "Id": "f713a87c0c3e462c8e87dff725d53470"
+    },
+    {
+      "PropertyId": "Marketing_DynamicContentItem_Available_For_Property",
+      "Name": "Organization",
+      "DisplayNames": [
+        {
+          "Locale": "se-SE",
+          "Name": "Organization"
+        },
+        {
+          "Locale": "en-US",
+          "Name": "Organization"
+        }
+      ],
+      "CreatedDate": "2015-12-27T21:39:53.907",
+      "ModifiedDate": "2015-12-27T21:39:53.907",
+      "CreatedBy": "ProffsExt",
+      "ModifiedBy": "unknown",
+      "Id": "2fa6823200814f28b049c52773335d2d"
+    },
+    {
+      "PropertyId": "Marketing_DynamicContentItem_Type_Property",
+      "Name": "Brand",
+      "DisplayNames": [],
+      "CreatedDate": "2016-01-06T12:40:33.56",
+      "ModifiedDate": "2016-01-06T12:40:33.56",
+      "CreatedBy": "admin",
+      "ModifiedBy": "admin",
+      "Id": "2aa425c86a314006a1338a2035d0f7df"
+    },
+    {
+      "PropertyId": "Marketing_DynamicContentItem_Type_Property",
+      "Name": "CampaignBorder",
+      "DisplayNames": [],
+      "CreatedDate": "2017-03-17T08:57:41.47",
+      "ModifiedDate": "2017-03-17T08:57:41.47",
+      "CreatedBy": "admin",
+      "ModifiedBy": "admin",
+      "Id": "6aa8905bbbbf409db5827985f1e67e94"
+    },
+    {
+      "PropertyId": "Marketing_DynamicContentItem_Type_Property",
+      "Name": "Category",
+      "DisplayNames": [],
+      "CreatedDate": "2016-01-05T10:25:08.223",
+      "ModifiedDate": "2016-01-05T10:25:58.007",
+      "CreatedBy": "admin",
+      "ModifiedBy": "admin",
+      "Id": "5879f76a8927461282dc38d34093cd47"
+    },
+    {
+      "PropertyId": "Marketing_DynamicContentItem_Type_Property",
+      "Name": "Html",
+      "DisplayNames": [],
+      "CreatedDate": "2015-10-06T22:39:14.927",
+      "ModifiedDate": "2015-10-06T22:39:14.927",
+      "CreatedBy": "unknown",
+      "ModifiedBy": "unknown",
+      "Id": "8539baa3fe83445a8052209b9bdd498c"
+    },
+    {
+      "PropertyId": "Marketing_DynamicContentItem_Type_Property",
+      "Name": "Image",
+      "DisplayNames": [],
+      "CreatedDate": "2016-03-01T13:57:55.887",
+      "ModifiedDate": "2016-03-01T13:57:55.887",
+      "CreatedBy": "admin",
+      "ModifiedBy": "admin",
+      "Id": "27e6e120c2124c1ca96fa6814f99593f"
+    },
+    {
+      "PropertyId": "Marketing_DynamicContentItem_Type_Property",
+      "Name": "Slider",
+      "DisplayNames": [],
+      "CreatedDate": "2015-10-06T22:39:14.927",
+      "ModifiedDate": "2015-10-06T22:39:14.927",
+      "CreatedBy": "unknown",
+      "ModifiedBy": "unknown",
+      "Id": "49e01b3e5ac54d31b4fbe66eae4ab5d5"
+    },
+    {
+      "PropertyId": "fc83840c443547719e6545637acde1c8",
+      "Name": "Boat Builder",
+      "DisplayNames": [],
+      "CreatedDate": "2015-10-06T22:39:14.953",
+      "ModifiedDate": "2015-10-06T22:39:14.953",
+      "CreatedBy": "unknown",
+      "ModifiedBy": "unknown",
+      "Id": "d31f52f79a724db0ac0c71b2a0bfb826"
+    },
+    {
+      "PropertyId": "fc83840c443547719e6545637acde1c8",
+      "Name": "Child Care Worker",
+      "DisplayNames": [],
+      "CreatedDate": "2015-10-06T22:39:14.953",
+      "ModifiedDate": "2015-10-06T22:39:14.953",
+      "CreatedBy": "unknown",
+      "ModifiedBy": "unknown",
+      "Id": "6fba64f496a24317b476b8101fddb57b"
+    },
+    {
+      "PropertyId": "fc83840c443547719e6545637acde1c8",
+      "Name": "Mining Engineer",
+      "DisplayNames": [],
+      "CreatedDate": "2015-10-06T22:39:14.953",
+      "ModifiedDate": "2015-10-06T22:39:14.953",
+      "CreatedBy": "unknown",
+      "ModifiedBy": "unknown",
+      "Id": "9a21cdb9583e4794b200f2579bce55b9"
+    },
+    {
+      "PropertyId": "fc83840c443547719e6545637acde1c8",
+      "Name": "Museum Curator",
+      "DisplayNames": [],
+      "CreatedDate": "2015-10-06T22:39:14.953",
+      "ModifiedDate": "2015-10-06T22:39:14.953",
+      "CreatedBy": "unknown",
+      "ModifiedBy": "unknown",
+      "Id": "578fadeb1d2a40b3b08b1daf8db09463"
+    },
+    {
+      "PropertyId": "5869be3e8fa249c7a96d8d874353f943",
+      "Name": "Female",
+      "DisplayNames": [],
+      "CreatedDate": "2015-10-06T22:39:14.973",
+      "ModifiedDate": "2015-10-06T22:39:14.973",
+      "CreatedBy": "unknown",
+      "ModifiedBy": "unknown",
+      "Id": "1bc052ea36324ef8a74be0182c3220c2"
+    },
+    {
+      "PropertyId": "5869be3e8fa249c7a96d8d874353f943",
+      "Name": "Male",
+      "DisplayNames": [],
+      "CreatedDate": "2015-10-06T22:39:14.973",
+      "ModifiedDate": "2015-10-06T22:39:14.973",
+      "CreatedBy": "unknown",
+      "ModifiedBy": "unknown",
+      "Id": "d58bedc559c6420fbde35666adae3251"
+    }
+  ],
+  "DynamicProperties": [
+    {
+      "Name": "DefaultThemeName",
+      "ObjectType": "VirtoCommerce.Domain.Store.Model.Store",
+      "IsArray": false,
+      "IsDictionary": false,
+      "IsMultilingual": false,
+      "IsRequired": false,
+      "ValueType": "ShortText",
+      "DisplayNames": [],
+      "CreatedDate": "2015-11-19T09:32:55.357",
+      "ModifiedDate": "2015-11-19T09:32:55.357",
+      "CreatedBy": "Auto",
+      "ModifiedBy": "unknown",
+      "Id": "Default_Theme_Name_Property"
+    },
+    {
+      "Name": "EnableQuotes",
+      "ObjectType": "VirtoCommerce.Domain.Store.Model.Store",
+      "IsArray": false,
+      "IsDictionary": false,
+      "IsMultilingual": false,
+      "IsRequired": false,
+      "ValueType": "Boolean",
+      "DisplayNames": [],
+      "CreatedDate": "2015-11-19T09:32:55.233",
+      "ModifiedDate": "2015-11-19T09:32:55.233",
+      "CreatedBy": "Auto",
+      "ModifiedBy": "unknown",
+      "Id": "Quote_Enable_Property"
+    },
+    {
+      "Name": "FilteredBrowsing",
+      "ObjectType": "VirtoCommerce.Domain.Store.Model.Store",
+      "IsArray": false,
+      "IsDictionary": false,
+      "IsMultilingual": false,
+      "IsRequired": false,
+      "ValueType": "LongText",
+      "DisplayNames": [
+        {
+          "Locale": "zh-CN"
+        },
+        {
+          "Locale": "fr-FR"
+        },
+        {
+          "Locale": "de-DE"
+        },
+        {
+          "Locale": "ru-RU"
+        },
+        {
+          "Locale": "en-US"
+        },
+        {
+          "Locale": "ja-JP"
+        }
+      ],
+      "CreatedDate": "2015-10-06T22:39:14.82",
+      "ModifiedDate": "2015-10-06T22:39:14.82",
+      "CreatedBy": "unknown",
+      "ModifiedBy": "unknown",
+      "Id": "2b15f370ab524186bec1ace82509a60a"
+    },
+    {
+      "Name": "Holiday",
+      "ObjectType": "VirtoCommerce.Domain.Store.Model.Store",
+      "IsArray": false,
+      "IsDictionary": true,
+      "IsMultilingual": false,
+      "IsRequired": false,
+      "ValueType": "ShortText",
+      "DisplayNames": [
+        {
+          "Locale": "sv-SE"
+        },
+        {
+          "Locale": "sv-VE"
+        },
+        {
+          "Locale": "nb-NO"
+        },
+        {
+          "Locale": "fi-FI"
+        }
+      ],
+      "CreatedDate": "2018-11-12T08:40:18.353",
+      "ModifiedDate": "2018-11-12T08:42:40.217",
+      "CreatedBy": "admin",
+      "ModifiedBy": "admin",
+      "Id": "06f2b34a71cd4c37834ed54b84c5c1af"
+    },
+    {
+      "Name": "HolidaysList (format - DD/MM/YYYY)",
+      "ObjectType": "VirtoCommerce.Domain.Store.Model.Store",
+      "IsArray": true,
+      "IsDictionary": false,
+      "IsMultilingual": false,
+      "IsRequired": false,
+      "ValueType": "ShortText",
+      "DisplayNames": [],
+      "CreatedDate": "2016-03-17T19:41:20.293",
+      "ModifiedDate": "2016-03-17T19:41:20.293",
+      "CreatedBy": "ProffsExtension",
+      "ModifiedBy": "unknown",
+      "Id": "Store_Holidays_List_Dynamic_Property"
+    },
+    {
+      "Name": "TotalProductsCountForStore",
+      "Description": "The count of all products available for the store including variations",
+      "ObjectType": "VirtoCommerce.Domain.Store.Model.Store",
+      "IsArray": false,
+      "IsDictionary": false,
+      "IsMultilingual": false,
+      "IsRequired": false,
+      "ValueType": "Integer",
+      "DisplayNames": [
+        {
+          "Locale": "sv-SE"
+        },
+        {
+          "Locale": "sv-VE"
+        },
+        {
+          "Locale": "fi-FI"
+        },
+        {
+          "Locale": "nb-NO"
+        }
+      ],
+      "CreatedDate": "2018-07-31T16:06:04.28",
+      "ModifiedDate": "2018-07-31T16:06:04.28",
+      "CreatedBy": "aan@virtoway.com",
+      "ModifiedBy": "aan@virtoway.com",
+      "Id": "a5992d306af34855ac7e8588baae071b"
+    },
+    {
+      "Name": "VismaCustomerId",
+      "ObjectType": "VirtoCommerce.Domain.Order.Model.CustomerOrder",
+      "IsArray": false,
+      "IsDictionary": false,
+      "IsMultilingual": false,
+      "IsRequired": false,
+      "ValueType": "ShortText",
+      "DisplayNames": [],
+      "CreatedDate": "2016-05-16T13:43:34.033",
+      "ModifiedDate": "2016-05-16T13:43:34.033",
+      "CreatedBy": "ProffsExtension",
+      "ModifiedBy": "unknown",
+      "Id": "CustomerOrder_Visma_Customer_Id_Dynamic_Property"
+    },
+    {
+      "Name": "VismaOrderId",
+      "ObjectType": "VirtoCommerce.Domain.Order.Model.CustomerOrder",
+      "IsArray": false,
+      "IsDictionary": false,
+      "IsMultilingual": false,
+      "IsRequired": false,
+      "ValueType": "ShortText",
+      "DisplayNames": [],
+      "CreatedDate": "2016-05-11T08:58:15.45",
+      "ModifiedDate": "2016-05-11T08:58:15.45",
+      "CreatedBy": "ProffsExtension",
+      "ModifiedBy": "unknown",
+      "Id": "CustomerOrder_Visma_Order_Id_Dynamic_Property"
+    },
+    {
+      "Name": "VismaOrderProcessStatus",
+      "ObjectType": "VirtoCommerce.Domain.Order.Model.CustomerOrder",
+      "IsArray": false,
+      "IsDictionary": false,
+      "IsMultilingual": false,
+      "IsRequired": false,
+      "ValueType": "ShortText",
+      "DisplayNames": [],
+      "CreatedDate": "2016-05-12T20:11:45.747",
+      "ModifiedDate": "2016-05-12T20:11:45.747",
+      "CreatedBy": "ProffsExtension",
+      "ModifiedBy": "unknown",
+      "Id": "CustomerOrder_Visma_Order_Process_Status_Dynamic_Property"
+    },
+    {
+      "Name": "AssociationPackageSpecialId",
+      "ObjectType": "VirtoCommerce.Domain.Order.Model.LineItem",
+      "IsArray": false,
+      "IsDictionary": false,
+      "IsMultilingual": false,
+      "IsRequired": false,
+      "ValueType": "ShortText",
+      "DisplayNames": [],
+      "CreatedDate": "2016-07-07T19:59:11.623",
+      "ModifiedDate": "2016-07-07T19:59:11.623",
+      "CreatedBy": "ProffsExtension",
+      "ModifiedBy": "unknown",
+      "Id": "Order_LineItem_Association_Package_Special_Id"
+    },
+    {
+      "Name": "PackageProductSpecialId",
+      "ObjectType": "VirtoCommerce.Domain.Order.Model.LineItem",
+      "IsArray": false,
+      "IsDictionary": false,
+      "IsMultilingual": false,
+      "IsRequired": false,
+      "ValueType": "ShortText",
+      "DisplayNames": [],
+      "CreatedDate": "2016-07-07T19:59:11.183",
+      "ModifiedDate": "2016-07-07T19:59:11.183",
+      "CreatedBy": "ProffsExtension",
+      "ModifiedBy": "unknown",
+      "Id": "Order_LineItem_Package_Product_Special_Id"
+    },
+    {
+      "Name": "Available for",
+      "ObjectType": "VirtoCommerce.Domain.Marketing.Model.DynamicContentItem",
+      "IsArray": false,
+      "IsDictionary": true,
+      "IsMultilingual": false,
+      "IsRequired": false,
+      "ValueType": "ShortText",
+      "DisplayNames": [],
+      "CreatedDate": "2015-12-27T21:39:43.493",
+      "ModifiedDate": "2015-12-27T21:39:43.493",
+      "CreatedBy": "ProffsExt",
+      "ModifiedBy": "unknown",
+      "Id": "Marketing_DynamicContentItem_Available_For_Property"
+    },
+    {
+      "Name": "CategoryId",
+      "ObjectType": "VirtoCommerce.Domain.Marketing.Model.DynamicContentItem",
+      "IsArray": false,
+      "IsDictionary": false,
+      "IsMultilingual": false,
+      "IsRequired": false,
+      "ValueType": "ShortText",
+      "DisplayNames": [
+        {
+          "Locale": "se-SE"
+        },
+        {
+          "Locale": "nn-NO"
+        },
+        {
+          "Locale": "en-US"
+        }
+      ],
+      "CreatedDate": "2016-01-05T10:28:04.753",
+      "ModifiedDate": "2016-01-05T10:28:04.753",
+      "CreatedBy": "admin",
+      "ModifiedBy": "admin",
+      "Id": "654ac087607b488bb1265dfde1f7c755"
+    },
+    {
+      "Name": "Content type",
+      "ObjectType": "VirtoCommerce.Domain.Marketing.Model.DynamicContentItem",
+      "IsArray": false,
+      "IsDictionary": true,
+      "IsMultilingual": false,
+      "IsRequired": false,
+      "ValueType": "ShortText",
+      "DisplayNames": [
+        {
+          "Locale": "de-DE"
+        },
+        {
+          "Locale": "ru-RU"
+        },
+        {
+          "Locale": "ja-JP"
+        },
+        {
+          "Locale": "fr-FR"
+        },
+        {
+          "Locale": "zh-CN"
+        },
+        {
+          "Locale": "en-US"
+        }
+      ],
+      "CreatedDate": "2015-11-19T09:32:55.06",
+      "ModifiedDate": "2015-11-19T09:32:55.06",
+      "CreatedBy": "Auto",
+      "ModifiedBy": "unknown",
+      "Id": "Marketing_DynamicContentItem_Type_Property"
+    },
+    {
+      "Name": "CssClass",
+      "Description": "CssClass",
+      "ObjectType": "VirtoCommerce.Domain.Marketing.Model.DynamicContentItem",
+      "IsArray": false,
+      "IsDictionary": false,
+      "IsMultilingual": false,
+      "IsRequired": false,
+      "ValueType": "ShortText",
+      "DisplayNames": [
+        {
+          "Locale": "nb-NO"
+        },
+        {
+          "Locale": "sv-SE"
+        }
+      ],
+      "CreatedDate": "2017-03-19T11:49:56.297",
+      "ModifiedDate": "2017-03-19T11:49:56.297",
+      "CreatedBy": "admin",
+      "ModifiedBy": "admin",
+      "Id": "8dd6397ba44045848f75e995e55f503e"
+    },
+    {
+      "Name": "CssStyle",
+      "ObjectType": "VirtoCommerce.Domain.Marketing.Model.DynamicContentItem",
+      "IsArray": false,
+      "IsDictionary": false,
+      "IsMultilingual": false,
+      "IsRequired": false,
+      "ValueType": "ShortText",
+      "DisplayNames": [
+        {
+          "Locale": "nb-NO"
+        },
+        {
+          "Locale": "sv-SE"
+        }
+      ],
+      "CreatedDate": "2017-03-19T11:50:15.69",
+      "ModifiedDate": "2017-03-19T11:50:15.69",
+      "CreatedBy": "admin",
+      "ModifiedBy": "admin",
+      "Id": "cf7edddbefb24f879aea968b2053e7fa"
+    },
+    {
+      "Name": "Html",
+      "ObjectType": "VirtoCommerce.Domain.Marketing.Model.DynamicContentItem",
+      "IsArray": false,
+      "IsDictionary": false,
+      "IsMultilingual": false,
+      "IsRequired": false,
+      "ValueType": "Html",
+      "DisplayNames": [
+        {
+          "Locale": "ru-RU"
+        },
+        {
+          "Locale": "ja-JP"
+        },
+        {
+          "Locale": "fr-FR"
+        },
+        {
+          "Locale": "zh-CN"
+        },
+        {
+          "Locale": "en-US"
+        },
+        {
+          "Locale": "de-DE"
+        }
+      ],
+      "CreatedDate": "2015-10-06T22:39:14.82",
+      "ModifiedDate": "2015-10-06T22:39:14.82",
+      "CreatedBy": "unknown",
+      "ModifiedBy": "unknown",
+      "Id": "a381c55f8b624f53a8ae99c1387299e3"
+    },
+    {
+      "Name": "ImageUrl",
+      "ObjectType": "VirtoCommerce.Domain.Marketing.Model.DynamicContentItem",
+      "IsArray": false,
+      "IsDictionary": false,
+      "IsMultilingual": false,
+      "IsRequired": false,
+      "ValueType": "ShortText",
+      "DisplayNames": [
+        {
+          "Locale": "nn-NO"
+        },
+        {
+          "Locale": "se-SE"
+        },
+        {
+          "Locale": "en-US"
+        }
+      ],
+      "CreatedDate": "2016-01-05T10:25:34.33",
+      "ModifiedDate": "2016-01-06T12:27:33.517",
+      "CreatedBy": "admin",
+      "ModifiedBy": "admin",
+      "Id": "b1cac654d0924951b06b16a1bb035134"
+    },
+    {
+      "Name": "Title",
+      "ObjectType": "VirtoCommerce.Domain.Marketing.Model.DynamicContentItem",
+      "IsArray": false,
+      "IsDictionary": false,
+      "IsMultilingual": false,
+      "IsRequired": false,
+      "ValueType": "ShortText",
+      "DisplayNames": [
+        {
+          "Locale": "nn-NO"
+        },
+        {
+          "Locale": "se-SE"
+        },
+        {
+          "Locale": "en-US"
+        }
+      ],
+      "CreatedDate": "2016-01-05T10:27:50.797",
+      "ModifiedDate": "2016-01-05T10:27:50.797",
+      "CreatedBy": "admin",
+      "ModifiedBy": "admin",
+      "Id": "2f4f48401b664819abcbbe1c44074c3d"
+    },
+    {
+      "Name": "Url",
+      "ObjectType": "VirtoCommerce.Domain.Marketing.Model.DynamicContentItem",
+      "IsArray": false,
+      "IsDictionary": false,
+      "IsMultilingual": false,
+      "IsRequired": false,
+      "ValueType": "ShortText",
+      "DisplayNames": [
+        {
+          "Locale": "en-US"
+        },
+        {
+          "Locale": "nn-NO"
+        },
+        {
+          "Locale": "se-SE"
+        }
+      ],
+      "CreatedDate": "2016-01-05T10:27:34.223",
+      "ModifiedDate": "2016-01-06T12:27:14.337",
+      "CreatedBy": "admin",
+      "ModifiedBy": "admin",
+      "Id": "f6e6cad1241c495fa32a4d9497a6ca62"
+    },
+    {
+      "Name": "Married",
+      "ObjectType": "VirtoCommerce.Domain.Customer.Model.Contact",
+      "IsArray": false,
+      "IsDictionary": false,
+      "IsMultilingual": false,
+      "IsRequired": false,
+      "ValueType": "Boolean",
+      "DisplayNames": [
+        {
+          "Locale": "ru-RU"
+        },
+        {
+          "Locale": "de-DE"
+        },
+        {
+          "Locale": "fr-FR"
+        },
+        {
+          "Locale": "ja-JP"
+        },
+        {
+          "Locale": "zh-CN"
+        },
+        {
+          "Locale": "en-US"
+        }
+      ],
+      "CreatedDate": "2015-10-06T22:39:14.82",
+      "ModifiedDate": "2015-10-06T22:39:14.82",
+      "CreatedBy": "unknown",
+      "ModifiedBy": "unknown",
+      "Id": "1d2174502bf4489cbd04504e2521bbec"
+    },
+    {
+      "Name": "occupation",
+      "ObjectType": "VirtoCommerce.Domain.Customer.Model.Contact",
+      "IsArray": true,
+      "IsDictionary": true,
+      "IsMultilingual": false,
+      "IsRequired": false,
+      "ValueType": "ShortText",
+      "DisplayNames": [
+        {
+          "Locale": "ja-JP"
+        },
+        {
+          "Locale": "de-DE"
+        },
+        {
+          "Locale": "zh-CN"
+        },
+        {
+          "Locale": "ru-RU"
+        },
+        {
+          "Locale": "en-US"
+        },
+        {
+          "Locale": "fr-FR"
+        }
+      ],
+      "CreatedDate": "2015-10-06T22:39:14.82",
+      "ModifiedDate": "2015-10-06T22:39:14.82",
+      "CreatedBy": "unknown",
+      "ModifiedBy": "unknown",
+      "Id": "fc83840c443547719e6545637acde1c8"
+    },
+    {
+      "Name": "Sex",
+      "ObjectType": "VirtoCommerce.Domain.Customer.Model.Contact",
+      "IsArray": false,
+      "IsDictionary": true,
+      "IsMultilingual": false,
+      "IsRequired": false,
+      "ValueType": "ShortText",
+      "DisplayNames": [
+        {
+          "Locale": "zh-CN"
+        },
+        {
+          "Locale": "de-DE"
+        },
+        {
+          "Locale": "en-US"
+        },
+        {
+          "Locale": "ja-JP"
+        },
+        {
+          "Locale": "fr-FR"
+        },
+        {
+          "Locale": "ru-RU"
+        }
+      ],
+      "CreatedDate": "2015-10-06T22:39:14.82",
+      "ModifiedDate": "2015-10-06T22:39:14.82",
+      "CreatedBy": "unknown",
+      "ModifiedBy": "unknown",
+      "Id": "5869be3e8fa249c7a96d8d874353f943"
+    },
+    {
+      "Name": "OrganizationNumber",
+      "ObjectType": "VirtoCommerce.Domain.Customer.Model.Organization",
+      "IsArray": false,
+      "IsDictionary": false,
+      "IsMultilingual": false,
+      "IsRequired": false,
+      "ValueType": "ShortText",
+      "DisplayNames": [],
+      "CreatedDate": "2016-03-01T10:19:32.373",
+      "ModifiedDate": "2016-03-01T10:19:32.373",
+      "CreatedBy": "ProffsExtension",
+      "ModifiedBy": "unknown",
+      "Id": "Organization_Number_Dynamic_Property"
+    },
+    {
+      "Name": "AssociationPackageSpecialId",
+      "ObjectType": "VirtoCommerce.Domain.Cart.Model.LineItem",
+      "IsArray": false,
+      "IsDictionary": false,
+      "IsMultilingual": false,
+      "IsRequired": false,
+      "ValueType": "ShortText",
+      "DisplayNames": [],
+      "CreatedDate": "2016-06-28T07:38:35.527",
+      "ModifiedDate": "2016-06-28T07:38:35.527",
+      "CreatedBy": "ProffsExtension",
+      "ModifiedBy": "unknown",
+      "Id": "Cart_LineItem_Association_Package_Special_Id"
+    },
+    {
+      "Name": "PackageProductAssociationIds",
+      "ObjectType": "VirtoCommerce.Domain.Cart.Model.LineItem",
+      "IsArray": true,
+      "IsDictionary": false,
+      "IsMultilingual": false,
+      "IsRequired": false,
+      "ValueType": "ShortText",
+      "DisplayNames": [],
+      "CreatedDate": "2016-06-28T07:38:35.497",
+      "ModifiedDate": "2016-06-28T07:38:35.497",
+      "CreatedBy": "ProffsExtension",
+      "ModifiedBy": "unknown",
+      "Id": "Cart_LineItem_Package_Product_Association_Ids"
+    },
+    {
+      "Name": "PackageProductSpecialId",
+      "ObjectType": "VirtoCommerce.Domain.Cart.Model.LineItem",
+      "IsArray": false,
+      "IsDictionary": false,
+      "IsMultilingual": false,
+      "IsRequired": false,
+      "ValueType": "ShortText",
+      "DisplayNames": [],
+      "CreatedDate": "2016-06-28T07:38:34.653",
+      "ModifiedDate": "2016-06-28T07:38:34.653",
+      "CreatedBy": "ProffsExtension",
+      "ModifiedBy": "unknown",
+      "Id": "Cart_LineItem_Package_Product_Special_Id"
+    },
+    {
+      "Name": "Brand description",
+      "ObjectType": "Proffsmagasinet.ExtensionModule.Core.Models.Brand",
+      "IsArray": false,
+      "IsDictionary": false,
+      "IsMultilingual": true,
+      "IsRequired": false,
+      "ValueType": "Html",
+      "DisplayNames": [],
+      "CreatedDate": "2016-09-23T16:24:44.513",
+      "ModifiedDate": "2016-09-23T16:24:44.513",
+      "CreatedBy": "ProffsExtension",
+      "ModifiedBy": "unknown",
+      "Id": "Brand_Description_Dynamic_Property_Id"
+    },
+    {
+      "Name": "Brand icon",
+      "ObjectType": "Proffsmagasinet.ExtensionModule.Core.Models.Brand",
+      "IsArray": false,
+      "IsDictionary": false,
+      "IsMultilingual": true,
+      "IsRequired": false,
+      "ValueType": "ShortText",
+      "DisplayNames": [],
+      "CreatedDate": "2016-12-14T14:23:48.113",
+      "ModifiedDate": "2016-12-14T14:23:48.113",
+      "CreatedBy": "ProffsExtension",
+      "ModifiedBy": "unknown",
+      "Id": "Brand_Image_Dynamic_Property_Id"
+    },
+    {
+      "Name": "Brand name",
+      "ObjectType": "Proffsmagasinet.ExtensionModule.Core.Models.Brand",
+      "IsArray": false,
+      "IsDictionary": false,
+      "IsMultilingual": true,
+      "IsRequired": false,
+      "ValueType": "ShortText",
+      "DisplayNames": [],
+      "CreatedDate": "2016-09-23T16:24:44.58",
+      "ModifiedDate": "2016-09-23T16:24:44.58",
+      "CreatedBy": "ProffsExtension",
+      "ModifiedBy": "unknown",
+      "Id": "Brand_Name_Dynamic_Property_Id"
+    },
+    {
+      "Name": "aliases",
+      "ObjectType": "VirtoCommerce.ContentModule.Web.FrontMatterHeaders",
+      "IsArray": true,
+      "IsDictionary": false,
+      "IsMultilingual": false,
+      "IsRequired": false,
+      "ValueType": "ShortText",
+      "DisplayNames": [],
+      "CreatedDate": "2016-09-12T14:50:47.063",
+      "ModifiedDate": "2016-09-12T14:50:47.063",
+      "CreatedBy": "Auto",
+      "ModifiedBy": "unknown",
+      "Id": "Alias_FrontMatterHeader"
+    },
+    {
+      "Name": "authorize",
+      "ObjectType": "VirtoCommerce.ContentModule.Web.FrontMatterHeaders",
+      "IsArray": false,
+      "IsDictionary": false,
+      "IsMultilingual": false,
+      "IsRequired": false,
+      "ValueType": "Boolean",
+      "DisplayNames": [],
+      "CreatedDate": "2018-08-22T07:09:48.65",
+      "ModifiedDate": "2018-08-22T07:09:48.65",
+      "CreatedBy": "Auto",
+      "ModifiedBy": "unknown",
+      "Id": "Authorize_FrontMatterHeader"
+    },
+    {
+      "Name": "categories",
+      "ObjectType": "VirtoCommerce.ContentModule.Web.FrontMatterHeaders",
+      "IsArray": true,
+      "IsDictionary": false,
+      "IsMultilingual": false,
+      "IsRequired": false,
+      "ValueType": "ShortText",
+      "DisplayNames": [],
+      "CreatedDate": "2016-09-12T14:50:47.063",
+      "ModifiedDate": "2016-09-12T14:50:47.063",
+      "CreatedBy": "Auto",
+      "ModifiedBy": "unknown",
+      "Id": "Categories_FrontMatterHeader"
+    },
+    {
+      "Name": "category",
+      "ObjectType": "VirtoCommerce.ContentModule.Web.FrontMatterHeaders",
+      "IsArray": false,
+      "IsDictionary": false,
+      "IsMultilingual": false,
+      "IsRequired": false,
+      "ValueType": "ShortText",
+      "DisplayNames": [],
+      "CreatedDate": "2016-09-12T14:50:47.063",
+      "ModifiedDate": "2016-09-12T14:50:47.063",
+      "CreatedBy": "Auto",
+      "ModifiedBy": "unknown",
+      "Id": "Category_FrontMatterHeader"
+    },
+    {
+      "Name": "date",
+      "ObjectType": "VirtoCommerce.ContentModule.Web.FrontMatterHeaders",
+      "IsArray": false,
+      "IsDictionary": false,
+      "IsMultilingual": false,
+      "IsRequired": false,
+      "ValueType": "DateTime",
+      "DisplayNames": [],
+      "CreatedDate": "2016-09-27T07:49:45.6",
+      "ModifiedDate": "2016-09-27T07:49:45.6",
+      "CreatedBy": "Auto",
+      "ModifiedBy": "unknown",
+      "Id": "date_FrontMatterHeader"
+    },
+    {
+      "Name": "is-sticked",
+      "ObjectType": "VirtoCommerce.ContentModule.Web.FrontMatterHeaders",
+      "IsArray": false,
+      "IsDictionary": false,
+      "IsMultilingual": false,
+      "IsRequired": false,
+      "ValueType": "Boolean",
+      "DisplayNames": [],
+      "CreatedDate": "2016-09-27T07:49:45.6",
+      "ModifiedDate": "2016-09-27T07:49:45.6",
+      "CreatedBy": "Auto",
+      "ModifiedBy": "unknown",
+      "Id": "isSticked_FrontMatterHeader"
+    },
+    {
+      "Name": "is-trending",
+      "ObjectType": "VirtoCommerce.ContentModule.Web.FrontMatterHeaders",
+      "IsArray": false,
+      "IsDictionary": false,
+      "IsMultilingual": false,
+      "IsRequired": false,
+      "ValueType": "Boolean",
+      "DisplayNames": [],
+      "CreatedDate": "2016-09-27T07:49:45.597",
+      "ModifiedDate": "2016-09-27T07:49:45.597",
+      "CreatedBy": "Auto",
+      "ModifiedBy": "unknown",
+      "Id": "isTrending_FrontMatterHeader"
+    },
+    {
+      "Name": "layout",
+      "ObjectType": "VirtoCommerce.ContentModule.Web.FrontMatterHeaders",
+      "IsArray": false,
+      "IsDictionary": false,
+      "IsMultilingual": false,
+      "IsRequired": false,
+      "ValueType": "ShortText",
+      "DisplayNames": [],
+      "CreatedDate": "2016-09-12T14:50:47.063",
+      "ModifiedDate": "2016-09-12T14:50:47.063",
+      "CreatedBy": "Auto",
+      "ModifiedBy": "unknown",
+      "Id": "Layout_FrontMatterHeader"
+    },
+    {
+      "Name": "main-image",
+      "ObjectType": "VirtoCommerce.ContentModule.Web.FrontMatterHeaders",
+      "IsArray": false,
+      "IsDictionary": false,
+      "IsMultilingual": false,
+      "IsRequired": false,
+      "ValueType": "ShortText",
+      "DisplayNames": [],
+      "CreatedDate": "2016-09-27T07:49:45.6",
+      "ModifiedDate": "2016-09-27T07:49:45.6",
+      "CreatedBy": "Auto",
+      "ModifiedBy": "unknown",
+      "Id": "mainImage_FrontMatterHeader"
+    },
+    {
+      "Name": "permalink",
+      "ObjectType": "VirtoCommerce.ContentModule.Web.FrontMatterHeaders",
+      "IsArray": false,
+      "IsDictionary": false,
+      "IsMultilingual": false,
+      "IsRequired": false,
+      "ValueType": "ShortText",
+      "DisplayNames": [],
+      "CreatedDate": "2016-09-12T14:50:47.063",
+      "ModifiedDate": "2016-09-12T14:50:47.063",
+      "CreatedBy": "Auto",
+      "ModifiedBy": "unknown",
+      "Id": "Permalink_FrontMatterHeader"
+    },
+    {
+      "Name": "published",
+      "ObjectType": "VirtoCommerce.ContentModule.Web.FrontMatterHeaders",
+      "IsArray": false,
+      "IsDictionary": false,
+      "IsMultilingual": false,
+      "IsRequired": false,
+      "ValueType": "ShortText",
+      "DisplayNames": [],
+      "CreatedDate": "2016-09-12T14:50:47.063",
+      "ModifiedDate": "2016-09-12T14:50:47.063",
+      "CreatedBy": "Auto",
+      "ModifiedBy": "unknown",
+      "Id": "Published_FrontMatterHeader"
+    },
+    {
+      "Name": "tags",
+      "ObjectType": "VirtoCommerce.ContentModule.Web.FrontMatterHeaders",
+      "IsArray": true,
+      "IsDictionary": false,
+      "IsMultilingual": false,
+      "IsRequired": false,
+      "ValueType": "ShortText",
+      "DisplayNames": [],
+      "CreatedDate": "2016-09-12T14:50:47.063",
+      "ModifiedDate": "2016-09-12T14:50:47.063",
+      "CreatedBy": "Auto",
+      "ModifiedBy": "unknown",
+      "Id": "Tags_FrontMatterHeader"
+    },
+    {
+      "Name": "template",
+      "ObjectType": "VirtoCommerce.ContentModule.Web.FrontMatterHeaders",
+      "IsArray": false,
+      "IsDictionary": false,
+      "IsMultilingual": false,
+      "IsRequired": false,
+      "ValueType": "ShortText",
+      "DisplayNames": [],
+      "CreatedDate": "2017-10-04T08:42:25.807",
+      "ModifiedDate": "2017-10-04T08:42:25.807",
+      "CreatedBy": "Auto",
+      "ModifiedBy": "unknown",
+      "Id": "Template_FrontMatterHeader"
+    },
+    {
+      "Name": "title",
+      "ObjectType": "VirtoCommerce.ContentModule.Web.FrontMatterHeaders",
+      "IsArray": false,
+      "IsDictionary": false,
+      "IsMultilingual": false,
+      "IsRequired": false,
+      "ValueType": "ShortText",
+      "DisplayNames": [],
+      "CreatedDate": "2016-09-12T14:50:47.06",
+      "ModifiedDate": "2016-09-12T14:50:47.06",
+      "CreatedBy": "Auto",
+      "ModifiedBy": "unknown",
+      "Id": "Title_FrontMatterHeader"
+    }
+  ],
+  "NotificationTemplates": [
+    {
+      "ObjectId": "Proffs-SE",
+      "NotificationTypeId": "ResetPasswordEmailNotification",
+      "Sender": "\"Proffsmagasinet.se\" <info@proffsmagasinet.se>",
+      "Subject": "Återställ lösenord Proffsmagasinet.se",
+      "Body": "<table border=\"0\" width=\"800\" cellspacing=\"0\" cellpadding=\"0\" align=\"center\">\n<tbody>\n<tr>\n<td width=\"20\">&nbsp;</td>\n<td width=\"370\"><br /> <img style=\"display: block;\" src=\"https://www.proffsmagasinet.se/themes/assets/logo.png\" alt=\"\" /></td>\n<td width=\"20\">&nbsp;</td>\n<td width=\"370\">&nbsp;</td>\n<td width=\"20\">&nbsp;</td>\n</tr>\n<tr>\n<td height=\"30\">&nbsp;</td>\n</tr>\n<tr>\n<td width=\"20\">&nbsp;</td>\n<td width=\"600\">\n<span style=\"font-size: 16px; font-family: Arial;\"> \n<strong>Hej fr&aring;n Proffsmagasinet.se</strong><br /><br />\nDu har f&aring;tt det h&auml;r e-postmeddelandet eftersom du gl&ouml;mt ditt l&ouml;senord till ditt konto. \nOm du vill &aring;terst&auml;lla l&ouml;senordet trycker du p&aring; l&auml;nken nedan och f&ouml;ljer anvisningarna.<br /><br />\n<a href=\"{{url}}\">&Aring;terst&auml;ll ditt l&ouml;senord</a> <br /><br />\nOm du f&aring;tt detta mail utan att ha beg&auml;rt ett nytt l&ouml;senord fr&aring;n v&aring;r hemsida s&aring; f&aring;r du g&auml;rna kontakta oss p&aring; 08-34 47 00 eller via <a href=\"mailto: info@proffsmagasinet.se\">info@proffsmagasinet.se</a><br /><br />\n<strong>V&auml;nliga h&auml;lsningar,</strong><br /><br />\nKundtj&auml;nst<br />\nProffsmagasinet Svenska AB\n</span>\n</td>\n<td width=\"20\">&nbsp;</td>\n<td width=\"370\">&nbsp;</td>\n<td width=\"20\">&nbsp;</td>\n</tr>\n<tr>\n<td height=\"30\">&nbsp;</td>\n</tr>\n\n<tr>\n<td height=\"20\">&nbsp;</td>\n</tr>\n  <tr>\n    <td width=\"20\">&nbsp;</td>\n    <td colspan=\"3\">\n      <p>\nProffsmagasinet &auml;r godk&auml;nt av Trygg E-handel, vilket inneb&auml;r att du kan k&auml;nna dig trygg och s&auml;ker n&auml;r du handlar hos oss. Trygg E-handels m&aring;l &auml;r att skydda konsumenter och f&ouml;retag vid k&ouml;p p&aring; n&auml;tet &ndash; bara ekonomiskt stabila och sk&ouml;tsamma f&ouml;retag f&aring;r anv&auml;nda sig av Trygg E-handels ikoner och varum&auml;rke. Du kan l&auml;sa mer om Trygg E-handel och dina r&auml;ttigheter p&aring; <a href=\"http://www.tryggehandel.se\">www.tryggehandel.se</a> Proffsmagasinets certifikat finns att l&auml;sa p&aring; <a href=\"http://www.tryggehandel.se/butik/845/\">http://www.tryggehandel.se/butik/845/</a>\n</p>\n    </td>\n    <td width=\"20\">&nbsp;</td>\n  </tr>\n  <tr>\n<td width=\"20\">&nbsp;</td>\n<td colspan=\"3\" bgcolor=\"#cccccc\" height=\"2\">&nbsp;</td>\n<td width=\"20\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\n<table border=\"0\" width=\"800\" cellspacing=\"0\" cellpadding=\"0\" align=\"center\">\n<tbody>\n<tr>\n  <td width=\"20\">&nbsp;</td>\n<td width=\"280\"><span style=\"font-size: 14px; font-family: Arial;\"> <strong>Proffsmagasinet Svenska AB</strong><br /> Kilabergsvägen 4 <br /> 126 49 Hägersten </span></td>\n<td align=\"left\" width=\"90\"><span style=\"font-size: 14px; font-family: Arial;\"> Webbsida: <br /> E-post: <br /> Org. nummer: <br /> Telefon: </span></td>\n<td align=\"left\"><span style=\"font-size: 14px; font-family: Arial;\"> <a href=\"https://www.proffsmagasinet.se\"> https://www.proffsmagasinet.se </a> <br /> <a href=\"mailto: info@proffsmagasinet.se\"> info@proffsmagasinet.se </a> <br /> 556728-3857 <br /> 08-34 47 00 </span></td>\n</tr>\n</tbody>\n</table>",
+      "ObjectTypeId": "Store",
+      "Language": "sv-SE",
+      "IsDefault": true,
+      "CreatedDate": "2017-03-23T09:31:22.107",
+      "ModifiedDate": "2018-12-05T08:59:55.37",
+      "CreatedBy": "admin",
+      "ModifiedBy": "ann-christin.andersson@proffsmagasinet.se",
+      "Id": "014e482ef83d4c74850bc0cac84f6e75"
+    },
+    {
+      "ObjectId": "StayPro",
+      "NotificationTypeId": "RegistrationEmailNotification",
+      "Sender": "\"Staypro.no\" <info@staypro.no>",
+      "Subject": "Kontoinformasjon til Staypro.no",
+      "Body": "<table border=\"0\" width=\"800\" cellspacing=\"0\" cellpadding=\"0\" align=\"center\">\n<tbody>\n<tr>\n<td width=\"20\">&nbsp;</td>\n<td width=\"600\"><br /> <img src=\"http://staypro.no/themes/assets/logo.png\" alt=\"\" style=\"display: block;\"></td>\n<td width=\"20\">&nbsp;</td>\n</tr>\n<tr>\n<td height=\"30\">&nbsp;</td>\n</tr>\n<tr>\n<td width=\"20\">&nbsp;</td>\n<td width=\"600\">\n\t<span style=\"font-size: 16px; font-family: Arial;\">\n\t\t<strong>Velkommen til Staypro.no</strong><br /><br />\nVi har nå opprettet en konto for deg med følgende informasjon:<br /><br />\n\n<strong>Dine innloggingsdetaljer</strong><br />\nAnvändarnamn: <a href=\"mailto:{{ login }}\">{{ login }}</a><br /><br />\n\n<strong>Vennlig hilsen,</strong><br /><br />\n\nStaypro\n</span>\n</td>\n<td width=\"20\">&nbsp;</td>\n</tr>\n<tr>\n<td height=\"20\">&nbsp;</td>\n</tr>\n  <tr>\n    <td width=\"20\">&nbsp;</td>\n    <td>\n      <font face=\"Arial\" style=\"font-size: 14px;\">\n\t\t\t\t<p>Staypro er godkjent av Trygg E-handel, det betyr at du kan kjenne deg trygg og sikker når du handler fra oss. Trygg E-handels formål er å beskytte deg som forbruker – kun stabile og seriøse nettbutikker kan bli godkjent til å benytte Trygg E-handel merket. Du kan lese mer om >Trygg E-handel og dine rettigheter som forbruker på <a href='www.tryggehandel.no'>www.tryggehandel.no</a>.</p>\n\t\t\t\t<p>Staypro sertifikat finnes på <a href='http://www.tryggehandel.no/butikk/227'>http://www.tryggehandel.no/butikk/227</a></p>\n\t\t\t</font>\n    </td>\n    <td width=\"20\">&nbsp;</td>\n  </tr>\n  <tr>\n\t<td width=\"20\">&nbsp;</td>\n\t<td bgcolor=\"#cccccc\" height=\"2\">&nbsp;</td>\n\t<td width=\"20\">&nbsp;</td>\n  </tr>\n  <tr>\n\t<td width=\"20\">&nbsp;</td>\n\t<td>\n\t\t<table border=\"0\" width=\"600\" cellspacing=\"0\" cellpadding=\"0\" align=\"left\">\n\t\t<tbody>\n\t\t<tr>\n\t\t  <td width=\"280\">\n\t\t\t\t<font face=\"Arial\" style=\"font-size: 14px;\">\n\t\t\t\t\t<b>Staypro</b><br>\n\t\t\t\t\tPostboks 4691 Nydalen <br>\n\t\t\t\t\t0405 OSLO\n\t\t\t\t</font>\n\t\t\t</td>\n\t\t\t<td width=\"90\" align=\"left\">\n\t\t\t\t<font face=\"Arial\" style=\"font-size: 14px;\">\n\t\t\t\t\tWebbside: <br>\n\t\t\t\t\tE-post: <br>\n\t\t\t\t\tOrg. nummer: <br>\n\t\t\t\t\tTelefon:\n\t\t\t\t</font>\n\t\t\t</td>\n\t\t\t<td align=\"left\">\n\t\t\t\t<font face=\"Arial\" style=\"font-size: 14px;\">\n\t\t\t\t\t<a href=\"https://www.staypro.no\">www.staypro.no</a><br>\n\t\t\t\t\t<a href=\"mailto:info@staypro.no\">info@staypro.no</a><br>\n\t\t\t\t\t916 241 283 <br>\n\t\t\t\t\t21 06 23 03\n\t\t\t\t</font>\n\t\t\t</td>\n\t\t</tr>\n\t\t</tbody>\n\t\t</table>\n\t</td>\n\t<td width=\"20\">&nbsp;</td>\n  </tr>\n</tbody>\n</table>",
+      "ObjectTypeId": "Store",
+      "Language": "nb-NO",
+      "IsDefault": false,
+      "CreatedDate": "2017-03-23T10:29:07.983",
+      "ModifiedDate": "2019-04-17T09:24:40.35",
+      "CreatedBy": "admin",
+      "ModifiedBy": "martin.holmin@proffsmagasinet.se",
+      "Id": "05297228b5224553977044ee35e9d18e"
+    },
+    {
+      "ObjectId": "Verktygsproffsen",
+      "NotificationTypeId": "RegistrationEmailNotification",
+      "Sender": "\"Verktygsproffsen.se\" <info@verktygsproffsen.se>",
+      "Subject": "Kontouppgifter till Verktygproffsen.se",
+      "Body": "<table border=\"0\" width=\"800\" cellspacing=\"0\" cellpadding=\"0\" align=\"center\">\n<tbody>\n<tr>\n<td width=\"20\">&nbsp;</td>\n<td width=\"370\"><br /> <img style=\"display: block;\" src=\"https://beta.verktygsproffsen.se/themes/assets/logo-black.png\" alt=\"\" /></td>\n<td width=\"20\">&nbsp;</td>\n<td width=\"370\">&nbsp;</td>\n<td width=\"20\">&nbsp;</td>\n</tr>\n<tr>\n<td height=\"30\">&nbsp;</td>\n</tr>\n<tr>\n<td width=\"20\">&nbsp;</td>\n<td width=\"600\">\n<span style=\"font-size: 16px; font-family: Arial;\"> <strong>V&auml;lkommen till Verktygproffsen.se</strong><br /><br />\nVi har nu skapat upp ett konto &aring;t dig med nedan uppgifter.<br /><br />\n\n<strong>Dina inloggningsuppgifter</strong><br />\nAnv&auml;ndarnamn: <a href=\"mailto:{{ login }}\">{{ login }}</a><br /><br />\n\n<strong>V&auml;nliga h&auml;lsningar,</strong><br /><br />\n\nVerktygsproffsen i Uppland\n</span>\n</td>\n<td width=\"20\">&nbsp;</td>\n<td width=\"370\">&nbsp;</td>\n<td width=\"20\">&nbsp;</td>\n</tr>\n<tr>\n<td height=\"30\">&nbsp;</td>\n</tr>\n\n<tr>\n<td height=\"20\">&nbsp;</td>\n</tr>\n  <tr>\n    <td width=\"20\">&nbsp;</td>\n    <td colspan=\"3\">\n      <p>\nVerktygsproffsen vill att du ska känna dig trygg och säker i ditt köp. Vi är medlem av Certifierad Ehandel. Vi uppdaterar dig varefter vi jobbar med din order. Vi hoppas att din upplevelse av oss ska förbli positiva, vi gör allt för kunden. Detta ordererkännande gäller ej som kvitto. Fakturahanteringen hanteras av klarna om du handlar som privatperson, Svea Ekonomi om du handlar som företag.\n</p>\n    </td>\n    <td width=\"20\">&nbsp;</td>\n  </tr>\n  <tr>\n<td width=\"20\">&nbsp;</td>\n<td colspan=\"3\" bgcolor=\"#cccccc\" height=\"2\">&nbsp;</td>\n<td width=\"20\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\n<table border=\"0\" width=\"800\" cellspacing=\"0\" cellpadding=\"0\" align=\"center\">\n<tbody>\n<tr>\n  <td width=\"20\">&nbsp;</td>\n<td width=\"280\"><span style=\"font-size: 14px; font-family: Arial;\"> <strong>Verktygsproffsen i Uppland</strong><br /> Söderbyvägen 3C <br /> 195 60 ARLANDASTAD </span></td>\n<td align=\"left\" width=\"90\"><span style=\"font-size: 14px; font-family: Arial;\"> Webbsida: <br /> E-post: <br /> Org. nummer: <br /> Telefon: </span></td>\n<td align=\"left\"><span style=\"font-size: 14px; font-family: Arial;\"> <a href=\"https://www.verktygsproffsen.se\"> https://www.verktygsproffsen.se </a> <br /> <a href=\"mailto: info@verktygsproffsen.se\"> info@verktygsproffsen.se </a> <br /> 556728-3857 <br /> 018 444 45 25 </span></td>\n</tr>\n</tbody>\n</table>",
+      "ObjectTypeId": "Store",
+      "Language": "sv-VE",
+      "IsDefault": false,
+      "CreatedDate": "2018-05-11T13:08:03.873",
+      "ModifiedDate": "2018-05-11T13:08:09.687",
+      "CreatedBy": "eo@virtoway.com",
+      "ModifiedBy": "eo@virtoway.com",
+      "Id": "20210fedc40a451db1111a49aafe531e"
+    },
+    {
+      "NotificationTypeId": "OverdueProductsNotification",
+      "Sender": "\"Proffsmagasinet.se\" <info@proffsmagasinet.se>",
+      "Recipient": "ProffsmagasinetWebContent@proffsmagasinet.se",
+      "Subject": "You have expired backorder date",
+      "Body": "List of overdue products: \n {{product_list}}",
+      "IsDefault": false,
+      "CreatedDate": "2017-11-16T07:54:09.683",
+      "ModifiedDate": "2018-01-16T14:49:03.347",
+      "CreatedBy": "admin",
+      "ModifiedBy": "admin",
+      "Id": "294de3120e1541d990df5abc4d924c66"
+    },
+    {
+      "ObjectId": "Proffs-SE",
+      "NotificationTypeId": "InvoiceEmailNotification",
+      "Subject": "Invoice for order - <strong>{{ customer_order.number }}</strong>",
+      "Body": "<html>\n<head>\n</head>\n<body style=\"font-family: Arial, Helvetica, sans-serif;\">\n    <div style=\"border: 1px solid #E0DCDA;\">\n        <div style=\"background-color: #E0DCDA; margin: 2px; padding: 10px;\">\n            <span style=\"width: 400px;\">Invoice Details {{ customer_order.number }}</span>\n            <span style=\"width: 400px;\">Status: {{ customer_order.status }}</span>\n        </div>\n      \t<img src=\"http://www.startupguys.net/wp-content/uploads/2016/03/virto-commerce-logo.png\" width=\"150\" />\n        <div style=\"font-size: 12px; padding: 10px;\">\n            <div style=\"display: inline-block;\">\n                <span style=\"width: 150px;\"><strong>Order Date</strong></span>\n                <span style=\"width: 150px;\"><strong>Order Number</strong></span>\n            </div>\n            <div>\n                <span style=\"width: 150px;\">{{ customer_order.created_date }}</span>\n                <span style=\"width: 150px;\">{{ customer_order.number }}</span>\n            </div>\n        </div>\n        <div style=\"padding: 10px;\">\n            <p><strong>Details:</strong></p>\n        </div>\n        <div style=\"background-color: #E0DCDA; margin: 2px; padding: 10px;\">\n            <span style=\"text-align: center; width: 30px;\"><strong>#</strong></span>\n            <span style=\"width: 200px;\"><strong>Item Description</strong></span>\n            <span style=\"width: 100px;\"><strong>Unit Price</strong></span>\n            <span style=\"width: 100px;\"><strong>Invoice Qty</strong></span>\n            <span style=\"width: 100px;\"><strong>Line Price</strong></span>\n        </div>\n      \t<table style=\"font-size: 12px;\">\n        \t{% for line_item in customer_order.items %}\n              \t<tr>\n                  \t<td style=\"text-align: center; vertical-align: top; width: 30px;\"><p>{{ forloop.index }}</p></td>\n                  \t<td style=\"vertical-align: top; width: 200px;\"><p>{{ line_item.name }}</p><p style=\"color: #999; font-size: 11px;\">SKU: {{ line_item.sku }}</p></td>\n                    <td style=\"text-align: center; vertical-align: top; width: 100px;\"><p>${{ line_item.placed_price | round: 2 }}</p></td>\n                    <td style=\"text-align: center; vertical-align: top; width: 100px;\"><p>{{ line_item.quantity }}</p></td>\n                    <td style=\"text-align: center; vertical-align: top; width: 100px;\"><p>${{ line_item.extended_price | round: 2 }}</p></td>\n              \t</tr>\n        \t{% endfor %}\n        </table>\n        <div style=\"background-color: #F9F9F9; font-size: 12px; margin: 2px; padding: 10px;\">\n            <div>\n                <span style=\"width: 300px;\"></span>\n                <span style=\"width: 100px;\">Shipping:</span>\n                <span style=\"width: 100px;\">${{ customer_order.shipping_total | round: 2 }}</span>\n            </div>\n            <div>\n                <span style=\"width: 300px;\"></span>\n                <span style=\"width: 100px;\">Total Fees:</span>\n                <span style=\"width: 100px;\">${{ customer_order.fee_total | round: 2 }}</span>\n            </div>\n            <br />\n            <div>\n                <span style=\"width: 300px;\"></span>\n                <span style=\"width: 100px;\">Order Subtotal:</span>\n                <span style=\"width: 100px;\">${{ customer_order.sub_total | round: 2 }}</span>\n            </div>\n            <div>\n                <span style=\"width: 300px;\"></span>\n                <span style=\"width: 100px;\">GST:</span>\n                <span style=\"width: 100px;\">${{ customer_order.tax_total | round: 2 }}</span>\n            </div>\n            <br />\n            <div>\n                <span style=\"width: 300px;\"></span>\n                <span style=\"font-size: 14px; width: 100px;\"><strong>Total:</strong></span>\n                <span style=\"font-size: 14px; width: 100px;\"><strong>${{ customer_order.total | round: 2 }}</strong></span>\n            </div>\n            <div>\n                <span style=\"width: 300px;\"></span>\n                <span style=\"width: 100px;\">Currency:</span>\n                <span style=\"width: 100px;\">{{ customer_order.currency }}</span>\n            </div>\n        </div>\n    </div>\n</body>\n</html>",
+      "ObjectTypeId": "Store",
+      "Language": "en-US",
+      "IsDefault": false,
+      "CreatedDate": "2018-11-26T11:25:28.72",
+      "ModifiedDate": "2018-11-26T11:25:28.72",
+      "CreatedBy": "ann-christin.andersson@proffsmagasinet.se",
+      "ModifiedBy": "ann-christin.andersson@proffsmagasinet.se",
+      "Id": "39fb478e919c4bbe845fc2f50168dc23"
+    },
+    {
+      "ObjectId": "StayProFI",
+      "NotificationTypeId": "ProffsOrderCreateEmailNotification",
+      "Sender": "tilaus@staypro.fi",
+      "Subject": "Kiitos tilauksestasi (#{{order_number}}) Staypro.fi:ltä!",
+      "Body": "<table border=\"0\" width=\"800\" cellspacing=\"0\" cellpadding=\"0\" align=\"center\"><tbody>\n  <tr>\n    <td width=\"20\">&nbsp;</td> \n    <td width=\"370\"><br /> <img style=\"display: block;\" src=\"https://www.staypro.fi/themes/assets/static/logo.png\" alt=\"\" /></td>\n    <td width=\"20\">&nbsp;</td>\n    <td width=\"370\">&nbsp;</td>\n    <td width=\"20\">&nbsp;</td>\n  </tr>\n  <tr> \n    <td height=\"30\">&nbsp;</td>\n  </tr> \n  <tr>\n    <td width=\"20\">&nbsp;</td>\n    <td width=\"600\"><span style=\"font-size: 24px; font-family: Arial;\"> <strong>Tilausvahvistus {{ order_number }}</strong> </span> <br /><br /> <span style=\"font-size: 16px; font-family: Arial;\"> <strong>Kiitos tilauksestasi Stayprolta</strong><br /><br />\n    \n</td>\n\n\n<td width=\"20\">&nbsp;</td>\n    <td width=\"370\">&nbsp;</td>\n    <td width=\"20\">&nbsp;</td>\n  </tr>\n  <tr>\n    <td height=\"30\">&nbsp;</td>\n  </tr>\n  <tr>\n    <td width=\"20\">&nbsp;</td>\n    <td valign=\"top\" width=\"370\"><span style=\"font-size: 14px; font-family: Arial;\"> <strong style=\"font-size: 16px;\">Toimitustiedot: </strong> <br /><br /> Toimitusvaihtoehdot: {{ shipment_type }} <br /> {{ shipping_organization_name }} <br /> {{ shipping_address.fullname }}<br />  {{ shipping_address.line1 }} <br /> {{ shipping_address.line2 }} <br /> {{ shipping_address.postal_code }} {{ shipping_address.city }} </span></td>\n    <td width=\"20\">&nbsp;</td>\n    <td valign=\"top\" width=\"370\"><span style=\"font-size: 14px; font-family: Arial;\"> <strong style=\"font-size: 16px;\">Laskutustiedot:</strong> <br /><br /> Maksutapa: {{ payment_type }} <br /> {{ billing_organization_name }} <br /> {{ billing_address.fullname }} <br /> {{ billing_address.line1 }} <br /> {{ billing_address.line2 }} <br /> {{ billing_address.postal_code }} {{ billing_address.city }} </span></td>\n    <td width=\"20\">&nbsp;</td>\n  </tr>\n  <tr>\n    <td height=\"40\">&nbsp;</td>\n  </tr>\n  <tr>\n    <td width=\"20\">&nbsp;</td>\n    <td width=\"370\"><br /><br /> <span style=\"font-size: 14px; font-family: Arial;\"> <strong>Asiakasnumero: </strong> {{ organization_number }} <br /> <strong>Matkapuhelin: </strong> {{ customer_phone }} <br /> <strong>Sähköposti: </strong> <a href=\"mailto:{{ customer_email }}\">{{ customer_email }}</a><br><br>Kommenttisi tilaukseen liittyen: {{ order_comment }} </span></td> </tr>\n  <tr>\n    <td height=\"60\">&nbsp;</td>\n  </tr>\n  <tr>\n    <td width=\"20\">&nbsp;</td>\n    <td colspan=\"3\">\n      <table style=\"border: 1px solid #ccc; font-family: Arial; font-size: 14px;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"10\">\n        <tbody>\n          <tr>\n            <th align=\"left\">Tuotenumero</th>\n            <th align=\"left\">Nimi</th>\n            <th align=\"right\">Määrä</th>\n            <th align=\"right\">Verot</th>\n            <th align=\"right\">&nbsp;</th>\n            <th align=\"right\">Hinta ilman veroja</th>\n            <th align=\"right\">Hinta sisältäen verot</th>\n          </tr>   \n          {% for item in line_items %} \n          <tr> \n            <td align=\"left\">{{ item.sku }}</td>\n            <td align=\"left\">{{ item.name }}</td>\n            <td align=\"right\">{{ item.quantity }}</td>\n            <td align=\"right\">{{ item.tax_rate }} %</td>\n            <td align=\"right\">&nbsp;</td> \n            <td align=\"right\">{{ item.total_exkl_tax }}</td>\n            <td align=\"right\">{{ item.total_inkl_tax }}</td>\n          </tr>\n          {% endfor %}\n          <tr>\n            <td style=\"border-top: 1px solid #ccc;\" colspan=\"5\">&nbsp;</td>\n            <td style=\"border-top: 1px solid #ccc;\" align=\"right\">Välisumma</td>\n            <td style=\"border-top: 1px solid #ccc;\" align=\"right\">{{ line_items_total }}</td>\n          </tr>\n          <tr>\n            <td colspan=\"5\">&nbsp;</td>\n            <td align=\"right\">Toimitus</td>\n            <td align=\"right\">{{ shipment_total }}</td>\n          </tr>\n          <tr>\n            <td style=\"border-top: 1px solid #ccc;\" colspan=\"5\">&nbsp;</td>\n            <td style=\"border-top: 1px solid #ccc;\" align=\"right\"><strong>Verot:</strong> <br /> <strong>HINTA sisältäen verot:</strong></td>\n            <td style=\"border-top: 1px solid #ccc;\" align=\"right\"><strong>{{ tax_total }}</strong><br><strong>{{ order_total }}</strong></td>\n          </tr>\n        </tbody>\n      </table>\n    </td>\n    <td width=\"20\">&nbsp;</td>\n  </tr>\n  <tr>\n    <td height=\"20\">&nbsp;</td>\n  </tr>\n  <tr> \n    <td width=\"20\">&nbsp;</td>\n    <td colspan=\"3\"> &nbsp;</td> \n    <td width=\"20\">&nbsp;</td> \n  </tr> \n  <tr>\n    <td width=\"20\">&nbsp;</td>\n    <td colspan=\"3\" bgcolor=\"#cccccc\" height=\"2\">&nbsp;</td> <td width=\"20\">&nbsp;</td>\n  </tr>\n  </tbody>\n</table>\n<table border=\"0\" width=\"800\" cellspacing=\"0\" cellpadding=\"0\" align=\"center\">\n  <tbody>\n    <tr>\n      <td width=\"20\">&nbsp;</td> <td width=\"280\"><span style=\"font-size: 14px; font-family: Arial;\"> <strong>Staypro.fi</strong><br /> Kilabergsvägen 4 <br /> 126 49 HÄGERSTEN </span></td>\n      <td align=\"left\" width=\"90\"><span style=\"font-size: 14px; font-family: Arial;\"> Verkkosivut: <br /> Sähköposti: <br />  Y-tunnus: <br /> Puhelinnumero: </span></td>\n      <td align=\"left\"><span style=\"font-size: 14px; font-family: Arial;\"> <a href=\"https://www.staypro.fi\"> https://www.staypro.fi </a> <br /> <a href=\"mailto: info@staypro.fi\"> info@staypro.fi </a> <br /> 2839481-4 <br /> 09 4272 0222 </span></td>\n    </tr>\n  </tbody>\n</table>\n<script type=\"application/json+trustpilot\">{ \"recipientEmail\": \"{{ customer_email }}\", \"recipientName\": \"{{ billing_address.fullname }}\", \"referenceId\": \"{{ order_number }}\", \"products\": [  {%- assign count = line_items.size | minus: 1 -%}       {%- for item in line_items limit:count -%}         {             \"productUrl\": \"{{ item.product_url }}\",             \"imageUrl\": \"{{ item.image_url }}\",             \"name\": \"{{ item.name }}\",             \"sku\": \"{{ item.sku }}\",             \"gtin\": \"{{ item.gtin }}\",             \"mpn\": \"{{ item.mpn }}\",             \"brand\": \"{{ item.brand }}\"         },       {%- endfor -%}       {             \"productUrl\": \"{{ line_items.last.product_url }}\",             \"imageUrl\": \"{{ line_items.last.image_url }}\",             \"name\": \"{{ line_items.last.name }}\",             \"sku\": \"{{ line_items.last.sku }}\",             \"gtin\": \"{{ line_items.last.gtin }}\",             \"mpn\": \"{{ line_items.last.mpn }}\",             \"brand\": \"{{ line_items.last.brand }}\"         }  ] } </script>\n",
+      "ObjectTypeId": "Store",
+      "Language": "fi-FI",
+      "IsDefault": false,
+      "CreatedDate": "2017-06-26T07:50:21.31",
+      "ModifiedDate": "2018-12-05T08:52:05.97",
+      "CreatedBy": "admin",
+      "ModifiedBy": "ann-christin.andersson@proffsmagasinet.se",
+      "Id": "3d59b6caf32c4e1882497d8584661bd6"
+    },
+    {
+      "ObjectId": "StayPro",
+      "NotificationTypeId": "ProffsOrderCreateEmailNotification",
+      "Sender": "\"Staypro.no\" <ordre@staypro.no>",
+      "Subject": "Takk for din bestilling #{{ order_number }} på Staypro AS!",
+      "Body": "<p>&nbsp;</p>\n<table border=\"0\" width=\"800\" cellspacing=\"0\" cellpadding=\"0\" align=\"center\">\n<tbody>\n<tr>\n<td width=\"20\">&nbsp;</td>\n<td width=\"370\"><br /> <img src=\"http://staypro.no/themes/assets/logo.png\" alt=\"\" style=\"display: block;\"></td>\n<td width=\"20\">&nbsp;</td>\n<td width=\"370\">&nbsp;</td>\n<td width=\"20\">&nbsp;</td>\n</tr>\n<tr>\n<td height=\"30\">&nbsp;</td>\n</tr>\n<tr>\n<td width=\"20\">&nbsp;</td>\n<td width=\"600\"><span style=\"font-size: 24px; font-family: Arial;\"> <strong>Orderbekraftelse {{ order_number }}</strong> </span> <br /><br /> <span style=\"font-size: 16px; font-family: Arial;\"> <strong>Takk for din bestilling på staypro.no.</strong> <br /><br />\n\n<br /><br />\n\n</td>\n\n<td width=\"20\">&nbsp;</td>\n<td width=\"370\">&nbsp;</td>\n<td width=\"20\">&nbsp;</td>\n</tr>\n<tr>\n<td height=\"30\">&nbsp;</td>\n</tr>\n<tr>\n<td width=\"20\">&nbsp;</td>\n<td valign=\"top\" width=\"370\"><span style=\"font-size: 14px; font-family: Arial;\"> <strong style=\"font-size: 16px;\">Leveransinformation: </strong> <br /><br /> Fraktalternativ: {{ shipment_type }} <br /> {{ shipping_organization_name }} <br /> {{ shipping_address.fullname }}<br />  {{ shipping_address.line1 }} <br /> {{ shipping_address.line2 }} <br /> {{ shipping_address.postal_code }} {{ shipping_address.city }} </span></td>\n<td width=\"20\">&nbsp;</td>\n<td valign=\"top\" width=\"370\"><span style=\"font-size: 14px; font-family: Arial;\"> <strong style=\"font-size: 16px;\">Fakturaddresse:</strong> <br /><br /> Betalningsmetode: {{ payment_type }} <br /> {{ billing_organization_name }} <br /> {{ billing_address.fullname }} <br /> {{ billing_address.line1 }} <br /> {{ billing_address.line2 }} <br /> {{ billing_address.postal_code }} {{ billing_address.city }} </span></td>\n<td width=\"20\">&nbsp;</td>\n</tr>\n<tr>\n<td height=\"40\">&nbsp;</td>\n</tr>\n<tr>\n<td width=\"20\">&nbsp;</td>\n<td width=\"370\"><br /><br /> <span style=\"font-size: 14px; font-family: Arial;\"> <strong>Kundnummer: </strong> {{ organization_number }} <br /> <strong>Mobiltelefon: </strong> {{ customer_phone }} <br /> <strong>E-post: </strong> <a href=\"mailto:{{ customer_email }}\">{{ customer_email }}</a><br><br>Bestillingen kommentar: {{ order_comment }} </span></td>\n</tr>\n<tr>\n<td height=\"60\">&nbsp;</td>\n</tr>\n<tr>\n<td width=\"20\">&nbsp;</td>\n<td colspan=\"3\">\n<table style=\"border: 1px solid #ccc; font-family: Arial; font-size: 14px;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"10\">\n<tbody>\n<tr><th align=\"left\">Art.Nr</th><th align=\"left\">Navn</th><th align=\"right\">Antall</th><th align=\"right\">Moms</th><th align=\"right\">&nbsp;</th><th align=\"right\">Pris eks MVA</th><th align=\"right\">Pris ink MVA</th></tr>\n   {% for item in line_items %}\n<tr>\n<td align=\"left\">{{ item.sku }}</td>\n<td align=\"left\">{{ item.name }}</td>\n<td align=\"right\">{{ item.quantity }}</td>\n<td align=\"right\">{{ item.tax_rate }} %</td>\n<td align=\"right\">&nbsp;</td>\n<td align=\"right\">{{ item.total_exkl_tax }}</td>\n<td align=\"right\">{{ item.total_inkl_tax }}</td>\n</tr>\n    {% endfor %}\n<tr>\n<td style=\"border-top: 1px solid #ccc;\" colspan=\"5\">&nbsp;</td>\n<td style=\"border-top: 1px solid #ccc;\" align=\"right\">Delsum</td>\n<td style=\"border-top: 1px solid #ccc;\" align=\"right\">{{ line_items_total }}</td>\n</tr>\n<tr>\n<td colspan=\"5\">&nbsp;</td>\n<td align=\"right\">Frakt</td>\n<td align=\"right\">{{ shipment_total }}</td>\n</tr>\n<tr>\n<td style=\"border-top: 1px solid #ccc;\" colspan=\"5\">&nbsp;</td>\n<td style=\"border-top: 1px solid #ccc;\" align=\"right\"><strong>Moms:</strong> <br /> <strong>SUMMA (MVA):</strong></td>\n<td style=\"border-top: 1px solid #ccc;\" align=\"right\"><strong>{{ tax_total }}</strong> <br /> <strong>{{ order_total }}</strong></td>\n</tr>\n</tbody>\n</table>\n</td>\n<td width=\"20\">&nbsp;</td>\n</tr>\n<tr>\n<td height=\"20\">&nbsp;</td>\n</tr>\n  <tr>\n    <td width=\"20\">&nbsp;</td>\n    <td colspan=\"3\">\n      <font face=\"Arial\" style=\"font-size: 14px;\">\n\t\t\t\t<p>Staypro er godkjent av Trygg E-handel, det betyr at du kan kjenne deg trygg og sikker når du handler fra oss. Trygg E-handels formål er å beskytte deg som forbruker – kun stabile og seriøse nettbutikker kan bli godkjent til å benytte Trygg E-handel merket. Du kan lese mer om >Trygg E-handel og dine rettigheter som forbruker på <a href='www.tryggehandel.no'>www.tryggehandel.no</a>.</p>\n\t\t\t\t<p>Staypro sertifikat finnes på <a href='https://www.tryggehandel.no/butikker/staypro-as/'>https://www.tryggehandel.no/butikker/staypro-as/</a></p>\n\t\t\t</font>\n    </td>\n    <td width=\"20\">&nbsp;</td>\n  </tr>\n  <tr>\n<td width=\"20\">&nbsp;</td>\n<td colspan=\"3\" bgcolor=\"#cccccc\" height=\"2\">&nbsp;</td>\n<td width=\"20\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\n<table border=\"0\" width=\"800\" cellspacing=\"0\" cellpadding=\"0\" align=\"center\">\n<tbody>\n<tr>\n  <td width=\"280\">\n\t\t\t\t\t\t<font face=\"Arial\" style=\"font-size: 14px;\">\n\t\t\t\t\t\t\t<b>Staypro</b><br>\n\t\t\t\t\t\t\tPostboks 4691 Nydalen <br>\n\t\t\t\t\t\t\t0405 OSLO\n\t\t\t\t\t\t</font>\n\t\t\t\t\t</td>\n\t\t\t\t\t<td width=\"90\" align=\"left\">\n\t\t\t\t\t\t<font face=\"Arial\" style=\"font-size: 14px;\">\n\t\t\t\t\t\t\tWebbside: <br>\n\t\t\t\t\t\t\tE-post: <br>\n\t\t\t\t\t\t\tOrg. nummer: <br>\n\t\t\t\t\t\t\tTelefon:\n\t\t\t\t\t\t</font>\n\t\t\t\t\t</td>\n\t\t\t\t\t<td align=\"left\">\n\t\t\t\t\t\t<font face=\"Arial\" style=\"font-size: 14px;\">\n\t\t\t\t\t\t\t<a href=\"https://www.staypro.no\">www.staypro.no</a><br>\n\t\t\t\t\t\t\t<a href=\"mailto:info@staypro.no\">info@staypro.no</a><br>\n\t\t\t\t\t\t\t916 241 283 <br>\n\t\t\t\t\t\t\t21 06 23 03\n\t\t\t\t\t\t</font>\n\t\t\t\t\t</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>\n<script type=\"application/json+trustpilot\">\n{\n\"recipientEmail\": \"{{ customer_email }}\",\n\"recipientName\": \"{{ shipping_address.fullname }}\",\n\"referenceId\": \"{{ order_number }}\",\n}\n</script>\n",
+      "ObjectTypeId": "Store",
+      "Language": "nb-NO",
+      "IsDefault": false,
+      "CreatedDate": "2016-12-07T16:26:52.427",
+      "ModifiedDate": "2019-04-17T09:25:26.107",
+      "CreatedBy": "admin",
+      "ModifiedBy": "martin.holmin@proffsmagasinet.se",
+      "Id": "4ce5be45057545c7aaaf97cfc6d4d3b1"
+    },
+    {
+      "ObjectId": "Verktygsproffsen",
+      "NotificationTypeId": "EmailConfirmationNotification",
+      "Subject": "Email confirmation",
+      "Body": "To complete your create account process please click this link: <a href=\"{{ url }}\">{{ url }}</a>",
+      "ObjectTypeId": "Store",
+      "Language": "en-US",
+      "IsDefault": false,
+      "CreatedDate": "2018-11-26T11:39:13.883",
+      "ModifiedDate": "2018-11-26T11:39:13.883",
+      "CreatedBy": "ann-christin.andersson@proffsmagasinet.se",
+      "ModifiedBy": "ann-christin.andersson@proffsmagasinet.se",
+      "Id": "5c1dc11f84b44bd8a6237456f57cccb7"
+    },
+    {
+      "ObjectId": "Proffs-SE",
+      "NotificationTypeId": "StoreDynamicEmailNotification",
+      "Subject": "Ny katalogbeställning!",
+      "Body": "{{ fields['organizationName'] }}<br>\n{{ fields['firstName'] }} {{ fields['lastName'] }}<br>\n{{ fields['postAddress'] }}<br>\n{{ fields['postCode'] }} {{ fields['city'] }}<br>\n{{ fields['email'] }}",
+      "ObjectTypeId": "Store",
+      "Language": "sv-SE",
+      "IsDefault": false,
+      "CreatedDate": "2017-03-23T11:38:18.5",
+      "ModifiedDate": "2017-03-23T11:38:18.5",
+      "CreatedBy": "admin",
+      "ModifiedBy": "admin",
+      "Id": "5df33b749dcb492f9f0e9757c2d12084"
+    },
+    {
+      "ObjectId": "Proffs-SE",
+      "NotificationTypeId": "OrderCreateEmailNotification",
+      "Subject": "Din beställning skapas",
+      "Body": "Ditt ordernummer  - <strong>{{ ordernumber }}</strong>.",
+      "ObjectTypeId": "Store",
+      "Language": "se-SE",
+      "IsDefault": false,
+      "CreatedDate": "2016-02-05T09:06:11.107",
+      "ModifiedDate": "2016-02-05T09:06:11.107",
+      "CreatedBy": "admin",
+      "ModifiedBy": "admin",
+      "Id": "64cc539313fd45f4b92968f958b2cabb"
+    },
+    {
+      "ObjectId": "StayPro",
+      "NotificationTypeId": "ResetPasswordEmailNotification",
+      "Sender": "\"Staypro.no\" <info@staypro.no>",
+      "Subject": "Kontoinformasjon til Staypro.no",
+      "Body": "<table border=\"0\" width=\"800\" cellspacing=\"0\" cellpadding=\"0\" align=\"center\">\n<tbody>\n<tr>\n<td width=\"20\">&nbsp;</td>\n<td width=\"370\"><br /> <img src=\"http://staypro.no/themes/assets/logo.png\" alt=\"\" style=\"display: block;\"></td>\n<td width=\"20\">&nbsp;</td>\n<td width=\"370\">&nbsp;</td>\n<td width=\"20\">&nbsp;</td>\n</tr>\n<tr>\n<td height=\"30\">&nbsp;</td>\n</tr>\n<tr>\n<td width=\"20\">&nbsp;</td>\n<td width=\"600\">\n\t<span style=\"font-size: 16px; font-family: Arial;\"> \n\t\t<strong>Hei fra Staypro.no</strong><br /><br />\n\t\tDu har mottatt denne e-posten fordi du har glemt passordet ditt til kontoen din.\n\t\tFor å tilbakestille passordet ved å trykke på linken under og følg instruksjonene.<br /><br />\n\t\t<a href=\"{{url}}\">Tilbakestill ditt passord</a> <br /><br />\n\t\t<strong>Vennlig hilsen,</strong><br /><br />\n\t\tStaypro\n\t</span>\n</td>\n<td width=\"20\">&nbsp;</td>\n<td width=\"370\">&nbsp;</td>\n<td width=\"20\">&nbsp;</td>\n</tr>\n<tr>\n<td height=\"20\">&nbsp;</td>\n</tr>\n  <tr>\n    <td width=\"20\">&nbsp;</td>\n    <td colspan=\"3\">\n      <font face=\"Arial\" style=\"font-size: 14px;\">\n\t\t\t\t<p>Staypro er godkjent av Trygg E-handel, det betyr at du kan kjenne deg trygg og sikker når du handler fra oss. Trygg E-handels formål er å beskytte deg som forbruker – kun stabile og seriøse nettbutikker kan bli godkjent til å benytte Trygg E-handel merket. Du kan lese mer om >Trygg E-handel og dine rettigheter som forbruker på <a href='www.tryggehandel.no'>www.tryggehandel.no</a>.</p>\n\t\t\t\t<p>Staypro sertifikat finnes på <a href='http://www.tryggehandel.no/butikk/227'>http://www.tryggehandel.no/butikk/227</a></p>\n\t\t\t</font>\n    </td>\n    <td width=\"20\">&nbsp;</td>\n  </tr>\n  <tr>\n\t<td width=\"20\">&nbsp;</td>\n\t<td colspan=\"3\" bgcolor=\"#cccccc\" height=\"2\">&nbsp;</td>\n\t<td width=\"20\">&nbsp;</td>\n  </tr>\n  <tr>\n\t<td width=\"20\">&nbsp;</td>\n\t<td colspan=\"3\">\n\t\t<table border=\"0\" width=\"600\" cellspacing=\"0\" cellpadding=\"0\" align=\"left\">\n\t\t<tbody>\n\t\t<tr>\n\t\t  <td width=\"280\">\n\t\t\t\t<font face=\"Arial\" style=\"font-size: 14px;\">\n\t\t\t\t\t<b>Staypro</b><br>\n\t\t\t\t\tPostboks 4691 Nydalen <br>\n\t\t\t\t\t0405 OSLO\n\t\t\t\t</font>\n\t\t\t</td>\n\t\t\t<td width=\"90\" align=\"left\">\n\t\t\t\t<font face=\"Arial\" style=\"font-size: 14px;\">\n\t\t\t\t\tWebbside: <br>\n\t\t\t\t\tE-post: <br>\n\t\t\t\t\tOrg. nummer: <br>\n\t\t\t\t\tTelefon:\n\t\t\t\t</font>\n\t\t\t</td>\n\t\t\t<td align=\"left\">\n\t\t\t\t<font face=\"Arial\" style=\"font-size: 14px;\">\n\t\t\t\t\t<a href=\"#\">http://www.staypro.no/</a><br>\n\t\t\t\t\t<a href=\"mailto: info@saiten.se\">info@staypro.no</a><br>\n\t\t\t\t\t916 241 283 <br>\n\t\t\t\t\t21 06 23 03\n\t\t\t\t</font>\n\t\t\t</td>\n\t\t</tr>\n\t\t</tbody>\n\t\t</table>\n\t</td>\n\t<td width=\"20\">&nbsp;</td>\n  </tr>\n</tbody>\n</table>",
+      "ObjectTypeId": "Store",
+      "Language": "nb-NO",
+      "IsDefault": true,
+      "CreatedDate": "2016-06-09T14:24:02.46",
+      "ModifiedDate": "2017-03-24T08:42:01.05",
+      "CreatedBy": "admin",
+      "ModifiedBy": "admin",
+      "Id": "7155784ba38e495e8604e07631429ccf"
+    },
+    {
+      "ObjectId": "StayProFI",
+      "NotificationTypeId": "StoreDynamicEmailNotification",
+      "Subject": "Uusi katalogitilaus!",
+      "Body": "{{ fields['organizationName'] }}<br> {{ fields['firstName'] }} {{ fields['lastName'] }}<br> {{ fields['postAddress'] }}<br> {{ fields['postCode'] }} {{ fields['city'] }}<br> {{ fields['email'] }}",
+      "ObjectTypeId": "Store",
+      "Language": "fi-FI",
+      "IsDefault": false,
+      "CreatedDate": "2017-06-26T08:00:08.333",
+      "ModifiedDate": "2017-06-26T08:00:08.333",
+      "CreatedBy": "admin",
+      "ModifiedBy": "admin",
+      "Id": "881e099f466f4a19b476c0e680c4f451"
+    },
+    {
+      "ObjectId": "StayProFI",
+      "NotificationTypeId": "RegistrationEmailNotification",
+      "Sender": "info@staypro.fi",
+      "Subject": "Tilin tiedot Staypro.fi",
+      "Body": "<table border=\"0\" width=\"800\" cellspacing=\"0\" cellpadding=\"0\" align=\"center\"> \n  <tbody> \n    <tr> \n      <td width=\"20\">&nbsp;</td> \n      <td width=\"370\"><br /> <img style=\"display: block;\" src=\"https://www.staypro.fi/themes/assets/static/logo.png\" alt=\"\" /></td> \n      <td width=\"20\">&nbsp;</td> \n      <td width=\"370\">&nbsp;</td> \n      <td width=\"20\">&nbsp;</td> \n    </tr>\n    <tr> \n      <td height=\"30\">&nbsp;</td>\n    </tr> \n    <tr> \n      <td width=\"20\">&nbsp;</td> \n      <td width=\"600\"> <span style=\"font-size: 16px; font-family: Arial;\"> <strong>Tervetuloa Staypro.fi -sivustolle</strong><br /><br /> Olemme nyt luoneet sinulle tilin seuraavilla tiedoilla.<br /><br />  <strong>Sinun kirjautumistietosi</strong><br /> Käyttäjänimesi: <a href=\"mailto:{{ login }}\">{{ login }}</a><br /><br />  <strong>Ystävällisin terveisin,</strong><br /><br />  Staypro.fi </span>\n      </td> \n      <td width=\"20\">&nbsp;</td> \n      <td width=\"370\">&nbsp;</td> \n      <td width=\"20\">&nbsp;</td> \n    </tr> \n    <tr> \n      <td height=\"30\">&nbsp;</td> \n    </tr>  \n    <tr> \n      <td height=\"20\">&nbsp;</td> \n    </tr>   \n    <tr>     \n      <td width=\"20\">&nbsp;</td>     \n      <td colspan=\"3\">&nbsp;</td>     \n      <td width=\"20\">&nbsp;</td>   \n    </tr>   \n    <tr> \n      <td width=\"20\">&nbsp;</td> \n      <td colspan=\"3\" bgcolor=\"#cccccc\" height=\"2\">&nbsp;</td> \n      <td width=\"20\">&nbsp;</td> \n    </tr> \n  </tbody> \n</table> \n<table border=\"0\" width=\"800\" cellspacing=\"0\" cellpadding=\"0\" align=\"center\"> \n  <tbody> \n    <tr>   \n      <td width=\"20\">&nbsp;</td> \n      <td width=\"280\"><span style=\"font-size: 14px; font-family: Arial;\"> <strong>Staypro.fi</strong><br /> Kilabergsvägen 4 <br /> 126 49 HÄGERSTEN </span></td> <td align=\"left\" width=\"90\"><span style=\"font-size: 14px; font-family: Arial;\"> Verkkosivut: <br /> Sähköposti: <br /> Y-tunnus: <br /> Puhelinnumero: </span></td> <td align=\"left\"><span style=\"font-size: 14px; font-family: Arial;\"> <a href=\"https://www.staypro.fi\"> https://www.staypro.fi </a> <br /> <a href=\"mailto: info@staypro.fi\"> info@staypro.fi </a> <br /> 556728-3857 <br /> 09 4272 0222 </span>\n      </td> \n    </tr> \n  </tbody> \n</table>",
+      "ObjectTypeId": "Store",
+      "Language": "fi-FI",
+      "IsDefault": false,
+      "CreatedDate": "2017-06-26T08:01:35.687",
+      "ModifiedDate": "2017-12-22T09:01:12.33",
+      "CreatedBy": "admin",
+      "ModifiedBy": "eo@virtoway.com",
+      "Id": "959bb7d17622468fa15be66175c0e513"
+    },
+    {
+      "ObjectId": "Proffs-SE",
+      "NotificationTypeId": "RegistrationEmailNotification",
+      "Sender": "\"Proffsmagasinet.se\" <info@proffsmagasinet.se>",
+      "Subject": "Kontouppgifter till Proffsmagasinet.se",
+      "Body": "<table border=\"0\" width=\"800\" cellspacing=\"0\" cellpadding=\"0\" align=\"center\">\n<tbody>\n<tr>\n<td width=\"20\">&nbsp;</td>\n<td width=\"370\"><br /> <img style=\"display: block;\" src=\"https://www.proffsmagasinet.se/themes/assets/logo.png\" alt=\"\" /></td>\n<td width=\"20\">&nbsp;</td>\n<td width=\"370\">&nbsp;</td>\n<td width=\"20\">&nbsp;</td>\n</tr>\n<tr>\n<td height=\"30\">&nbsp;</td>\n</tr>\n<tr>\n<td width=\"20\">&nbsp;</td>\n<td width=\"600\">\n<span style=\"font-size: 16px; font-family: Arial;\"> <strong>V&auml;lkommen till Proffsmagasinet.se</strong><br /><br />\nVi har nu skapat upp ett konto &aring;t dig med nedan uppgifter.<br /><br />\n\n<strong>Dina inloggningsuppgifter</strong><br />\nAnv&auml;ndarnamn: <a href=\"mailto:{{ login }}\">{{ login }}</a><br /><br />\n\n<strong>V&auml;nliga h&auml;lsningar,</strong><br /><br />\n\nProffsmagasinet Svenska AB\n</span>\n</td>\n<td width=\"20\">&nbsp;</td>\n<td width=\"370\">&nbsp;</td>\n<td width=\"20\">&nbsp;</td>\n</tr>\n<tr>\n<td height=\"30\">&nbsp;</td>\n</tr>\n\n<tr>\n<td height=\"20\">&nbsp;</td>\n</tr>\n  <tr>\n    <td width=\"20\">&nbsp;</td>\n    <td colspan=\"3\">\n      <p>\nProffsmagasinet &auml;r godk&auml;nt av Trygg E-handel, vilket inneb&auml;r att du kan k&auml;nna dig trygg och s&auml;ker n&auml;r du handlar hos oss. Trygg E-handels m&aring;l &auml;r att skydda konsumenter och f&ouml;retag vid k&ouml;p p&aring; n&auml;tet &ndash; bara ekonomiskt stabila och sk&ouml;tsamma f&ouml;retag f&aring;r anv&auml;nda sig av Trygg E-handels ikoner och varum&auml;rke. Du kan l&auml;sa mer om Trygg E-handel och dina r&auml;ttigheter p&aring; <a href=\"http://www.tryggehandel.se\">www.tryggehandel.se</a> Proffsmagasinets certifikat finns att l&auml;sa p&aring; <a href=\"http://www.tryggehandel.se/butik/845/\">http://www.tryggehandel.se/butik/845/</a>\n</p>\n    </td>\n    <td width=\"20\">&nbsp;</td>\n  </tr>\n  <tr>\n<td width=\"20\">&nbsp;</td>\n<td colspan=\"3\" bgcolor=\"#cccccc\" height=\"2\">&nbsp;</td>\n<td width=\"20\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\n<table border=\"0\" width=\"800\" cellspacing=\"0\" cellpadding=\"0\" align=\"center\">\n<tbody>\n<tr>\n  <td width=\"20\">&nbsp;</td>\n<td width=\"280\"><span style=\"font-size: 14px; font-family: Arial;\"> <strong>Proffsmagasinet Svenska AB</strong><br /> Kilabergsvägen 4 <br /> 126 49 Hägersten </span></td>\n<td align=\"left\" width=\"90\"><span style=\"font-size: 14px; font-family: Arial;\"> Webbsida: <br /> E-post: <br /> Org. nummer: <br /> Telefon: </span></td>\n<td align=\"left\"><span style=\"font-size: 14px; font-family: Arial;\"> <a href=\"https://www.proffsmagasinet.se\"> https://www.proffsmagasinet.se </a> <br /> <a href=\"mailto: info@proffsmagasinet.se\"> info@proffsmagasinet.se </a> <br /> 556728-3857 <br /> 08-34 47 00 </span></td>\n</tr>\n</tbody>\n</table>",
+      "ObjectTypeId": "Store",
+      "Language": "sv-SE",
+      "IsDefault": true,
+      "CreatedDate": "2017-03-23T09:18:45.87",
+      "ModifiedDate": "2018-08-20T12:38:24.867",
+      "CreatedBy": "admin",
+      "ModifiedBy": "aan@virtoway.com",
+      "Id": "a09f712729de4196bd0e752b14b0f3e6"
+    },
+    {
+      "ObjectId": "StayPro",
+      "NotificationTypeId": "OrderCreateEmailNotification",
+      "Subject": "[stag-TEST] Thanks for you order (#{{ ordernumber }}) at Staypro AS!",
+      "Body": "<table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"800\">\n\t<tr>\n\t\t<td width=\"20\"></td>\n\t\t<td width=\"370\">\n\t\t\t<br>\n\t\t\t<img src=\"http://staypro.no/themes/assets/logo.png\" alt=\"\" style=\"display: block;\">\n\t\t</td>\n\t\t<td width=\"20\"></td>\n\t\t<td width=\"370\"></td>\n\t\t<td width=\"20\"></td>\n\t</tr>\n\t<tr>\n\t\t<td height=\"30\"></td>\n\t</tr>\n\t<tr>\n\t\t<td width=\"20\"></td>\n\t\t<td width=\"600\">\n\t\t\t<font face=\"Arial\" style=\"font-size: 24px\">\n\t\t\t\t<b>Orderbekraftelse {{ ordernumber }}</b>\n\t\t\t</font>\n\t\t\t<br><br>\n\t\t\t<font face=\"Arial\" style=\"font-size: 16px\">\n\t\t\t\t<b>Takk for din bestilling på staypro.no.</b>\n\t\t\t</font>\n\t\t\t<br><br>\n\t\t</td>\n\t\t<td width=\"20\"></td>\n\t\t<td width=\"370\"></td>\n\t\t<td width=\"20\"></td>\n\t</tr>\n\t<tr>\n\t\t<td height=\"30\"></td>\n\t</tr>\n\t<tr>\n\t\t<td width=\"20\"></td>\n\t\t<td valign=\"top\" width=\"370\">\n\t\t\t<font face=\"Arial\" style=\"font-size: 14px\">\n\t\t\t\t<b style=\"font-size: 16px;\">Leveransinformation: </b>\n\t\t\t\t<br><br>\n\t\t\t\tFraktalternativ: {{ shipmenttype }} <br>\n\t\t\t\t{{ shippingaddress.fullname }} <br>\n\t\t\t\t{{ shippingaddress.line1 }} <br>\n\t\t\t\t{{ shippingaddress.postal_code }} {{ shippingaddress.city }}\n\t\t\t</font>\n\t\t</td>\n\t\t<td width=\"20\"></td>\n\t\t<td valign=\"top\" width=\"370\">\n\t\t\t<font face=\"Arial\" style=\"font-size: 14px\">\n\t\t\t\t<b style=\"font-size: 16px;\">Fakturaddresse:</b>\n\t\t\t\t<br><br>\n\t\t\t\tBetalningsmetode: {{ paymenttype }}<br>\n\t\t\t\t{{ billingaddress.fullname }} <br>\n\t\t\t\t{{ billingaddress.line1 }} <br>\n\t\t\t\t{{ billingaddress.postal_code }} {{ billingaddress.city }}\n\t\t\t</font>\n\t\t</td>\n\t\t<td width=\"20\"></td>\n\t</tr>\n\t<tr>\n\t\t<td height=\"40\"></td>\n\t</tr>\n\t<tr>\n\t\t<td width=\"20\"></td>\n\t\t<td width=\"370\">\n\t\t\t<font face=\"Arial\" style=\"font-size: 16px\">\n\t\t\t\t<b>Er reference er koblet til fakturaadresse</b>\n\t\t\t</font>\n\t\t\t<br><br>\n\t\t\t<font face=\"Arial\" style=\"font-size: 14px\">\n\t\t\t\t<b>Kundnummer: </b> {{ organizationnumber }}\n\t\t\t\t<br>\n\t\t\t\t<b>Mobiltelefon: </b> {{ customerphone }}\n\t\t\t\t<br>\n\t\t\t\t<b>E-post: </b> <a href=\"mailto:{{ customeremail }}\">{{ customeremail }}</a>\n\t\t\t</font>\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td height=\"60\"></td>\n\t</tr>\n\t<tr>\n\t\t<td width=\"20\"></td>\n\t\t<td colspan=\"3\">\n\t\t\t<table border=\"0\" style=\"border: 1px solid #ccc; font-family: Arial; font-size: 14px;\" cellpadding=\"10\" cellspacing=\"0\" width=\"100%\">\n\t\t\t\t<tr>\n\t\t\t\t\t<th align=\"left\">Art.Nr</th>\n\t\t\t\t\t<th align=\"left\">Navn</th>\n\t\t\t\t\t<th align=\"right\">Antall</th>\n\t\t\t\t\t<th align=\"right\">MVA</th>\n\t\t\t\t\t<th align=\"right\">Pris eks MVA</th>\n\t\t\t\t\t<th align=\"right\">Pris ink MVA</th>\n\t\t\t\t</tr>\n\t\t\t\t{% for item in lineitems %}\n\t\t\t\t<tr>\n\t\t\t\t\t<td align=\"left\">{{ item.sku }}</td>\n\t\t\t\t\t<td align=\"left\">{{ item.name }}</td>\n\t\t\t\t\t<td align=\"right\">{{ item.quantity }}</td>\n\t\t\t\t\t<td align=\"right\">{{ item.tax_rate }} %</td>\n\t\t\t\t\t<td align=\"right\">{{ item.total_exkl_tax }}</td>\n\t\t\t\t\t<td align=\"right\">{{ item.total_inkl_tax }}</td>\n\t\t\t\t</tr>\n\t\t\t\t{% endfor %}\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"border-top: 1px solid #ccc;\" colspan=\"4\"></td>\n\t\t\t\t\t<td style=\"border-top: 1px solid #ccc;\" align=\"right\">Delsum</td>\n\t\t\t\t\t<td style=\"border-top: 1px solid #ccc;\" align=\"right\">{{ lineitemstotal }}</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td colspan=\"4\"></td>\n\t\t\t\t\t<td align=\"right\">Frakt</td>\n\t\t\t\t\t<td align=\"right\">{{ shipmenttotal }}</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td style=\"border-top: 1px solid #ccc;\" colspan=\"4\"></td>\n\t\t\t\t\t<td style=\"border-top: 1px solid #ccc;\" align=\"right\">\n\t\t\t\t\t\t<b>SUMMA (MVA):</b>\n\t\t\t\t\t</td>\n\t\t\t\t\t<td style=\"border-top: 1px solid #ccc;\" align=\"right\">\n\t\t\t\t\t\t<b>{{ ordertotal }}</b><br><b>({{ taxtotal }})</b>\n\t\t\t\t\t</td>\n\t\t\t\t</tr>\n\t\t\t</table>\n\t\t</td>\n\t\t<td width=\"20\"></td>\n\t</tr>\n\t<tr>\n\t\t<td height=\"20\"></td>\n\t</tr>\n\t<tr>\n\t\t<td width=\"20\"></td>\n\t\t<td bgcolor=\"#cccccc\" colspan=\"3\" height=\"2\"></td>\n\t\t<td width=\"20\"></td>\n\t</tr>\n\t<tr>\n\t\t<td width=\"20\"></td>\n\t\t<td colspan=\"3\">\n\t\t\t<table border=\"0\" cellpadding=\"10\" cellspacing=\"0\" width=\"100%\">\n\t\t\t\t<tr>\n\t\t\t\t\t<td width=\"280\">\n\t\t\t\t\t\t<font face=\"Arial\" style=\"font-size: 14px;\">\n\t\t\t\t\t\t\t<b>Staypro</b><br>\n\t\t\t\t\t\t\tPostboks 4691 Nydalen <br>\n\t\t\t\t\t\t\t0405 OSLO\n\t\t\t\t\t\t</font>\n\t\t\t\t\t</td>\n\t\t\t\t\t<td width=\"90\" align=\"left\">\n\t\t\t\t\t\t<font face=\"Arial\" style=\"font-size: 14px;\">\n\t\t\t\t\t\t\tWebbside: <br>\n\t\t\t\t\t\t\tE-post: <br>\n\t\t\t\t\t\t\tOrg. nummer: <br>\n\t\t\t\t\t\t\tTelefon:\n\t\t\t\t\t\t</font>\n\t\t\t\t\t</td>\n\t\t\t\t\t<td align=\"left\">\n\t\t\t\t\t\t<font face=\"Arial\" style=\"font-size: 14px;\">\n\t\t\t\t\t\t\t<a href=\"#\">http://www.staypro.no/</a><br>\n\t\t\t\t\t\t\t<a href=\"mailto:info@staypro.no\">info@staypro.no</a><br>\n\t\t\t\t\t\t\t916 241 283 <br>\n\t\t\t\t\t\t\t21 06 23 03\n\t\t\t\t\t\t</font>\n\t\t\t\t\t</td>\n\t\t\t\t</tr>\n\t\t\t</table>\n\t\t</td>\n\t\t<td width=\"20\"></td>\n\t</tr>\n</table>",
+      "ObjectTypeId": "Store",
+      "Language": "nb-NO",
+      "IsDefault": false,
+      "CreatedDate": "2016-05-23T15:14:56.547",
+      "ModifiedDate": "2019-04-17T09:23:21.803",
+      "CreatedBy": "admin",
+      "ModifiedBy": "martin.holmin@proffsmagasinet.se",
+      "Id": "afd140d55cdd4bcaa1322d6164bf42e5"
+    },
+    {
+      "ObjectId": "StayProFI",
+      "NotificationTypeId": "ResetPasswordEmailNotification",
+      "Sender": "info@staypro.fi",
+      "Subject": "Vaihda salasana Staypro.fi",
+      "Body": "<table border=\"0\" width=\"800\" cellspacing=\"0\" cellpadding=\"0\" align=\"center\">\n  <tbody>\n    <tr>\n      <td width=\"20\">&nbsp;</td>\n      <td width=\"370\"><br /> <img style=\"display: block;\" src=\"https://www.staypro.fi/themes/assets/static/logo.png\" alt=\"\" /></td>\n      <td width=\"20\">&nbsp;</td>\n      <td width=\"370\">&nbsp;</td>\n      <td width=\"20\">&nbsp;</td>\n    </tr>\n    <tr>\n      <td height=\"30\">&nbsp;</td>\n    </tr>\n    <tr>\n      <td width=\"20\">&nbsp;</td>\n      <td width=\"600\"> <span style=\"font-size: 16px; font-family: Arial;\">  <strong>Tervehdys Staypro.fi:ltä</strong><br /><br /> Sait tämän sähköpostiviestin, koska olet unohtanut tilisi salasanan.  Jos haluat vaihtaa salasanan, paina alla olevaa linkkiä ja seuraa ohjeita.<br /><br /> <a href=\"{{url}}\">Vaihda salasanasi</a> <br /><br /> Jos olet saanut tämän viestin pyytämättä uutta salasanaa, voit olla meihin yhteydessä puh. 08-34 47 00 tai <a href=\"mailto: info@staypro.fi\">info@ staypro.fi </a><br /><br /> <strong>Ystävällisin terveisin,</strong><br /><br /> Asiakaspalvelu<br /> Staypro.fi </span>\n      </td>\n      <td width=\"20\">&nbsp;</td>\n      <td width=\"370\">&nbsp;</td>\n      <td width=\"20\">&nbsp;</td>\n    </tr>\n    <tr>\n      <td height=\"30\">&nbsp;</td>\n    </tr>\n    <tr>\n      <td height=\"20\">&nbsp;</td>\n    </tr>\n    <tr>\n      <td width=\"20\">&nbsp;</td>\n      <td colspan=\"3\"> &nbsp;</td>\n      <td width=\"20\">&nbsp;</td>\n    </tr>\n    <tr>\n      <td width=\"20\">&nbsp;</td>\n      <td colspan=\"3\" bgcolor=\"#cccccc\" height=\"2\">&nbsp;</td>\n      <td width=\"20\">&nbsp;</td>\n    </tr>\n  </tbody>\n</table>\n<table border=\"0\" width=\"800\" cellspacing=\"0\" cellpadding=\"0\" align=\"center\">\n  <tbody>\n    <tr>\n      <td width=\"20\">&nbsp;</td>\n      <td width=\"280\"><span style=\"font-size: 14px; font-family: Arial;\"> <strong>Staypro.fi</strong><br /> Kilabergsvägen 46 <br /> 126 49 HÄGERSTEN </span></td>\n      <td align=\"left\" width=\"90\"><span style=\"font-size: 14px; font-family: Arial;\"> Verkkosivut: <br /> Sähköposti: <br /> Y-tunnus: <br /> Puhelinnumero: </span></td>\n      <td align=\"left\"><span style=\"font-size: 14px; font-family: Arial;\"> <a href=\"https://www.staypro.fi\"> https://www.staypro.fi </a> <br /> <a href=\"mailto: info@staypro.fi\"> info@staypro.fi</a> <br /> 556728-3857 <br /> 09 4272 0222 </span>\n      </td>\n    </tr>\n  </tbody>\n</table>",
+      "ObjectTypeId": "Store",
+      "Language": "fi-FI",
+      "IsDefault": false,
+      "CreatedDate": "2017-06-26T08:00:35.817",
+      "ModifiedDate": "2017-12-22T09:00:10.483",
+      "CreatedBy": "admin",
+      "ModifiedBy": "eo@virtoway.com",
+      "Id": "b7900a87e8c14aceb8870e922ad23feb"
+    },
+    {
+      "ObjectId": "Verktygsproffsen",
+      "NotificationTypeId": "ProffsReturnProductFormEmailNotification",
+      "Subject": "Returer och garantier formulär [{{ name }} {{ phone }}]",
+      "Body": "<hr />\n<h1 style=\"text-align: center;\"><em><span style=\"color: #3366ff;\">Returer och Garantier</span></em></h1>\n<hr />\n<p>&nbsp;&nbsp;</p>\n<table style=\"margin-left: auto; margin-right: auto;\" border=\"1\" cellspacing=\"0\" cellpadding=\"10\">\n<tbody>\n<tr>\n<td style=\"width: 229px;\">Namn:</td>\n<td>{{ name }}</td>\n</tr>\n<tr>\n<td style=\"width: 229px;\">Telefonnummer:</td>\n<td>{{ phone }}</td>\n</tr>\n<tr>\n<td style=\"width: 229px;\">Mailadress:</td>\n<td>{{ email }}</td>\n</tr>\n<tr>\n<td style=\"width: 229px;\">Ordernummer:</td>\n<td>{{ order_number }}</td>\n</tr>\n<tr>\n<td style=\"width: 229px;\">Orsak till retur:</td>\n<td>{{ reason }}</td>\n</tr>\n<tr>\n<td style=\"width: 229px;\">Jag best&auml;ller en fraktsedel:</td>\n<td style=\"min-width: 480px;\">{{ package }}</td>\n</tr>\n</tbody>\n</table>",
+      "ObjectTypeId": "Store",
+      "Language": "sv-SE",
+      "IsDefault": false,
+      "CreatedDate": "2018-11-28T11:35:53.687",
+      "ModifiedDate": "2018-11-28T11:35:53.687",
+      "CreatedBy": "ann-christin.andersson@proffsmagasinet.se",
+      "ModifiedBy": "ann-christin.andersson@proffsmagasinet.se",
+      "Id": "be15176c3a024f569b88a949c1eb4cbd"
+    },
+    {
+      "ObjectId": "Verktygsproffsen",
+      "NotificationTypeId": "ProffsOrderCreateEmailNotification",
+      "Sender": "\"Verktygsproffsen.se\" <info@verktygsproffsen.se>",
+      "Subject": "Tack för din order (#{{order_number}}) hos Verktygsproffsen i Uppland!",
+      "Body": "<table border=\"0\" width=\"800\" cellspacing=\"0\" cellpadding=\"0\" align=\"center\">\n<tbody>\n<tr>\n<td width=\"20\">&nbsp;</td>\n<td width=\"370\"><br /> <img style=\"display: block;\" src=\"https://www.verktygsproffsen.se/themes/assets/logo-black.png\" alt=\"\" /></td>\n<td width=\"20\">&nbsp;</td>\n<td width=\"370\">&nbsp;</td>\n<td width=\"20\">&nbsp;</td>\n</tr>\n<tr>\n<td height=\"30\">&nbsp;</td>\n</tr>\n<tr>\n<td width=\"20\">&nbsp;</td>\n<td width=\"600\"><span style=\"font-size: 24px; font-family: Arial;\"> <strong>Orderbekr&auml;ftelse {{ order_number }}</strong> </span> <br /><br /> <span style=\"font-size: 16px; font-family: Arial;\"> <strong>Tack f&ouml;r din best&auml;llning hos Verktygsproffsen</strong>  <br /><br />\n</td>\n\n<td width=\"20\">&nbsp;</td>\n<td width=\"370\">&nbsp;</td>\n<td width=\"20\">&nbsp;</td>\n</tr>\n<tr>\n<td height=\"30\">&nbsp;</td>\n</tr>\n<tr>\n<td width=\"20\">&nbsp;</td>\n<td valign=\"top\" width=\"370\"><span style=\"font-size: 14px; font-family: Arial;\"> <strong style=\"font-size: 16px;\">Leveransuppgifter: </strong> <br /><br /> Fraktalternativ: {{ shipment_type }} <br /> {{ shipping_organization_name }} <br /> {{ shipping_address.fullname }} <br />  {{ shipping_address.line1 }} <br /> {{ shipping_address.line2 }} <br /> {{ shipping_address.postal_code }} {{ shipping_address.city }} </span></td>\n<td width=\"20\">&nbsp;</td>\n<td valign=\"top\" width=\"370\"><span style=\"font-size: 14px; font-family: Arial;\"> <strong style=\"font-size: 16px;\">Fakturauppgifter:</strong> <br /><br /> Betalningsmetod: {{ payment_type }} <br /> {{ billing_organization_name }} <br /> {{ billing_address.fullname }} <br /> {{ billing_address.line1 }} <br /> {{ billing_address.line2 }} <br /> {{ billing_address.postal_code }} {{ billing_address.city }} </span></td>\n<td width=\"20\">&nbsp;</td>\n</tr>\n<tr>\n<td height=\"40\">&nbsp;</td>\n</tr>\n<tr>\n<td width=\"20\">&nbsp;</td>\n<td width=\"370\"><br /><br /> <span style=\"font-size: 14px; font-family: Arial;\"> <strong>Kundnummer: </strong> {{ organization_number }} <br /> <strong>Mobiltelefon: </strong> {{ customer_phone }} <br /> <strong>E-post: </strong> <a href=\"mailto:{{ customer_email }}\">{{ customer_email }}</a><br><br>Er orderkommentar: {{ order_comment }} </span></td>\n</tr>\n<tr>\n<td height=\"60\">&nbsp;</td>\n</tr>\n<tr>\n<td width=\"20\">&nbsp;</td>\n<td colspan=\"3\">\n<table style=\"border: 1px solid #ccc; font-family: Arial; font-size: 14px;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"10\">\n<tbody>\n<tr><th align=\"left\">Art.Nr</th><th align=\"left\">Ben&auml;mning</th><th align=\"right\">Antal</th><th align=\"right\">Moms</th><th align=\"right\">&nbsp;</th><th align=\"right\">Pris ex.moms</th><th align=\"right\">Pris ink.moms</th></tr>\n   {% for item in line_items %}\n<tr>\n<td align=\"left\">{{ item.sku }}</td>\n<td align=\"left\">{{ item.name }}</td>\n<td align=\"right\">{{ item.quantity }}</td>\n<td align=\"right\">{{ item.tax_rate }} %</td>\n<td align=\"right\">&nbsp;</td>\n<td align=\"right\">{{ item.total_exkl_tax }}</td>\n<td align=\"right\">{{ item.total_inkl_tax }}</td>\n</tr>\n    {% endfor %}\n<tr>\n<td style=\"border-top: 1px solid #ccc;\" colspan=\"5\">&nbsp;</td>\n<td style=\"border-top: 1px solid #ccc;\" align=\"right\">Delsumma</td>\n<td style=\"border-top: 1px solid #ccc;\" align=\"right\">{{ line_items_total }}</td>\n</tr>\n<tr>\n<td colspan=\"5\">&nbsp;</td>\n<td align=\"right\">Frakt</td>\n<td align=\"right\">{{ shipment_total }}</td>\n</tr>\n<tr>\n<td style=\"border-top: 1px solid #ccc;\" colspan=\"5\">&nbsp;</td>\n<td style=\"border-top: 1px solid #ccc;\" align=\"right\"><strong>Moms:</strong> <br /> <strong>SUMMA ink.moms:</strong></td>\n<td style=\"border-top: 1px solid #ccc;\" align=\"right\"><strong>{{ tax_total }}</strong><br><strong>{{ order_total }}</strong></td>\n</tr>\n</tbody>\n</table>\n</td>\n<td width=\"20\">&nbsp;</td>\n</tr>\n<tr>\n<td height=\"20\">&nbsp;</td>\n</tr>\n  <tr>\n    <td width=\"20\">&nbsp;</td>\n    <td colspan=\"3\">\n      <p>\n  Verktygsproffsen vill att du ska känna dig trygg och säker i ditt köp. Vi är medlem av Certifierad Ehandel. Vi uppdaterar dig varefter vi jobbar med din order. Vi hoppas att din upplevelse av oss ska förbli positiva, vi gör allt för kunden. Detta ordererkännande gäller ej som kvitto. Fakturahanteringen hanteras av klarna om du handlar som privatperson, Svea Ekonomi om du handlar som företag.\n</p>\n    </td>\n    <td width=\"20\">&nbsp;</td>\n  </tr>\n  <tr>\n<td width=\"20\">&nbsp;</td>\n<td colspan=\"3\" bgcolor=\"#cccccc\" height=\"2\">&nbsp;</td>\n<td width=\"20\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\n<table border=\"0\" width=\"800\" cellspacing=\"0\" cellpadding=\"0\" align=\"center\">\n<tbody>\n<tr>\n  <td width=\"20\">&nbsp;</td>\n<td width=\"280\"><span style=\"font-size: 14px; font-family: Arial;\"> <strong>Verktygsproffsen i Uppland</strong><br /> Söderbyvägen 3C <br /> 195 60 ARLANDASTAD </span></td>\n<td align=\"left\" width=\"90\"><span style=\"font-size: 14px; font-family: Arial;\"> Webbsida: <br /> E-post: <br /> Org. nummer: <br /> Telefon: </span></td>\n<td align=\"left\"><span style=\"font-size: 14px; font-family: Arial;\"> <a href=\"https://www.verktygsproffsen.se\"> https://www.verktygsproffsen.se </a> <br /> <a href=\"mailto: info@verktygsproffsen.se\"> info@verktygsproffsen.se </a> <br /> 556728-3857 <br /> 018 444 45 25 </span></td>\n</tr>\n</tbody>\n</table>\n<script type=\"application/json+trustpilot\">\n{\n\"recipientEmail\": \"{{ customer_email }}\",\n\"recipientName\": \"{{ billing_address.fullname }}\",\n\"referenceId\": \"{{ order_number }}\",\n\"tags\": {% if is_organization %}[\"Foretag\"]{% else %}[\"Privatperson\"]{% endif %},\n\"products\": [\n\t{%- assign count = line_items.size | minus: 1 -%}\n      {%- for item in line_items limit:count -%}\n        {\n            \"productUrl\": \"{{ item.product_url }}\",\n            \"imageUrl\": \"{{ item.image_url }}\",\n            \"name\": \"{{ item.name }}\",\n            \"sku\": \"{{ item.sku }}\",\n            \"gtin\": \"{{ item.gtin }}\",\n            \"mpn\": \"{{ item.mpn }}\",\n            \"brand\": \"{{ item.brand }}\"\n        },\n      {%- endfor -%}\n      {\n            \"productUrl\": \"{{ line_items.last.product_url }}\",\n            \"imageUrl\": \"{{ line_items.last.image_url }}\",\n            \"name\": \"{{ line_items.last.name }}\",\n            \"sku\": \"{{ line_items.last.sku }}\",\n            \"gtin\": \"{{ line_items.last.gtin }}\",\n            \"mpn\": \"{{ line_items.last.mpn }}\",\n            \"brand\": \"{{ line_items.last.brand }}\"\n        }\n\t]\n}\n</script>\n",
+      "ObjectTypeId": "Store",
+      "Language": "sv-VE",
+      "IsDefault": false,
+      "CreatedDate": "2018-05-11T13:04:06.413",
+      "ModifiedDate": "2018-12-05T08:52:34.57",
+      "CreatedBy": "eo@virtoway.com",
+      "ModifiedBy": "ann-christin.andersson@proffsmagasinet.se",
+      "Id": "dddae678109943ecb9b1f385d1994951"
+    },
+    {
+      "ObjectId": "Proffs-SE",
+      "NotificationTypeId": "ProffsOrderCreateEmailNotification",
+      "Sender": "\"Proffsmagasinet.se\" <info@proffsmagasinet.se>",
+      "Subject": "Tack för din order (#{{order_number}}) hos Proffsmagasinet Svenska AB!",
+      "Body": "<table border=\"0\" width=\"800\" cellspacing=\"0\" cellpadding=\"0\" align=\"center\">\n<tbody>\n<tr>\n<td width=\"20\">&nbsp;</td>\n<td width=\"370\"><br /> <img style=\"display: block;\" src=\"https://www.proffsmagasinet.se/themes/assets/logo.png\" alt=\"\" /></td>\n<td width=\"20\">&nbsp;</td>\n<td width=\"370\">&nbsp;</td>\n<td width=\"20\">&nbsp;</td>\n</tr>\n<tr>\n<td height=\"30\">&nbsp;</td>\n</tr>\n<tr>\n<td width=\"20\">&nbsp;</td>\n<td width=\"600\"><span style=\"font-size: 24px; font-family: Arial;\"> <strong>Orderbekr&auml;ftelse {{ order_number }}</strong> </span> <br /><br /> <span style=\"font-size: 16px; font-family: Arial;\"> <strong>Tack f&ouml;r din best&auml;llning hos Proffsmagasinet</strong>  \n<br /><br />\n\n<br><br>\n <br /><br /></td>\n\n<td width=\"20\">&nbsp;</td>\n<td width=\"370\">&nbsp;</td>\n<td width=\"20\">&nbsp;</td>\n</tr>\n<tr>\n<td height=\"30\">&nbsp;</td>\n</tr>\n<tr>\n<td width=\"20\">&nbsp;</td>\n<td valign=\"top\" width=\"370\"><span style=\"font-size: 14px; font-family: Arial;\"> <strong style=\"font-size: 16px;\">Leveransuppgifter: </strong> <br /><br /> Fraktalternativ: {{ shipment_type }} <br /> {{ shipping_organization_name }} <br /> {{ shipping_address.fullname }} <br />  {{ shipping_address.line1 }} <br /> {{ shipping_address.line2 }} <br /> {{ shipping_address.postal_code }} {{ shipping_address.city }} </span></td>\n<td width=\"20\">&nbsp;</td>\n<td valign=\"top\" width=\"370\"><span style=\"font-size: 14px; font-family: Arial;\"> <strong style=\"font-size: 16px;\">Fakturauppgifter:</strong> <br /><br /> Betalningsmetod: {{ payment_type }} <br /> {{ billing_organization_name }} <br /> {{ billing_address.fullname }} <br /> {{ billing_address.line1 }} <br /> {{ billing_address.line2 }} <br /> {{ billing_address.postal_code }} {{ billing_address.city }} </span></td>\n<td width=\"20\">&nbsp;</td>\n</tr>\n<tr>\n<td height=\"40\">&nbsp;</td>\n</tr>\n<tr>\n<td width=\"20\">&nbsp;</td>\n</td>\n<td width=\"370\"><br />\n<span style=\"font-size: 14px; font-family: Arial;\"> <p> <b>OBS!</b> <br> Har du valt att <b> hämta i butik </b> så kommer du få en sms-avisering när din order är klar att hämta.</p></span>\n<br /> <span style=\"font-size: 14px; font-family: Arial;\"> <strong>Kundnummer: </strong> {{ organization_number }} <br /> <strong>Mobiltelefon: </strong> {{ customer_phone }} <br /> <strong>E-post: </strong> <a href=\"mailto:{{ customer_email }}\">{{ customer_email }}</a><br><br>Er orderkommentar: {{ order_comment }} </span></td>\n</tr>\n<tr>\n<td height=\"60\">&nbsp;</td>\n</tr>\n<tr>\n<td width=\"20\">&nbsp;</td>\n<td colspan=\"3\">\n<table style=\"border: 1px solid #ccc; font-family: Arial; font-size: 14px;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"10\">\n<tbody>\n<tr><th align=\"left\">Art.Nr</th><th align=\"left\">Ben&auml;mning</th><th align=\"right\">Antal</th><th align=\"right\">Moms</th><th align=\"right\">&nbsp;</th><th align=\"right\">Pris ex.moms</th><th align=\"right\">Pris ink.moms</th></tr>\n   {% for item in line_items %}\n<tr>\n<td align=\"left\">{{ item.sku }}</td>\n<td align=\"left\">{{ item.name }}</td>\n<td align=\"right\">{{ item.quantity }}</td>\n<td align=\"right\">{{ item.tax_rate }} %</td>\n<td align=\"right\">&nbsp;</td>\n<td align=\"right\">{{ item.total_exkl_tax }}</td>\n<td align=\"right\">{{ item.total_inkl_tax }}</td>\n</tr>\n    {% endfor %}\n<tr>\n<td style=\"border-top: 1px solid #ccc;\" colspan=\"5\">&nbsp;</td>\n<td style=\"border-top: 1px solid #ccc;\" align=\"right\">Delsumma</td>\n<td style=\"border-top: 1px solid #ccc;\" align=\"right\">{{ line_items_total }}</td>\n</tr>\n<tr>\n<td colspan=\"5\">&nbsp;</td>\n<td align=\"right\">Frakt</td>\n<td align=\"right\">{{ shipment_total }}</td>\n</tr>\n<tr>\n<td style=\"border-top: 1px solid #ccc;\" colspan=\"5\">&nbsp;</td>\n<td style=\"border-top: 1px solid #ccc;\" align=\"right\"><strong>Moms:</strong> <br /> <strong>SUMMA ink.moms:</strong></td>\n<td style=\"border-top: 1px solid #ccc;\" align=\"right\"><strong>{{ tax_total }}</strong><br><strong>{{ order_total }}</strong></td>\n</tr>\n</tbody>\n</table>\n</td>\n<td width=\"20\">&nbsp;</td>\n</tr>\n<tr>\n<td height=\"20\">&nbsp;</td>\n</tr>\n  <tr>\n    <td width=\"20\">&nbsp;</td>\n    <td colspan=\"3\">\n      <p>\n  Proffsmagasinet &auml;r godk&auml;nt av Trygg E-handel, vilket inneb&auml;r att du kan k&auml;nna dig trygg och s&auml;ker n&auml;r du handlar hos oss. Trygg E-handels m&aring;l &auml;r att skydda konsumenter och f&ouml;retag vid k&ouml;p p&aring; n&auml;tet &ndash; bara ekonomiskt stabila och sk&ouml;tsamma f&ouml;retag f&aring;r anv&auml;nda sig av Trygg E-handels ikoner och varum&auml;rke. Du kan l&auml;sa mer om Trygg E-handel och dina r&auml;ttigheter p&aring; <a href=\"http://www.tryggehandel.se\">www.tryggehandel.se</a> Proffsmagasinets certifikat finns att l&auml;sa p&aring; <a href=\"http://www.tryggehandel.se/butik/845/\">http://www.tryggehandel.se/butik/845/</a>\n</p>\n    </td>\n    <td width=\"20\">&nbsp;</td>\n  </tr>\n  <tr>\n<td width=\"20\">&nbsp;</td>\n<td colspan=\"3\" bgcolor=\"#cccccc\" height=\"2\">&nbsp;</td>\n<td width=\"20\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\n<table border=\"0\" width=\"800\" cellspacing=\"0\" cellpadding=\"0\" align=\"center\">\n<tbody>\n<tr>\n  <td width=\"20\">&nbsp;</td>\n<td width=\"280\"><span style=\"font-size: 14px; font-family: Arial;\"> <strong>Proffsmagasinet Svenska AB</strong><br /> Kilabergsvägen 4 <br /> 126 49 Hägersten </span></td>\n<td align=\"left\" width=\"90\"><span style=\"font-size: 14px; font-family: Arial;\"> Webbsida: <br /> E-post: <br /> Org. nummer: <br /> Telefon: </span></td>\n<td align=\"left\"><span style=\"font-size: 14px; font-family: Arial;\"> <a href=\"https://www.proffsmagasinet.se\"> https://www.proffsmagasinet.se </a> <br /> <a href=\"mailto: info@proffsmagasinet.se\"> info@proffsmagasinet.se </a> <br /> 556728-3857 <br /> 08-34 47 00 </span></td>\n</tr>\n</tbody>\n</table>\n<script type=\"application/json+trustpilot\">\n{\n\"recipientEmail\": \"{{ customer_email }}\",\n\"recipientName\": \"{{ billing_address.fullname }}\",\n\"referenceId\": \"{{ order_number }}\",\n\"tags\": {% if is_organization %}[\"Foretag\"]{% else %}[\"Privatperson\"]{% endif %},\n\"products\": [\n\t{%- assign count = line_items.size | minus: 1 -%}\n      {%- for item in line_items limit:count -%}\n        {\n            \"productUrl\": \"{{ item.product_url }}\",\n            \"imageUrl\": \"{{ item.image_url }}\",\n            \"name\": \"{{ item.name }}\",\n            \"sku\": \"{{ item.sku }}\",\n            \"gtin\": \"{{ item.gtin }}\",\n            \"mpn\": \"{{ item.mpn }}\",\n            \"brand\": \"{{ item.brand }}\"\n        },\n      {%- endfor -%}\n      {\n            \"productUrl\": \"{{ line_items.last.product_url }}\",\n            \"imageUrl\": \"{{ line_items.last.image_url }}\",\n            \"name\": \"{{ line_items.last.name }}\",\n            \"sku\": \"{{ line_items.last.sku }}\",\n            \"gtin\": \"{{ line_items.last.gtin }}\",\n            \"mpn\": \"{{ line_items.last.mpn }}\",\n            \"brand\": \"{{ line_items.last.brand }}\"\n        }\n\t]\n}\n</script>\n",
+      "ObjectTypeId": "Store",
+      "Language": "sv-SE",
+      "IsDefault": false,
+      "CreatedDate": "2016-11-24T12:38:47.347",
+      "ModifiedDate": "2018-12-05T08:48:23.737",
+      "CreatedBy": "admin",
+      "ModifiedBy": "ann-christin.andersson@proffsmagasinet.se",
+      "Id": "e4a2a2f36602430b8d28b2c455e3d25e"
+    },
+    {
+      "ObjectId": "StayPro",
+      "NotificationTypeId": "NewOrderStatusEmailNotification",
+      "Subject": "Your order status has been change",
+      "Body": "Your order <strong>{{ ordernumber }}</strong> change status from <strong>{{ oldstatus }}<strong> to <strong>{{ newstatus }}<strong>.",
+      "ObjectTypeId": "Store",
+      "Language": "nb-NO",
+      "IsDefault": false,
+      "CreatedDate": "2016-06-09T14:57:14.737",
+      "ModifiedDate": "2016-06-09T14:57:14.737",
+      "CreatedBy": "admin",
+      "ModifiedBy": "admin",
+      "Id": "f1d72619cf5640fc8b5eab17dca690cd"
+    },
+    {
+      "ObjectId": "StayProFI",
+      "NotificationTypeId": "InvoiceEmailNotification",
+      "Subject": "Invoice for order - <strong>{{ customer_order.number }}</strong>",
+      "Body": "<html>\n<head>\n</head>\n<body style=\"font-family: Arial, Helvetica, sans-serif;\">\n    <div style=\"border: 1px solid #E0DCDA;\">\n        <div style=\"background-color: #E0DCDA; margin: 2px; padding: 10px;\">\n            <span style=\"width: 400px;\">Invoice Details {{ customer_order.number }}</span>\n            <span style=\"width: 400px;\">Status: {{ customer_order.status }}</span>\n        </div>\n      \t<img src=\"http://www.startupguys.net/wp-content/uploads/2016/03/virto-commerce-logo.png\" width=\"150\" />\n        <div style=\"font-size: 12px; padding: 10px;\">\n            <div style=\"display: inline-block;\">\n                <span style=\"width: 150px;\"><strong>Order Date</strong></span>\n                <span style=\"width: 150px;\"><strong>Order Number</strong></span>\n            </div>\n            <div>\n                <span style=\"width: 150px;\">{{ customer_order.created_date }}</span>\n                <span style=\"width: 150px;\">{{ customer_order.number }}</span>\n            </div>\n        </div>\n        <div style=\"padding: 10px;\">\n            <p><strong>Details:</strong></p>\n        </div>\n        <div style=\"background-color: #E0DCDA; margin: 2px; padding: 10px;\">\n            <span style=\"text-align: center; width: 30px;\"><strong>#</strong></span>\n            <span style=\"width: 200px;\"><strong>Item Description</strong></span>\n            <span style=\"width: 100px;\"><strong>Unit Price</strong></span>\n            <span style=\"width: 100px;\"><strong>Invoice Qty</strong></span>\n            <span style=\"width: 100px;\"><strong>Line Price</strong></span>\n        </div>\n      \t<table style=\"font-size: 12px;\">\n        \t{% for line_item in customer_order.items %}\n              \t<tr>\n                  \t<td style=\"text-align: center; vertical-align: top; width: 30px;\"><p>{{ forloop.index }}</p></td>\n                  \t<td style=\"vertical-align: top; width: 200px;\"><p>{{ line_item.name }}</p><p style=\"color: #999; font-size: 11px;\">SKU: {{ line_item.sku }}</p></td>\n                    <td style=\"text-align: center; vertical-align: top; width: 100px;\"><p>${{ line_item.placed_price | round: 2 }}</p></td>\n                    <td style=\"text-align: center; vertical-align: top; width: 100px;\"><p>{{ line_item.quantity }}</p></td>\n                    <td style=\"text-align: center; vertical-align: top; width: 100px;\"><p>${{ line_item.extended_price | round: 2 }}</p></td>\n              \t</tr>\n        \t{% endfor %}\n        </table>\n        <div style=\"background-color: #F9F9F9; font-size: 12px; margin: 2px; padding: 10px;\">\n            <div>\n                <span style=\"width: 300px;\"></span>\n                <span style=\"width: 100px;\">Shipping:</span>\n                <span style=\"width: 100px;\">${{ customer_order.shipping_total | round: 2 }}</span>\n            </div>\n            <div>\n                <span style=\"width: 300px;\"></span>\n                <span style=\"width: 100px;\">Total Fees:</span>\n                <span style=\"width: 100px;\">${{ customer_order.fee_total | round: 2 }}</span>\n            </div>\n            <br />\n            <div>\n                <span style=\"width: 300px;\"></span>\n                <span style=\"width: 100px;\">Order Subtotal:</span>\n                <span style=\"width: 100px;\">${{ customer_order.sub_total | round: 2 }}</span>\n            </div>\n            <div>\n                <span style=\"width: 300px;\"></span>\n                <span style=\"width: 100px;\">GST:</span>\n                <span style=\"width: 100px;\">${{ customer_order.tax_total | round: 2 }}</span>\n            </div>\n            <br />\n            <div>\n                <span style=\"width: 300px;\"></span>\n                <span style=\"font-size: 14px; width: 100px;\"><strong>Total:</strong></span>\n                <span style=\"font-size: 14px; width: 100px;\"><strong>${{ customer_order.total | round: 2 }}</strong></span>\n            </div>\n            <div>\n                <span style=\"width: 300px;\"></span>\n                <span style=\"width: 100px;\">Currency:</span>\n                <span style=\"width: 100px;\">{{ customer_order.currency }}</span>\n            </div>\n        </div>\n    </div>\n</body>\n</html>",
+      "ObjectTypeId": "Store",
+      "Language": "en-US",
+      "IsDefault": false,
+      "CreatedDate": "2018-11-26T11:35:52.623",
+      "ModifiedDate": "2018-11-26T11:35:52.623",
+      "CreatedBy": "ann-christin.andersson@proffsmagasinet.se",
+      "ModifiedBy": "ann-christin.andersson@proffsmagasinet.se",
+      "Id": "fd075e45c6c943349bf2ed0d0c1b0733"
+    },
+    {
+      "ObjectId": "Proffs-SE",
+      "NotificationTypeId": "OrderPaidEmailNotification",
+      "Subject": "Din beställning har fullt betalda",
+      "Body": "Tack för att betala <strong>{{ ordernumber }}</strong> beställa.<br> Du hade betalat <strong>{{ fullprice | round: 2 }} {{ currency }}</strong>.<br> Betald datum - <strong>{{ paiddate }}</strong>.",
+      "ObjectTypeId": "Store",
+      "Language": "se-SE",
+      "IsDefault": false,
+      "CreatedDate": "2016-02-05T09:06:36.207",
+      "ModifiedDate": "2016-02-05T09:06:36.207",
+      "CreatedBy": "admin",
+      "ModifiedBy": "admin",
+      "Id": "fee11a2ef55b495f9e8a595930502838"
+    }
+  ],
+  "AssetEntries": []
+}

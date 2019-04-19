@@ -56,18 +56,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ApiTest-BrowsingCategory-recorded.webtest">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="ApiTest-CreateCart-recorded.webtest">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="ApiTest-PricingEval-recorded.webtest">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="ApiTest-ProductDetail-recorded.webtest">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <None Include="ApiTest-BrowsingCategory-recorded.webtest" />
+    <None Include="ApiTest-CreateCart-recorded.webtest" />
+    <None Include="ApiTest-PricingEval-recorded.webtest" />
+    <None Include="ApiTest-ProductDetail-recorded.webtest" />
     <None Include="ApiTest-ProductDetail.webtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -87,12 +79,6 @@
     <None Include="Storefront-BrowsingCategory-recorded.webtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Storefront-ProductDetail-recorded.webtest">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Storefront-Mixed-recorded.webtest">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="Storefront-AddProductToCart.webtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -100,6 +86,8 @@
     <None Include="Proff-ApiTest-Indexed.webtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Storefront-Mixed-recorded.webtest" />
+    <None Include="Storefront-ProductDetail-recorded.webtest" />
     <None Include="Storefront-SearchByBrand-recorded.webtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
