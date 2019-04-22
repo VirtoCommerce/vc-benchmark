@@ -1,0 +1,5948 @@
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 321
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "1758",
+    "1759",
+    "1760",
+    "11233",
+    "1757"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "193550ed-68d8-49fe-b2f8-85cbf10851db",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 322
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "10690",
+    "10691",
+    "3119",
+    "4804",
+    "4802"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "193550ed-68d8-49fe-b2f8-85cbf10851db",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 418
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "8081",
+    "8082",
+    "8083",
+    "8079",
+    "8080",
+    "11165",
+    "11172",
+    "11169",
+    "11171",
+    "11170",
+    "11163",
+    "11166"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "193550ed-68d8-49fe-b2f8-85cbf10851db",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 334
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "8081",
+    "8082",
+    "8083",
+    "8079",
+    "8080",
+    "11163"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "193550ed-68d8-49fe-b2f8-85cbf10851db",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 412
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "10504",
+    "11012",
+    "10502",
+    "10518",
+    "10496",
+    "9361",
+    "9365",
+    "9358",
+    "9371",
+    "9373"
+  ],
+  "pricelistIds": [
+    "934da94516a74f9ab4ec001343ac928a"
+  ],
+  "customerId": "193550ed-68d8-49fe-b2f8-85cbf10851db",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 529
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "900",
+    "899",
+    "901",
+    "898",
+    "896",
+    "897",
+    "895",
+    "9106",
+    "10019",
+    "10135",
+    "6076",
+    "6075",
+    "3701",
+    "8192",
+    "8193",
+    "9169",
+    "8612",
+    "879",
+    "881",
+    "883"
+  ],
+  "pricelistIds": [
+    "934da94516a74f9ab4ec001343ac928a"
+  ],
+  "customerId": "193550ed-68d8-49fe-b2f8-85cbf10851db",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 544
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "778",
+    "12363",
+    "6172",
+    "779",
+    "11405",
+    "11406",
+    "11407",
+    "11408",
+    "11409",
+    "5206",
+    "8632",
+    "8633",
+    "8634",
+    "5205",
+    "10075",
+    "10076",
+    "4023",
+    "10204",
+    "5072",
+    "5564"
+  ],
+  "pricelistIds": [
+    "934da94516a74f9ab4ec001343ac928a"
+  ],
+  "customerId": "179f9b53-6ab6-4e1f-9567-873e8017e9ea",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 311
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "11528",
+    "11530",
+    "11522",
+    "11525"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "2483a570-f8bc-4cb3-9c90-ef4ee169a5df",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 517
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "9993",
+    "9999",
+    "4470",
+    "9129",
+    "9111",
+    "10110",
+    "6701",
+    "6736",
+    "6706",
+    "9215",
+    "6742",
+    "6750",
+    "6758",
+    "11932",
+    "6712",
+    "9200",
+    "9208",
+    "6729",
+    "6723",
+    "4487"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "a9f0fe54-e0e7-403e-8b19-da7db7acef77",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 348
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "12268",
+    "12269",
+    "9628",
+    "9630",
+    "9629",
+    "9632",
+    "9631"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "03795d43-b3b9-4d39-9f02-2864bddb919f",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 509
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "388",
+    "2120",
+    "2119",
+    "2703",
+    "2702",
+    "2584",
+    "2585",
+    "259",
+    "385",
+    "10681",
+    "10682",
+    "10683",
+    "376",
+    "389",
+    "377",
+    "4058",
+    "378",
+    "4059",
+    "379",
+    "390"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "a5ee30c3-9689-4262-bef0-9029f3656ccb",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 279
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "930",
+    "931"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "3de9a833-b55c-4d1b-bbb3-87980f669680",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 464
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "1758",
+    "1759",
+    "1760",
+    "11233",
+    "1757",
+    "3218",
+    "3217",
+    "8444",
+    "3215",
+    "3221",
+    "3219",
+    "12861",
+    "3029",
+    "3214",
+    "8186",
+    "279"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "c42ebf0b-0ef6-4d17-a596-174a427e96c8",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 469
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "6165",
+    "12052",
+    "11809",
+    "8679",
+    "12051",
+    "7146",
+    "2851",
+    "1581",
+    "1580",
+    "11984",
+    "5258",
+    "11891",
+    "11271",
+    "771",
+    "10457",
+    "2189"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "974ac1e5-76d3-4f5e-95fa-e88b5f2643f0",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 515
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "6086",
+    "6096",
+    "6087",
+    "6090",
+    "6093",
+    "6095",
+    "6094",
+    "3460",
+    "3462",
+    "3464",
+    "3466",
+    "3470",
+    "3468",
+    "1244",
+    "1242",
+    "1245",
+    "1410",
+    "1408",
+    "1347",
+    "1345"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "6114106b-a999-4689-b976-18dd4a551ef4",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 358
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "3218",
+    "3217",
+    "8444",
+    "3215",
+    "3029",
+    "3214",
+    "8186",
+    "279"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "1f91fbbb-0e9e-4f21-b36e-f9ec88ae12e9",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 530
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "778",
+    "12363",
+    "6172",
+    "779",
+    "11405",
+    "11414",
+    "11406",
+    "11411",
+    "11412",
+    "11413",
+    "11407",
+    "11408",
+    "11409",
+    "11415",
+    "11416",
+    "11811",
+    "11813",
+    "11252",
+    "11253",
+    "11254"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "21587ed2-2ffb-4149-9811-ab29fac214fd",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 519
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "11970",
+    "11971",
+    "11972",
+    "11973",
+    "11974",
+    "936",
+    "1441",
+    "1442",
+    "2966",
+    "2816",
+    "2852",
+    "2853",
+    "8176",
+    "2854",
+    "8135",
+    "1436",
+    "1437",
+    "5260",
+    "2855",
+    "8179"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "ab46f9c9-ddc6-4878-800a-40ed4398a5b9",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 281
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "9993",
+    "9999"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "e4944adc-3de8-4960-a733-b41748c670e4",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 281
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "9016",
+    "9014"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "34cd2c24-c50a-4e72-b3b4-6875753491a5",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 515
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "8816",
+    "8824",
+    "3211",
+    "8829",
+    "8833",
+    "8811",
+    "8820",
+    "3202",
+    "8849",
+    "3208",
+    "8858",
+    "3205",
+    "8855",
+    "8840",
+    "8817",
+    "8842",
+    "8861",
+    "3194",
+    "3206",
+    "8856"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "be74a2c1-4a4b-417e-bd1e-8b2863a11451",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 477
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "1944",
+    "1057",
+    "1058",
+    "12364",
+    "4074",
+    "5366",
+    "1051",
+    "1052",
+    "1053",
+    "1054",
+    "1055",
+    "1056",
+    "9657",
+    "1050",
+    "4380",
+    "4381",
+    "1048"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "5d60f887-f0b9-416a-b4a9-b97fe75f6690",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 513
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "6199",
+    "2439",
+    "7454",
+    "2365",
+    "5033",
+    "5721",
+    "5722",
+    "851",
+    "852",
+    "1601",
+    "6318",
+    "6201",
+    "6204",
+    "6211",
+    "6221",
+    "6236",
+    "6239",
+    "6245",
+    "6253",
+    "6258"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "287120a3-f1fb-47c7-9ef0-6d000d121474",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 385
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "3089",
+    "8893",
+    "8894",
+    "8888",
+    "8875",
+    "8870",
+    "8877",
+    "8880",
+    "8885",
+    "4262"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "a76ade4b-317e-46ce-9444-185394c231fd",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 374
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "5789",
+    "920",
+    "921",
+    "12048",
+    "12046",
+    "12047",
+    "10134",
+    "10133",
+    "922"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "c5655287-7cfb-4fee-8014-37805c095613",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 516
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "985",
+    "987",
+    "988",
+    "990",
+    "12370",
+    "991",
+    "992",
+    "984",
+    "983",
+    "11451",
+    "11448",
+    "11449",
+    "11450",
+    "11197",
+    "11198",
+    "12920",
+    "6814",
+    "2628",
+    "2627",
+    "11906"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "0607db76-82dd-411c-ac74-4e8c6c945451",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 524
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "5373",
+    "7455",
+    "7453",
+    "8804",
+    "8805",
+    "8806",
+    "11713",
+    "11714",
+    "2364",
+    "4438",
+    "10907",
+    "10990",
+    "7226",
+    "7148",
+    "7376",
+    "11676",
+    "11691",
+    "11673",
+    "11701",
+    "11774"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "a352b3f3-aa13-44c0-aea2-a1dd92f0c97c",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 491
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "1234",
+    "2685",
+    "5041",
+    "5717",
+    "7208",
+    "5715",
+    "12371",
+    "11925",
+    "2126",
+    "5712",
+    "5713",
+    "5714",
+    "2289",
+    "3412",
+    "4516",
+    "4914",
+    "3411",
+    "7207"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "580a1f4b-afc5-45d4-8a32-03b69130a06d",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 333
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "7568",
+    "7569",
+    "7570",
+    "7558",
+    "7559",
+    "7557"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "e731d820-2b86-4d5a-8041-cc026f3d2cc9",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 517
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "2111",
+    "772",
+    "773",
+    "3396",
+    "8619",
+    "8617",
+    "5016",
+    "5017",
+    "10021",
+    "9148",
+    "9149",
+    "2214",
+    "5136",
+    "9124",
+    "12827",
+    "12828",
+    "11995",
+    "2867",
+    "8512",
+    "8511"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "c90e1464-12df-4d74-97ee-ba229719ea85",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 526
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "9389",
+    "9880",
+    "9391",
+    "9882",
+    "9993",
+    "9999",
+    "10957",
+    "10959",
+    "10545",
+    "10546",
+    "10547",
+    "10549",
+    "10550",
+    "10548",
+    "9858",
+    "10507",
+    "9861",
+    "10509",
+    "9862",
+    "10510"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "49477d90-311a-4088-b10c-ccd7b4f94f89",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 517
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "10957",
+    "10959",
+    "2944",
+    "2874",
+    "2878",
+    "2880",
+    "2881",
+    "2859",
+    "3343",
+    "2420",
+    "3340",
+    "3339",
+    "2879",
+    "2877",
+    "3341",
+    "3342",
+    "2798",
+    "4756",
+    "5343",
+    "8442"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "46ff8e3f-a704-4155-98b8-be26a45bf59d",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 515
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "2944",
+    "2878",
+    "2880",
+    "2881",
+    "3343",
+    "2420",
+    "3340",
+    "3339",
+    "2879",
+    "2877",
+    "3341",
+    "3342",
+    "2951",
+    "2953",
+    "2949",
+    "2950",
+    "2954",
+    "2955",
+    "3336",
+    "1664"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "90d2b507-6df9-4bc1-a7f1-b8369b55c321",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 390
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "10356",
+    "11721",
+    "11720",
+    "11724",
+    "5694",
+    "5693",
+    "5026",
+    "8637",
+    "11722",
+    "9033"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "9ccb3321-9c6e-41a9-8edb-bcb0f1f059f0",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 295
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "8167",
+    "8168",
+    "12265"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "8c5abdac-ab8f-4dea-ae0b-89ef8a069e3e",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 315
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "373",
+    "374",
+    "375",
+    "372",
+    "387"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "3ea7f8d3-a7a0-4370-ab10-c8afa224aeaf",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 526
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "3552",
+    "3558",
+    "3562",
+    "4856",
+    "4857",
+    "11139",
+    "11142",
+    "11477",
+    "11485",
+    "11487",
+    "11520",
+    "3485",
+    "3555",
+    "3560",
+    "4852",
+    "11137",
+    "11140",
+    "11464",
+    "11467",
+    "11468"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "1754c294-6746-4dbb-aa79-b830216ee2dc",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 318
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "9969",
+    "512",
+    "2626",
+    "516",
+    "2452"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "74caffc5-f06d-4e4f-ab5a-940f9622ada6",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 320
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "9405",
+    "9409",
+    "9404",
+    "9406",
+    "9407"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "97905e1c-7681-4016-8537-dedbba9e041a",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 516
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "8078",
+    "10966",
+    "10969",
+    "7465",
+    "11228",
+    "296",
+    "297",
+    "1122",
+    "1125",
+    "1124",
+    "1127",
+    "2857",
+    "1313",
+    "1311",
+    "2688",
+    "1420",
+    "1418",
+    "1298",
+    "1300",
+    "1426"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "7c99c4a1-5a07-4469-a9a7-20689b81bc6b",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 523
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "11659",
+    "11660",
+    "11661",
+    "11664",
+    "11666",
+    "11665",
+    "11663",
+    "11656",
+    "8481",
+    "8483",
+    "8479",
+    "7639",
+    "7631",
+    "7645",
+    "7620",
+    "7662",
+    "7652",
+    "7650",
+    "7649",
+    "8465"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "1fd2fbac-92b9-4238-a536-8b1bb0d652f4",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 268
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "3990"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "6d3a64e1-6894-449c-8f45-e9a9e597e885",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 376
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "421",
+    "1542",
+    "415",
+    "416",
+    "417",
+    "418",
+    "419",
+    "445",
+    "446",
+    "447"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "6464bc62-6202-4604-a9d4-76f5a4214789",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 530
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "11414",
+    "11411",
+    "11412",
+    "11413",
+    "11254",
+    "11946",
+    "11945",
+    "11950",
+    "11949",
+    "11947",
+    "7777",
+    "11944",
+    "11255",
+    "7778",
+    "7779",
+    "12271",
+    "7780",
+    "11251",
+    "11256",
+    "7781"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "25aa8af1-9720-419b-9492-74afb45ab2a6",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 476
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "8361",
+    "8365",
+    "8362",
+    "8367",
+    "8363",
+    "8369",
+    "8375",
+    "8370",
+    "8371",
+    "8372",
+    "8374",
+    "8379",
+    "8373",
+    "8378",
+    "8377",
+    "8380",
+    "8376"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "27eb382f-2d33-4406-be8e-58c9d48f2836",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 333
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "8361",
+    "8365",
+    "8362",
+    "8367",
+    "8363",
+    "8369"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "ae1a24ef-883e-4f26-8d71-a9b86c31427d",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 333
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "4977",
+    "4979",
+    "4981",
+    "4373",
+    "4351",
+    "4352"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "60b6ddb3-6b3f-4561-97f3-442f1660c4d4",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 518
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "10438",
+    "7534",
+    "7487",
+    "7493",
+    "12140",
+    "7500",
+    "7509",
+    "7517",
+    "10751",
+    "5134",
+    "5117",
+    "5118",
+    "5119",
+    "5120",
+    "5122",
+    "5123",
+    "5124",
+    "5125",
+    "5127",
+    "5128"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "dae73c67-1e34-4ec5-9cbb-cb6d2f186601",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 535
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "10865",
+    "10866",
+    "10867",
+    "10868",
+    "10859",
+    "10804",
+    "10860",
+    "10858",
+    "10863",
+    "10801",
+    "10802",
+    "10856",
+    "10857",
+    "10803",
+    "10855",
+    "10853",
+    "10854",
+    "10862",
+    "10797",
+    "10796"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "fce01d66-c634-497a-8d31-3900ebfd0141",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 311
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "10763",
+    "10762",
+    "10761",
+    "10764"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "9794e764-d091-452c-9841-c2afecb7f91f",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 449
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "1606",
+    "1609",
+    "4881",
+    "4880",
+    "2245",
+    "4866",
+    "4867",
+    "2247",
+    "595",
+    "3667",
+    "3673",
+    "594",
+    "593",
+    "12442",
+    "12443"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "820cef5d-016b-4774-8e14-936fd0ef1b3c",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 438
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "7421",
+    "7434",
+    "7435",
+    "7439",
+    "7443",
+    "7446",
+    "7447",
+    "7448",
+    "7451",
+    "10322",
+    "10324",
+    "1963",
+    "443",
+    "1801"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "ac385332-b390-4bdb-9bd7-e321cb05f3f4",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 443
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "10492",
+    "10488",
+    "10473",
+    "10479",
+    "10466",
+    "11019",
+    "9328",
+    "9319",
+    "9313",
+    "9309",
+    "9350",
+    "9302",
+    "9344",
+    "9335"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "51c39b03-b522-4f9a-8894-fa6e9fb13886",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 297
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "11443",
+    "11444",
+    "11445"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "1e79647e-626d-437c-9bb4-0e5d926fdf1e",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 515
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "2736",
+    "2834",
+    "2833",
+    "2832",
+    "2831",
+    "2777",
+    "2774",
+    "2759",
+    "5785",
+    "5786",
+    "2741",
+    "2770",
+    "2780",
+    "2762",
+    "2779",
+    "2745",
+    "2768",
+    "2749",
+    "3752",
+    "3751"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "158ce159-5557-48ea-a613-1e5536ca8705",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 524
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "12551",
+    "12545",
+    "12546",
+    "12550",
+    "12549",
+    "11053",
+    "11057",
+    "11056",
+    "12547",
+    "12552",
+    "5078",
+    "5079",
+    "957",
+    "7668",
+    "7675",
+    "7674",
+    "7676",
+    "7672",
+    "7670",
+    "7671"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "f1bd1284-0312-41b9-91a6-98524b5b9285",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 333
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "9824",
+    "9823",
+    "9821",
+    "9826",
+    "9819",
+    "9820"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "d2bb342d-8cde-48a6-9609-9f50580fcf6d",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 362
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "8282",
+    "8283",
+    "10434",
+    "10435",
+    "8280",
+    "10441",
+    "8281",
+    "8284"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "9f2f8123-b9cc-4be0-ab51-076f72dda60c",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 296
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "11970",
+    "11971",
+    "5260"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "268b3299-b2f4-41e6-99a4-d570f73bc8b7",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 283
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "11299",
+    "11300"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "979b1e44-ea29-47f1-9c9f-804f9530d333",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 409
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "11310",
+    "11309",
+    "11301",
+    "11304",
+    "11307",
+    "11311",
+    "11305",
+    "11306",
+    "11308",
+    "11303",
+    "11302"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "99f5132f-bfa2-4c12-99e8-5a59e786b4b0",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 517
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "10751",
+    "5134",
+    "5117",
+    "5118",
+    "5119",
+    "5120",
+    "5122",
+    "5123",
+    "5124",
+    "5125",
+    "5127",
+    "5128",
+    "5129",
+    "5130",
+    "5131",
+    "5132",
+    "5133",
+    "10758",
+    "9222",
+    "2530"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "7252b553-1bb9-400b-86b1-183266049f33",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 381
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "10702",
+    "10701",
+    "10697",
+    "10684",
+    "10686",
+    "10700",
+    "10696",
+    "10695",
+    "10693"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "1a74f364-7408-49c1-97bf-996a86ba9466",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 425
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "6701",
+    "6736",
+    "6706",
+    "9215",
+    "6742",
+    "6750",
+    "6758",
+    "11932",
+    "6712",
+    "9200",
+    "9208",
+    "6729",
+    "6723"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "4355e55e-56a6-48d3-97c4-9f1e46da1eed",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 533
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "12253",
+    "9718",
+    "9721",
+    "12255",
+    "11546",
+    "11537",
+    "11533",
+    "11541",
+    "11539",
+    "10702",
+    "10701",
+    "10697",
+    "10684",
+    "10686",
+    "10628",
+    "10614",
+    "10626",
+    "10639",
+    "10640",
+    "10641"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "ea779317-b67b-40de-be5a-7ae9d9f67ef1",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 512
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "8390",
+    "8391",
+    "6109",
+    "11185",
+    "9415",
+    "1940",
+    "12181",
+    "858",
+    "859",
+    "860",
+    "861",
+    "862",
+    "8387",
+    "1592",
+    "5636",
+    "5637",
+    "5633",
+    "5635",
+    "1593",
+    "5631"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "ab7d8912-56f1-4c73-9e6f-97578f15dbe5",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 405
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "10887",
+    "9180",
+    "9181",
+    "11718",
+    "11717",
+    "12744",
+    "10341",
+    "12745",
+    "10383",
+    "7609",
+    "8504"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "257360ce-cef8-4756-aa42-8d4453e6f3f7",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 527
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "11415",
+    "11416",
+    "11252",
+    "11253",
+    "7786",
+    "11943",
+    "11951",
+    "7784",
+    "11230",
+    "11260",
+    "7785",
+    "11259",
+    "4233",
+    "4234",
+    "4231",
+    "4232",
+    "3422",
+    "10852",
+    "11270",
+    "11268"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "f4184fdb-c582-47ef-bc89-92e3ed351635",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 531
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "9198",
+    "5213",
+    "10595",
+    "5212",
+    "5214",
+    "11861",
+    "11441",
+    "11521",
+    "10932",
+    "10941",
+    "10933",
+    "10934",
+    "10935",
+    "10942",
+    "10938",
+    "10940",
+    "11263",
+    "10945",
+    "10946",
+    "10947"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "5cc212cc-3a8d-46cf-8e9c-4c6129f0155a",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 268
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "7557"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "1375c5d1-80b4-4e3f-80bd-a53b7847a6bf",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 515
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "5107",
+    "5108",
+    "5111",
+    "5102",
+    "5091",
+    "5092",
+    "5099",
+    "5100",
+    "5094",
+    "5096",
+    "5097",
+    "5098",
+    "5101",
+    "5095",
+    "5103",
+    "5110",
+    "5105",
+    "5082",
+    "5090",
+    "5112"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "f26483bd-0075-4eca-8161-b9e4aaff1a70",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 516
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "5655",
+    "2087",
+    "2101",
+    "2099",
+    "2080",
+    "5652",
+    "2081",
+    "10598",
+    "2068",
+    "5657",
+    "5653",
+    "2084",
+    "2070",
+    "2076",
+    "2091",
+    "2090",
+    "2064",
+    "2075",
+    "2066",
+    "2063"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "59990468-d21a-4842-ac01-0dbda814a3ad",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 449
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "9224",
+    "4916",
+    "526",
+    "10274",
+    "6856",
+    "10275",
+    "10276",
+    "10277",
+    "8273",
+    "524",
+    "521",
+    "522",
+    "523",
+    "9223",
+    "9225"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "9295868b-88be-4422-83b2-ceb37b547672",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 481
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "623",
+    "11818",
+    "11817",
+    "624",
+    "622",
+    "11816",
+    "11814",
+    "4771",
+    "12926",
+    "12927",
+    "11820",
+    "1598",
+    "1600",
+    "11819",
+    "1599",
+    "3397",
+    "5798"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "16e05628-269b-48e2-ae4e-1501fa81a5f6",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 450
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "397",
+    "1637",
+    "407",
+    "409",
+    "1636",
+    "406",
+    "402",
+    "408",
+    "4593",
+    "12186",
+    "12323",
+    "12184",
+    "12185",
+    "12324",
+    "12325"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "7adce9dc-95f2-429b-bc88-3aff931d581a",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 294
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "2855",
+    "8179",
+    "4116"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "39baada7-b1a7-49eb-b288-eb589a31ff8d",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 520
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "1861",
+    "11332",
+    "10606",
+    "6588",
+    "10270",
+    "8439",
+    "6601",
+    "5620",
+    "5624",
+    "9960",
+    "6630",
+    "6651",
+    "4832",
+    "4825",
+    "6640",
+    "4837",
+    "6663",
+    "6675",
+    "12081",
+    "12083"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "48623f0b-e502-41f2-835c-21b414f081d0",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 268
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "5835"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "60eda8ec-f33d-4d7b-af6d-48a39cdf2689",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 281
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "5837",
+    "5836"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "74e8b17c-4ff6-4991-b7bb-b5d3a5aa362c",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 521
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "10438",
+    "7534",
+    "7487",
+    "7493",
+    "12140",
+    "7500",
+    "7509",
+    "7517",
+    "2017",
+    "2407",
+    "2388",
+    "2398",
+    "2003",
+    "1996",
+    "2011",
+    "2023",
+    "10162",
+    "10143",
+    "10290",
+    "10284"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "f26fe7e1-f0c5-46a4-a84a-149be8bfce07",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 347
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "3097",
+    "10588",
+    "10590",
+    "10587",
+    "924",
+    "923",
+    "1787"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "48730bc7-4104-4d39-922e-36b4c79f0b66",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 526
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "3552",
+    "3558",
+    "3562",
+    "4856",
+    "4857",
+    "11139",
+    "11142",
+    "11146",
+    "11153",
+    "11477",
+    "11479",
+    "11481",
+    "11483",
+    "11485",
+    "11487",
+    "11520",
+    "3485",
+    "3555",
+    "3560",
+    "4852"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "6e608013-e183-461f-b288-9dde8a5ba1b2",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 531
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "7464",
+    "11826",
+    "11825",
+    "12406",
+    "12404",
+    "11824",
+    "12403",
+    "7457",
+    "9294",
+    "7463",
+    "10157",
+    "10158",
+    "10156",
+    "10159",
+    "12539",
+    "11059",
+    "11058",
+    "11039",
+    "11041",
+    "11040"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "00a86bed-1bfd-4d0f-a492-8ec7a0328310",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 519
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "12956",
+    "12953",
+    "12952",
+    "12954",
+    "9401",
+    "9402",
+    "9403",
+    "9405",
+    "9409",
+    "9404",
+    "9406",
+    "9407",
+    "9421",
+    "9424",
+    "9422",
+    "9423",
+    "9399",
+    "9400",
+    "9482",
+    "9485"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "f548c65d-5ac1-40ae-96fd-2d48aec2f71c",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 281
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "9817",
+    "9818"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "e5b8c8c7-f6cf-4ddf-80d8-70f6c8b3616f",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 317
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "600",
+    "599",
+    "1799",
+    "601",
+    "1798"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "44b7aa3e-3fdc-41f9-8a12-6c30c36ac11c",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 295
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "3221",
+    "3219",
+    "12861"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "4497795c-4ce6-476b-b1d5-acb80d68c49d",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 512
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "7531",
+    "367",
+    "368",
+    "327",
+    "361",
+    "1628",
+    "11130",
+    "1634",
+    "12843",
+    "9685",
+    "4990",
+    "5085",
+    "11985",
+    "1534",
+    "3441",
+    "255",
+    "256",
+    "4921",
+    "7224",
+    "9906"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "c9506acb-75be-4318-9d2e-8e111cc832e2",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 360
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "4758",
+    "4759",
+    "10698",
+    "8586",
+    "4757",
+    "2222",
+    "2224",
+    "2223"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "51a79a83-299c-49a5-8b77-8878799a7b41",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 421
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "2035",
+    "2036",
+    "7221",
+    "8516",
+    "2994",
+    "2995",
+    "2996",
+    "318",
+    "319",
+    "323",
+    "10668",
+    "5781",
+    "321"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "329ae8ef-9204-4fb3-8d80-ab327172c6ab",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 321
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "1758",
+    "1759",
+    "1760",
+    "11233",
+    "1757"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "17a71cad-18e5-4e10-937b-a465ba414bdb",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 322
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "10690",
+    "10691",
+    "3119",
+    "4804",
+    "4802"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "17a71cad-18e5-4e10-937b-a465ba414bdb",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 418
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "8081",
+    "8082",
+    "8083",
+    "8079",
+    "8080",
+    "11165",
+    "11172",
+    "11169",
+    "11171",
+    "11170",
+    "11163",
+    "11166"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "17a71cad-18e5-4e10-937b-a465ba414bdb",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 334
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "8081",
+    "8082",
+    "8083",
+    "8079",
+    "8080",
+    "11163"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "17a71cad-18e5-4e10-937b-a465ba414bdb",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 390
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "10504",
+    "11012",
+    "10502",
+    "10518",
+    "10496",
+    "9361",
+    "9365",
+    "9358",
+    "9371",
+    "9373"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "17a71cad-18e5-4e10-937b-a465ba414bdb",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 507
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "900",
+    "899",
+    "901",
+    "898",
+    "896",
+    "897",
+    "895",
+    "9106",
+    "10019",
+    "10135",
+    "6076",
+    "6075",
+    "3701",
+    "8192",
+    "8193",
+    "9169",
+    "8612",
+    "879",
+    "881",
+    "883"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "17a71cad-18e5-4e10-937b-a465ba414bdb",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 518
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "11985",
+    "1534",
+    "1761",
+    "10155",
+    "10242",
+    "10243",
+    "9919",
+    "9918",
+    "7611",
+    "7610",
+    "5005",
+    "5006",
+    "2927",
+    "8274",
+    "2121",
+    "2123",
+    "1635",
+    "9607",
+    "290",
+    "2544"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "17a71cad-18e5-4e10-937b-a465ba414bdb",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 406
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "581",
+    "583",
+    "584",
+    "580",
+    "1624",
+    "1625",
+    "1626",
+    "4882",
+    "4883",
+    "4884",
+    "582",
+    "1605"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "1307250a-1818-4989-a1a2-10618d286c3b",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 370
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "2962",
+    "4406",
+    "520",
+    "1958",
+    "12862",
+    "519",
+    "518",
+    "2891",
+    "8123"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "19259bd4-42f8-4baf-8f37-3be204e181ed",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 307
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "3124",
+    "5845",
+    "3125",
+    "3126"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "3039cc8b-63dc-49f2-9b59-b79c7e9ea306",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 294
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "11974",
+    "936",
+    "8135"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "65f2968f-4ebe-4637-8b51-ac2d917b18f0",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 332
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "552",
+    "5843",
+    "5844",
+    "5856",
+    "5857",
+    "5855"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "96bbee9e-0e7f-40ba-bc1f-7bd42ad0799f",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 341
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "451",
+    "11939",
+    "457",
+    "458",
+    "455",
+    "456",
+    "454"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "f210eb6f-1a24-4ca3-ac80-39f8414beff7",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 344
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "4613",
+    "2529",
+    "449",
+    "448",
+    "5841",
+    "5840",
+    "4604"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "308d3e0d-7793-4992-9f98-afbddfa23700",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 268
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "5842"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "86299ebd-2b7a-4b35-9782-06fc3701bfb4",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 339
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "10545",
+    "10546",
+    "10547",
+    "10549",
+    "10550",
+    "10548"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "9dc456c4-bbb0-4e96-b301-1f080e07716a",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 269
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "11400"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "a0fee2fd-6823-4495-abc2-bb3a8bbd31bd",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 294
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "4403",
+    "4404",
+    "3568"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "33964f56-aba6-49b9-9493-bb502fd35f7b",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 468
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "9795",
+    "2134",
+    "9788",
+    "8589",
+    "8077",
+    "9660",
+    "11999",
+    "8590",
+    "8591",
+    "10416",
+    "10418",
+    "8592",
+    "9123",
+    "11808",
+    "11843",
+    "8233"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "1ec3b8db-c269-45b0-ad72-ceb78a39b2cb",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 331
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "3442",
+    "266",
+    "267",
+    "1573",
+    "1575",
+    "3090"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "f05f8a8d-01a9-4acc-8911-b70f95abbb36",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 516
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "12198",
+    "12196",
+    "12193",
+    "800",
+    "804",
+    "808",
+    "813",
+    "9824",
+    "9823",
+    "12199",
+    "12197",
+    "12195",
+    "9821",
+    "802",
+    "806",
+    "811",
+    "815",
+    "12191",
+    "12187",
+    "12190"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "eb62eebf-4468-4adf-97ef-30d78921d649",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 281
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "3400",
+    "8262"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "16217ac8-3f2d-407e-9e4b-649826673463",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 281
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "8392",
+    "8393"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "eb9220c2-4036-430c-a7a3-a9d93477df38",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 346
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "9401",
+    "9402",
+    "9403",
+    "9399",
+    "9400",
+    "9395",
+    "9398"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "2f6feeab-3cdf-4713-862c-09add47596e7",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 339
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "367",
+    "368",
+    "362",
+    "365",
+    "364",
+    "363",
+    "366"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "cfdf88ee-d01a-40f8-8139-a51f6159c89f",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 269
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "10262"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "98d4f338-a405-4819-a51f-112afcfa3257",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 267
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "547"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "60f88607-806d-49de-8ca1-91009856834e",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 428
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "10639",
+    "10640",
+    "10641",
+    "10642",
+    "8295",
+    "8317",
+    "8318",
+    "8319",
+    "8491",
+    "9704",
+    "8321",
+    "8322",
+    "8320"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "1a1200bc-3374-43c0-bdc0-5807ac641253",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 359
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "3869",
+    "929",
+    "5371",
+    "2840",
+    "927",
+    "12834",
+    "4415",
+    "12264"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "c079276b-1b11-4455-9f8f-e64b787aa349",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 346
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "6960",
+    "9082",
+    "2031",
+    "8275",
+    "2835",
+    "411",
+    "12183"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "9829a7f6-603c-4118-80c4-c8753b998d73",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 281
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "5253",
+    "5385"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "43a518ec-ea06-4f06-a5af-5821c78308ad",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 516
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "2736",
+    "2834",
+    "2833",
+    "2832",
+    "2831",
+    "2777",
+    "2109",
+    "6194",
+    "11807",
+    "2774",
+    "2759",
+    "5785",
+    "5786",
+    "2741",
+    "2770",
+    "2780",
+    "2762",
+    "2779",
+    "2745",
+    "2768"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "9f3fafd7-b90f-422a-b41f-6401f923d7a4",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 527
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "8087",
+    "7605",
+    "12831",
+    "12824",
+    "9099",
+    "12825",
+    "8515",
+    "8085",
+    "5675",
+    "12798",
+    "12769",
+    "11732",
+    "11733",
+    "10299",
+    "12931",
+    "12925",
+    "11725",
+    "8088",
+    "8089",
+    "12933"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "4f8aeefa-98e7-4bcb-a66e-75a5133d3d12",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 526
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "10650",
+    "10651",
+    "10653",
+    "10654",
+    "10655",
+    "10656",
+    "10657",
+    "10658",
+    "10659",
+    "10660",
+    "2897",
+    "7220",
+    "7219",
+    "7209",
+    "6500",
+    "5003",
+    "7145",
+    "4297",
+    "4805",
+    "11282"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "a82268b5-342a-4843-9c95-5c3e77fd7f55",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 376
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "10628",
+    "10614",
+    "10626",
+    "5168",
+    "5172",
+    "5174",
+    "5166",
+    "5167",
+    "10644"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "6eabfbd4-2b98-4829-bfdc-d7f91a45fa62",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 387
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "11972",
+    "11973",
+    "1441",
+    "1442",
+    "2966",
+    "2816",
+    "2852",
+    "2853",
+    "8176",
+    "2854"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "f49e43e7-210b-4083-bd0a-f3abc3ea891f",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 385
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "1577",
+    "396",
+    "6167",
+    "395",
+    "6166",
+    "6168",
+    "10873",
+    "10210",
+    "10211",
+    "394"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "ec5a629c-5b64-488c-ab27-19aca41eb994",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 515
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "10957",
+    "10959",
+    "767",
+    "768",
+    "2899",
+    "2898",
+    "2900",
+    "2901",
+    "5190",
+    "5191",
+    "5281",
+    "3742",
+    "5283",
+    "3743",
+    "9173",
+    "9174",
+    "766",
+    "10426",
+    "8144",
+    "2868"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "34403068-7dcf-4dd5-8221-2f8372c1d3eb",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 517
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "6067",
+    "6071",
+    "6069",
+    "6078",
+    "6080",
+    "6081",
+    "5994",
+    "4137",
+    "4139",
+    "8995",
+    "1035",
+    "1038",
+    "1752",
+    "1751",
+    "12742",
+    "12743",
+    "1034",
+    "1033",
+    "1733",
+    "1041"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "eebf871b-0e89-466e-994b-108dec1b4b79",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 437
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "10779",
+    "10780",
+    "10781",
+    "10785",
+    "10775",
+    "10777",
+    "10778",
+    "10774",
+    "10782",
+    "10776",
+    "10783",
+    "10784",
+    "10773"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "352636df-50e6-4544-a408-b05c20806e74",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 387
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "4451",
+    "4452",
+    "12065",
+    "4258",
+    "4996",
+    "4259",
+    "4256",
+    "4260",
+    "1229",
+    "8134"
+  ],
+  "pricelistIds": [
+    "DefaultUSDa"
+  ],
+  "customerId": "b4269a63-4c07-4930-9b8a-1fadb6499747",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 409
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "388",
+    "2120",
+    "2119",
+    "2703",
+    "2702",
+    "10681",
+    "10682",
+    "10683",
+    "376",
+    "377",
+    "378",
+    "379"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "333eb541-9749-47e7-b611-34e0da4ee4c9",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 412
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "3447",
+    "1773",
+    "2290",
+    "1810",
+    "3864",
+    "4057",
+    "3127",
+    "2110",
+    "2423",
+    "2424",
+    "3652",
+    "12337"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "7579ebbb-346a-4238-857d-7c1c62c8d5f9",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 381
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "10786",
+    "10787",
+    "10788",
+    "10789",
+    "10791",
+    "10790",
+    "10793",
+    "10794",
+    "10792"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "ffb46c97-97c3-4381-b2ec-fc37632decd6",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 281
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "1797",
+    "1570"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "f9eb0c88-435c-47e1-a5b5-4ad4a835d997",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 354
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "282",
+    "283",
+    "7612",
+    "7613",
+    "3140",
+    "285",
+    "280",
+    "281"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "5a3273df-1072-4b35-85ba-da54e0fd8d0a",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 334
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "2109",
+    "6194",
+    "11807",
+    "3763",
+    "2253",
+    "2252"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "6674a18a-8e16-48cd-8e06-1e6ef6046e24",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 465
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "10804",
+    "10801",
+    "10802",
+    "10803",
+    "10855",
+    "10853",
+    "10854",
+    "10797",
+    "10796",
+    "10805",
+    "10806",
+    "10795",
+    "10798",
+    "10799",
+    "10800"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "547de31d-6c7e-4645-8a87-feb70f11206e",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 381
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "11479",
+    "11481",
+    "11483",
+    "11469",
+    "11470",
+    "11471",
+    "11478",
+    "11480",
+    "11482"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "1ddf742c-e20b-4ba7-b453-d458dc4282d2",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 307
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "1436",
+    "1437",
+    "5563",
+    "8180"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "86d4cb8d-6c9a-47c7-b3e7-2162483de666",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 393
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "12244",
+    "12247",
+    "12242",
+    "12245",
+    "12275",
+    "12273",
+    "12243",
+    "12246",
+    "9641",
+    "9639"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "f4a740b2-6fa2-4b6f-87ea-7142ba1a40cc",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 360
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "12320",
+    "9643",
+    "9644",
+    "9645",
+    "9633",
+    "9634",
+    "9635",
+    "9636"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "741e0803-e257-4dc8-bf69-6dc99079e6ec",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 531
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "8434",
+    "12315",
+    "12316",
+    "12317",
+    "12312",
+    "12313",
+    "12260",
+    "12311",
+    "12287",
+    "12314",
+    "12240",
+    "12309",
+    "12310",
+    "12305",
+    "12306",
+    "12307",
+    "12308",
+    "9614",
+    "9622",
+    "9620"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "3b9d77b2-54bb-4c3f-ab85-63cef0d5f130",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 318
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "2579",
+    "348",
+    "349",
+    "8235",
+    "8236"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "78cd6e8d-3afb-4c0f-9322-22dc957d713c",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 281
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "9627",
+    "9626"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "5bf1c25a-a31c-46a3-aa5a-54da65b92d2f",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 520
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "5723",
+    "5724",
+    "2272",
+    "2273",
+    "5342",
+    "10256",
+    "10257",
+    "10258",
+    "10259",
+    "10260",
+    "2106",
+    "5270",
+    "5272",
+    "5278",
+    "5273",
+    "5279",
+    "2370",
+    "5294",
+    "5288",
+    "5274"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "abc6126d-e153-403a-8ff9-83dc2c2e31f5",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 515
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "1848",
+    "1849",
+    "1850",
+    "1844",
+    "1846",
+    "1847",
+    "1841",
+    "1842",
+    "1857",
+    "1858",
+    "1853",
+    "1855",
+    "1856",
+    "1859",
+    "1860",
+    "1866",
+    "1867",
+    "1875",
+    "1868",
+    "1869"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "c82fba86-7013-4534-8614-327770bee593",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 323
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "7620",
+    "7662",
+    "11133",
+    "12880",
+    "11221"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "1f79b311-c71e-43ab-b9f8-7fec7c12aad5",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 429
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "509",
+    "508",
+    "511",
+    "510",
+    "2710",
+    "2709",
+    "499",
+    "498",
+    "3392",
+    "506",
+    "7134",
+    "501",
+    "502",
+    "11292"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "f530cc8b-1b4a-4074-83ea-022b8bd222eb",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 322
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "5249",
+    "11289",
+    "11287",
+    "5381",
+    "5376"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "295c8789-ad28-4ae6-8777-5127edbf29d3",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 481
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "5450",
+    "10122",
+    "10128",
+    "4042",
+    "4032",
+    "4038",
+    "12629",
+    "12627",
+    "12633",
+    "2553",
+    "2548",
+    "2563",
+    "2556",
+    "2560",
+    "2567",
+    "2572",
+    "2575"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "0039971e-b44b-4396-820d-674dc18061fa",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 367
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "10970",
+    "10971",
+    "10972",
+    "10973",
+    "10974",
+    "10975",
+    "10976",
+    "10982"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "5b62b403-2075-433f-8cef-6d02bf5e9703",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 518
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "752",
+    "755",
+    "8081",
+    "8082",
+    "8083",
+    "11516",
+    "8079",
+    "8080",
+    "8112",
+    "11514",
+    "754",
+    "8129",
+    "11510",
+    "8128",
+    "11500",
+    "11490",
+    "8124",
+    "10512",
+    "8132",
+    "8131"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "019c1d40-db54-4b39-8b5e-cd62ec7808ae",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 461
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "752",
+    "755",
+    "754",
+    "757",
+    "8069",
+    "8068",
+    "8070",
+    "8071",
+    "8072",
+    "8073",
+    "8074",
+    "8075",
+    "8076",
+    "12932",
+    "9913",
+    "12351"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "9a1ec81a-5a6d-471d-814a-cc68befcee4f",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 294
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "1016",
+    "1017",
+    "4521"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "c67ac4d1-bcfd-4e4e-a59f-6753541fedb5",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 521
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "4927",
+    "4926",
+    "1166",
+    "1168",
+    "1170",
+    "1169",
+    "12368",
+    "12369",
+    "12367",
+    "1171",
+    "1172",
+    "2699",
+    "2701",
+    "7098",
+    "6360",
+    "6362",
+    "6361",
+    "12943",
+    "12365",
+    "11331"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "2223fa4e-f85e-4361-bf99-9133b15c53c4",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 533
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "12198",
+    "12196",
+    "12193",
+    "12199",
+    "12197",
+    "12195",
+    "12191",
+    "12187",
+    "12190",
+    "12205",
+    "12206",
+    "12203",
+    "12204",
+    "12200",
+    "12202",
+    "12210",
+    "12212",
+    "12213",
+    "3332",
+    "8981"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "efe52114-1468-457c-8382-cc4205e630af",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 311
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "10978",
+    "10979",
+    "10980",
+    "10981"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "644f609d-c6d1-48fb-a5fd-bc0391d1c0ef",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 281
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "5114",
+    "5115"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "ef6d12c1-dbdc-46e1-90fe-25caa00099eb",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 502
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "5789",
+    "3869",
+    "915",
+    "916",
+    "919",
+    "2676",
+    "9000",
+    "8998",
+    "2675",
+    "929",
+    "900",
+    "899",
+    "901",
+    "898",
+    "896",
+    "897",
+    "3097",
+    "920",
+    "921",
+    "895"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "60666ea5-d321-4a54-9d64-8db13487ed22",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 325
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "10770",
+    "10769",
+    "10771",
+    "10766",
+    "10767"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "c1aa32f3-5475-46c2-8cd6-f38a754d7fd6",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 430
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "361",
+    "9685",
+    "10320",
+    "11178",
+    "2586",
+    "355",
+    "352",
+    "360",
+    "354",
+    "353",
+    "2138",
+    "351",
+    "261",
+    "350"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "03f70095-e383-4f0d-b399-71544d635d23",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 533
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "11249",
+    "10504",
+    "10492",
+    "10488",
+    "10473",
+    "11012",
+    "10502",
+    "11247",
+    "11248",
+    "11262",
+    "10479",
+    "10518",
+    "10466",
+    "10496",
+    "11019",
+    "11027",
+    "11029",
+    "11026",
+    "11028",
+    "708"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "9b0b8712-1e01-421b-aa42-de6f0db0a372",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 334
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "7599",
+    "7598",
+    "7597",
+    "11204",
+    "7600",
+    "7601"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "d76d1942-3950-43d3-ac4d-f6fb8d5193b4",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 508
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "868",
+    "1771",
+    "869",
+    "1769",
+    "867",
+    "864",
+    "4540",
+    "4808",
+    "3446",
+    "4456",
+    "4455",
+    "2291",
+    "2288",
+    "863",
+    "865",
+    "866",
+    "1772",
+    "2355",
+    "4457",
+    "9044"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "9e93a319-054f-431e-b591-40e528821274",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 519
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "8112",
+    "10513",
+    "8098",
+    "8095",
+    "8096",
+    "8103",
+    "8101",
+    "8102",
+    "8100",
+    "8105",
+    "8107",
+    "8104",
+    "8097",
+    "8106",
+    "8099",
+    "8456",
+    "8460",
+    "11296",
+    "11294",
+    "11295"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "00260f41-9ff7-4e1b-b2b5-0a867496db01",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 493
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "11443",
+    "11444",
+    "11445",
+    "11438",
+    "11429",
+    "11434",
+    "11430",
+    "11428",
+    "11436",
+    "11431",
+    "11427",
+    "11417",
+    "11420",
+    "11421",
+    "11418",
+    "11419",
+    "11422"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "ec176d3a-fcf0-4501-a3d3-6d1e658ba143",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 367
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "11438",
+    "11429",
+    "11434",
+    "11430",
+    "11428",
+    "11436",
+    "11431",
+    "11427"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "27f394dd-e2af-4028-a647-624daad626ee",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 339
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "11417",
+    "11420",
+    "11421",
+    "11418",
+    "11419",
+    "11422"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "65217fcd-6238-4329-aeae-468a510e6e0b",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 519
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "8399",
+    "8397",
+    "8768",
+    "10663",
+    "10662",
+    "8400",
+    "8401",
+    "8298",
+    "10661",
+    "8402",
+    "8403",
+    "10667",
+    "8405",
+    "8411",
+    "8415",
+    "8421",
+    "8770",
+    "8773",
+    "8772",
+    "8776"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "a419f069-9c5e-4a81-b2cc-5cb7286080d2",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 305
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "2584",
+    "2585",
+    "259",
+    "385"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "bc969e38-214a-4a6a-a186-7d6e319c8ede",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 267
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "708"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "77f771be-5ec0-4711-a55a-8ac42f63e5dc",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 411
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "4426",
+    "5868",
+    "5869",
+    "5870",
+    "5867",
+    "5874",
+    "5876",
+    "5875",
+    "5872",
+    "4843",
+    "4845",
+    "5863"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "e243e0e2-3c87-42b1-a98b-259821d4c1fe",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 367
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "461",
+    "462",
+    "7880",
+    "452",
+    "453",
+    "11940",
+    "459",
+    "460",
+    "7879"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "afdca168-2704-4180-a8a1-19611bb3744a",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 514
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "9224",
+    "547",
+    "4916",
+    "526",
+    "461",
+    "462",
+    "10274",
+    "6856",
+    "10275",
+    "10276",
+    "10277",
+    "8273",
+    "524",
+    "4426",
+    "4425",
+    "5868",
+    "5869",
+    "5870",
+    "5867",
+    "7880"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "ecb4a3b6-b8f6-461c-bb4e-9b672b399046",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 333
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "4425",
+    "5852",
+    "7280",
+    "5851",
+    "5854",
+    "5853"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "ec99ddbe-3de6-418d-b024-73a7d018fc26",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 515
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "5967",
+    "6062",
+    "6064",
+    "6058",
+    "6065",
+    "5980",
+    "5972",
+    "5971",
+    "5973",
+    "5985",
+    "5996",
+    "5997",
+    "6059",
+    "6060",
+    "6003",
+    "6063",
+    "6057",
+    "6056",
+    "6044",
+    "6066"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "3186bf25-57ee-4f4a-92d9-07aa7716ca5a",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 512
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "1884",
+    "1883",
+    "1885",
+    "1880",
+    "1881",
+    "1882",
+    "1886",
+    "871",
+    "872",
+    "874",
+    "2958",
+    "5796",
+    "5797",
+    "1894",
+    "1917",
+    "1911",
+    "1895",
+    "1896",
+    "1889",
+    "1908"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "e195aeb4-1849-4e64-9931-3caf93b422e1",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 378
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "11146",
+    "11153",
+    "11144",
+    "11150",
+    "11145",
+    "11152",
+    "3740",
+    "6107",
+    "2619"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "8caf8898-f153-41f7-adab-60b1765c0824",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 529
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "7464",
+    "11826",
+    "11825",
+    "12406",
+    "12404",
+    "11824",
+    "12403",
+    "12951",
+    "7457",
+    "9294",
+    "11831",
+    "11830",
+    "7463",
+    "12839",
+    "12565",
+    "12569",
+    "12570",
+    "12564",
+    "6625",
+    "6613"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "c2093140-3208-40d3-a453-e68c1b38241d",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 529
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "11831",
+    "11830",
+    "12565",
+    "12569",
+    "12570",
+    "12564",
+    "6625",
+    "6613",
+    "12560",
+    "12563",
+    "12559",
+    "12562",
+    "12571",
+    "964",
+    "10246",
+    "10160",
+    "7679",
+    "7678",
+    "12538",
+    "12572"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "84927e48-e06b-4e03-ad24-9129229b05ff",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 307
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "5848",
+    "5849",
+    "5846",
+    "5847"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "8a15841d-5020-4c17-a9f1-e60ccad504eb",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 294
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "4405",
+    "5839",
+    "5838"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "76975511-720f-4c7f-8831-4e095e699f36",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 268
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "4769"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "d2b65685-7503-4e3b-8034-391881406c6d",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 303
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "747",
+    "744",
+    "745",
+    "743"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "95e6da8d-5c52-40d0-b8a1-d065ea53564e",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 281
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "7558",
+    "7559"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "4f2216c4-fd40-4d27-8220-c9278824327e",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 321
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "1758",
+    "1759",
+    "1760",
+    "11233",
+    "1757"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "9d920d4c-56bc-42c0-a1cb-2cb133a612d6",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 322
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "10690",
+    "10691",
+    "3119",
+    "4804",
+    "4802"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "9d920d4c-56bc-42c0-a1cb-2cb133a612d6",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 418
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "8081",
+    "8082",
+    "8083",
+    "8079",
+    "8080",
+    "11165",
+    "11172",
+    "11169",
+    "11171",
+    "11170",
+    "11163",
+    "11166"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "9d920d4c-56bc-42c0-a1cb-2cb133a612d6",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 334
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "8081",
+    "8082",
+    "8083",
+    "8079",
+    "8080",
+    "11163"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "9d920d4c-56bc-42c0-a1cb-2cb133a612d6",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 390
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "10504",
+    "11012",
+    "10502",
+    "10518",
+    "10496",
+    "9361",
+    "9365",
+    "9358",
+    "9371",
+    "9373"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "9d920d4c-56bc-42c0-a1cb-2cb133a612d6",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 507
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "900",
+    "899",
+    "901",
+    "898",
+    "896",
+    "897",
+    "895",
+    "9106",
+    "10019",
+    "10135",
+    "6076",
+    "6075",
+    "3701",
+    "8192",
+    "8193",
+    "9169",
+    "8612",
+    "879",
+    "881",
+    "883"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "9d920d4c-56bc-42c0-a1cb-2cb133a612d6",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 457
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "4470",
+    "9129",
+    "9111",
+    "10110",
+    "4487",
+    "12872",
+    "4494",
+    "12869",
+    "9160",
+    "12354",
+    "9154",
+    "12392",
+    "12152",
+    "5819",
+    "12001"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "9d920d4c-56bc-42c0-a1cb-2cb133a612d6",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 383
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "941",
+    "942",
+    "5364",
+    "4669",
+    "938",
+    "939",
+    "940",
+    "11314",
+    "11316",
+    "11315"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "f283ea9e-7b12-4cd5-93ab-8b582ee283a6",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 386
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "10895",
+    "714",
+    "10894",
+    "9904",
+    "10205",
+    "2672",
+    "5448",
+    "715",
+    "8260",
+    "1572"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "98a6fb98-7daf-44ca-aeb6-f07244b746df",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 511
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "4423",
+    "4405",
+    "4422",
+    "5858",
+    "5859",
+    "5839",
+    "5838",
+    "552",
+    "5843",
+    "5844",
+    "5842",
+    "5848",
+    "5849",
+    "5846",
+    "5847",
+    "576",
+    "574",
+    "575",
+    "5856",
+    "5857"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "2bd96aa5-2a85-449c-a519-cc1371fb021c",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 516
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "12253",
+    "5029",
+    "2697",
+    "4025",
+    "5087",
+    "822",
+    "9718",
+    "8390",
+    "8391",
+    "9721",
+    "5747",
+    "8990",
+    "12255",
+    "3476",
+    "2698",
+    "3096",
+    "3824",
+    "4518",
+    "5032",
+    "5088"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "ff43c307-27de-4243-96ad-8a43096521a4",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 333
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "5083",
+    "5084",
+    "6956",
+    "5771",
+    "5773",
+    "6958"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "50fcc0ec-12d6-4e92-a5c7-b4ce03655df8",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 353
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "11659",
+    "11660",
+    "11661",
+    "11664",
+    "11666",
+    "11665",
+    "11663"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "91a0429b-2275-4de4-adc2-27d5158a1d86",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 325
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "11546",
+    "11537",
+    "11533",
+    "11541",
+    "11539"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "4f908859-c805-42af-a6f9-02ca503cfafe",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 522
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "3332",
+    "8981",
+    "8979",
+    "12218",
+    "12217",
+    "12224",
+    "12222",
+    "12216",
+    "12214",
+    "12566",
+    "6150",
+    "6152",
+    "6153",
+    "6234",
+    "6154",
+    "6111",
+    "6151",
+    "6123",
+    "9827",
+    "9829"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "01ff77e9-eea1-4c6a-8b2d-3823efe94213",
+  "language": "en-US",
+  "userGroups": []
+}
+{{Length}} _api_pricing_evaluate
+POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+Content-Type: application/json
+Content-Length: 320
+Host: {{Host}}
+
+{
+  "storeId": "Electronics",
+  "catalogId": "4238d7e7b9cf4a619d289b612b353ad6",
+  "productIds": [
+    "8129",
+    "8128",
+    "8124",
+    "8125",
+    "8127"
+  ],
+  "pricelistIds": [
+    "DefaultUSD"
+  ],
+  "customerId": "da80ccef-f158-4e8f-8bec-d8033dce6632",
+  "language": "en-US",
+  "userGroups": []
+}

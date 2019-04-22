@@ -4,12 +4,12 @@ phantom:
     load_type: rps # schedule load by defining requests per second
     schedule: line(1, 100, 10m) # starting from 1rps growing linearly to 100rps during 10 minutes
   ammo_type: phantom  
-  ammofile: ammo.txt
+  ammofile: ammo-search-unique.txt
   writelog: all
-  header_http: "1.1"
-  tank_type: "http"
 console:
   enabled: true # enable console output
+telegraf:
+  enabled: false # let's disable telegraf monitoring for the first time
 autostop:
   autostop:
     - time(5000,15) # stops test, if average answer time exceeds 5000ms
