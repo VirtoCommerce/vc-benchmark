@@ -1,0 +1,330 @@
+{{Length}} _
+GET / HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _localization_json
+GET /Electronics/en-US/themes/localization.json?lang=en HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _storefrontapi_account
+GET /Electronics/en-US/storefrontapi/account?t=1555488916618 HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _storefrontapi_quoterequest_current
+GET /Electronics/en-US/storefrontapi/quoterequest/current?t=1555488916619 HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _storefrontapi_cart_itemscount
+GET /Electronics/en-US/storefrontapi/cart/itemscount?t=1555488916620 HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _storefrontapi_marketing_dynamiccontent_BenefitsBanner
+GET /Electronics/en-US/storefrontapi/marketing/dynamiccontent/BenefitsBanner?t=1555488916620 HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _storefrontapi_marketing_dynamiccontent_HomePageSlider
+GET /Electronics/en-US/storefrontapi/marketing/dynamiccontent/HomePageSlider?t=1555488916621 HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _camcorders
+GET /Electronics/en-US/camcorders HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _localization_json
+GET /Electronics/en-US/themes/localization.json?lang=en HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _storefrontapi_account
+GET /Electronics/en-US/storefrontapi/account?t=1555488916622 HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _storefrontapi_quoterequest_current
+GET /Electronics/en-US/storefrontapi/quoterequest/current?t=1555488916623 HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _storefrontapi_cart_itemscount
+GET /Electronics/en-US/storefrontapi/cart/itemscount?t=1555488916623 HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _camcorders_aerial-imaging-drones
+GET /Electronics/en-US/camcorders/aerial-imaging-drones HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _localization_json
+GET /Electronics/en-US/themes/localization.json?lang=en HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _storefrontapi_account
+GET /Electronics/en-US/storefrontapi/account?t=1555488916626 HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _storefrontapi_quoterequest_current
+GET /Electronics/en-US/storefrontapi/quoterequest/current?t=1555488916627 HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _storefrontapi_cart_itemscount
+GET /Electronics/en-US/storefrontapi/cart/itemscount?t=1555488916627 HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _camcorders_consumer-camcorders
+GET /Electronics/en-US/camcorders/consumer-camcorders HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _localization_json
+GET /Electronics/en-US/themes/localization.json?lang=en HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _storefrontapi_account
+GET /Electronics/en-US/storefrontapi/account?t=1555488916630 HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _storefrontapi_quoterequest_current
+GET /Electronics/en-US/storefrontapi/quoterequest/current?t=1555488916631 HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _storefrontapi_cart_itemscount
+GET /Electronics/en-US/storefrontapi/cart/itemscount?t=1555488916631 HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _cell-phones
+GET /Electronics/en-US/cell-phones HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _localization_json
+GET /Electronics/en-US/themes/localization.json?lang=en HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _storefrontapi_account
+GET /Electronics/en-US/storefrontapi/account?t=1555488916634 HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _storefrontapi_quoterequest_current
+GET /Electronics/en-US/storefrontapi/quoterequest/current?t=1555488916634 HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _storefrontapi_cart_itemscount
+GET /Electronics/en-US/storefrontapi/cart/itemscount?t=1555488916635 HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _headphones
+GET /Electronics/en-US/headphones HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _localization_json
+GET /Electronics/en-US/themes/localization.json?lang=en HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _storefrontapi_account
+GET /Electronics/en-US/storefrontapi/account?t=1555488916637 HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _storefrontapi_quoterequest_current
+GET /Electronics/en-US/storefrontapi/quoterequest/current?t=1555488916638 HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _storefrontapi_cart_itemscount
+GET /Electronics/en-US/storefrontapi/cart/itemscount?t=1555488916638 HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _home-theater
+GET /Electronics/en-US/home-theater HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _localization_json
+GET /Electronics/en-US/themes/localization.json?lang=en HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _storefrontapi_account
+GET /Electronics/en-US/storefrontapi/account?t=1555488916640 HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _storefrontapi_quoterequest_current
+GET /Electronics/en-US/storefrontapi/quoterequest/current?t=1555488916641 HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _storefrontapi_cart_itemscount
+GET /Electronics/en-US/storefrontapi/cart/itemscount?t=1555488916641 HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _televisions
+GET /Electronics/en-US/televisions HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _localization_json
+GET /Electronics/en-US/themes/localization.json?lang=en HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _storefrontapi_account
+GET /Electronics/en-US/storefrontapi/account?t=1555488916643 HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _storefrontapi_quoterequest_current
+GET /Electronics/en-US/storefrontapi/quoterequest/current?t=1555488916644 HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _storefrontapi_cart_itemscount
+GET /Electronics/en-US/storefrontapi/cart/itemscount?t=1555488916644 HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _televisions_lg
+GET /Electronics/en-US/televisions/lg HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _localization_json
+GET /Electronics/en-US/themes/localization.json?lang=en HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _storefrontapi_account
+GET /Electronics/en-US/storefrontapi/account?t=1555488916647 HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _storefrontapi_quoterequest_current
+GET /Electronics/en-US/storefrontapi/quoterequest/current?t=1555488916648 HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _storefrontapi_cart_itemscount
+GET /Electronics/en-US/storefrontapi/cart/itemscount?t=1555488916648 HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _televisions_samsung
+GET /Electronics/en-US/televisions/samsung HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _localization_json
+GET /Electronics/en-US/themes/localization.json?lang=en HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _storefrontapi_account
+GET /Electronics/en-US/storefrontapi/account?t=1555488916652 HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _storefrontapi_quoterequest_current
+GET /Electronics/en-US/storefrontapi/quoterequest/current?t=1555488916653 HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _storefrontapi_cart_itemscount
+GET /Electronics/en-US/storefrontapi/cart/itemscount?t=1555488916653 HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _televisions_sony
+GET /Electronics/en-US/televisions/sony HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _localization_json
+GET /Electronics/en-US/themes/localization.json?lang=en HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _storefrontapi_account
+GET /Electronics/en-US/storefrontapi/account?t=1555488916656 HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _storefrontapi_quoterequest_current
+GET /Electronics/en-US/storefrontapi/quoterequest/current?t=1555488916656 HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _storefrontapi_cart_itemscount
+GET /Electronics/en-US/storefrontapi/cart/itemscount?t=1555488916657 HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _televisions_sunbritetv
+GET /Electronics/en-US/televisions/sunbritetv HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _localization_json
+GET /Electronics/en-US/themes/localization.json?lang=en HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _storefrontapi_account
+GET /Electronics/en-US/storefrontapi/account?t=1555488916659 HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _storefrontapi_quoterequest_current
+GET /Electronics/en-US/storefrontapi/quoterequest/current?t=1555488916660 HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _storefrontapi_cart_itemscount
+GET /Electronics/en-US/storefrontapi/cart/itemscount?t=1555488916660 HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _televisions_vizio
+GET /Electronics/en-US/televisions/vizio HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _localization_json
+GET /Electronics/en-US/themes/localization.json?lang=en HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _storefrontapi_account
+GET /Electronics/en-US/storefrontapi/account?t=1555488916663 HTTP/1.1
+Host: {{Host}}
+
+
+{{Length}} _storefrontapi_quoterequest_current
+GET /Electronics/en-US/storefrontapi/quoterequest/current?t=1555488916663 HTTP/1.1
+Host: {{Host}}
+
+
