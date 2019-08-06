@@ -1,8 +1,9 @@
+
 {{Length}} _storefrontapi_cart_items
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 56
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"0f7a77cc1b9a46a29f6a159e5cd49ad1","quantity":1}
 
@@ -10,7 +11,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1000","quantity":1}
 
@@ -18,7 +19,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10006","quantity":1}
 
@@ -26,7 +27,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10007","quantity":1}
 
@@ -34,7 +35,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10008","quantity":1}
 
@@ -42,7 +43,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10009","quantity":1}
 
@@ -50,7 +51,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1001","quantity":1}
 
@@ -58,7 +59,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10011","quantity":1}
 
@@ -66,7 +67,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10013","quantity":1}
 
@@ -74,7 +75,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10018","quantity":1}
 
@@ -82,7 +83,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10019","quantity":1}
 
@@ -90,7 +91,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1002","quantity":1}
 
@@ -98,7 +99,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10021","quantity":1}
 
@@ -106,7 +107,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10022","quantity":1}
 
@@ -114,7 +115,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10023","quantity":1}
 
@@ -122,7 +123,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10024","quantity":1}
 
@@ -130,7 +131,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10026","quantity":1}
 
@@ -138,7 +139,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10027","quantity":1}
 
@@ -146,7 +147,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10028","quantity":1}
 
@@ -154,7 +155,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10029","quantity":1}
 
@@ -162,7 +163,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1003","quantity":1}
 
@@ -170,7 +171,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10035","quantity":1}
 
@@ -178,7 +179,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1004","quantity":1}
 
@@ -186,7 +187,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10042","quantity":1}
 
@@ -194,7 +195,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1005","quantity":1}
 
@@ -202,7 +203,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10050","quantity":1}
 
@@ -210,7 +211,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10059","quantity":1}
 
@@ -218,7 +219,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1006","quantity":1}
 
@@ -226,7 +227,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10062","quantity":1}
 
@@ -234,7 +235,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10063","quantity":1}
 
@@ -242,7 +243,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10065","quantity":1}
 
@@ -250,7 +251,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10067","quantity":1}
 
@@ -258,7 +259,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10068","quantity":1}
 
@@ -266,7 +267,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1007","quantity":1}
 
@@ -274,7 +275,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10070","quantity":1}
 
@@ -282,7 +283,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10071","quantity":1}
 
@@ -290,7 +291,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10072","quantity":1}
 
@@ -298,7 +299,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10074","quantity":1}
 
@@ -306,7 +307,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10075","quantity":1}
 
@@ -314,7 +315,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10076","quantity":1}
 
@@ -322,7 +323,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1008","quantity":1}
 
@@ -330,7 +331,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10083","quantity":1}
 
@@ -338,7 +339,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1009","quantity":1}
 
@@ -346,7 +347,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10090","quantity":1}
 
@@ -354,7 +355,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10097","quantity":1}
 
@@ -362,7 +363,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1010","quantity":1}
 
@@ -370,7 +371,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10104","quantity":1}
 
@@ -378,7 +379,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10105","quantity":1}
 
@@ -386,7 +387,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10106","quantity":1}
 
@@ -394,7 +395,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10107","quantity":1}
 
@@ -402,7 +403,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10108","quantity":1}
 
@@ -410,7 +411,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1011","quantity":1}
 
@@ -418,7 +419,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10110","quantity":1}
 
@@ -426,7 +427,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10115","quantity":1}
 
@@ -434,7 +435,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10118","quantity":1}
 
@@ -442,7 +443,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10119","quantity":1}
 
@@ -450,7 +451,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1012","quantity":1}
 
@@ -458,7 +459,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10120","quantity":1}
 
@@ -466,7 +467,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10122","quantity":1}
 
@@ -474,7 +475,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10128","quantity":1}
 
@@ -482,7 +483,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1013","quantity":1}
 
@@ -490,7 +491,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10131","quantity":1}
 
@@ -498,7 +499,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10132","quantity":1}
 
@@ -506,7 +507,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10133","quantity":1}
 
@@ -514,7 +515,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10134","quantity":1}
 
@@ -522,7 +523,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10135","quantity":1}
 
@@ -530,7 +531,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10137","quantity":1}
 
@@ -538,7 +539,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10138","quantity":1}
 
@@ -546,7 +547,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10139","quantity":1}
 
@@ -554,7 +555,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1014","quantity":1}
 
@@ -562,7 +563,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10140","quantity":1}
 
@@ -570,7 +571,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10141","quantity":1}
 
@@ -578,7 +579,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10143","quantity":1}
 
@@ -586,7 +587,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1015","quantity":1}
 
@@ -594,7 +595,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10150","quantity":1}
 
@@ -602,7 +603,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10155","quantity":1}
 
@@ -610,7 +611,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10156","quantity":1}
 
@@ -618,7 +619,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10157","quantity":1}
 
@@ -626,7 +627,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10158","quantity":1}
 
@@ -634,7 +635,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10159","quantity":1}
 
@@ -642,7 +643,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1016","quantity":1}
 
@@ -650,7 +651,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10160","quantity":1}
 
@@ -658,7 +659,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10162","quantity":1}
 
@@ -666,7 +667,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1017","quantity":1}
 
@@ -674,7 +675,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10171","quantity":1}
 
@@ -682,7 +683,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10172","quantity":1}
 
@@ -690,7 +691,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10173","quantity":1}
 
@@ -698,7 +699,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10175","quantity":1}
 
@@ -706,7 +707,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10176","quantity":1}
 
@@ -714,7 +715,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10177","quantity":1}
 
@@ -722,7 +723,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10178","quantity":1}
 
@@ -730,7 +731,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10179","quantity":1}
 
@@ -738,7 +739,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1018","quantity":1}
 
@@ -746,7 +747,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10180","quantity":1}
 
@@ -754,7 +755,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10182","quantity":1}
 
@@ -762,7 +763,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10183","quantity":1}
 
@@ -770,7 +771,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10184","quantity":1}
 
@@ -778,7 +779,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10186","quantity":1}
 
@@ -786,7 +787,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10187","quantity":1}
 
@@ -794,7 +795,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10188","quantity":1}
 
@@ -802,7 +803,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10189","quantity":1}
 
@@ -810,7 +811,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1019","quantity":1}
 
@@ -818,7 +819,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10190","quantity":1}
 
@@ -826,7 +827,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10192","quantity":1}
 
@@ -834,7 +835,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10194","quantity":1}
 
@@ -842,7 +843,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10195","quantity":1}
 
@@ -850,7 +851,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10198","quantity":1}
 
@@ -858,7 +859,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10199","quantity":1}
 
@@ -866,7 +867,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1020","quantity":1}
 
@@ -874,7 +875,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10201","quantity":1}
 
@@ -882,7 +883,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10202","quantity":1}
 
@@ -890,7 +891,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10204","quantity":1}
 
@@ -898,7 +899,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10205","quantity":1}
 
@@ -906,7 +907,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10206","quantity":1}
 
@@ -914,7 +915,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10207","quantity":1}
 
@@ -922,7 +923,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10208","quantity":1}
 
@@ -930,7 +931,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10209","quantity":1}
 
@@ -938,7 +939,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1021","quantity":1}
 
@@ -946,7 +947,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10210","quantity":1}
 
@@ -954,7 +955,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10211","quantity":1}
 
@@ -962,7 +963,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10212","quantity":1}
 
@@ -970,7 +971,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10213","quantity":1}
 
@@ -978,7 +979,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1022","quantity":1}
 
@@ -986,7 +987,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10222","quantity":1}
 
@@ -994,7 +995,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1023","quantity":1}
 
@@ -1002,7 +1003,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10230","quantity":1}
 
@@ -1010,7 +1011,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10237","quantity":1}
 
@@ -1018,7 +1019,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10238","quantity":1}
 
@@ -1026,7 +1027,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1024","quantity":1}
 
@@ -1034,7 +1035,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10242","quantity":1}
 
@@ -1042,7 +1043,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10243","quantity":1}
 
@@ -1050,7 +1051,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10244","quantity":1}
 
@@ -1058,7 +1059,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10245","quantity":1}
 
@@ -1066,7 +1067,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10246","quantity":1}
 
@@ -1074,7 +1075,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10247","quantity":1}
 
@@ -1082,7 +1083,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10249","quantity":1}
 
@@ -1090,7 +1091,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1025","quantity":1}
 
@@ -1098,7 +1099,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10250","quantity":1}
 
@@ -1106,7 +1107,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10251","quantity":1}
 
@@ -1114,7 +1115,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10252","quantity":1}
 
@@ -1122,7 +1123,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10253","quantity":1}
 
@@ -1130,7 +1131,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10254","quantity":1}
 
@@ -1138,7 +1139,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10255","quantity":1}
 
@@ -1146,7 +1147,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10256","quantity":1}
 
@@ -1154,7 +1155,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10257","quantity":1}
 
@@ -1162,7 +1163,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10258","quantity":1}
 
@@ -1170,7 +1171,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10259","quantity":1}
 
@@ -1178,7 +1179,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1026","quantity":1}
 
@@ -1186,7 +1187,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10260","quantity":1}
 
@@ -1194,7 +1195,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10262","quantity":1}
 
@@ -1202,7 +1203,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10265","quantity":1}
 
@@ -1210,7 +1211,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10267","quantity":1}
 
@@ -1218,7 +1219,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10268","quantity":1}
 
@@ -1226,7 +1227,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10269","quantity":1}
 
@@ -1234,7 +1235,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1027","quantity":1}
 
@@ -1242,7 +1243,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10270","quantity":1}
 
@@ -1250,7 +1251,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10271","quantity":1}
 
@@ -1258,7 +1259,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10272","quantity":1}
 
@@ -1266,7 +1267,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10273","quantity":1}
 
@@ -1274,7 +1275,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10274","quantity":1}
 
@@ -1282,7 +1283,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10275","quantity":1}
 
@@ -1290,7 +1291,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10276","quantity":1}
 
@@ -1298,7 +1299,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10277","quantity":1}
 
@@ -1306,7 +1307,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10278","quantity":1}
 
@@ -1314,7 +1315,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10279","quantity":1}
 
@@ -1322,7 +1323,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1028","quantity":1}
 
@@ -1330,7 +1331,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10281","quantity":1}
 
@@ -1338,7 +1339,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10282","quantity":1}
 
@@ -1346,7 +1347,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10284","quantity":1}
 
@@ -1354,7 +1355,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1029","quantity":1}
 
@@ -1362,7 +1363,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10290","quantity":1}
 
@@ -1370,7 +1371,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10295","quantity":1}
 
@@ -1378,7 +1379,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10296","quantity":1}
 
@@ -1386,7 +1387,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10297","quantity":1}
 
@@ -1394,7 +1395,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10298","quantity":1}
 
@@ -1402,7 +1403,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10299","quantity":1}
 
@@ -1410,7 +1411,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1030","quantity":1}
 
@@ -1418,7 +1419,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10300","quantity":1}
 
@@ -1426,7 +1427,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10301","quantity":1}
 
@@ -1434,7 +1435,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10303","quantity":1}
 
@@ -1442,7 +1443,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10304","quantity":1}
 
@@ -1450,7 +1451,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10306","quantity":1}
 
@@ -1458,7 +1459,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10307","quantity":1}
 
@@ -1466,7 +1467,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10309","quantity":1}
 
@@ -1474,7 +1475,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1031","quantity":1}
 
@@ -1482,7 +1483,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10310","quantity":1}
 
@@ -1490,7 +1491,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10313","quantity":1}
 
@@ -1498,7 +1499,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10314","quantity":1}
 
@@ -1506,7 +1507,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10316","quantity":1}
 
@@ -1514,7 +1515,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10317","quantity":1}
 
@@ -1522,7 +1523,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1032","quantity":1}
 
@@ -1530,7 +1531,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10320","quantity":1}
 
@@ -1538,7 +1539,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10322","quantity":1}
 
@@ -1546,7 +1547,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10324","quantity":1}
 
@@ -1554,7 +1555,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10326","quantity":1}
 
@@ -1562,7 +1563,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10327","quantity":1}
 
@@ -1570,7 +1571,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10329","quantity":1}
 
@@ -1578,7 +1579,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1033","quantity":1}
 
@@ -1586,7 +1587,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10330","quantity":1}
 
@@ -1594,7 +1595,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10331","quantity":1}
 
@@ -1602,7 +1603,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10332","quantity":1}
 
@@ -1610,7 +1611,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10333","quantity":1}
 
@@ -1618,7 +1619,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10334","quantity":1}
 
@@ -1626,7 +1627,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10335","quantity":1}
 
@@ -1634,7 +1635,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10336","quantity":1}
 
@@ -1642,7 +1643,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10338","quantity":1}
 
@@ -1650,7 +1651,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10339","quantity":1}
 
@@ -1658,7 +1659,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1034","quantity":1}
 
@@ -1666,7 +1667,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10340","quantity":1}
 
@@ -1674,7 +1675,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10341","quantity":1}
 
@@ -1682,7 +1683,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10342","quantity":1}
 
@@ -1690,7 +1691,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10343","quantity":1}
 
@@ -1698,7 +1699,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10344","quantity":1}
 
@@ -1706,7 +1707,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10345","quantity":1}
 
@@ -1714,7 +1715,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10346","quantity":1}
 
@@ -1722,7 +1723,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10347","quantity":1}
 
@@ -1730,7 +1731,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10348","quantity":1}
 
@@ -1738,7 +1739,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10349","quantity":1}
 
@@ -1746,7 +1747,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1035","quantity":1}
 
@@ -1754,7 +1755,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10351","quantity":1}
 
@@ -1762,7 +1763,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10352","quantity":1}
 
@@ -1770,7 +1771,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10353","quantity":1}
 
@@ -1778,7 +1779,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10354","quantity":1}
 
@@ -1786,7 +1787,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10355","quantity":1}
 
@@ -1794,7 +1795,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10356","quantity":1}
 
@@ -1802,7 +1803,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10357","quantity":1}
 
@@ -1810,7 +1811,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10358","quantity":1}
 
@@ -1818,7 +1819,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10359","quantity":1}
 
@@ -1826,7 +1827,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10360","quantity":1}
 
@@ -1834,7 +1835,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10361","quantity":1}
 
@@ -1842,7 +1843,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10362","quantity":1}
 
@@ -1850,7 +1851,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10363","quantity":1}
 
@@ -1858,7 +1859,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10364","quantity":1}
 
@@ -1866,7 +1867,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10365","quantity":1}
 
@@ -1874,7 +1875,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10366","quantity":1}
 
@@ -1882,7 +1883,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10367","quantity":1}
 
@@ -1890,7 +1891,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10368","quantity":1}
 
@@ -1898,7 +1899,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1037","quantity":1}
 
@@ -1906,7 +1907,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10370","quantity":1}
 
@@ -1914,7 +1915,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10371","quantity":1}
 
@@ -1922,7 +1923,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10372","quantity":1}
 
@@ -1930,7 +1931,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10373","quantity":1}
 
@@ -1938,7 +1939,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10374","quantity":1}
 
@@ -1946,7 +1947,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10375","quantity":1}
 
@@ -1954,7 +1955,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10376","quantity":1}
 
@@ -1962,7 +1963,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10377","quantity":1}
 
@@ -1970,7 +1971,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10378","quantity":1}
 
@@ -1978,7 +1979,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10379","quantity":1}
 
@@ -1986,7 +1987,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1038","quantity":1}
 
@@ -1994,7 +1995,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10380","quantity":1}
 
@@ -2002,7 +2003,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10381","quantity":1}
 
@@ -2010,7 +2011,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10382","quantity":1}
 
@@ -2018,7 +2019,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10383","quantity":1}
 
@@ -2026,7 +2027,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10384","quantity":1}
 
@@ -2034,7 +2035,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10385","quantity":1}
 
@@ -2042,7 +2043,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10386","quantity":1}
 
@@ -2050,7 +2051,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10387","quantity":1}
 
@@ -2058,7 +2059,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10388","quantity":1}
 
@@ -2066,7 +2067,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10389","quantity":1}
 
@@ -2074,7 +2075,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1039","quantity":1}
 
@@ -2082,7 +2083,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10391","quantity":1}
 
@@ -2090,7 +2091,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1040","quantity":1}
 
@@ -2098,7 +2099,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10400","quantity":1}
 
@@ -2106,7 +2107,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10407","quantity":1}
 
@@ -2114,7 +2115,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1041","quantity":1}
 
@@ -2122,7 +2123,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10411","quantity":1}
 
@@ -2130,7 +2131,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10413","quantity":1}
 
@@ -2138,7 +2139,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10415","quantity":1}
 
@@ -2146,7 +2147,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10416","quantity":1}
 
@@ -2154,7 +2155,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10417","quantity":1}
 
@@ -2162,7 +2163,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10418","quantity":1}
 
@@ -2170,7 +2171,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10419","quantity":1}
 
@@ -2178,7 +2179,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1042","quantity":1}
 
@@ -2186,7 +2187,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10421","quantity":1}
 
@@ -2194,7 +2195,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10422","quantity":1}
 
@@ -2202,7 +2203,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10423","quantity":1}
 
@@ -2210,7 +2211,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10425","quantity":1}
 
@@ -2218,7 +2219,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10426","quantity":1}
 
@@ -2226,7 +2227,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10427","quantity":1}
 
@@ -2234,7 +2235,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10428","quantity":1}
 
@@ -2242,7 +2243,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10429","quantity":1}
 
@@ -2250,7 +2251,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1043","quantity":1}
 
@@ -2258,7 +2259,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10430","quantity":1}
 
@@ -2266,7 +2267,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10431","quantity":1}
 
@@ -2274,7 +2275,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10432","quantity":1}
 
@@ -2282,7 +2283,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10434","quantity":1}
 
@@ -2290,7 +2291,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10435","quantity":1}
 
@@ -2298,7 +2299,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10438","quantity":1}
 
@@ -2306,7 +2307,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1044","quantity":1}
 
@@ -2314,7 +2315,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10441","quantity":1}
 
@@ -2322,7 +2323,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10444","quantity":1}
 
@@ -2330,7 +2331,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10445","quantity":1}
 
@@ -2338,7 +2339,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10446","quantity":1}
 
@@ -2346,7 +2347,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10447","quantity":1}
 
@@ -2354,7 +2355,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10448","quantity":1}
 
@@ -2362,7 +2363,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10449","quantity":1}
 
@@ -2370,7 +2371,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10450","quantity":1}
 
@@ -2378,7 +2379,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10451","quantity":1}
 
@@ -2386,7 +2387,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10452","quantity":1}
 
@@ -2394,7 +2395,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10453","quantity":1}
 
@@ -2402,7 +2403,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10454","quantity":1}
 
@@ -2410,7 +2411,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10455","quantity":1}
 
@@ -2418,7 +2419,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10456","quantity":1}
 
@@ -2426,7 +2427,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10457","quantity":1}
 
@@ -2434,7 +2435,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10458","quantity":1}
 
@@ -2442,7 +2443,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10459","quantity":1}
 
@@ -2450,7 +2451,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1046","quantity":1}
 
@@ -2458,7 +2459,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10463","quantity":1}
 
@@ -2466,7 +2467,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10464","quantity":1}
 
@@ -2474,7 +2475,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10466","quantity":1}
 
@@ -2482,7 +2483,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1047","quantity":1}
 
@@ -2490,7 +2491,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10473","quantity":1}
 
@@ -2498,7 +2499,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10479","quantity":1}
 
@@ -2506,7 +2507,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1048","quantity":1}
 
@@ -2514,7 +2515,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10488","quantity":1}
 
@@ -2522,7 +2523,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10492","quantity":1}
 
@@ -2530,7 +2531,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10496","quantity":1}
 
@@ -2538,7 +2539,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1050","quantity":1}
 
@@ -2546,7 +2547,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10502","quantity":1}
 
@@ -2554,7 +2555,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10504","quantity":1}
 
@@ -2562,7 +2563,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10507","quantity":1}
 
@@ -2570,7 +2571,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10509","quantity":1}
 
@@ -2578,7 +2579,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1051","quantity":1}
 
@@ -2586,7 +2587,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10510","quantity":1}
 
@@ -2594,7 +2595,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10511","quantity":1}
 
@@ -2602,7 +2603,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10512","quantity":1}
 
@@ -2610,7 +2611,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10513","quantity":1}
 
@@ -2618,7 +2619,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10514","quantity":1}
 
@@ -2626,7 +2627,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10515","quantity":1}
 
@@ -2634,7 +2635,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10516","quantity":1}
 
@@ -2642,7 +2643,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10518","quantity":1}
 
@@ -2650,7 +2651,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1052","quantity":1}
 
@@ -2658,7 +2659,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10522","quantity":1}
 
@@ -2666,7 +2667,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1053","quantity":1}
 
@@ -2674,7 +2675,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10530","quantity":1}
 
@@ -2682,7 +2683,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10531","quantity":1}
 
@@ -2690,7 +2691,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10532","quantity":1}
 
@@ -2698,7 +2699,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10533","quantity":1}
 
@@ -2706,7 +2707,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10535","quantity":1}
 
@@ -2714,7 +2715,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10536","quantity":1}
 
@@ -2722,7 +2723,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10537","quantity":1}
 
@@ -2730,7 +2731,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10538","quantity":1}
 
@@ -2738,7 +2739,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10539","quantity":1}
 
@@ -2746,7 +2747,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1054","quantity":1}
 
@@ -2754,7 +2755,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10540","quantity":1}
 
@@ -2762,7 +2763,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10542","quantity":1}
 
@@ -2770,7 +2771,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10545","quantity":1}
 
@@ -2778,7 +2779,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10546","quantity":1}
 
@@ -2786,7 +2787,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10547","quantity":1}
 
@@ -2794,7 +2795,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10548","quantity":1}
 
@@ -2802,7 +2803,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10549","quantity":1}
 
@@ -2810,7 +2811,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1055","quantity":1}
 
@@ -2818,7 +2819,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10550","quantity":1}
 
@@ -2826,7 +2827,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10552","quantity":1}
 
@@ -2834,7 +2835,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10555","quantity":1}
 
@@ -2842,7 +2843,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10556","quantity":1}
 
@@ -2850,7 +2851,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10559","quantity":1}
 
@@ -2858,7 +2859,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1056","quantity":1}
 
@@ -2866,7 +2867,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10561","quantity":1}
 
@@ -2874,7 +2875,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10562","quantity":1}
 
@@ -2882,7 +2883,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10563","quantity":1}
 
@@ -2890,7 +2891,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10564","quantity":1}
 
@@ -2898,7 +2899,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10565","quantity":1}
 
@@ -2906,7 +2907,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10568","quantity":1}
 
@@ -2914,7 +2915,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10569","quantity":1}
 
@@ -2922,7 +2923,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1057","quantity":1}
 
@@ -2930,7 +2931,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10571","quantity":1}
 
@@ -2938,7 +2939,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10573","quantity":1}
 
@@ -2946,7 +2947,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10574","quantity":1}
 
@@ -2954,7 +2955,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10575","quantity":1}
 
@@ -2962,7 +2963,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10576","quantity":1}
 
@@ -2970,7 +2971,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10579","quantity":1}
 
@@ -2978,7 +2979,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1058","quantity":1}
 
@@ -2986,7 +2987,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10580","quantity":1}
 
@@ -2994,7 +2995,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10581","quantity":1}
 
@@ -3002,7 +3003,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10582","quantity":1}
 
@@ -3010,7 +3011,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10584","quantity":1}
 
@@ -3018,7 +3019,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10585","quantity":1}
 
@@ -3026,7 +3027,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10586","quantity":1}
 
@@ -3034,7 +3035,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10587","quantity":1}
 
@@ -3042,7 +3043,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10588","quantity":1}
 
@@ -3050,7 +3051,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1059","quantity":1}
 
@@ -3058,7 +3059,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10590","quantity":1}
 
@@ -3066,7 +3067,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10591","quantity":1}
 
@@ -3074,7 +3075,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10592","quantity":1}
 
@@ -3082,7 +3083,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10593","quantity":1}
 
@@ -3090,7 +3091,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10594","quantity":1}
 
@@ -3098,7 +3099,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10595","quantity":1}
 
@@ -3106,7 +3107,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10596","quantity":1}
 
@@ -3114,7 +3115,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10597","quantity":1}
 
@@ -3122,7 +3123,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10598","quantity":1}
 
@@ -3130,7 +3131,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1060","quantity":1}
 
@@ -3138,7 +3139,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10601","quantity":1}
 
@@ -3146,7 +3147,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10603","quantity":1}
 
@@ -3154,7 +3155,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10604","quantity":1}
 
@@ -3162,7 +3163,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10606","quantity":1}
 
@@ -3170,7 +3171,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1061","quantity":1}
 
@@ -3178,7 +3179,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10612","quantity":1}
 
@@ -3186,7 +3187,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10614","quantity":1}
 
@@ -3194,7 +3195,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1062","quantity":1}
 
@@ -3202,7 +3203,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10626","quantity":1}
 
@@ -3210,7 +3211,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10628","quantity":1}
 
@@ -3218,7 +3219,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10639","quantity":1}
 
@@ -3226,7 +3227,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1064","quantity":1}
 
@@ -3234,7 +3235,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10640","quantity":1}
 
@@ -3242,7 +3243,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10641","quantity":1}
 
@@ -3250,7 +3251,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10642","quantity":1}
 
@@ -3258,7 +3259,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10644","quantity":1}
 
@@ -3266,7 +3267,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1065","quantity":1}
 
@@ -3274,7 +3275,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10650","quantity":1}
 
@@ -3282,7 +3283,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10651","quantity":1}
 
@@ -3290,7 +3291,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10653","quantity":1}
 
@@ -3298,7 +3299,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10654","quantity":1}
 
@@ -3306,7 +3307,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10655","quantity":1}
 
@@ -3314,7 +3315,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10656","quantity":1}
 
@@ -3322,7 +3323,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10657","quantity":1}
 
@@ -3330,7 +3331,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10658","quantity":1}
 
@@ -3338,7 +3339,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10659","quantity":1}
 
@@ -3346,7 +3347,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10660","quantity":1}
 
@@ -3354,7 +3355,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10661","quantity":1}
 
@@ -3362,7 +3363,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10662","quantity":1}
 
@@ -3370,7 +3371,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10663","quantity":1}
 
@@ -3378,7 +3379,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10664","quantity":1}
 
@@ -3386,7 +3387,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10667","quantity":1}
 
@@ -3394,7 +3395,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10668","quantity":1}
 
@@ -3402,7 +3403,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10669","quantity":1}
 
@@ -3410,7 +3411,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1067","quantity":1}
 
@@ -3418,7 +3419,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10670","quantity":1}
 
@@ -3426,7 +3427,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10671","quantity":1}
 
@@ -3434,7 +3435,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10673","quantity":1}
 
@@ -3442,7 +3443,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10674","quantity":1}
 
@@ -3450,7 +3451,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10675","quantity":1}
 
@@ -3458,7 +3459,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10676","quantity":1}
 
@@ -3466,7 +3467,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10677","quantity":1}
 
@@ -3474,7 +3475,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10678","quantity":1}
 
@@ -3482,7 +3483,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10679","quantity":1}
 
@@ -3490,7 +3491,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1068","quantity":1}
 
@@ -3498,7 +3499,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10680","quantity":1}
 
@@ -3506,7 +3507,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10681","quantity":1}
 
@@ -3514,7 +3515,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10682","quantity":1}
 
@@ -3522,7 +3523,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10683","quantity":1}
 
@@ -3530,7 +3531,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10684","quantity":1}
 
@@ -3538,7 +3539,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10686","quantity":1}
 
@@ -3546,7 +3547,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10688","quantity":1}
 
@@ -3554,7 +3555,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10689","quantity":1}
 
@@ -3562,7 +3563,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1069","quantity":1}
 
@@ -3570,7 +3571,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10690","quantity":1}
 
@@ -3578,7 +3579,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10691","quantity":1}
 
@@ -3586,7 +3587,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10692","quantity":1}
 
@@ -3594,7 +3595,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10693","quantity":1}
 
@@ -3602,7 +3603,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10694","quantity":1}
 
@@ -3610,7 +3611,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10695","quantity":1}
 
@@ -3618,7 +3619,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10696","quantity":1}
 
@@ -3626,7 +3627,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10697","quantity":1}
 
@@ -3634,7 +3635,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10698","quantity":1}
 
@@ -3642,7 +3643,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10699","quantity":1}
 
@@ -3650,7 +3651,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1070","quantity":1}
 
@@ -3658,7 +3659,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10700","quantity":1}
 
@@ -3666,7 +3667,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10701","quantity":1}
 
@@ -3674,7 +3675,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10702","quantity":1}
 
@@ -3682,7 +3683,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10704","quantity":1}
 
@@ -3690,7 +3691,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10705","quantity":1}
 
@@ -3698,7 +3699,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10706","quantity":1}
 
@@ -3706,7 +3707,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10707","quantity":1}
 
@@ -3714,7 +3715,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10708","quantity":1}
 
@@ -3722,7 +3723,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1071","quantity":1}
 
@@ -3730,7 +3731,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1072","quantity":1}
 
@@ -3738,7 +3739,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1073","quantity":1}
 
@@ -3746,7 +3747,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1074","quantity":1}
 
@@ -3754,7 +3755,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1075","quantity":1}
 
@@ -3762,7 +3763,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10751","quantity":1}
 
@@ -3770,7 +3771,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10758","quantity":1}
 
@@ -3778,7 +3779,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1076","quantity":1}
 
@@ -3786,7 +3787,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10761","quantity":1}
 
@@ -3794,7 +3795,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10762","quantity":1}
 
@@ -3802,7 +3803,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10763","quantity":1}
 
@@ -3810,7 +3811,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10764","quantity":1}
 
@@ -3818,7 +3819,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10766","quantity":1}
 
@@ -3826,7 +3827,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10767","quantity":1}
 
@@ -3834,7 +3835,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10769","quantity":1}
 
@@ -3842,7 +3843,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1077","quantity":1}
 
@@ -3850,7 +3851,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10770","quantity":1}
 
@@ -3858,7 +3859,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10771","quantity":1}
 
@@ -3866,7 +3867,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10773","quantity":1}
 
@@ -3874,7 +3875,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10774","quantity":1}
 
@@ -3882,7 +3883,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10775","quantity":1}
 
@@ -3890,7 +3891,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10776","quantity":1}
 
@@ -3898,7 +3899,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10777","quantity":1}
 
@@ -3906,7 +3907,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10778","quantity":1}
 
@@ -3914,7 +3915,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10779","quantity":1}
 
@@ -3922,7 +3923,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1078","quantity":1}
 
@@ -3930,7 +3931,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10780","quantity":1}
 
@@ -3938,7 +3939,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10781","quantity":1}
 
@@ -3946,7 +3947,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10782","quantity":1}
 
@@ -3954,7 +3955,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10783","quantity":1}
 
@@ -3962,7 +3963,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10784","quantity":1}
 
@@ -3970,7 +3971,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10785","quantity":1}
 
@@ -3978,7 +3979,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10786","quantity":1}
 
@@ -3986,7 +3987,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10787","quantity":1}
 
@@ -3994,7 +3995,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10788","quantity":1}
 
@@ -4002,7 +4003,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10789","quantity":1}
 
@@ -4010,7 +4011,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1079","quantity":1}
 
@@ -4018,7 +4019,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10790","quantity":1}
 
@@ -4026,7 +4027,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10791","quantity":1}
 
@@ -4034,7 +4035,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10792","quantity":1}
 
@@ -4042,7 +4043,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10793","quantity":1}
 
@@ -4050,7 +4051,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10794","quantity":1}
 
@@ -4058,7 +4059,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10795","quantity":1}
 
@@ -4066,7 +4067,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10796","quantity":1}
 
@@ -4074,7 +4075,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10797","quantity":1}
 
@@ -4082,7 +4083,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10798","quantity":1}
 
@@ -4090,7 +4091,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10799","quantity":1}
 
@@ -4098,7 +4099,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1080","quantity":1}
 
@@ -4106,7 +4107,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10800","quantity":1}
 
@@ -4114,7 +4115,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10801","quantity":1}
 
@@ -4122,7 +4123,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10802","quantity":1}
 
@@ -4130,7 +4131,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10803","quantity":1}
 
@@ -4138,7 +4139,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10804","quantity":1}
 
@@ -4146,7 +4147,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10805","quantity":1}
 
@@ -4154,7 +4155,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10806","quantity":1}
 
@@ -4162,7 +4163,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10807","quantity":1}
 
@@ -4170,7 +4171,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10809","quantity":1}
 
@@ -4178,7 +4179,7 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 28
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"1081","quantity":1}
 
@@ -4186,6 +4187,6 @@ Host: {{Host}}
 POST /storefrontapi/cart/items HTTP/1.1
 Content-Type: application/json
 Content-Length: 29
-Host: {{Host}}
+Host: localhost:8888
 
 {"id":"10810","quantity":1}

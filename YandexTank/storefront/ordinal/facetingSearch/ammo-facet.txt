@@ -1,0 +1,590 @@
+{{Length}} _verneutstyr_anderettsvern
+GET /verneutstyr/anderettsvern?terms=Brand:tiki&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _verneutstyr_anderettsvern
+GET /verneutstyr/anderettsvern?terms=Brand:3m+peltor&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _verneutstyr_anderettsvern
+GET /verneutstyr/anderettsvern?terms=price:under-1000&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _kommunikasjon_komradio_digitalradio
+GET /kommunikasjon/komradio/digitalradio?terms=Brand:hytera&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _expired
+GET /expired?terms=Brand:bosch&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _expired
+GET /expired?terms=Brand:makita&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _expired
+GET /expired?terms=Brand:hitachi&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _expired
+GET /expired?terms=Brand:handheld&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _expired
+GET /expired?terms=Brand:leica&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _expired
+GET /expired?terms=Brand:kimo&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _expired
+GET /expired?terms=Brand:milwaukee&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _expired
+GET /expired?terms=Brand:zodiac&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _expired
+GET /expired?terms=Brand:dewalt&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _expired
+GET /expired?terms=Brand:flir&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _expired
+GET /expired?terms=price:under-1000&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _expired
+GET /expired?terms=price:1000-5000&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _expired
+GET /expired?terms=price:over-5000&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _verneutstyr_fallsikringsutstyr
+GET /verneutstyr/fallsikringsutstyr?terms=Brand:bahco&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _verneutstyr_fallsikringsutstyr
+GET /verneutstyr/fallsikringsutstyr?terms=Brand:petzl&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _for-rent
+GET /for-rent?terms=Brand:leica&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _for-rent
+GET /for-rent?terms=Brand:flir&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _kommunikasjon_komradio_jaktradio
+GET /kommunikasjon/komradio/jaktradio?terms=Brand:zodiac&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _kommunikasjon
+GET /kommunikasjon?terms=Brand:zodiac&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _kommunikasjon
+GET /kommunikasjon?terms=Brand:handheld&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _kommunikasjon
+GET /kommunikasjon?terms=Brand:hytera&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _kommunikasjon
+GET /kommunikasjon?terms=Brand:motorola&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _kommunikasjon
+GET /kommunikasjon?terms=Brand:kirisun&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _kommunikasjon
+GET /kommunikasjon?terms=price:over-5000&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _laserinstrumenter
+GET /laserinstrumenter?terms=Brand:leica&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _laserinstrumenter
+GET /laserinstrumenter?terms=Brand:bosch&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _laserinstrumenter
+GET /laserinstrumenter?terms=Brand:topcon&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _laserinstrumenter
+GET /laserinstrumenter?terms=Brand:cst/berger&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _laserinstrumenter
+GET /laserinstrumenter?terms=Brand:dewalt&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _laserinstrumenter
+GET /laserinstrumenter?terms=Brand:nedo&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _laserinstrumenter
+GET /laserinstrumenter?terms=Brand:bushnell&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _laserinstrumenter
+GET /laserinstrumenter?terms=Brand:geo+fennel&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _laserinstrumenter
+GET /laserinstrumenter?terms=Brand:hyssna&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _laserinstrumenter
+GET /laserinstrumenter?terms=Brand:futech&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _laserinstrumenter
+GET /laserinstrumenter?terms=price:under-1000&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _laserinstrumenter
+GET /laserinstrumenter?terms=price:1000-5000&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _laserinstrumenter
+GET /laserinstrumenter?terms=price:over-5000&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _kommunikasjon_komradio_marinradio
+GET /kommunikasjon/komradio/marinradio?terms=Brand:zodiac&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _kommunikasjon_komradio_repeater
+GET /kommunikasjon/komradio/repeater?terms=Brand:hytera&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _verneutstyr
+GET /verneutstyr?terms=Brand:3m+peltor&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _verneutstyr
+GET /verneutstyr?terms=Brand:cederroth&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _verneutstyr
+GET /verneutstyr?terms=Brand:3m+speedglas&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _verneutstyr
+GET /verneutstyr?terms=Brand:dr%c3%a4ger&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _verneutstyr
+GET /verneutstyr?terms=Brand:salvequick&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _verneutstyr
+GET /verneutstyr?terms=Brand:bahco&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _verneutstyr
+GET /verneutstyr?terms=Brand:petzl&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _verneutstyr
+GET /verneutstyr?terms=Brand:tiki&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _verneutstyr
+GET /verneutstyr?terms=Brand:rimac&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _verneutstyr
+GET /verneutstyr?terms=price:under-1000&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _verneutstyr
+GET /verneutstyr?terms=price:1000-5000&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _verneutstyr
+GET /verneutstyr?terms=price:over-5000&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _verneutstyr_vernebriller
+GET /verneutstyr/vernebriller?terms=Brand:3m+peltor&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _verneutstyr_vernebriller
+GET /verneutstyr/vernebriller?terms=price:under-1000&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _kommunikasjon_komradio_transportradio
+GET /kommunikasjon/komradio/transportradio?terms=Brand:hytera&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _kommunikasjon_komradio_transportradio
+GET /kommunikasjon/komradio/transportradio?terms=Brand:zodiac&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _verneutstyr_anderettsvern
+GET /verneutstyr/anderettsvern?terms=Brand:tiki&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _verneutstyr_anderettsvern
+GET /verneutstyr/anderettsvern?terms=Brand:3m+peltor&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _verneutstyr_anderettsvern
+GET /verneutstyr/anderettsvern?terms=price:under-1000&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _kommunikasjon_komradio_digitalradio
+GET /kommunikasjon/komradio/digitalradio?terms=Brand:hytera&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _expired
+GET /expired?terms=Brand:bosch&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _expired
+GET /expired?terms=Brand:makita&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _expired
+GET /expired?terms=Brand:hitachi&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _expired
+GET /expired?terms=Brand:handheld&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _expired
+GET /expired?terms=Brand:leica&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _expired
+GET /expired?terms=Brand:kimo&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _expired
+GET /expired?terms=Brand:milwaukee&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _expired
+GET /expired?terms=Brand:zodiac&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _expired
+GET /expired?terms=Brand:dewalt&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _expired
+GET /expired?terms=Brand:flir&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _expired
+GET /expired?terms=price:under-1000&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _expired
+GET /expired?terms=price:1000-5000&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _expired
+GET /expired?terms=price:over-5000&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _verneutstyr_fallsikringsutstyr
+GET /verneutstyr/fallsikringsutstyr?terms=Brand:bahco&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _verneutstyr_fallsikringsutstyr
+GET /verneutstyr/fallsikringsutstyr?terms=Brand:petzl&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _for-rent
+GET /for-rent?terms=Brand:leica&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _for-rent
+GET /for-rent?terms=Brand:flir&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _kommunikasjon_komradio_jaktradio
+GET /kommunikasjon/komradio/jaktradio?terms=Brand:zodiac&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _kommunikasjon
+GET /kommunikasjon?terms=Brand:zodiac&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _kommunikasjon
+GET /kommunikasjon?terms=Brand:handheld&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _kommunikasjon
+GET /kommunikasjon?terms=Brand:hytera&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _kommunikasjon
+GET /kommunikasjon?terms=Brand:motorola&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _kommunikasjon
+GET /kommunikasjon?terms=Brand:kirisun&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _kommunikasjon
+GET /kommunikasjon?terms=price:over-5000&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _laserinstrumenter
+GET /laserinstrumenter?terms=Brand:leica&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _laserinstrumenter
+GET /laserinstrumenter?terms=Brand:bosch&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _laserinstrumenter
+GET /laserinstrumenter?terms=Brand:topcon&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _laserinstrumenter
+GET /laserinstrumenter?terms=Brand:cst/berger&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _laserinstrumenter
+GET /laserinstrumenter?terms=Brand:dewalt&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _laserinstrumenter
+GET /laserinstrumenter?terms=Brand:nedo&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _laserinstrumenter
+GET /laserinstrumenter?terms=Brand:bushnell&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _laserinstrumenter
+GET /laserinstrumenter?terms=Brand:geo+fennel&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _laserinstrumenter
+GET /laserinstrumenter?terms=Brand:hyssna&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _laserinstrumenter
+GET /laserinstrumenter?terms=Brand:futech&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _laserinstrumenter
+GET /laserinstrumenter?terms=price:under-1000&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _laserinstrumenter
+GET /laserinstrumenter?terms=price:1000-5000&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _laserinstrumenter
+GET /laserinstrumenter?terms=price:over-5000&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _kommunikasjon_komradio_marinradio
+GET /kommunikasjon/komradio/marinradio?terms=Brand:zodiac&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _kommunikasjon_komradio_repeater
+GET /kommunikasjon/komradio/repeater?terms=Brand:hytera&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _verneutstyr
+GET /verneutstyr?terms=Brand:3m+peltor&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _verneutstyr
+GET /verneutstyr?terms=Brand:cederroth&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _verneutstyr
+GET /verneutstyr?terms=Brand:3m+speedglas&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _verneutstyr
+GET /verneutstyr?terms=Brand:dr%c3%a4ger&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _verneutstyr
+GET /verneutstyr?terms=Brand:salvequick&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _verneutstyr
+GET /verneutstyr?terms=Brand:bahco&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _verneutstyr
+GET /verneutstyr?terms=Brand:petzl&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _verneutstyr
+GET /verneutstyr?terms=Brand:tiki&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _verneutstyr
+GET /verneutstyr?terms=Brand:rimac&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _verneutstyr
+GET /verneutstyr?terms=price:under-1000&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _verneutstyr
+GET /verneutstyr?terms=price:1000-5000&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _verneutstyr
+GET /verneutstyr?terms=price:over-5000&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _verneutstyr_vernebriller
+GET /verneutstyr/vernebriller?terms=Brand:3m+peltor&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _verneutstyr_vernebriller
+GET /verneutstyr/vernebriller?terms=price:under-1000&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _kommunikasjon_komradio_transportradio
+GET /kommunikasjon/komradio/transportradio?terms=Brand:hytera&terms= HTTP/1.1
+Host: localhost:8888
+
+
+{{Length}} _kommunikasjon_komradio_transportradio
+GET /kommunikasjon/komradio/transportradio?terms=Brand:zodiac&terms= HTTP/1.1
+Host: localhost:8888
+
+

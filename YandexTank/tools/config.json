@@ -1,0 +1,14 @@
+{
+    "autoTag": true,
+    "excludeHostRegexp": false,
+    "pathFilterRegexp": false,
+    "excludePathFilterRegexp": ".*[.]tpl[.]html$",
+    "clearCookies": true,
+    "customCookies": false,
+    "replaceDateInURL": false,
+    "repeat": 0,
+    "customHeaders": [{
+		"name": "User-Agent",
+        "value": "yandex-tank"
+    }]
+}
