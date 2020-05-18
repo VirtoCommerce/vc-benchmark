@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<LoadTest Name="LoadTest1" Description="" Owner="" storage="c:\projects\virtocommerce\vc-benchmark\storefrontperfomancetest\loadtest1.loadtest" Priority="2147483647" Enabled="true" CssProjectStructure="" CssIteration="" DeploymentItemsEditable="" WorkItemIds="" TraceLevel="None" CurrentRunConfig="Run Settings1" Id="fa05e388-aeeb-4402-9415-6846c10c1b7d" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+<LoadTest Name="LoadTest1" Description="" Owner="" storage="c:\projects\virtocommerce\vc-benchmark\storefrontperfomancetest\loadtest1.loadtest" Priority="2147483647" Enabled="true" CssProjectStructure="" CssIteration="" DeploymentItemsEditable="" WorkItemIds="" TraceLevel="None" CurrentRunConfig="Run Settings1" Id="61419ea4-7aab-49cc-b205-74b2ea160894" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
   <Scenarios>
-    <Scenario Name="storefront-mixed-load-test" DelayBetweenIterations="0" PercentNewUsers="0" IPSwitching="false" TestMixType="PercentageOfTestsStarted" ApplyDistributionToPacingDelay="true" MaxTestIterations="0" DisableDuringWarmup="false" DelayStartTime="0" AllowedAgents="">
+    <Scenario Name="Scenario1" DelayBetweenIterations="0" PercentNewUsers="0" IPSwitching="false" TestMixType="PercentageOfTestsStarted" ApplyDistributionToPacingDelay="true" MaxTestIterations="0" DisableDuringWarmup="false" DelayStartTime="0" AllowedAgents="">
       <ThinkProfile Value="0.2" Pattern="NormalDistribution" />
-      <LoadProfile Pattern="Step" InitialUsers="10" MaxUsers="300" StepUsers="10" StepDuration="10" StepRampTime="0" />
+      <LoadProfile Pattern="Constant" InitialUsers="1" />
       <TestMix>
-        <TestProfile Name="ApiTest-CreateOrder-recorded" Path="apitest-createorder-recorded.webtest" Id="2bfc6344-4b7f-4c5a-aa48-bfad70c94458" Percentage="100" Type="Microsoft.VisualStudio.TestTools.WebStress.DeclarativeWebTestElement, Microsoft.VisualStudio.QualityTools.LoadTest, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="ApiTest-PricingEval-recorded" Path="apitest-pricingeval-recorded.webtest" Id="df154871-257b-40f8-8b7d-3bb2dc89b10f" Percentage="100" Type="Microsoft.VisualStudio.TestTools.WebStress.DeclarativeWebTestElement, Microsoft.VisualStudio.QualityTools.LoadTest, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
       </TestMix>
       <BrowserMix>
         <BrowserProfile Percentage="100">
@@ -92,7 +92,7 @@
             <Counter Name="Avg. Response Time" />
             <Counter Name="Avg. Connection Wait Time">
               <ThresholdRules>
-                <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareCounters, Microsoft.VisualStudio.QualityTools.LoadTest, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+                <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareCounters, Microsoft.VisualStudio.QualityTools.LoadTest, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
                   <RuleParameters>
                     <RuleParameter Name="DependentCategory" Value="LoadTest:Page" />
                     <RuleParameter Name="DependentCounter" Value="Avg. Page Time" />
@@ -157,7 +157,7 @@
             <Counter Name="Current Bandwidth" RangeGroup="Network Bytes" />
             <Counter Name="Bytes Total/sec" RangeGroup="Network Bytes">
               <ThresholdRules>
-                <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareCounters, Microsoft.VisualStudio.QualityTools.LoadTest, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+                <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareCounters, Microsoft.VisualStudio.QualityTools.LoadTest, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
                   <RuleParameters>
                     <RuleParameter Name="DependentCategory" Value="Network Interface" />
                     <RuleParameter Name="DependentCounter" Value="Current Bandwidth" />
@@ -304,7 +304,7 @@
             <Counter Name="Current Bandwidth" RangeGroup="Network Bytes" />
             <Counter Name="Bytes Total/sec" RangeGroup="Network Bytes">
               <ThresholdRules>
-                <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareCounters, Microsoft.VisualStudio.QualityTools.LoadTest, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+                <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareCounters, Microsoft.VisualStudio.QualityTools.LoadTest, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
                   <RuleParameters>
                     <RuleParameter Name="DependentCategory" Value="Network Interface" />
                     <RuleParameter Name="DependentCounter" Value="Current Bandwidth" />
@@ -436,7 +436,7 @@
         </CounterSetMapping>
       </CounterSetMappings>
       <LoadGeneratorLocations>
-        <GeoLocation Location="West Europe" Percentage="100" />
+        <GeoLocation Location="Default" Percentage="100" />
       </LoadGeneratorLocations>
     </RunConfiguration>
   </RunConfigurations>

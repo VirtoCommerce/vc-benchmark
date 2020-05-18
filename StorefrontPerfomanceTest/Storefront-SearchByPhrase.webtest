@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <WebTest Name="Storefront-SearchByPhrase" Id="6ab50f21-cb23-4a0c-aaf0-5c3109d94620" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="" ResultsLocale="">
   <Items>
-    <Request Method="GET" Guid="d8c29f74-32b3-4ada-aec7-dcd070c7fc4d" Version="1.1" Url="http://vc-storefront-core.com/search?type=product&amp;q={{DataSource1.phrases#csv.PHRASE}}" ThinkTime="0" Timeout="300" ParseDependentRequests="False" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+    <Request Method="GET" Guid="d8c29f74-32b3-4ada-aec7-dcd070c7fc4d" Version="1.1" Url="{{WebServer1}}/search?type=product&amp;q={{DataSource1.phrases#csv.PHRASE}}" ThinkTime="0" Timeout="300" ParseDependentRequests="False" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
   </Items>
   <DataSources>
     <DataSource Name="DataSource1" Provider="Microsoft.VisualStudio.TestTools.DataSource.CSV" Connection="|DataDirectory|\phrases.csv">
@@ -10,4 +10,7 @@
       </Tables>
     </DataSource>
   </DataSources>
+  <ContextParameters>
+    <ContextParameter Name="WebServer1" Value="http://vc-storefront-core.com" />
+  </ContextParameters>
 </WebTest>

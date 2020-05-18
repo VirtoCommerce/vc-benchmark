@@ -56,13 +56,19 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ApiTest-BrowsingCategory-recorded.webtest" />
-    <None Include="ApiTest-CreateCart-recorded.webtest" />
-    <None Include="ApiTest-CreateOrder-recorded.webtest">
+    <None Include="ApiTest-BrowsingCategory-recorded.webtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="ApiTest-PricingEval-recorded.webtest" />
-    <None Include="ApiTest-ProductDetail-recorded.webtest" />
+    <None Include="ApiTest-CreateCart-recorded.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ApiTest-CreateOrder-recorded.webtest" />
+    <None Include="ApiTest-PricingEval-recorded.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ApiTest-ProductDetail-recorded.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="ApiTest-ProductDetail.webtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -72,7 +78,13 @@
     <None Include="ApiTest-TaxEval.webtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="authorization.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="brands.csv" />
+    <None Include="ApiLoadTest.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="LoadTest1.loadtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -101,9 +113,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Storefront-ProductDetail.webtest">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="StorefrontLoadTest.loadtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="ApiTest-Database.webtest">
