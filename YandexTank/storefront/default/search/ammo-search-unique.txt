@@ -1,0 +1,631 @@
+{{Length}} _storefrontapi_categories_search
+POST /Electronics/en-US/storefrontapi/categories/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 44
+Host: {{Host}}
+
+{"keyword":"Solo","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_catalog_search
+POST /Electronics/en-US/storefrontapi/catalog/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 44
+Host: {{Host}}
+
+{"keyword":"Solo","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_categories_search
+POST /Electronics/en-US/storefrontapi/categories/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 43
+Host: {{Host}}
+
+{"keyword":"3DR","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_catalog_search
+POST /Electronics/en-US/storefrontapi/catalog/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 43
+Host: {{Host}}
+
+{"keyword":"3DR","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_categories_search
+POST /Electronics/en-US/storefrontapi/categories/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 43
+Host: {{Host}}
+
+{"keyword":"Dji","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_catalog_search
+POST /Electronics/en-US/storefrontapi/catalog/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 43
+Host: {{Host}}
+
+{"keyword":"Dji","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_categories_search
+POST /Electronics/en-US/storefrontapi/categories/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 42
+Host: {{Host}}
+
+{"keyword":"Pa","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_catalog_search
+POST /Electronics/en-US/storefrontapi/catalog/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 42
+Host: {{Host}}
+
+{"keyword":"Pa","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_categories_search
+POST /Electronics/en-US/storefrontapi/categories/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 46
+Host: {{Host}}
+
+{"keyword":"Parrot","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_catalog_search
+POST /Electronics/en-US/storefrontapi/catalog/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 46
+Host: {{Host}}
+
+{"keyword":"Parrot","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_categories_search
+POST /Electronics/en-US/storefrontapi/categories/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 44
+Host: {{Host}}
+
+{"keyword":"Sony","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_catalog_search
+POST /Electronics/en-US/storefrontapi/catalog/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 43
+Host: {{Host}}
+
+{"keyword":"Sony","start":0,"pageSize":9}
+
+{{Length}} _storefrontapi_categories_search
+POST /Electronics/en-US/storefrontapi/categories/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 41
+Host: {{Host}}
+
+{"keyword":"x","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_catalog_search
+POST /Electronics/en-US/storefrontapi/catalog/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 41
+Host: {{Host}}
+
+{"keyword":"x","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_categories_search
+POST /Electronics/en-US/storefrontapi/categories/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 45
+Host: {{Host}}
+
+{"keyword":"xFold","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_catalog_search
+POST /Electronics/en-US/storefrontapi/catalog/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 45
+Host: {{Host}}
+
+{"keyword":"xFold","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_categories_search
+POST /Electronics/en-US/storefrontapi/categories/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 44
+Host: {{Host}}
+
+{"keyword":"Asus","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_catalog_search
+POST /Electronics/en-US/storefrontapi/catalog/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 44
+Host: {{Host}}
+
+{"keyword":"Asus","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_categories_search
+POST /Electronics/en-US/storefrontapi/categories/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 43
+Host: {{Host}}
+
+{"keyword":"zen","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_catalog_search
+POST /Electronics/en-US/storefrontapi/catalog/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 43
+Host: {{Host}}
+
+{"keyword":"zen","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_categories_search
+POST /Electronics/en-US/storefrontapi/categories/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 44
+Host: {{Host}}
+
+{"keyword":"zenf","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_catalog_search
+POST /Electronics/en-US/storefrontapi/catalog/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 44
+Host: {{Host}}
+
+{"keyword":"zenf","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_categories_search
+POST /Electronics/en-US/storefrontapi/categories/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 45
+Host: {{Host}}
+
+{"keyword":"zenfo","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_catalog_search
+POST /Electronics/en-US/storefrontapi/catalog/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 45
+Host: {{Host}}
+
+{"keyword":"zenfo","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_categories_search
+POST /Electronics/en-US/storefrontapi/categories/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 41
+Host: {{Host}}
+
+{"keyword":"z","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_catalog_search
+POST /Electronics/en-US/storefrontapi/catalog/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 41
+Host: {{Host}}
+
+{"keyword":"z","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_categories_search
+POST /Electronics/en-US/storefrontapi/categories/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 43
+Host: {{Host}}
+
+{"keyword":"zen","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_catalog_search
+POST /Electronics/en-US/storefrontapi/catalog/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 43
+Host: {{Host}}
+
+{"keyword":"zen","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_categories_search
+POST /Electronics/en-US/storefrontapi/categories/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 44
+Host: {{Host}}
+
+{"keyword":"zenp","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_catalog_search
+POST /Electronics/en-US/storefrontapi/catalog/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 44
+Host: {{Host}}
+
+{"keyword":"zenp","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_categories_search
+POST /Electronics/en-US/storefrontapi/categories/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 48
+Host: {{Host}}
+
+{"keyword":"zenphone","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_catalog_search
+POST /Electronics/en-US/storefrontapi/catalog/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 48
+Host: {{Host}}
+
+{"keyword":"zenphone","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_categories_search
+POST /Electronics/en-US/storefrontapi/categories/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 43
+Host: {{Host}}
+
+{"keyword":"zen","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_catalog_search
+POST /Electronics/en-US/storefrontapi/catalog/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 43
+Host: {{Host}}
+
+{"keyword":"zen","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_categories_search
+POST /Electronics/en-US/storefrontapi/categories/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 47
+Host: {{Host}}
+
+{"keyword":"zenfone","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_catalog_search
+POST /Electronics/en-US/storefrontapi/catalog/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 47
+Host: {{Host}}
+
+{"keyword":"zenfone","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_categories_search
+POST /Electronics/en-US/storefrontapi/categories/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 41
+Host: {{Host}}
+
+{"keyword":"l","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_catalog_search
+POST /Electronics/en-US/storefrontapi/catalog/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 41
+Host: {{Host}}
+
+{"keyword":"l","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_categories_search
+POST /Electronics/en-US/storefrontapi/categories/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 42
+Host: {{Host}}
+
+{"keyword":"lu","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_catalog_search
+POST /Electronics/en-US/storefrontapi/catalog/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 42
+Host: {{Host}}
+
+{"keyword":"lu","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_categories_search
+POST /Electronics/en-US/storefrontapi/categories/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 43
+Host: {{Host}}
+
+{"keyword":"lum","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_catalog_search
+POST /Electronics/en-US/storefrontapi/catalog/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 43
+Host: {{Host}}
+
+{"keyword":"lum","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_categories_search
+POST /Electronics/en-US/storefrontapi/categories/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 45
+Host: {{Host}}
+
+{"keyword":"lumia","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_catalog_search
+POST /Electronics/en-US/storefrontapi/catalog/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 45
+Host: {{Host}}
+
+{"keyword":"lumia","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_categories_search
+POST /Electronics/en-US/storefrontapi/categories/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 42
+Host: {{Host}}
+
+{"keyword":"sa","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_catalog_search
+POST /Electronics/en-US/storefrontapi/catalog/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 42
+Host: {{Host}}
+
+{"keyword":"sa","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_categories_search
+POST /Electronics/en-US/storefrontapi/categories/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 47
+Host: {{Host}}
+
+{"keyword":"samsung","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_catalog_search
+POST /Electronics/en-US/storefrontapi/catalog/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 46
+Host: {{Host}}
+
+{"keyword":"samsung","start":0,"pageSize":9}
+
+{{Length}} _storefrontapi_categories_search
+POST /Electronics/en-US/storefrontapi/categories/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 42
+Host: {{Host}}
+
+{"keyword":"mi","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_catalog_search
+POST /Electronics/en-US/storefrontapi/catalog/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 42
+Host: {{Host}}
+
+{"keyword":"mi","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_categories_search
+POST /Electronics/en-US/storefrontapi/categories/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 45
+Host: {{Host}}
+
+{"keyword":"micro","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_catalog_search
+POST /Electronics/en-US/storefrontapi/catalog/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 45
+Host: {{Host}}
+
+{"keyword":"micro","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_categories_search
+POST /Electronics/en-US/storefrontapi/categories/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 49
+Host: {{Host}}
+
+{"keyword":"microsoft","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_catalog_search
+POST /Electronics/en-US/storefrontapi/catalog/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 49
+Host: {{Host}}
+
+{"keyword":"microsoft","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_categories_search
+POST /Electronics/en-US/storefrontapi/categories/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 45
+Host: {{Host}}
+
+{"keyword":"beats","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_catalog_search
+POST /Electronics/en-US/storefrontapi/catalog/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 45
+Host: {{Host}}
+
+{"keyword":"beats","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_categories_search
+POST /Electronics/en-US/storefrontapi/categories/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 42
+Host: {{Host}}
+
+{"keyword":"on","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_categories_search
+POST /Electronics/en-US/storefrontapi/categories/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 43
+Host: {{Host}}
+
+{"keyword":"onk","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_catalog_search
+POST /Electronics/en-US/storefrontapi/catalog/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 41
+Host: {{Host}}
+
+{"keyword":"on","start":0,"pageSize":5}
+
+{{Length}} _storefrontapi_catalog_search
+POST /Electronics/en-US/storefrontapi/catalog/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 43
+Host: {{Host}}
+
+{"keyword":"onk","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_categories_search
+POST /Electronics/en-US/storefrontapi/categories/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 44
+Host: {{Host}}
+
+{"keyword":"onky","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_categories_search
+POST /Electronics/en-US/storefrontapi/categories/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 45
+Host: {{Host}}
+
+{"keyword":"onkyo","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_catalog_search
+POST /Electronics/en-US/storefrontapi/catalog/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 44
+Host: {{Host}}
+
+{"keyword":"onky","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_catalog_search
+POST /Electronics/en-US/storefrontapi/catalog/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 45
+Host: {{Host}}
+
+{"keyword":"onkyo","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_categories_search
+POST /Electronics/en-US/storefrontapi/categories/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 41
+Host: {{Host}}
+
+{"keyword":"h","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_catalog_search
+POST /Electronics/en-US/storefrontapi/catalog/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 41
+Host: {{Host}}
+
+{"keyword":"h","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_categories_search
+POST /Electronics/en-US/storefrontapi/categories/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 42
+Host: {{Host}}
+
+{"keyword":"ho","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_catalog_search
+POST /Electronics/en-US/storefrontapi/catalog/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 42
+Host: {{Host}}
+
+{"keyword":"ho","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_categories_search
+POST /Electronics/en-US/storefrontapi/categories/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 44
+Host: {{Host}}
+
+{"keyword":"home","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_catalog_search
+POST /Electronics/en-US/storefrontapi/catalog/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 43
+Host: {{Host}}
+
+{"keyword":"home","start":0,"pageSize":9}
+
+{{Length}} _storefrontapi_categories_search
+POST /Electronics/en-US/storefrontapi/categories/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 44
+Host: {{Host}}
+
+{"keyword":"teac","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_catalog_search
+POST /Electronics/en-US/storefrontapi/catalog/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 44
+Host: {{Host}}
+
+{"keyword":"teac","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_categories_search
+POST /Electronics/en-US/storefrontapi/categories/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 42
+Host: {{Host}}
+
+{"keyword":"lg","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_catalog_search
+POST /Electronics/en-US/storefrontapi/catalog/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 41
+Host: {{Host}}
+
+{"keyword":"lg","start":0,"pageSize":9}
+
+{{Length}} _storefrontapi_categories_search
+POST /Electronics/en-US/storefrontapi/categories/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 42
+Host: {{Host}}
+
+{"keyword":"tv","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_catalog_search
+POST /Electronics/en-US/storefrontapi/catalog/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 42
+Host: {{Host}}
+
+{"keyword":"tv","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_categories_search
+POST /Electronics/en-US/storefrontapi/categories/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 42
+Host: {{Host}}
+
+{"keyword":"vi","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_catalog_search
+POST /Electronics/en-US/storefrontapi/catalog/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 42
+Host: {{Host}}
+
+{"keyword":"vi","start":0,"pageSize":10}
+
+{{Length}} _storefrontapi_categories_search
+POST /Electronics/en-US/storefrontapi/categories/search HTTP/1.1
+Content-Type: application/json
+Content-Length: 45
+Host: {{Host}}
+
+{"keyword":"vizio","start":0,"pageSize":10}
