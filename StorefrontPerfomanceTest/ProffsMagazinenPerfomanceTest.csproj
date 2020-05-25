@@ -56,17 +56,32 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ApiTest-BrowsingCategory-recorded.webtest">
+    <None Include="carts.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Recorded\ApiTest-BrowsingCategory-recorded.webtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="ApiTest-CreateCart-recorded.webtest">
+    <None Include="Recorded\ApiTest-CreateCart-recorded.webtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="ApiTest-CreateOrder-recorded.webtest" />
-    <None Include="ApiTest-PricingEval-recorded.webtest">
+    <None Include="ApiTest-CreateOrder.webtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="ApiTest-ProductDetail-recorded.webtest">
+    <None Include="Recorded\ApiTest-CreateOrder-recorded.webtest" />
+    <None Include="ApiTest-SearchCart.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ApiTest-UpdateInventory.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ApiTest-InventoryEval.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Recorded\ApiTest-PricingEval-recorded.webtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Recorded\ApiTest-ProductDetail-recorded.webtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="ApiTest-ProductDetail.webtest">
@@ -84,6 +99,9 @@
     <None Include="brands.csv" />
     <None Include="ApiLoadTest.loadtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="item_ids.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="LoadTest1.loadtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -115,9 +133,6 @@
     <None Include="Storefront-ProductDetail.webtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="ApiTest-Database.webtest">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="ApiTest-BrowsingCategory.webtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -131,6 +146,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

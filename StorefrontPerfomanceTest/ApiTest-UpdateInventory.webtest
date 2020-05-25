@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="ApiTest-UpdateInventory" Id="541c883a-1508-49af-a9b5-eff552912b8c" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="" ResultsLocale="">
+  <Items>
+    <Request Method="PUT" Guid="367f922d-d77e-433a-a15a-0b01e7e35f1a" Version="1.1" Url="{{DataSource2.authorization#csv.url}}/api/inventory/products/{{DataSource1.Item.Id}}" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="api_key" Value="{{DataSource2.authorization#csv.api_key}}" />
+      </Headers>
+      <StringHttpBody ContentType="application/json;charset=UTF-8" InsertByteOrderMark="False">ewANAAoAIAAgACAAIAAiAGYAdQBsAGYAaQBsAGwAbQBlAG4AdABDAGUAbgB0AGUAcgBJAGQAIgA6ACAAIgB2AGUAbgBkAG8AcgAtAGYAdQBsAGYAaQBsAGwAbQBlAG4AdAAiACwADQAKACAAIAAgACAAIgBmAHUAbABmAGkAbABsAG0AZQBuAHQAQwBlAG4AdABlAHIATgBhAG0AZQAiADoAIAAiAFMAYQBuACAAQwBsAGUAbQBlAG4AdABlACAAQgByAGEAbgBjAGgAIgAsAA0ACgAgACAAIAAgACIAaQBuAFMAdABvAGMAawBRAHUAYQBuAHQAaQB0AHkAIgA6ACAAMQAwADAALAANAAoAIAAgACAAIAAiAHAAcgBvAGQAdQBjAHQASQBkACIAOgAgACIAewB7AEQAYQB0AGEAUwBvAHUAcgBjAGUAMQAuAEkAdABlAG0ALgBJAGQAfQB9ACIALAANAAoAIAAgACAAIAAiAHIAZQBzAGUAcgB2AGUAZABRAHUAYQBuAHQAaQB0AHkAIgA6ACAAMAAsAA0ACgAgACAAIAAgACIAcgBlAG8AcgBkAGUAcgBNAGkAbgBRAHUAYQBuAHQAaQB0AHkAIgA6ACAAMAAsAA0ACgAgACAAIAAgACIAcAByAGUAbwByAGQAZQByAFEAdQBhAG4AdABpAHQAeQAiADoAIAAwACwADQAKACAAIAAgACAAIgBiAGEAYwBrAG8AcgBkAGUAcgBRAHUAYQBuAHQAaQB0AHkAIgA6ACAAMAAsAA0ACgAgACAAIAAgACIAYQBsAGwAbwB3AEIAYQBjAGsAbwByAGQAZQByACIAOgAgAGYAYQBsAHMAZQAsAA0ACgAgACAAIAAgACIAYQBsAGwAbwB3AFAAcgBlAG8AcgBkAGUAcgAiADoAIABmAGEAbABzAGUALAANAAoAIAAgACAAIAAiAGkAbgBUAHIAYQBuAHMAaQB0ACIAOgAgADAALAANAAoAIAAgACAAIAAiAHMAdABhAHQAdQBzACIAOgAgACIARABpAHMAYQBiAGwAZQBkACIALAANAAoAIAAgACAAIAAiAGMAcgBlAGEAdABlAGQARABhAHQAZQAiADoAIAAiADAAMAAwADEALQAwADEALQAwADEAVAAwADAAOgAwADAAOgAwADAAWgAiAA0ACgB9AA==</StringHttpBody>
+    </Request>
+  </Items>
+  <DataSources>
+    <DataSource Name="DataSource1" Provider="System.Data.SqlClient" Connection="Data Source=DESKTOP-R8HE1TR;Initial Catalog=admin-benchmark-2019-9-19-16-48;Integrated Security=True">
+      <Tables>
+        <DataSourceTable Name="Item" SelectColumns="SelectOnlyBoundColumns" AccessMethod="Random" />
+      </Tables>
+    </DataSource>
+    <DataSource Name="DataSource2" Provider="Microsoft.VisualStudio.TestTools.DataSource.CSV" Connection="|DataDirectory|\authorization.csv">
+      <Tables>
+        <DataSourceTable Name="authorization#csv" SelectColumns="SelectOnlyBoundColumns" AccessMethod="Sequential" />
+      </Tables>
+    </DataSource>
+  </DataSources>
+</WebTest>

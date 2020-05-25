@@ -17470,6 +17470,6 @@
     </DataSource>
   </DataSources>
   <ContextParameters>
-    <ContextParameter Name="WebServer1" Value="http://vc-platform-3.com" />
+    <ContextParameter Name="WebServer1" Value="http://localhost:10645" />
   </ContextParameters>
 </WebTest>
