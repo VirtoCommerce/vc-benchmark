@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <WebTest Name="ApiTest-ProductDetail" Id="c97891fd-1bfb-4377-b6a9-e0fa3bad89db" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="" ResultsLocale="">
   <Items>
-    <Request Method="POST" Guid="fc8398c7-c547-4d0f-9dcd-bb27b0b7f4b1" Version="1.1" Url="{{DataSource1.authorization#csv.url}}/api/catalog/products/plenty?respGroup=2015" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+    <Request Method="POST" Guid="fc8398c7-c547-4d0f-9dcd-bb27b0b7f4b1" Version="1.1" Url="{{DataSource1.authorization#csv.url}}/api/catalog/products/plenty?respGroup=583" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
       <Headers>
         <Header Name="api_key" Value="{{DataSource1.authorization#csv.api_key}}" />
       </Headers>

@@ -2043,13 +2043,13 @@
     </Request>
   </Items>
   <DataSources>
-    <DataSource Name="DataSource1" Provider="Microsoft.VisualStudio.TestTools.DataSource.CSV" Connection="|DataDirectory|\authorization.csv">
+    <DataSource Name="DataSource1" Provider="Microsoft.VisualStudio.TestTools.DataSource.CSV" Connection="|DataDirectory|\..\authorization.csv">
       <Tables>
         <DataSourceTable Name="authorization#csv" SelectColumns="SelectOnlyBoundColumns" AccessMethod="Sequential" />
       </Tables>
     </DataSource>
   </DataSources>
   <ContextParameters>
-    <ContextParameter Name="WebServer1" Value="http://localhost:10645" />
+    <ContextParameter Name="WebServer1" Value="http://localhost:5000" />
   </ContextParameters>
 </WebTest>

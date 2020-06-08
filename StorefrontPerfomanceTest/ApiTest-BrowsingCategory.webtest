@@ -5,13 +5,13 @@
       <QueryStringParameters>
         <QueryStringParameter Name="api_key" Value="{{DataSource2.authorization#csv.api_key}}" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
       </QueryStringParameters>
-      <StringHttpBody ContentType="application/json;charset=UTF-8" InsertByteOrderMark="False">ewANAAoAIAAgACIAbwB1AHQAbABpAG4AZQAiADoAIAAiAHsAewBEAGEAdABhAFMAbwB1AHIAYwBlADEALgBvAHUAdABsAGkAbgBlAHMAIwBjAHMAdgAuAE8AVQBUAEwASQBOAEUAUwB9AH0AKgAiACwADQAKACAAIgByAGUAcwBwAG8AbgBzAGUARwByAG8AdQBwACIAOgAgACIAMgAwADEANQAiACwADQAKACAAIAAiAHMAawBpAHAAIgA6ACAAMAAsAA0ACgAgACAAIgB0AGEAawBlACIAOgAgADIAMAANAAoAfQA=</StringHttpBody>
+      <StringHttpBody ContentType="application/json;charset=UTF-8" InsertByteOrderMark="False">ewANAAoAIAAgACIAbwB1AHQAbABpAG4AZQAiADoAIAAiAHsAewBEAGEAdABhAFMAbwB1AHIAYwBlADEALgBvAHUAdABsAGkAbgBlAHMAIwBjAHMAdgAuAE8AVQBUAEwASQBOAEUAUwB9AH0AKgAiACwADQAKACAAIgByAGUAcwBwAG8AbgBzAGUARwByAG8AdQBwACIAOgAgACIANgA0ADcAIgAsAA0ACgAgACAAIgBzAGsAaQBwACIAOgAgADAALAANAAoAIAAgACIAdABhAGsAZQAiADoAIAAyADAADQAKAH0A</StringHttpBody>
     </Request>
   </Items>
   <DataSources>
     <DataSource Name="DataSource1" Provider="Microsoft.VisualStudio.TestTools.DataSource.CSV" Connection="|DataDirectory|\outlines.csv">
       <Tables>
-        <DataSourceTable Name="outlines#csv" SelectColumns="SelectOnlyBoundColumns" AccessMethod="Unique" />
+        <DataSourceTable Name="outlines#csv" SelectColumns="SelectOnlyBoundColumns" AccessMethod="Sequential" />
       </Tables>
     </DataSource>
     <DataSource Name="DataSource2" Provider="Microsoft.VisualStudio.TestTools.DataSource.CSV" Connection="|DataDirectory|\authorization.csv">
