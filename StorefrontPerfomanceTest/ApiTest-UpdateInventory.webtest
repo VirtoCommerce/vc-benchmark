@@ -9,7 +9,7 @@
     </Request>
   </Items>
   <DataSources>
-    <DataSource Name="DataSource1" Provider="System.Data.SqlClient" Connection="Data Source=DESKTOP-R8HE1TR;Initial Catalog=admin-benchmark-2019-9-19-16-48;Integrated Security=True">
+    <DataSource Name="DataSource1" Provider="System.Data.SqlClient" Connection="Data Source=DESKTOP-R8HE1TR;Initial Catalog=admin-benchmark-2_0-2020-06;Integrated Security=True">
       <Tables>
         <DataSourceTable Name="Item" SelectColumns="SelectOnlyBoundColumns" AccessMethod="Random" />
       </Tables>

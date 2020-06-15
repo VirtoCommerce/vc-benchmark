@@ -1,15 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<LoadTest Name="ApiMixedLoadTest" Description="" Owner="" storage="c:\projects\virtocommerce\vc-benchmark\storefrontperfomancetest\apimixedloadtest.loadtest" Priority="2147483647" Enabled="true" CssProjectStructure="" CssIteration="" DeploymentItemsEditable="" WorkItemIds="" TraceLevel="None" CurrentRunConfig="Run Settings1" Id="954ec2a0-7ec9-4e80-badd-bd3f185afdf9" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+<LoadTest Name="ApiLoadTest" Description="" Owner="" storage="c:\projects\virtocommerce\vc-benchmark\storefrontperfomancetest\apiloadtest.loadtest" Priority="2147483647" Enabled="true" CssProjectStructure="" CssIteration="" DeploymentItemsEditable="" WorkItemIds="" TraceLevel="None" CurrentRunConfig="Run Settings1" Id="ed2d7e01-5dd2-47ca-83d5-32a1b3ad36ce" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
   <Scenarios>
     <Scenario Name="Scenario1" DelayBetweenIterations="0" PercentNewUsers="0" IPSwitching="false" TestMixType="PercentageOfUsersRunning" ApplyDistributionToPacingDelay="true" MaxTestIterations="0" DisableDuringWarmup="false" DelayStartTime="0" AllowedAgents="">
       <ThinkProfile Value="0.2" Pattern="NormalDistribution" />
       <LoadProfile Pattern="Constant" InitialUsers="5" />
       <TestMix>
-        <TestProfile Name="ApiTest-ProductDetail" Path="apitest-productdetail.webtest" Id="c97891fd-1bfb-4377-b6a9-e0fa3bad89db" Percentage="40" Type="Microsoft.VisualStudio.TestTools.WebStress.DeclarativeWebTestElement, Microsoft.VisualStudio.QualityTools.LoadTest, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-        <TestProfile Name="ApiTest-BrowsingCategory" Path="apitest-browsingcategory.webtest" Id="5a8d19ad-b5a3-4332-b8e3-47ce0726eb8b" Percentage="30" Type="Microsoft.VisualStudio.TestTools.WebStress.DeclarativeWebTestElement, Microsoft.VisualStudio.QualityTools.LoadTest, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-        <TestProfile Name="ApiTest-CreateOrder" Path="apitest-createorder.webtest" Id="92967d67-7c20-4a42-9faa-4ee48f4abdbe" Percentage="5" Type="Microsoft.VisualStudio.TestTools.WebStress.DeclarativeWebTestElement, Microsoft.VisualStudio.QualityTools.LoadTest, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-        <TestProfile Name="ApiTest-PricingEval" Path="apitest-pricingeval.webtest" Id="a9d6d164-2308-4aea-8196-9e39a41b63e5" Percentage="10" Type="Microsoft.VisualStudio.TestTools.WebStress.DeclarativeWebTestElement, Microsoft.VisualStudio.QualityTools.LoadTest, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-        <TestProfile Name="ApiTest-SaveCart" Path="apitest-savecart.webtest" Id="6967ae89-e0e5-4f7f-a2ad-0f82b338002f" Percentage="15" Type="Microsoft.VisualStudio.TestTools.WebStress.DeclarativeWebTestElement, Microsoft.VisualStudio.QualityTools.LoadTest, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="ApiTest-CreateOrder" Path="apitest-createorder.webtest" Id="92967d67-7c20-4a42-9faa-4ee48f4abdbe" Percentage="100" Type="Microsoft.VisualStudio.TestTools.WebStress.DeclarativeWebTestElement, Microsoft.VisualStudio.QualityTools.LoadTest, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
       </TestMix>
       <BrowserMix>
         <BrowserProfile Percentage="100">
