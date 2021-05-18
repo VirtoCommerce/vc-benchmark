@@ -1,0 +1,521 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1614701100984,2508,SignIn,200,OK,Thread Group 1-3,text,true,,2715,622,4,4,https://loadtest-platform.dev.govirto.com/connect/token,2506,0,1986
+1614701099618,3889,SignIn,200,OK,Thread Group 1-2,text,true,,2715,622,4,4,https://loadtest-platform.dev.govirto.com/connect/token,3887,0,3172
+1614701098251,5375,SignIn,200,OK,Thread Group 1-1,text,true,,2715,622,4,4,https://loadtest-platform.dev.govirto.com/connect/token,5375,0,4935
+1614701103493,360,Get me,200,OK,Thread Group 1-3,text,true,,438,1861,5,5,https://loadtest-platform.dev.govirto.com/graphql,360,0,0
+1614701103512,357,Get me,200,OK,Thread Group 1-2,text,true,,438,1861,5,5,https://loadtest-platform.dev.govirto.com/graphql,357,0,0
+1614701103627,366,Get me,200,OK,Thread Group 1-1,text,true,,412,1861,5,5,https://loadtest-platform.dev.govirto.com/graphql,366,0,0
+1614701102347,1876,SignIn,200,OK,Thread Group 1-4,text,true,,2715,622,5,5,https://loadtest-platform.dev.govirto.com/connect/token,1876,0,1375
+1614701104225,894,Get me,200,OK,Thread Group 1-4,text,true,,438,1861,6,6,https://loadtest-platform.dev.govirto.com/graphql,894,0,0
+1614701103711,1998,SignIn,200,OK,Thread Group 1-5,text,true,,2715,622,6,6,https://loadtest-platform.dev.govirto.com/connect/token,1996,0,1371
+1614701105711,743,Get me,200,OK,Thread Group 1-5,text,true,,438,1861,7,7,https://loadtest-platform.dev.govirto.com/graphql,743,0,0
+1614701105078,1409,SignIn,200,OK,Thread Group 1-6,text,true,,2715,622,7,7,https://loadtest-platform.dev.govirto.com/connect/token,1409,0,1090
+1614701106488,329,Get me,200,OK,Thread Group 1-6,text,true,,438,1861,7,7,https://loadtest-platform.dev.govirto.com/graphql,329,0,0
+1614701103996,3015," Search 50 products  with prices, availability, tax, discounts",200,OK,Thread Group 1-1,text,true,,37809,2985,7,7,https://loadtest-platform.dev.govirto.com/graphql,2417,0,0
+1614701103875,3170," Search 50 products  with prices, availability, tax, discounts",200,OK,Thread Group 1-2,text,true,,37835,2986,7,7,https://loadtest-platform.dev.govirto.com/graphql,2543,0,0
+1614701105120,1945," Search 50 products  with prices, availability, tax, discounts",200,OK,Thread Group 1-4,text,true,,37822,2985,7,7,https://loadtest-platform.dev.govirto.com/graphql,1332,0,0
+1614701103856,3239," Search 50 products  with prices, availability, tax, discounts",200,OK,Thread Group 1-3,text,true,,37821,2985,7,7,https://loadtest-platform.dev.govirto.com/graphql,2573,0,0
+1614701107013,742,Get product detail  ,200,OK,Thread Group 1-1,text,true,,1005,3173,7,7,https://loadtest-platform.dev.govirto.com/graphql,742,0,0
+1614701107096,722,Get product detail  ,200,OK,Thread Group 1-3,text,true,,1003,3173,8,8,https://loadtest-platform.dev.govirto.com/graphql,722,0,0
+1614701106440,1418,SignIn,200,OK,Thread Group 1-7,text,true,,2715,622,8,8,https://loadtest-platform.dev.govirto.com/connect/token,1418,0,1005
+1614701106455,1421," Search 50 products  with prices, availability, tax, discounts",200,OK,Thread Group 1-5,text,true,,37809,2985,8,8,https://loadtest-platform.dev.govirto.com/graphql,868,0,0
+1614701107066,951,Get product detail  ,200,OK,Thread Group 1-4,text,true,,2067,3173,8,8,https://loadtest-platform.dev.govirto.com/graphql,951,0,0
+1614701107048,969,Get product detail  ,200,OK,Thread Group 1-2,text,true,,2067,3173,8,8,https://loadtest-platform.dev.govirto.com/graphql,969,0,0
+1614701107859,293,Get me,200,OK,Thread Group 1-7,text,true,,438,1861,8,8,https://loadtest-platform.dev.govirto.com/graphql,293,0,0
+1614701106818,1529," Search 50 products  with prices, availability, tax, discounts",200,OK,Thread Group 1-6,text,true,,37807,2985,8,8,https://loadtest-platform.dev.govirto.com/graphql,990,0,0
+1614701107877,518,Get product detail  ,200,OK,Thread Group 1-5,text,true,,1003,3173,8,8,https://loadtest-platform.dev.govirto.com/graphql,518,0,0
+1614701107756,682,Add  SKU to cart,200,OK,Thread Group 1-1,text,true,,328,2270,8,8,https://loadtest-platform.dev.govirto.com/graphql,682,0,0
+1614701107820,1080,Add  SKU to cart,200,OK,Thread Group 1-3,text,true,,328,2270,8,8,https://loadtest-platform.dev.govirto.com/graphql,1080,0,0
+1614701108348,643,Get product detail  ,200,OK,Thread Group 1-6,text,true,,1003,3173,8,8,https://loadtest-platform.dev.govirto.com/graphql,643,0,0
+1614701108018,1051,Add  SKU to cart,200,OK,Thread Group 1-2,text,true,,328,2270,8,8,https://loadtest-platform.dev.govirto.com/graphql,1051,0,0
+1614701107805,1287,SignIn,200,OK,Thread Group 1-8,text,true,,2715,622,8,8,https://loadtest-platform.dev.govirto.com/connect/token,1286,0,767
+1614701108017,1113,Add  SKU to cart,200,OK,Thread Group 1-4,text,true,,328,2270,8,8,https://loadtest-platform.dev.govirto.com/graphql,1113,0,0
+1614701108438,942,Get product detail  ,200,OK,Thread Group 1-1,text,true,,1005,3173,9,9,https://loadtest-platform.dev.govirto.com/graphql,942,0,0
+1614701108396,1215,Add  SKU to cart,200,OK,Thread Group 1-5,text,true,,328,2270,9,9,https://loadtest-platform.dev.govirto.com/graphql,1215,0,0
+1614701109094,517,Get me,200,OK,Thread Group 1-8,text,true,,438,1861,9,9,https://loadtest-platform.dev.govirto.com/graphql,517,0,0
+1614701108904,1028,Get product detail  ,200,OK,Thread Group 1-3,text,true,,2071,3173,9,9,https://loadtest-platform.dev.govirto.com/graphql,1028,0,0
+1614701108152,1914," Search 50 products  with prices, availability, tax, discounts",200,OK,Thread Group 1-7,text,true,,37835,2986,9,9,https://loadtest-platform.dev.govirto.com/graphql,1410,0,0
+1614701109070,1043,Get product detail  ,200,OK,Thread Group 1-2,text,true,,2067,3173,9,9,https://loadtest-platform.dev.govirto.com/graphql,1043,0,0
+1614701108991,1163,Add  SKU to cart,200,OK,Thread Group 1-6,text,true,,328,2270,9,9,https://loadtest-platform.dev.govirto.com/graphql,1163,0,0
+1614701109131,1297,Get product detail  ,200,OK,Thread Group 1-4,text,true,,2063,3173,9,9,https://loadtest-platform.dev.govirto.com/graphql,1297,0,0
+1614701109612,909,Get product detail  ,200,OK,Thread Group 1-5,text,true,,1003,3173,9,9,https://loadtest-platform.dev.govirto.com/graphql,909,0,0
+1614701109172,1373,SignIn,200,OK,Thread Group 1-9,text,true,,2715,622,10,10,https://loadtest-platform.dev.govirto.com/connect/token,1372,0,815
+1614701109381,1537,Add  SKU to cart,200,OK,Thread Group 1-1,text,true,,328,2270,10,10,https://loadtest-platform.dev.govirto.com/graphql,1537,0,0
+1614701110155,1002,Get product detail  ,200,OK,Thread Group 1-6,text,true,,1003,3173,10,10,https://loadtest-platform.dev.govirto.com/graphql,1002,0,0
+1614701110546,778,Get me,200,OK,Thread Group 1-9,text,true,,438,1861,10,10,https://loadtest-platform.dev.govirto.com/graphql,778,0,0
+1614701110067,1261,Get product detail  ,200,OK,Thread Group 1-7,text,true,,2063,3173,10,10,https://loadtest-platform.dev.govirto.com/graphql,1261,0,0
+1614701109932,1492,Add  SKU to cart,200,OK,Thread Group 1-3,text,true,,328,2270,10,10,https://loadtest-platform.dev.govirto.com/graphql,1492,0,0
+1614701110114,1380,Add  SKU to cart,200,OK,Thread Group 1-2,text,true,,328,2270,10,10,https://loadtest-platform.dev.govirto.com/graphql,1380,0,0
+1614701109612,2059," Search 50 products  with prices, availability, tax, discounts",200,OK,Thread Group 1-8,text,true,,37835,2986,10,10,https://loadtest-platform.dev.govirto.com/graphql,1555,0,0
+1614701110522,1303,Add  SKU to cart,200,OK,Thread Group 1-5,text,true,,328,2270,10,10,https://loadtest-platform.dev.govirto.com/graphql,1302,0,0
+1614701110919,967,Get product detail  ,200,OK,Thread Group 1-1,text,true,,1003,3173,10,10,https://loadtest-platform.dev.govirto.com/graphql,967,0,0
+1614701110534,1356,SignIn,200,OK,Thread Group 1-10,text,true,,2716,623,10,10,https://loadtest-platform.dev.govirto.com/connect/token,1355,0,856
+1614701110429,1515,Add  SKU to cart,200,OK,Thread Group 1-4,text,true,,328,2270,11,11,https://loadtest-platform.dev.govirto.com/graphql,1515,0,0
+1614701111158,786,Add  SKU to cart,200,OK,Thread Group 1-6,text,true,,328,2270,11,11,https://loadtest-platform.dev.govirto.com/graphql,786,0,0
+1614701111674,607,Get product detail  ,200,OK,Thread Group 1-8,text,true,,1005,3173,11,11,https://loadtest-platform.dev.govirto.com/graphql,607,0,0
+1614701111494,858,Get product detail  ,200,OK,Thread Group 1-2,text,true,,1005,3173,11,11,https://loadtest-platform.dev.govirto.com/graphql,858,0,0
+1614701111890,493,Get me,200,OK,Thread Group 1-10,text,true,,444,1862,11,11,https://loadtest-platform.dev.govirto.com/graphql,493,0,0
+1614701111424,1037,Get product detail  ,200,OK,Thread Group 1-3,text,true,,1003,3173,11,11,https://loadtest-platform.dev.govirto.com/graphql,1037,0,0
+1614701111329,1134,Add  SKU to cart,200,OK,Thread Group 1-7,text,true,,328,2270,11,11,https://loadtest-platform.dev.govirto.com/graphql,1134,0,0
+1614701111825,979,Get product detail  ,200,OK,Thread Group 1-5,text,true,,1005,3173,11,11,https://loadtest-platform.dev.govirto.com/graphql,979,0,0
+1614701111944,947,Get product detail  ,200,OK,Thread Group 1-4,text,true,,1005,3173,11,11,https://loadtest-platform.dev.govirto.com/graphql,947,0,0
+1614701111944,1298,Get product detail  ,200,OK,Thread Group 1-6,text,true,,2059,3173,11,11,https://loadtest-platform.dev.govirto.com/graphql,1298,0,0
+1614701111898,1605,SignIn,200,OK,Thread Group 1-11,text,true,,2716,623,12,12,https://loadtest-platform.dev.govirto.com/connect/token,1603,0,832
+1614701111886,1771,Add  SKU to cart,200,OK,Thread Group 1-1,text,true,,328,2270,12,12,https://loadtest-platform.dev.govirto.com/graphql,1770,0,0
+1614701112478,1229,Get product detail  ,200,OK,Thread Group 1-7,text,true,,1003,3173,12,12,https://loadtest-platform.dev.govirto.com/graphql,1229,0,0
+1614701112282,1497,Add  SKU to cart,200,OK,Thread Group 1-8,text,true,,328,2270,12,12,https://loadtest-platform.dev.govirto.com/graphql,1497,0,0
+1614701111325,2606," Search 50 products  with prices, availability, tax, discounts",200,OK,Thread Group 1-9,text,true,,37836,2986,12,12,https://loadtest-platform.dev.govirto.com/graphql,2095,0,0
+1614701112478,1812,Add  SKU to cart,200,OK,Thread Group 1-3,text,true,,328,2270,12,12,https://loadtest-platform.dev.govirto.com/graphql,1812,0,0
+1614701113504,877,Get me,200,OK,Thread Group 1-11,text,true,,444,1862,12,12,https://loadtest-platform.dev.govirto.com/graphql,877,0,0
+1614701112353,2060,Add  SKU to cart,200,OK,Thread Group 1-2,text,true,,328,2270,12,12,https://loadtest-platform.dev.govirto.com/graphql,2060,0,0
+1614701112805,1699,Add  SKU to cart,200,OK,Thread Group 1-5,text,true,,328,2270,12,12,https://loadtest-platform.dev.govirto.com/graphql,1699,0,0
+1614701113262,1242,SignIn,200,OK,Thread Group 1-12,text,true,,2716,623,12,12,https://loadtest-platform.dev.govirto.com/connect/token,1237,0,742
+1614701112892,1620,Add  SKU to cart,200,OK,Thread Group 1-4,text,true,,328,2270,12,12,https://loadtest-platform.dev.govirto.com/graphql,1620,0,0
+1614701113242,1402,Add  SKU to cart,200,OK,Thread Group 1-6,text,true,,328,2270,13,13,https://loadtest-platform.dev.govirto.com/graphql,1402,0,0
+1614701113932,728,Get product detail  ,200,OK,Thread Group 1-9,text,true,,1005,3173,13,13,https://loadtest-platform.dev.govirto.com/graphql,728,0,0
+1614701113780,1058,Get product detail  ,200,OK,Thread Group 1-8,text,true,,1003,3173,13,13,https://loadtest-platform.dev.govirto.com/graphql,1058,0,0
+1614701112383,2460," Search 50 products  with prices, availability, tax, discounts",200,OK,Thread Group 1-10,text,true,,37835,2986,13,13,https://loadtest-platform.dev.govirto.com/graphql,1946,0,0
+1614701114505,411,Get me,200,OK,Thread Group 1-12,text,true,,444,1862,13,13,https://loadtest-platform.dev.govirto.com/graphql,411,0,0
+1614701113657,1391,Get product detail  ,200,OK,Thread Group 1-1,text,true,,2067,3173,13,13,https://loadtest-platform.dev.govirto.com/graphql,1391,0,0
+1614701113708,1406,Add  SKU to cart,200,OK,Thread Group 1-7,text,true,,328,2270,13,13,https://loadtest-platform.dev.govirto.com/graphql,1406,0,0
+1614701114512,1196,Get product detail  ,200,OK,Thread Group 1-4,text,true,,1003,3173,13,13,https://loadtest-platform.dev.govirto.com/graphql,1196,0,0
+1614701114505,1204,Get product detail  ,200,OK,Thread Group 1-5,text,true,,1005,3173,13,13,https://loadtest-platform.dev.govirto.com/graphql,1204,0,0
+1614701114414,1317,Get product detail  ,200,OK,Thread Group 1-2,text,true,,2063,3173,13,13,https://loadtest-platform.dev.govirto.com/graphql,1316,0,0
+1614701114645,1289,Get product detail  ,200,OK,Thread Group 1-6,text,true,,1005,3173,13,13,https://loadtest-platform.dev.govirto.com/graphql,1289,0,0
+1614701114291,1745,Get product detail  ,200,OK,Thread Group 1-3,text,true,,2059,3173,14,14,https://loadtest-platform.dev.govirto.com/graphql,1745,0,0
+1614701114844,1204,Get product detail  ,200,OK,Thread Group 1-10,text,true,,2071,3174,14,14,https://loadtest-platform.dev.govirto.com/graphql,1204,0,0
+1614701114629,1480,SignIn,200,OK,Thread Group 1-13,text,true,,2716,623,14,14,https://loadtest-platform.dev.govirto.com/connect/token,1479,0,744
+1614701114660,2096,Add  SKU to cart,200,OK,Thread Group 1-9,text,true,,328,2270,14,14,https://loadtest-platform.dev.govirto.com/graphql,2096,0,0
+1614701115115,1668,Get product detail  ,200,OK,Thread Group 1-7,text,true,,1003,3173,14,14,https://loadtest-platform.dev.govirto.com/graphql,1668,0,0
+1614701116110,866,Get me,200,OK,Thread Group 1-13,text,true,,444,1862,14,14,https://loadtest-platform.dev.govirto.com/graphql,866,0,0
+1614701114838,2444,Add  SKU to cart,200,OK,Thread Group 1-8,text,true,,328,2270,14,14,https://loadtest-platform.dev.govirto.com/graphql,2444,0,0
+1614701114382,2946," Search 50 products  with prices, availability, tax, discounts",200,OK,Thread Group 1-11,text,true,,37826,2986,14,14,https://loadtest-platform.dev.govirto.com/graphql,2387,0,0
+1614701115989,1506,SignIn,200,OK,Thread Group 1-14,text,true,,2716,623,15,15,https://loadtest-platform.dev.govirto.com/connect/token,1506,0,751
+1614701115048,2456,Add  SKU to cart,200,OK,Thread Group 1-1,text,true,,328,2270,15,15,https://loadtest-platform.dev.govirto.com/graphql,2456,0,0
+1614701115709,2028,Add  SKU to cart,200,OK,Thread Group 1-5,text,true,,328,2270,15,15,https://loadtest-platform.dev.govirto.com/graphql,2028,0,0
+1614701115708,2044,Add  SKU to cart,200,OK,Thread Group 1-4,text,true,,328,2270,15,15,https://loadtest-platform.dev.govirto.com/graphql,2044,0,0
+1614701115731,2021,Add  SKU to cart,200,OK,Thread Group 1-2,text,true,,328,2270,15,15,https://loadtest-platform.dev.govirto.com/graphql,2021,0,0
+1614701114916,3015," Search 50 products  with prices, availability, tax, discounts",200,OK,Thread Group 1-12,text,true,,37826,2986,15,15,https://loadtest-platform.dev.govirto.com/graphql,2503,0,0
+1614701117495,607,Get me,200,OK,Thread Group 1-14,text,true,,444,1862,15,15,https://loadtest-platform.dev.govirto.com/graphql,607,0,0
+1614701116036,2120,Add  SKU to cart,200,OK,Thread Group 1-3,text,true,,328,2270,15,15,https://loadtest-platform.dev.govirto.com/graphql,2120,0,0
+1614701115934,2223,Add  SKU to cart,200,OK,Thread Group 1-6,text,true,,328,2270,15,15,https://loadtest-platform.dev.govirto.com/graphql,2223,0,0
+1614701117330,952,Get product detail  ,200,OK,Thread Group 1-11,text,true,,1003,3174,15,15,https://loadtest-platform.dev.govirto.com/graphql,952,0,0
+1614701116784,1499,Add  SKU to cart,200,OK,Thread Group 1-7,text,true,,328,2270,15,15,https://loadtest-platform.dev.govirto.com/graphql,1498,0,0
+1614701116048,2264,Add  SKU to cart,200,OK,Thread Group 1-10,text,true,,328,2271,15,15,https://loadtest-platform.dev.govirto.com/graphql,2264,0,0
+1614701116757,1755,Get product detail  ,200,OK,Thread Group 1-9,text,true,,2071,3173,15,15,https://loadtest-platform.dev.govirto.com/graphql,1755,0,0
+1614701117932,877,Get product detail  ,200,OK,Thread Group 1-12,text,true,,1003,3174,16,16,https://loadtest-platform.dev.govirto.com/graphql,877,0,0
+1614701117504,1306,Get product detail  ,200,OK,Thread Group 1-1,text,true,,1003,3173,16,16,https://loadtest-platform.dev.govirto.com/graphql,1306,0,0
+1614701117356,1857,SignIn,200,OK,Thread Group 1-15,text,true,,2716,623,16,16,https://loadtest-platform.dev.govirto.com/connect/token,1855,0,751
+1614701117752,1475,Get product detail  ,200,OK,Thread Group 1-2,text,true,,1003,3173,16,16,https://loadtest-platform.dev.govirto.com/graphql,1475,0,0
+1614701117283,2008,Get product detail  ,200,OK,Thread Group 1-8,text,true,,2071,3173,16,16,https://loadtest-platform.dev.govirto.com/graphql,2008,0,0
+1614701117752,2006,Get product detail  ,200,OK,Thread Group 1-4,text,true,,2063,3173,16,16,https://loadtest-platform.dev.govirto.com/graphql,2006,0,0
+1614701116976,2830," Search 50 products  with prices, availability, tax, discounts",200,OK,Thread Group 1-13,text,true,,37833,2987,16,16,https://loadtest-platform.dev.govirto.com/graphql,2325,0,0
+1614701117737,2169,Get product detail  ,200,OK,Thread Group 1-5,text,true,,2059,3173,16,16,https://loadtest-platform.dev.govirto.com/graphql,2168,0,0
+1614701118158,1863,Get product detail  ,200,OK,Thread Group 1-6,text,true,,1005,3173,16,16,https://loadtest-platform.dev.govirto.com/graphql,1863,0,0
+1614701118157,1971,Get product detail  ,200,OK,Thread Group 1-3,text,true,,1003,3173,17,17,https://loadtest-platform.dev.govirto.com/graphql,1971,0,0
+1614701118313,1902,Get product detail  ,200,OK,Thread Group 1-10,text,true,,1003,3174,17,17,https://loadtest-platform.dev.govirto.com/graphql,1902,0,0
+1614701118721,1988,SignIn,200,OK,Thread Group 1-16,text,true,,2716,623,17,17,https://loadtest-platform.dev.govirto.com/connect/token,1981,0,840
+1614701119214,1495,Get me,200,OK,Thread Group 1-15,text,true,,444,1862,17,17,https://loadtest-platform.dev.govirto.com/graphql,1495,0,0
+1614701118283,2491,Get product detail  ,200,OK,Thread Group 1-7,text,true,,2071,3173,17,17,https://loadtest-platform.dev.govirto.com/graphql,2491,0,0
+1614701118283,2762,Add  SKU to cart,200,OK,Thread Group 1-11,text,true,,328,2271,17,17,https://loadtest-platform.dev.govirto.com/graphql,2762,0,0
+1614701119809,1542,Get product detail  ,200,OK,Thread Group 1-13,text,true,,2067,3174,17,17,https://loadtest-platform.dev.govirto.com/graphql,1542,0,0
+1614701118513,2980,Add  SKU to cart,200,OK,Thread Group 1-9,text,true,,328,2270,18,18,https://loadtest-platform.dev.govirto.com/graphql,2980,0,0
+1614701118811,2776,Add  SKU to cart,200,OK,Thread Group 1-1,text,true,,328,2270,18,18,https://loadtest-platform.dev.govirto.com/graphql,2776,0,0
+1614701118810,2831,Add  SKU to cart,200,OK,Thread Group 1-12,text,true,,328,2271,18,18,https://loadtest-platform.dev.govirto.com/graphql,2831,0,0
+1614701120710,978,Get me,200,OK,Thread Group 1-16,text,true,,444,1862,18,18,https://loadtest-platform.dev.govirto.com/graphql,978,0,0
+1614701120088,1695,SignIn,200,OK,Thread Group 1-17,text,true,,2716,623,18,18,https://loadtest-platform.dev.govirto.com/connect/token,1694,0,879
+1614701119228,2803,Add  SKU to cart,200,OK,Thread Group 1-2,text,true,,328,2270,18,18,https://loadtest-platform.dev.govirto.com/graphql,2803,0,0
+1614701118103,4044," Search 50 products  with prices, availability, tax, discounts",200,OK,Thread Group 1-14,text,true,,37825,2986,18,18,https://loadtest-platform.dev.govirto.com/graphql,3488,0,0
+1614701119292,2865,Add  SKU to cart,200,OK,Thread Group 1-8,text,true,,328,2270,18,18,https://loadtest-platform.dev.govirto.com/graphql,2865,0,0
+1614701119760,2413,Add  SKU to cart,200,OK,Thread Group 1-4,text,true,,328,2270,18,18,https://loadtest-platform.dev.govirto.com/graphql,2413,0,0
+1614701121785,825,Get me,200,OK,Thread Group 1-17,text,true,,444,1862,18,18,https://loadtest-platform.dev.govirto.com/graphql,825,0,0
+1614701119907,2782,Add  SKU to cart,200,OK,Thread Group 1-5,text,true,,328,2270,18,18,https://loadtest-platform.dev.govirto.com/graphql,2782,0,0
+1614701120215,2525,Add  SKU to cart,200,OK,Thread Group 1-10,text,true,,328,2271,18,18,https://loadtest-platform.dev.govirto.com/graphql,2525,0,0
+1614701120022,2863,Add  SKU to cart,200,OK,Thread Group 1-6,text,true,,328,2270,19,19,https://loadtest-platform.dev.govirto.com/graphql,2863,0,0
+1614701120129,2756,Add  SKU to cart,200,OK,Thread Group 1-3,text,true,,328,2270,19,19,https://loadtest-platform.dev.govirto.com/graphql,2756,0,0
+1614701122148,1049,Get product detail  ,200,OK,Thread Group 1-14,text,true,,1003,3174,19,19,https://loadtest-platform.dev.govirto.com/graphql,1049,0,0
+1614701121448,1748,SignIn,200,OK,Thread Group 1-18,text,true,,2716,623,19,19,https://loadtest-platform.dev.govirto.com/connect/token,1747,0,732
+1614701121493,1730,Get product detail  ,200,OK,Thread Group 1-9,text,true,,1005,3173,19,19,https://loadtest-platform.dev.govirto.com/graphql,1730,0,0
+1614701121589,1731,Get product detail  ,200,OK,Thread Group 1-1,text,true,,1003,3173,19,19,https://loadtest-platform.dev.govirto.com/graphql,1731,0,0
+1614701121352,1978,Add  SKU to cart,200,OK,Thread Group 1-13,text,true,,328,2271,19,19,https://loadtest-platform.dev.govirto.com/graphql,1978,0,0
+1614701120774,2557,Add  SKU to cart,200,OK,Thread Group 1-7,text,true,,328,2270,19,19,https://loadtest-platform.dev.govirto.com/graphql,2557,0,0
+1614701121045,2339,Get product detail  ,200,OK,Thread Group 1-11,text,true,,2063,3174,19,19,https://loadtest-platform.dev.govirto.com/graphql,2339,0,0
+1614701121642,1988,Get product detail  ,200,OK,Thread Group 1-12,text,true,,2063,3174,19,19,https://loadtest-platform.dev.govirto.com/graphql,1988,0,0
+1614701122158,1589,Get product detail  ,200,OK,Thread Group 1-8,text,true,,1003,3173,19,19,https://loadtest-platform.dev.govirto.com/graphql,1589,0,0
+1614701122032,1802,Get product detail  ,200,OK,Thread Group 1-2,text,true,,1003,3173,19,19,https://loadtest-platform.dev.govirto.com/graphql,1802,0,0
+1614701122173,1849,Get product detail  ,200,OK,Thread Group 1-4,text,true,,1005,3173,19,19,https://loadtest-platform.dev.govirto.com/graphql,1849,0,0
+1614701120710,3315," Search 50 products  with prices, availability, tax, discounts",200,OK,Thread Group 1-15,text,true,,37837,2987,19,19,https://loadtest-platform.dev.govirto.com/graphql,2774,0,0
+1614701122690,1519,Get product detail  ,200,OK,Thread Group 1-5,text,true,,1005,3173,20,20,https://loadtest-platform.dev.govirto.com/graphql,1519,0,0
+1614701123198,1093,Get me,200,OK,Thread Group 1-18,text,true,,444,1862,20,20,https://loadtest-platform.dev.govirto.com/graphql,1093,0,0
+1614701122740,1612,Get product detail  ,200,OK,Thread Group 1-10,text,true,,1005,3174,20,20,https://loadtest-platform.dev.govirto.com/graphql,1612,0,0
+1614701122885,1468,Get product detail  ,200,OK,Thread Group 1-6,text,true,,1003,3173,20,20,https://loadtest-platform.dev.govirto.com/graphql,1468,0,0
+1614701122885,1522,Get product detail  ,200,OK,Thread Group 1-3,text,true,,1005,3173,20,20,https://loadtest-platform.dev.govirto.com/graphql,1522,0,0
+1614701122813,1736,SignIn,200,OK,Thread Group 1-19,text,true,,2716,623,20,20,https://loadtest-platform.dev.govirto.com/connect/token,1735,0,780
+1614701121689,3263," Search 50 products  with prices, availability, tax, discounts",200,OK,Thread Group 1-16,text,true,,37805,2986,20,20,https://loadtest-platform.dev.govirto.com/graphql,2719,0,0
+1614701124027,935,Get product detail  ,200,OK,Thread Group 1-15,text,true,,1005,3174,20,20,https://loadtest-platform.dev.govirto.com/graphql,935,0,0
+1614701123333,2149,Get product detail  ,200,OK,Thread Group 1-7,text,true,,1003,3173,20,20,https://loadtest-platform.dev.govirto.com/graphql,2149,0,0
+1614701123331,2617,Get product detail  ,200,OK,Thread Group 1-13,text,true,,2067,3174,21,21,https://loadtest-platform.dev.govirto.com/graphql,2617,0,0
+1614701124955,1203,Get product detail  ,200,OK,Thread Group 1-16,text,true,,1005,3174,21,21,https://loadtest-platform.dev.govirto.com/graphql,1203,0,0
+1614701123198,3041,Add  SKU to cart,200,OK,Thread Group 1-14,text,true,,327,2271,21,21,https://loadtest-platform.dev.govirto.com/graphql,3041,0,0
+1614701124550,1697,Get me,200,OK,Thread Group 1-19,text,true,,444,1862,21,21,https://loadtest-platform.dev.govirto.com/graphql,1697,0,0
+1614701124180,2315,SignIn,200,OK,Thread Group 1-20,text,true,,2716,623,21,21,https://loadtest-platform.dev.govirto.com/connect/token,2311,0,764
+1614701123225,3434,Add  SKU to cart,200,OK,Thread Group 1-9,text,true,,328,2270,21,21,https://loadtest-platform.dev.govirto.com/graphql,3434,0,0
+1614701123321,3371,Add  SKU to cart,200,OK,Thread Group 1-1,text,true,,328,2270,21,21,https://loadtest-platform.dev.govirto.com/graphql,3371,0,0
+1614701122611,4195," Search 50 products  with prices, availability, tax, discounts",200,OK,Thread Group 1-17,text,true,,37820,2985,21,21,https://loadtest-platform.dev.govirto.com/graphql,3635,0,0
+1614701123630,3366,Add  SKU to cart,200,OK,Thread Group 1-12,text,true,,328,2271,22,22,https://loadtest-platform.dev.govirto.com/graphql,3366,0,0
+1614701123835,3187,Add  SKU to cart,200,OK,Thread Group 1-2,text,true,,328,2270,22,22,https://loadtest-platform.dev.govirto.com/graphql,3187,0,0
+1614701123385,3670,Add  SKU to cart,200,OK,Thread Group 1-11,text,true,,328,2271,22,22,https://loadtest-platform.dev.govirto.com/graphql,3670,0,0
+1614701123748,3313,Add  SKU to cart,200,OK,Thread Group 1-8,text,true,,328,2270,22,22,https://loadtest-platform.dev.govirto.com/graphql,3313,0,0
+1614701125547,1771,SignIn,200,OK,Thread Group 1-21,text,true,,2716,623,22,22,https://loadtest-platform.dev.govirto.com/connect/token,1770,0,754
+1614701124023,3556,Add  SKU to cart,200,OK,Thread Group 1-4,text,true,,328,2270,22,22,https://loadtest-platform.dev.govirto.com/graphql,3556,0,0
+1614701126498,1080,Get me,200,OK,Thread Group 1-20,text,true,,444,1862,22,22,https://loadtest-platform.dev.govirto.com/graphql,1080,0,0
+1614701126240,1577,Get product detail  ,200,OK,Thread Group 1-14,text,true,,1005,3174,22,22,https://loadtest-platform.dev.govirto.com/graphql,1577,0,0
+1614701124964,2871,Add  SKU to cart,200,OK,Thread Group 1-15,text,true,,327,2271,22,22,https://loadtest-platform.dev.govirto.com/graphql,2871,0,0
+1614701124210,3909,Add  SKU to cart,200,OK,Thread Group 1-5,text,true,,328,2270,22,22,https://loadtest-platform.dev.govirto.com/graphql,3909,0,0
+1614701124353,3784,Add  SKU to cart,200,OK,Thread Group 1-6,text,true,,328,2270,22,22,https://loadtest-platform.dev.govirto.com/graphql,3784,0,0
+1614701126809,1329,Get product detail  ,200,OK,Thread Group 1-17,text,true,,1003,3174,22,22,https://loadtest-platform.dev.govirto.com/graphql,1329,0,0
+1614701124408,3731,Add  SKU to cart,200,OK,Thread Group 1-3,text,true,,328,2270,22,22,https://loadtest-platform.dev.govirto.com/graphql,3731,0,0
+1614701125948,2560,Add  SKU to cart,200,OK,Thread Group 1-13,text,true,,328,2271,23,23,https://loadtest-platform.dev.govirto.com/graphql,2560,0,0
+1614701126159,2376,Add  SKU to cart,200,OK,Thread Group 1-16,text,true,,327,2271,23,23,https://loadtest-platform.dev.govirto.com/graphql,2376,0,0
+1614701127319,1233,Get me,200,OK,Thread Group 1-21,text,true,,444,1862,23,23,https://loadtest-platform.dev.govirto.com/graphql,1233,0,0
+1614701124353,4213,Add  SKU to cart,200,OK,Thread Group 1-10,text,true,,328,2271,23,23,https://loadtest-platform.dev.govirto.com/graphql,4213,0,0
+1614701126908,1662,SignIn,200,OK,Thread Group 1-22,text,true,,2716,623,23,23,https://loadtest-platform.dev.govirto.com/connect/token,1660,0,794
+1614701125483,3182,Add  SKU to cart,200,OK,Thread Group 1-7,text,true,,328,2270,23,23,https://loadtest-platform.dev.govirto.com/graphql,3182,0,0
+1614701126693,2312,Get product detail  ,200,OK,Thread Group 1-1,text,true,,1005,3173,23,23,https://loadtest-platform.dev.govirto.com/graphql,2312,0,0
+1614701124292,4869," Search 50 products  with prices, availability, tax, discounts",200,OK,Thread Group 1-18,text,true,,37845,2987,23,23,https://loadtest-platform.dev.govirto.com/graphql,4321,0,0
+1614701126997,2573,Get product detail  ,200,OK,Thread Group 1-12,text,true,,1003,3174,23,23,https://loadtest-platform.dev.govirto.com/graphql,2573,0,0
+1614701127056,2517,Get product detail  ,200,OK,Thread Group 1-11,text,true,,1003,3174,23,23,https://loadtest-platform.dev.govirto.com/graphql,2516,0,0
+1614701127061,2512,Get product detail  ,200,OK,Thread Group 1-8,text,true,,1003,3173,23,23,https://loadtest-platform.dev.govirto.com/graphql,2512,0,0
+1614701127836,1883,Get product detail  ,200,OK,Thread Group 1-15,text,true,,1005,3174,24,24,https://loadtest-platform.dev.govirto.com/graphql,1883,0,0
+1614701126659,3065,Get product detail  ,200,OK,Thread Group 1-9,text,true,,2063,3173,24,24,https://loadtest-platform.dev.govirto.com/graphql,3065,0,0
+1614701127580,2151,Get product detail  ,200,OK,Thread Group 1-4,text,true,,1001,3173,24,24,https://loadtest-platform.dev.govirto.com/graphql,2151,0,0
+1614701127022,3037,Get product detail  ,200,OK,Thread Group 1-2,text,true,,2071,3173,24,24,https://loadtest-platform.dev.govirto.com/graphql,3037,0,0
+1614701128274,1854,SignIn,200,OK,Thread Group 1-23,text,true,,2716,623,24,24,https://loadtest-platform.dev.govirto.com/connect/token,1842,0,888
+1614701128571,1558,Get me,200,OK,Thread Group 1-22,text,true,,444,1862,24,24,https://loadtest-platform.dev.govirto.com/graphql,1558,0,0
+1614701127818,2957,Add  SKU to cart,200,OK,Thread Group 1-14,text,true,,327,2271,24,24,https://loadtest-platform.dev.govirto.com/graphql,2957,0,0
+1614701128138,2642,Get product detail  ,200,OK,Thread Group 1-6,text,true,,1003,3173,24,24,https://loadtest-platform.dev.govirto.com/graphql,2642,0,0
+1614701128120,2740,Get product detail  ,200,OK,Thread Group 1-5,text,true,,1005,3173,24,24,https://loadtest-platform.dev.govirto.com/graphql,2740,0,0
+1614701126248,4993," Search 50 products  with prices, availability, tax, discounts",200,OK,Thread Group 1-19,text,true,,37835,2987,25,25,https://loadtest-platform.dev.govirto.com/graphql,4087,0,0
+1614701129162,2675,Get product detail  ,200,OK,Thread Group 1-18,text,true,,2067,3174,25,25,https://loadtest-platform.dev.govirto.com/graphql,2675,0,0
+1614701128536,3303,Get product detail  ,200,OK,Thread Group 1-16,text,true,,2059,3174,25,25,https://loadtest-platform.dev.govirto.com/graphql,3303,0,0
+1614701128509,3674,Get product detail  ,200,OK,Thread Group 1-13,text,true,,2063,3174,25,25,https://loadtest-platform.dev.govirto.com/graphql,3674,0,0
+1614701130130,2053,Get me,200,OK,Thread Group 1-23,text,true,,444,1862,25,25,https://loadtest-platform.dev.govirto.com/graphql,2053,0,0
+1614701128140,4243,Get product detail  ,200,OK,Thread Group 1-3,text,true,,2067,3173,26,26,https://loadtest-platform.dev.govirto.com/graphql,4243,0,0
+1614701128665,3718,Get product detail  ,200,OK,Thread Group 1-7,text,true,,1005,3173,26,26,https://loadtest-platform.dev.govirto.com/graphql,3718,0,0
+1614701129636,2748,SignIn,200,OK,Thread Group 1-24,text,true,,2716,623,26,26,https://loadtest-platform.dev.govirto.com/connect/token,2747,0,781
+1614701128567,4371,Get product detail  ,200,OK,Thread Group 1-10,text,true,,2067,3174,26,26,https://loadtest-platform.dev.govirto.com/graphql,4371,0,0
+1614701127580,5504," Search 50 products  with prices, availability, tax, discounts",200,OK,Thread Group 1-20,text,true,,37825,2986,26,26,https://loadtest-platform.dev.govirto.com/graphql,4969,0,0
+1614701128139,5697,Add  SKU to cart,200,OK,Thread Group 1-17,text,true,,328,2271,27,27,https://loadtest-platform.dev.govirto.com/graphql,5697,0,0
+1614701130999,2850,SignIn,200,OK,Thread Group 1-25,text,true,,2716,623,27,27,https://loadtest-platform.dev.govirto.com/connect/token,2848,0,880
+1614701129719,4288,Add  SKU to cart,200,OK,Thread Group 1-15,text,true,,327,2271,27,27,https://loadtest-platform.dev.govirto.com/graphql,4288,0,0
+1614701131244,2916,Get product detail  ,200,OK,Thread Group 1-19,text,true,,2067,3174,27,27,https://loadtest-platform.dev.govirto.com/graphql,2916,0,0
+1614701132385,2198,Get me,200,OK,Thread Group 1-24,text,true,,444,1862,27,27,https://loadtest-platform.dev.govirto.com/graphql,2198,0,0
+1614701129006,5577,Add  SKU to cart,200,OK,Thread Group 1-1,text,true,,328,2270,27,27,https://loadtest-platform.dev.govirto.com/graphql,5577,0,0
+1614701130776,3938,Get product detail  ,200,OK,Thread Group 1-14,text,true,,2067,3174,27,27,https://loadtest-platform.dev.govirto.com/graphql,3938,0,0
+1614701133087,1724,Get product detail  ,200,OK,Thread Group 1-20,text,true,,1005,3174,27,27,https://loadtest-platform.dev.govirto.com/graphql,1724,0,0
+1614701128553,6669," Search 50 products  with prices, availability, tax, discounts",200,OK,Thread Group 1-21,text,true,,37823,2986,28,28,https://loadtest-platform.dev.govirto.com/graphql,6165,0,0
+1614701129573,5784,Add  SKU to cart,200,OK,Thread Group 1-11,text,true,,328,2271,28,28,https://loadtest-platform.dev.govirto.com/graphql,5784,0,0
+1614701129570,5805,Add  SKU to cart,200,OK,Thread Group 1-12,text,true,,328,2271,28,28,https://loadtest-platform.dev.govirto.com/graphql,5805,0,0
+1614701129574,5830,Add  SKU to cart,200,OK,Thread Group 1-8,text,true,,328,2270,28,28,https://loadtest-platform.dev.govirto.com/graphql,5830,0,0
+1614701129725,5682,Add  SKU to cart,200,OK,Thread Group 1-9,text,true,,328,2270,28,28,https://loadtest-platform.dev.govirto.com/graphql,5682,0,0
+1614701130059,5371,Add  SKU to cart,200,OK,Thread Group 1-2,text,true,,328,2270,28,28,https://loadtest-platform.dev.govirto.com/graphql,5371,0,0
+1614701129732,5701,Add  SKU to cart,200,OK,Thread Group 1-4,text,true,,328,2270,28,28,https://loadtest-platform.dev.govirto.com/graphql,5701,0,0
+1614701133849,1643,Get me,200,OK,Thread Group 1-25,text,true,,444,1862,28,28,https://loadtest-platform.dev.govirto.com/graphql,1643,0,0
+1614701131840,3888,Add  SKU to cart,200,OK,Thread Group 1-16,text,true,,327,2271,28,28,https://loadtest-platform.dev.govirto.com/graphql,3887,0,0
+1614701130861,5180,Add  SKU to cart,200,OK,Thread Group 1-5,text,true,,328,2270,28,28,https://loadtest-platform.dev.govirto.com/graphql,5180,0,0
+1614701130130,6222," Search 50 products  with prices, availability, tax, discounts",200,OK,Thread Group 1-22,text,true,,37811,2986,28,28,https://loadtest-platform.dev.govirto.com/graphql,5711,0,0
+1614701132184,4221,Add  SKU to cart,200,OK,Thread Group 1-13,text,true,,328,2271,28,28,https://loadtest-platform.dev.govirto.com/graphql,4221,0,0
+1614701131838,5131,Add  SKU to cart,200,OK,Thread Group 1-18,text,true,,328,2271,29,29,https://loadtest-platform.dev.govirto.com/graphql,5131,0,0
+1614701130780,6347,Add  SKU to cart,200,OK,Thread Group 1-6,text,true,,328,2270,29,29,https://loadtest-platform.dev.govirto.com/graphql,6347,0,0
+1614701133837,3691,Get product detail  ,200,OK,Thread Group 1-17,text,true,,1005,3174,29,29,https://loadtest-platform.dev.govirto.com/graphql,3691,0,0
+1614701134019,3711,Get product detail  ,200,OK,Thread Group 1-15,text,true,,2071,3174,29,29,https://loadtest-platform.dev.govirto.com/graphql,3711,0,0
+1614701132384,5734,Add  SKU to cart,200,OK,Thread Group 1-3,text,true,,328,2270,30,30,https://loadtest-platform.dev.govirto.com/graphql,5734,0,0
+1614701135223,2901,Get product detail  ,200,OK,Thread Group 1-21,text,true,,2071,3174,30,30,https://loadtest-platform.dev.govirto.com/graphql,2901,0,0
+1614701132385,5741,Add  SKU to cart,200,OK,Thread Group 1-7,text,true,,328,2270,30,30,https://loadtest-platform.dev.govirto.com/graphql,5741,0,0
+1614701134583,3830,Get product detail  ,200,OK,Thread Group 1-1,text,true,,1003,3173,30,30,https://loadtest-platform.dev.govirto.com/graphql,3830,0,0
+1614701134713,3708,Add  SKU to cart,200,OK,Thread Group 1-14,text,true,,327,2271,30,30,https://loadtest-platform.dev.govirto.com/graphql,3708,0,0
+1614701135728,2746,Get product detail  ,200,OK,Thread Group 1-16,text,true,,1005,3174,30,30,https://loadtest-platform.dev.govirto.com/graphql,2746,0,0
+1614701132940,5679,Add  SKU to cart,200,OK,Thread Group 1-10,text,true,,328,2271,30,30,https://loadtest-platform.dev.govirto.com/graphql,5679,0,0
+1614701135429,3192,Get product detail  ,200,OK,Thread Group 1-2,text,true,,1003,3173,30,30,https://loadtest-platform.dev.govirto.com/graphql,3192,0,0
+1614701132184,6438," Search 50 products  with prices, availability, tax, discounts",200,OK,Thread Group 1-23,text,true,,37816,2986,30,30,https://loadtest-platform.dev.govirto.com/graphql,5496,0,0
+1614701135404,3328,Get product detail  ,200,OK,Thread Group 1-8,text,true,,1005,3173,30,30,https://loadtest-platform.dev.govirto.com/graphql,3328,0,0
+1614701135406,3481,Get product detail  ,200,OK,Thread Group 1-9,text,true,,1005,3173,30,30,https://loadtest-platform.dev.govirto.com/graphql,3481,0,0
+1614701134159,4882,Add  SKU to cart,200,OK,Thread Group 1-19,text,true,,328,2271,30,30,https://loadtest-platform.dev.govirto.com/graphql,4881,0,0
+1614701135433,3747,Get product detail  ,200,OK,Thread Group 1-4,text,true,,1003,3173,30,30,https://loadtest-platform.dev.govirto.com/graphql,3747,0,0
+1614701136353,2895,Get product detail  ,200,OK,Thread Group 1-22,text,true,,2067,3174,31,31,https://loadtest-platform.dev.govirto.com/graphql,2895,0,0
+1614701136041,3526,Get product detail  ,200,OK,Thread Group 1-5,text,true,,1003,3173,31,31,https://loadtest-platform.dev.govirto.com/graphql,3526,0,0
+1614701135375,4448,Get product detail  ,200,OK,Thread Group 1-12,text,true,,2067,3174,31,31,https://loadtest-platform.dev.govirto.com/graphql,4448,0,0
+1614701135356,4712,Get product detail  ,200,OK,Thread Group 1-11,text,true,,2067,3174,31,31,https://loadtest-platform.dev.govirto.com/graphql,4712,0,0
+1614701134810,5331,Add  SKU to cart,200,OK,Thread Group 1-20,text,true,,328,2271,31,31,https://loadtest-platform.dev.govirto.com/graphql,5331,0,0
+1614701136969,3358,Get product detail  ,200,OK,Thread Group 1-18,text,true,,1003,3174,31,31,https://loadtest-platform.dev.govirto.com/graphql,3358,0,0
+1614701137127,3486,Get product detail  ,200,OK,Thread Group 1-6,text,true,,1003,3173,32,32,https://loadtest-platform.dev.govirto.com/graphql,3486,0,0
+1614701134583,6603," Search 50 products  with prices, availability, tax, discounts",200,OK,Thread Group 1-24,text,true,,37818,2985,32,32,https://loadtest-platform.dev.govirto.com/graphql,5758,0,0
+1614701136405,4871,Get product detail  ,200,OK,Thread Group 1-13,text,true,,2063,3174,32,32,https://loadtest-platform.dev.govirto.com/graphql,4871,0,0
+1614701138625,2830,Get product detail  ,200,OK,Thread Group 1-23,text,true,,2071,3174,32,32,https://loadtest-platform.dev.govirto.com/graphql,2830,0,0
+1614701138422,3230,Get product detail  ,200,OK,Thread Group 1-14,text,true,,1003,3174,32,32,https://loadtest-platform.dev.govirto.com/graphql,3230,0,0
+1614701138117,3639,Get product detail  ,200,OK,Thread Group 1-3,text,true,,1003,3173,32,32,https://loadtest-platform.dev.govirto.com/graphql,3639,0,0
+1614701135501,6513," Search 50 products  with prices, availability, tax, discounts",200,OK,Thread Group 1-25,text,true,,37824,2987,33,33,https://loadtest-platform.dev.govirto.com/graphql,5965,0,0
+1614701137731,4353,Add  SKU to cart,200,OK,Thread Group 1-15,text,true,,327,2271,33,33,https://loadtest-platform.dev.govirto.com/graphql,4353,0,0
+1614701138125,4285,Get product detail  ,200,OK,Thread Group 1-7,text,true,,2067,3173,33,33,https://loadtest-platform.dev.govirto.com/graphql,4285,0,0
+1614701138125,4530,Add  SKU to cart,200,OK,Thread Group 1-21,text,true,,328,2271,33,33,https://loadtest-platform.dev.govirto.com/graphql,4530,0,0
+1614701138504,4293,Add  SKU to cart,200,OK,Thread Group 1-16,text,true,,327,2271,33,33,https://loadtest-platform.dev.govirto.com/graphql,4293,0,0
+1614701139041,3764,Get product detail  ,200,OK,Thread Group 1-19,text,true,,1005,3174,33,33,https://loadtest-platform.dev.govirto.com/graphql,3764,0,0
+1614701137527,6312,Add  SKU to cart,200,OK,Thread Group 1-17,text,true,,328,2271,34,34,https://loadtest-platform.dev.govirto.com/graphql,6311,0,0
+1614701140141,3777,Get product detail  ,200,OK,Thread Group 1-20,text,true,,1005,3174,34,34,https://loadtest-platform.dev.govirto.com/graphql,3777,0,0
+1614701138619,5300,Get product detail  ,200,OK,Thread Group 1-10,text,true,,2067,3174,34,34,https://loadtest-platform.dev.govirto.com/graphql,5300,0,0
+1614701140544,3374,SignIn,200,OK,Thread Group 1-32,text,true,,2716,623,34,34,https://loadtest-platform.dev.govirto.com/connect/token,3373,0,1375
+1614701135095,8828,SignIn,200,OK,Thread Group 1-28,text,true,,2716,623,34,34,https://loadtest-platform.dev.govirto.com/connect/token,8824,0,6848
+1614701136456,7874,SignIn,200,OK,Thread Group 1-29,text,true,,2716,623,34,34,https://loadtest-platform.dev.govirto.com/connect/token,7872,0,5489
+1614701142015,2340,Get product detail  ,200,OK,Thread Group 1-25,text,true,,1003,3174,34,34,https://loadtest-platform.dev.govirto.com/graphql,2340,0,0
+1614701132367,11988,SignIn,200,OK,Thread Group 1-26,text,true,,2716,623,34,34,https://loadtest-platform.dev.govirto.com/connect/token,11973,0,9551
+1614701137819,6536,SignIn,200,OK,Thread Group 1-30,text,true,,2716,623,34,34,https://loadtest-platform.dev.govirto.com/connect/token,6536,0,4126
+1614701139184,5171,SignIn,200,OK,Thread Group 1-31,text,true,,2716,623,34,34,https://loadtest-platform.dev.govirto.com/connect/token,5171,0,2739
+1614701138622,5809,Add  SKU to cart,200,OK,Thread Group 1-2,text,true,,328,2270,34,34,https://loadtest-platform.dev.govirto.com/graphql,5809,0,0
+1614701133734,10764,SignIn,200,OK,Thread Group 1-27,text,true,,2716,623,34,34,https://loadtest-platform.dev.govirto.com/connect/token,10698,0,8212
+1614701138413,6142,Add  SKU to cart,200,OK,Thread Group 1-1,text,true,,328,2270,34,34,https://loadtest-platform.dev.govirto.com/graphql,6142,0,0
+1614701141909,2908,SignIn,200,OK,Thread Group 1-33,text,true,,2716,623,35,35,https://loadtest-platform.dev.govirto.com/connect/token,2901,0,733
+1614701139249,5672,Add  SKU to cart,200,OK,Thread Group 1-22,text,true,,328,2271,35,35,https://loadtest-platform.dev.govirto.com/graphql,5672,0,0
+1614701141188,3847,Get product detail  ,200,OK,Thread Group 1-24,text,true,,2063,3174,35,35,https://loadtest-platform.dev.govirto.com/graphql,3847,0,0
+1614701139567,5505,Add  SKU to cart,200,OK,Thread Group 1-5,text,true,,328,2270,35,35,https://loadtest-platform.dev.govirto.com/graphql,5505,0,0
+1614701138888,6329,Add  SKU to cart,200,OK,Thread Group 1-9,text,true,,328,2270,35,35,https://loadtest-platform.dev.govirto.com/graphql,6329,0,0
+1614701138733,6485,Add  SKU to cart,200,OK,Thread Group 1-8,text,true,,328,2270,35,35,https://loadtest-platform.dev.govirto.com/graphql,6485,0,0
+1614701139181,6037,Add  SKU to cart,200,OK,Thread Group 1-4,text,true,,328,2270,35,35,https://loadtest-platform.dev.govirto.com/graphql,6037,0,0
+1614701142085,3403,Get product detail  ,200,OK,Thread Group 1-15,text,true,,1005,3174,35,35,https://loadtest-platform.dev.govirto.com/graphql,3403,0,0
+1614701143273,2217,SignIn,200,OK,Thread Group 1-34,text,true,,2716,623,35,35,https://loadtest-platform.dev.govirto.com/connect/token,2217,0,793
+1614701143925,1647,Get me,200,OK,Thread Group 1-28,text,true,,444,1862,35,35,https://loadtest-platform.dev.govirto.com/graphql,1647,0,0
+1614701143922,1652,Get me,200,OK,Thread Group 1-32,text,true,,444,1862,35,35,https://loadtest-platform.dev.govirto.com/graphql,1652,0,0
+1614701144332,1469,Get me,200,OK,Thread Group 1-29,text,true,,444,1862,35,35,https://loadtest-platform.dev.govirto.com/graphql,1469,0,0
+1614701140328,5473,Add  SKU to cart,200,OK,Thread Group 1-18,text,true,,328,2271,35,35,https://loadtest-platform.dev.govirto.com/graphql,5473,0,0
+1614701142656,3145,Get product detail  ,200,OK,Thread Group 1-21,text,true,,1003,3174,35,35,https://loadtest-platform.dev.govirto.com/graphql,3145,0,0
+1614701142798,3008,Get product detail  ,200,OK,Thread Group 1-16,text,true,,1005,3174,35,35,https://loadtest-platform.dev.govirto.com/graphql,3008,0,0
+1614701144357,1490,Get me,200,OK,Thread Group 1-26,text,true,,444,1862,35,35,https://loadtest-platform.dev.govirto.com/graphql,1490,0,0
+1614701141277,4573,Add  SKU to cart,200,OK,Thread Group 1-13,text,true,,328,2271,35,35,https://loadtest-platform.dev.govirto.com/graphql,4573,0,0
+1614701144357,1494,Get me,200,OK,Thread Group 1-30,text,true,,444,1862,35,35,https://loadtest-platform.dev.govirto.com/graphql,1494,0,0
+1614701144357,1494,Get me,200,OK,Thread Group 1-31,text,true,,444,1862,35,35,https://loadtest-platform.dev.govirto.com/graphql,1494,0,0
+1614701139824,6083,Add  SKU to cart,200,OK,Thread Group 1-12,text,true,,328,2271,35,35,https://loadtest-platform.dev.govirto.com/graphql,6083,0,0
+1614701140068,5840,Add  SKU to cart,200,OK,Thread Group 1-11,text,true,,328,2271,35,35,https://loadtest-platform.dev.govirto.com/graphql,5840,0,0
+1614701140613,5489,Add  SKU to cart,200,OK,Thread Group 1-6,text,true,,328,2270,36,36,https://loadtest-platform.dev.govirto.com/graphql,5489,0,0
+1614701144550,1553,Get me,200,OK,Thread Group 1-27,text,true,,444,1862,36,36,https://loadtest-platform.dev.govirto.com/graphql,1553,0,0
+1614701141653,4624,Add  SKU to cart,200,OK,Thread Group 1-14,text,true,,327,2271,36,36,https://loadtest-platform.dev.govirto.com/graphql,4624,0,0
+1614701144821,1534,Get me,200,OK,Thread Group 1-33,text,true,,444,1862,36,36,https://loadtest-platform.dev.govirto.com/graphql,1534,0,0
+1614701141455,4901,Add  SKU to cart,200,OK,Thread Group 1-23,text,true,,328,2271,36,36,https://loadtest-platform.dev.govirto.com/graphql,4901,0,0
+1614701141757,5248,Add  SKU to cart,200,OK,Thread Group 1-3,text,true,,328,2270,36,36,https://loadtest-platform.dev.govirto.com/graphql,5248,0,0
+1614701143840,3448,Get product detail  ,200,OK,Thread Group 1-17,text,true,,1003,3174,36,36,https://loadtest-platform.dev.govirto.com/graphql,3448,0,0
+1614701144434,2991,Get product detail  ,200,OK,Thread Group 1-2,text,true,,1005,3173,37,37,https://loadtest-platform.dev.govirto.com/graphql,2991,0,0
+1614701145510,1934,Get me,200,OK,Thread Group 1-34,text,true,,444,1862,37,37,https://loadtest-platform.dev.govirto.com/graphql,1934,0,0
+1614701144556,2897,Get product detail  ,200,OK,Thread Group 1-1,text,true,,1003,3173,37,37,https://loadtest-platform.dev.govirto.com/graphql,2897,0,0
+1614701144924,2625,Get product detail  ,200,OK,Thread Group 1-22,text,true,,1003,3174,37,37,https://loadtest-platform.dev.govirto.com/graphql,2625,0,0
+1614701144642,3074,SignIn,200,OK,Thread Group 1-35,text,true,,2716,623,37,37,https://loadtest-platform.dev.govirto.com/connect/token,3057,0,1209
+1614701142411,6045,Add  SKU to cart,200,OK,Thread Group 1-7,text,true,,328,2270,37,37,https://loadtest-platform.dev.govirto.com/graphql,6045,0,0
+1614701142806,5889,Add  SKU to cart,200,OK,Thread Group 1-19,text,true,,328,2271,37,37,https://loadtest-platform.dev.govirto.com/graphql,5889,0,0
+1614701143921,5098,Add  SKU to cart,200,OK,Thread Group 1-20,text,true,,328,2271,38,38,https://loadtest-platform.dev.govirto.com/graphql,5098,0,0
+1614701144357,4663,Add  SKU to cart,200,OK,Thread Group 1-25,text,true,,328,2271,38,38,https://loadtest-platform.dev.govirto.com/graphql,4663,0,0
+1614701145220,3825,Get product detail  ,200,OK,Thread Group 1-4,text,true,,1003,3173,38,38,https://loadtest-platform.dev.govirto.com/graphql,3825,0,0
+1614701145998,3060,SignIn,200,OK,Thread Group 1-36,text,true,,2716,623,38,38,https://loadtest-platform.dev.govirto.com/connect/token,3059,0,1063
+1614701143922,5163,Add  SKU to cart,200,OK,Thread Group 1-10,text,true,,328,2271,38,38,https://loadtest-platform.dev.govirto.com/graphql,5163,0,0
+1614701145220,3873,Get product detail  ,200,OK,Thread Group 1-9,text,true,,1003,3173,38,38,https://loadtest-platform.dev.govirto.com/graphql,3873,0,0
+1614701145852,3371,Get product detail  ,200,OK,Thread Group 1-13,text,true,,1005,3174,38,38,https://loadtest-platform.dev.govirto.com/graphql,3371,0,0
+1614701145073,4277,Get product detail  ,200,OK,Thread Group 1-5,text,true,,2067,3173,38,38,https://loadtest-platform.dev.govirto.com/graphql,4277,0,0
+1614701145510,4026,Add  SKU to cart,200,OK,Thread Group 1-15,text,true,,327,2271,38,38,https://loadtest-platform.dev.govirto.com/graphql,4026,0,0
+1614701145802,3734,Get product detail  ,200,OK,Thread Group 1-18,text,true,,1003,3174,38,38,https://loadtest-platform.dev.govirto.com/graphql,3734,0,0
+1614701145061,4482,Add  SKU to cart,200,OK,Thread Group 1-24,text,true,,328,2271,38,38,https://loadtest-platform.dev.govirto.com/graphql,4482,0,0
+1614701145220,4323,Get product detail  ,200,OK,Thread Group 1-8,text,true,,2067,3173,38,38,https://loadtest-platform.dev.govirto.com/graphql,4323,0,0
+1614701146279,3463,Get product detail  ,200,OK,Thread Group 1-14,text,true,,1004,3174,38,38,https://loadtest-platform.dev.govirto.com/graphql,3463,0,0
+1614701146104,3642,Get product detail  ,200,OK,Thread Group 1-6,text,true,,1003,3173,38,38,https://loadtest-platform.dev.govirto.com/graphql,3642,0,0
+1614701147717,2029,Get me,200,OK,Thread Group 1-35,text,true,,444,1862,38,38,https://loadtest-platform.dev.govirto.com/graphql,2029,0,0
+1614701145910,4022,Get product detail  ,200,OK,Thread Group 1-11,text,true,,1003,3174,38,38,https://loadtest-platform.dev.govirto.com/graphql,4022,0,0
+1614701145909,4025,Get product detail  ,200,OK,Thread Group 1-12,text,true,,1003,3174,38,38,https://loadtest-platform.dev.govirto.com/graphql,4025,0,0
+1614701145807,4127,Add  SKU to cart,200,OK,Thread Group 1-16,text,true,,327,2271,38,38,https://loadtest-platform.dev.govirto.com/graphql,4127,0,0
+1614701145802,4777,Add  SKU to cart,200,OK,Thread Group 1-21,text,true,,328,2271,39,39,https://loadtest-platform.dev.govirto.com/graphql,4777,0,0
+1614701147007,3865,Get product detail  ,200,OK,Thread Group 1-3,text,true,,1004,3173,39,39,https://loadtest-platform.dev.govirto.com/graphql,3865,0,0
+1614701147361,3888,SignIn,200,OK,Thread Group 1-37,text,true,,2716,623,39,39,https://loadtest-platform.dev.govirto.com/connect/token,3880,0,1334
+1614701149058,3179,Get me,200,OK,Thread Group 1-36,text,true,,444,1862,40,40,https://loadtest-platform.dev.govirto.com/graphql,3179,0,0
+1614701145576,6774," Search 50 products  with prices, availability, tax, discounts",200,OK,Thread Group 1-32,text,true,,37811,2986,40,40,https://loadtest-platform.dev.govirto.com/graphql,6216,0,0
+1614701145574,6827," Search 50 products  with prices, availability, tax, discounts",200,OK,Thread Group 1-28,text,true,,37845,2987,40,40,https://loadtest-platform.dev.govirto.com/graphql,6223,0,0
+1614701146357,6197,Get product detail  ,200,OK,Thread Group 1-23,text,true,,2071,3174,40,40,https://loadtest-platform.dev.govirto.com/graphql,6197,0,0
+1614701145802,7403," Search 50 products  with prices, availability, tax, discounts",200,OK,Thread Group 1-29,text,true,,37817,2986,41,41,https://loadtest-platform.dev.govirto.com/graphql,6687,0,0
+1614701148724,4555,SignIn,200,OK,Thread Group 1-38,text,true,,2716,623,41,41,https://loadtest-platform.dev.govirto.com/connect/token,4554,0,1415
+1614701145852,8017," Search 50 products  with prices, availability, tax, discounts",200,OK,Thread Group 1-31,text,true,,37835,2987,41,41,https://loadtest-platform.dev.govirto.com/graphql,7429,0,0
+1614701148457,5435,Get product detail  ,200,OK,Thread Group 1-7,text,true,,1003,3173,41,41,https://loadtest-platform.dev.govirto.com/graphql,5435,0,0
+1614701148697,5195,Get product detail  ,200,OK,Thread Group 1-19,text,true,,1005,3174,41,41,https://loadtest-platform.dev.govirto.com/graphql,5195,0,0
+1614701145852,8050," Search 50 products  with prices, availability, tax, discounts",200,OK,Thread Group 1-30,text,true,,37823,2986,41,41,https://loadtest-platform.dev.govirto.com/graphql,7436,0,0
+1614701146356,8523," Search 50 products  with prices, availability, tax, discounts",200,OK,Thread Group 1-33,text,true,,37818,2985,42,42,https://loadtest-platform.dev.govirto.com/graphql,7969,0,0
+1614701145848,9031," Search 50 products  with prices, availability, tax, discounts",200,OK,Thread Group 1-26,text,true,,37827,2986,42,42,https://loadtest-platform.dev.govirto.com/graphql,8485,0,0
+1614701146104,8776," Search 50 products  with prices, availability, tax, discounts",200,OK,Thread Group 1-27,text,true,,37827,2986,42,42,https://loadtest-platform.dev.govirto.com/graphql,8221,0,0
+1614701150084,5014,SignIn,200,OK,Thread Group 1-39,text,true,,2716,623,42,42,https://loadtest-platform.dev.govirto.com/connect/token,5013,0,808
+1614701149536,5659,Get product detail  ,200,OK,Thread Group 1-15,text,true,,2063,3174,42,42,https://loadtest-platform.dev.govirto.com/graphql,5659,0,0
+1614701147550,7646,Add  SKU to cart,200,OK,Thread Group 1-22,text,true,,328,2271,42,42,https://loadtest-platform.dev.govirto.com/graphql,7646,0,0
+1614701149020,6260,Get product detail  ,200,OK,Thread Group 1-20,text,true,,1005,3174,42,42,https://loadtest-platform.dev.govirto.com/graphql,6260,0,0
+1614701151251,4030,Get me,200,OK,Thread Group 1-37,text,true,,444,1862,42,42,https://loadtest-platform.dev.govirto.com/graphql,4030,0,0
+1614701149020,6713,Get product detail  ,200,OK,Thread Group 1-25,text,true,,2063,3174,43,43,https://loadtest-platform.dev.govirto.com/graphql,6713,0,0
+1614701149935,6106,Get product detail  ,200,OK,Thread Group 1-16,text,true,,1003,3174,43,43,https://loadtest-platform.dev.govirto.com/graphql,6106,0,0
+1614701151446,4597,SignIn,200,OK,Thread Group 1-40,text,true,,2716,623,43,43,https://loadtest-platform.dev.govirto.com/connect/token,4596,0,770
+1614701153207,3302,Get product detail  ,200,OK,Thread Group 1-29,text,true,,1005,3174,43,43,https://loadtest-platform.dev.govirto.com/graphql,3302,0,0
+1614701153871,2640,Get product detail  ,200,OK,Thread Group 1-31,text,true,,1005,3174,43,43,https://loadtest-platform.dev.govirto.com/graphql,2640,0,0
+1614701147426,9194,Add  SKU to cart,200,OK,Thread Group 1-2,text,true,,328,2270,43,43,https://loadtest-platform.dev.govirto.com/graphql,9194,0,0
+1614701147445,9234," Search 50 products  with prices, availability, tax, discounts",200,OK,Thread Group 1-34,text,true,,37831,2986,43,43,https://loadtest-platform.dev.govirto.com/graphql,8697,0,0
+1614701152354,4442,Get product detail  ,200,OK,Thread Group 1-32,text,true,,2067,3174,43,43,https://loadtest-platform.dev.govirto.com/graphql,4442,0,0
+1614701147289,9508,Add  SKU to cart,200,OK,Thread Group 1-17,text,true,,328,2271,43,43,https://loadtest-platform.dev.govirto.com/graphql,9508,0,0
+1614701147454,9773,Add  SKU to cart,200,OK,Thread Group 1-1,text,true,,328,2270,44,44,https://loadtest-platform.dev.govirto.com/graphql,9773,0,0
+1614701152404,5193,Get product detail  ,200,OK,Thread Group 1-28,text,true,,2067,3174,44,44,https://loadtest-platform.dev.govirto.com/graphql,5193,0,0
+1614701152811,4791,SignIn,200,OK,Thread Group 1-41,text,true,,2716,623,44,44,https://loadtest-platform.dev.govirto.com/connect/token,4789,0,756
+1614701153904,3699,Get product detail  ,200,OK,Thread Group 1-30,text,true,,1005,3174,44,44,https://loadtest-platform.dev.govirto.com/graphql,3699,0,0
+1614701149223,8380,Add  SKU to cart,200,OK,Thread Group 1-13,text,true,,328,2271,44,44,https://loadtest-platform.dev.govirto.com/graphql,8380,0,0
+1614701153279,4324,Get me,200,OK,Thread Group 1-38,text,true,,444,1862,44,44,https://loadtest-platform.dev.govirto.com/graphql,4324,0,0
+1614701154880,2833,Get product detail  ,200,OK,Thread Group 1-33,text,true,,1003,3174,44,44,https://loadtest-platform.dev.govirto.com/graphql,2833,0,0
+1614701149086,8628,Get product detail  ,200,OK,Thread Group 1-10,text,true,,2063,3174,44,44,https://loadtest-platform.dev.govirto.com/graphql,8628,0,0
+1614701149543,8211,Get product detail  ,200,OK,Thread Group 1-24,text,true,,2063,3174,44,44,https://loadtest-platform.dev.govirto.com/graphql,8211,0,0
+1614701154172,3589,SignIn,200,OK,Thread Group 1-42,text,true,,2716,623,44,44,https://loadtest-platform.dev.govirto.com/connect/token,3587,0,765
+1614701155099,2947,Get me,200,OK,Thread Group 1-39,text,true,,444,1862,44,44,https://loadtest-platform.dev.govirto.com/graphql,2947,0,0
+1614701154880,3167,Get product detail  ,200,OK,Thread Group 1-26,text,true,,1005,3174,44,44,https://loadtest-platform.dev.govirto.com/graphql,3167,0,0
+1614701149743,8874,Add  SKU to cart,200,OK,Thread Group 1-14,text,true,,327,2271,45,45,https://loadtest-platform.dev.govirto.com/graphql,8874,0,0
+1614701149351,9267,Add  SKU to cart,200,OK,Thread Group 1-5,text,true,,328,2270,45,45,https://loadtest-platform.dev.govirto.com/graphql,9267,0,0
+1614701156044,3436,Get me,200,OK,Thread Group 1-40,text,true,,444,1862,45,45,https://loadtest-platform.dev.govirto.com/graphql,3436,0,0
+1614701149046,10530,Add  SKU to cart,200,OK,Thread Group 1-4,text,true,,328,2270,45,45,https://loadtest-platform.dev.govirto.com/graphql,10530,0,0
+1614701149537,10113,Add  SKU to cart,200,OK,Thread Group 1-18,text,true,,328,2271,45,45,https://loadtest-platform.dev.govirto.com/graphql,10113,0,0
+1614701149544,10107,Add  SKU to cart,200,OK,Thread Group 1-8,text,true,,328,2270,45,45,https://loadtest-platform.dev.govirto.com/graphql,10107,0,0
+1614701154881,4955,Get product detail  ,200,OK,Thread Group 1-27,text,true,,2071,3174,45,45,https://loadtest-platform.dev.govirto.com/graphql,4955,0,0
+1614701150580,9273,Get product detail  ,200,OK,Thread Group 1-21,text,true,,2059,3174,45,45,https://loadtest-platform.dev.govirto.com/graphql,9273,0,0
+1614701155530,4492,SignIn,200,OK,Thread Group 1-43,text,true,,2716,623,45,45,https://loadtest-platform.dev.govirto.com/connect/token,3614,0,755
+1614701149747,10301,Add  SKU to cart,200,OK,Thread Group 1-6,text,true,,328,2270,45,45,https://loadtest-platform.dev.govirto.com/graphql,10301,0,0
+1614701149093,10956,Add  SKU to cart,200,OK,Thread Group 1-9,text,true,,328,2270,45,45,https://loadtest-platform.dev.govirto.com/graphql,10956,0,0
+1614701149934,10554,Add  SKU to cart,200,OK,Thread Group 1-12,text,true,,328,2271,45,45,https://loadtest-platform.dev.govirto.com/graphql,10554,0,0
+1614701149933,10555,Add  SKU to cart,200,OK,Thread Group 1-11,text,true,,328,2271,45,45,https://loadtest-platform.dev.govirto.com/graphql,10555,0,0
+1614701150873,9615,Add  SKU to cart,200,OK,Thread Group 1-3,text,true,,328,2270,45,45,https://loadtest-platform.dev.govirto.com/graphql,9615,0,0
+1614701152597,8046,Add  SKU to cart,200,OK,Thread Group 1-23,text,true,,328,2271,45,45,https://loadtest-platform.dev.govirto.com/graphql,8046,0,0
+1614701157604,3039,Get me,200,OK,Thread Group 1-41,text,true,,444,1862,45,45,https://loadtest-platform.dev.govirto.com/graphql,3039,0,0
+1614701156892,4300,SignIn,200,OK,Thread Group 1-44,text,true,,2716,623,45,45,https://loadtest-platform.dev.govirto.com/connect/token,4299,0,974
+1614701157762,3444,Get me,200,OK,Thread Group 1-42,text,true,,444,1862,45,45,https://loadtest-platform.dev.govirto.com/graphql,3444,0,0
+1614701156680,4530,Get product detail  ,200,OK,Thread Group 1-34,text,true,,2066,3174,45,45,https://loadtest-platform.dev.govirto.com/graphql,4530,0,0
+1614701149747,11658," Search 50 products  with prices, availability, tax, discounts",200,OK,Thread Group 1-35,text,true,,37841,2987,45,45,https://loadtest-platform.dev.govirto.com/graphql,10682,0,0
+1614701155196,6778,Add  SKU to cart,200,OK,Thread Group 1-15,text,true,,327,2271,45,45,https://loadtest-platform.dev.govirto.com/graphql,6778,0,0
+1614701153893,8177,Add  SKU to cart,200,OK,Thread Group 1-19,text,true,,328,2271,45,45,https://loadtest-platform.dev.govirto.com/graphql,8177,0,0
+1614701156042,6033,Add  SKU to cart,200,OK,Thread Group 1-16,text,true,,327,2271,45,45,https://loadtest-platform.dev.govirto.com/graphql,6033,0,0
+1614701155197,6880,Get product detail  ,200,OK,Thread Group 1-22,text,true,,2063,3174,45,45,https://loadtest-platform.dev.govirto.com/graphql,6880,0,0
+1614701157604,4966,Get product detail  ,200,OK,Thread Group 1-13,text,true,,1005,3174,45,45,https://loadtest-platform.dev.govirto.com/graphql,4966,0,0
+1614701152238,10500," Search 50 products  with prices, availability, tax, discounts",200,OK,Thread Group 1-36,text,true,,37833,2987,45,45,https://loadtest-platform.dev.govirto.com/graphql,9839,0,0
+1614701160023,2822,Get me,200,OK,Thread Group 1-43,text,true,,444,1862,45,45,https://loadtest-platform.dev.govirto.com/graphql,2822,0,0
+1614701156797,6049,Add  SKU to cart,200,OK,Thread Group 1-32,text,true,,328,2271,45,45,https://loadtest-platform.dev.govirto.com/graphql,6049,0,0
+1614701156515,6331,Add  SKU to cart,200,OK,Thread Group 1-31,text,true,,328,2271,45,45,https://loadtest-platform.dev.govirto.com/graphql,6331,0,0
+1614701161406,1441,Get product detail  ,200,OK,Thread Group 1-35,text,true,,1003,3174,45,45,https://loadtest-platform.dev.govirto.com/graphql,1441,0,0
+1614701158252,4594,SignIn,200,OK,Thread Group 1-45,text,true,,2716,623,45,45,https://loadtest-platform.dev.govirto.com/connect/token,4594,0,2229
+1614701155734,7242,Add  SKU to cart,200,OK,Thread Group 1-25,text,true,,328,2271,45,45,https://loadtest-platform.dev.govirto.com/graphql,7242,0,0
+1614701153893,9104,Add  SKU to cart,200,OK,Thread Group 1-7,text,true,,328,2270,45,45,https://loadtest-platform.dev.govirto.com/graphql,9104,0,0
+1614701156515,6614,Add  SKU to cart,200,OK,Thread Group 1-29,text,true,,328,2271,45,45,https://loadtest-platform.dev.govirto.com/graphql,6614,0,0
+1614701156621,6512,Get product detail  ,200,OK,Thread Group 1-2,text,true,,2067,3173,45,45,https://loadtest-platform.dev.govirto.com/graphql,6512,0,0
+1614701158617,4639,Get product detail  ,200,OK,Thread Group 1-14,text,true,,1005,3174,45,45,https://loadtest-platform.dev.govirto.com/graphql,4639,0,0
+1614701157604,5658,Add  SKU to cart,200,OK,Thread Group 1-30,text,true,,328,2271,45,45,https://loadtest-platform.dev.govirto.com/graphql,5658,0,0
+1614701157714,5882,Add  SKU to cart,200,OK,Thread Group 1-33,text,true,,327,2271,45,45,https://loadtest-platform.dev.govirto.com/graphql,5882,0,0
+1614701157599,5998,Add  SKU to cart,200,OK,Thread Group 1-28,text,true,,328,2271,45,45,https://loadtest-platform.dev.govirto.com/graphql,5998,0,0
+1614701155281,8316,Add  SKU to cart,200,OK,Thread Group 1-20,text,true,,328,2271,45,45,https://loadtest-platform.dev.govirto.com/graphql,8316,0,0
+1614701161194,2424,Get me,200,OK,Thread Group 1-44,text,true,,444,1862,45,45,https://loadtest-platform.dev.govirto.com/graphql,2424,0,0
+1614701156797,6822,Get product detail  ,200,OK,Thread Group 1-17,text,true,,2063,3174,45,45,https://loadtest-platform.dev.govirto.com/graphql,6822,0,0
+1614701157227,6393,Get product detail  ,200,OK,Thread Group 1-1,text,true,,2067,3173,45,45,https://loadtest-platform.dev.govirto.com/graphql,6393,0,0
+1614701158618,5331,Get product detail  ,200,OK,Thread Group 1-5,text,true,,1003,3173,45,45,https://loadtest-platform.dev.govirto.com/graphql,5331,0,0
+1614701155282,9270," Search 50 products  with prices, availability, tax, discounts",200,OK,Thread Group 1-37,text,true,,37845,2987,45,45,https://loadtest-platform.dev.govirto.com/graphql,8739,0,0
+1614701159652,5002,Get product detail  ,200,OK,Thread Group 1-8,text,true,,1005,3173,45,45,https://loadtest-platform.dev.govirto.com/graphql,5002,0,0
+1614701159651,5433,Get product detail  ,200,OK,Thread Group 1-18,text,true,,1005,3174,45,45,https://loadtest-platform.dev.govirto.com/graphql,5433,0,0
+1614701157755,7329,Add  SKU to cart,200,OK,Thread Group 1-24,text,true,,328,2271,45,45,https://loadtest-platform.dev.govirto.com/graphql,7329,0,0
+1614701162740,2378,Get product detail  ,200,OK,Thread Group 1-36,text,true,,1003,3174,45,45,https://loadtest-platform.dev.govirto.com/graphql,2378,0,0
+1614701160048,5228,Get product detail  ,200,OK,Thread Group 1-6,text,true,,1005,3173,45,45,https://loadtest-platform.dev.govirto.com/graphql,5228,0,0
+1614701158048,7367,Add  SKU to cart,200,OK,Thread Group 1-26,text,true,,328,2271,45,45,https://loadtest-platform.dev.govirto.com/graphql,7367,0,0
+1614701160643,4968,Get product detail  ,200,OK,Thread Group 1-23,text,true,,1003,3174,45,45,https://loadtest-platform.dev.govirto.com/graphql,4968,0,0
+1614701160530,5083,Get product detail  ,200,OK,Thread Group 1-3,text,true,,1005,3173,45,45,https://loadtest-platform.dev.govirto.com/graphql,5083,0,0
+1614701160530,5085,Get product detail  ,200,OK,Thread Group 1-11,text,true,,1005,3174,45,45,https://loadtest-platform.dev.govirto.com/graphql,5085,0,0
+1614701162848,2766,Get me,200,OK,Thread Group 1-45,text,true,,444,1862,45,45,https://loadtest-platform.dev.govirto.com/graphql,2766,0,0
+1614701160530,5085,Get product detail  ,200,OK,Thread Group 1-12,text,true,,1005,3174,45,45,https://loadtest-platform.dev.govirto.com/graphql,5085,0,0
+1614701161975,4013,Get product detail  ,200,OK,Thread Group 1-15,text,true,,1005,3174,45,45,https://loadtest-platform.dev.govirto.com/graphql,4013,0,0
+1614701159837,6152,Add  SKU to cart,200,OK,Thread Group 1-27,text,true,,328,2271,45,45,https://loadtest-platform.dev.govirto.com/graphql,6152,0,0
+1614701164552,1675,Get product detail  ,200,OK,Thread Group 1-37,text,true,,1005,3174,45,45,https://loadtest-platform.dev.govirto.com/graphql,1675,0,0
+1614701159854,6552,Add  SKU to cart,200,OK,Thread Group 1-21,text,true,,328,2271,45,45,https://loadtest-platform.dev.govirto.com/graphql,6552,0,0
+1614701157604,8901," Search 50 products  with prices, availability, tax, discounts",200,OK,Thread Group 1-38,text,true,,37823,2986,45,45,https://loadtest-platform.dev.govirto.com/graphql,8387,0,0
+1614701158047,9013," Search 50 products  with prices, availability, tax, discounts",200,OK,Thread Group 1-39,text,true,,37830,2987,45,45,https://loadtest-platform.dev.govirto.com/graphql,8366,0,0
+1614701162071,5145,Get product detail  ,200,OK,Thread Group 1-19,text,true,,1005,3174,45,45,https://loadtest-platform.dev.govirto.com/graphql,5145,0,0
+1614701157714,9502,Add  SKU to cart,200,OK,Thread Group 1-10,text,true,,328,2271,45,45,https://loadtest-platform.dev.govirto.com/graphql,9502,0,0
+1614701159577,7639,Get product detail  ,200,OK,Thread Group 1-4,text,true,,2067,3173,45,45,https://loadtest-platform.dev.govirto.com/graphql,7639,0,0
+1614701162848,4633,Get product detail  ,200,OK,Thread Group 1-32,text,true,,1003,3174,45,45,https://loadtest-platform.dev.govirto.com/graphql,4633,0,0
+1614701160049,7433,Get product detail  ,200,OK,Thread Group 1-9,text,true,,2063,3173,45,45,https://loadtest-platform.dev.govirto.com/graphql,7433,0,0
+1614701163129,5448,Get product detail  ,200,OK,Thread Group 1-29,text,true,,1003,3174,45,45,https://loadtest-platform.dev.govirto.com/graphql,5448,0,0
+1614701163598,5276,Get product detail  ,200,OK,Thread Group 1-28,text,true,,1003,3174,45,45,https://loadtest-platform.dev.govirto.com/graphql,5276,0,0
+1614701161211,7980,Add  SKU to cart,200,OK,Thread Group 1-34,text,true,,328,2271,45,45,https://loadtest-platform.dev.govirto.com/graphql,7980,0,0
+1614701163263,5949,Get product detail  ,200,OK,Thread Group 1-30,text,true,,1003,3174,45,45,https://loadtest-platform.dev.govirto.com/graphql,5949,0,0
+1614701162977,6657,Get product detail  ,200,OK,Thread Group 1-25,text,true,,1005,3174,45,45,https://loadtest-platform.dev.govirto.com/graphql,6657,0,0
+1614701163044,6595,Get product detail  ,200,OK,Thread Group 1-7,text,true,,1005,3173,45,45,https://loadtest-platform.dev.govirto.com/graphql,6595,0,0
+1614701166540,3588,Get product detail  ,200,OK,Thread Group 1-38,text,true,,1005,3174,45,45,https://loadtest-platform.dev.govirto.com/graphql,3588,0,0
+1614701167060,3186,Get product detail  ,200,OK,Thread Group 1-39,text,true,,1005,3174,45,45,https://loadtest-platform.dev.govirto.com/graphql,3186,0,0
+1614701163597,6673,Get product detail  ,200,OK,Thread Group 1-33,text,true,,2063,3174,45,45,https://loadtest-platform.dev.govirto.com/graphql,6673,0,0
+1614701163598,6673,Get product detail  ,200,OK,Thread Group 1-20,text,true,,1003,3174,45,45,https://loadtest-platform.dev.govirto.com/graphql,6673,0,0
+1614701162848,7425,Add  SKU to cart,200,OK,Thread Group 1-35,text,true,,328,2271,45,45,https://loadtest-platform.dev.govirto.com/graphql,7425,0,0
+1614701162077,8200,Add  SKU to cart,200,OK,Thread Group 1-22,text,true,,328,2271,45,45,https://loadtest-platform.dev.govirto.com/graphql,8200,0,0
+1614701162848,7508,Get product detail  ,200,OK,Thread Group 1-31,text,true,,2067,3174,45,45,https://loadtest-platform.dev.govirto.com/graphql,7508,0,0
+1614701162591,7907,Add  SKU to cart,200,OK,Thread Group 1-13,text,true,,328,2271,45,45,https://loadtest-platform.dev.govirto.com/graphql,7907,0,0
+1614701162076,8692,Get product detail  ,200,OK,Thread Group 1-16,text,true,,2067,3174,45,45,https://loadtest-platform.dev.govirto.com/graphql,8692,0,0
+1614701165083,6020,Get product detail  ,200,OK,Thread Group 1-24,text,true,,1005,3174,45,45,https://loadtest-platform.dev.govirto.com/graphql,6020,0,0
+1614701160644,10649," Search 50 products  with prices, availability, tax, discounts",200,OK,Thread Group 1-41,text,true,,37807,2986,45,45,https://loadtest-platform.dev.govirto.com/graphql,9644,0,0
+1614701163257,8056,Add  SKU to cart,200,OK,Thread Group 1-14,text,true,,327,2271,45,45,https://loadtest-platform.dev.govirto.com/graphql,8056,0,0
+1614701166032,5988,Get product detail  ,200,OK,Thread Group 1-27,text,true,,1003,3174,45,45,https://loadtest-platform.dev.govirto.com/graphql,5988,0,0
+1614701161208,10886," Search 50 products  with prices, availability, tax, discounts",200,OK,Thread Group 1-42,text,true,,37830,2987,45,45,https://loadtest-platform.dev.govirto.com/graphql,8927,0,0
+1614701166406,5997,Get product detail  ,200,OK,Thread Group 1-21,text,true,,1003,3174,45,45,https://loadtest-platform.dev.govirto.com/graphql,5997,0,0
+1614701165415,7167,Get product detail  ,200,OK,Thread Group 1-26,text,true,,2066,3174,45,45,https://loadtest-platform.dev.govirto.com/graphql,7167,0,0
+1614701163620,9161,Add  SKU to cart,200,OK,Thread Group 1-17,text,true,,328,2271,45,45,https://loadtest-platform.dev.govirto.com/graphql,9161,0,0
+1614701163133,10090,Add  SKU to cart,200,OK,Thread Group 1-2,text,true,,328,2270,45,45,https://loadtest-platform.dev.govirto.com/graphql,10089,0,788
+1614701165118,8104,Add  SKU to cart,200,OK,Thread Group 1-36,text,true,,328,2271,45,45,https://loadtest-platform.dev.govirto.com/graphql,8104,0,0
+1614701166032,7236,Add  SKU to cart,200,OK,Thread Group 1-15,text,true,,327,2271,45,45,https://loadtest-platform.dev.govirto.com/graphql,7236,0,0
+1614701167216,6052,Get product detail  ,200,OK,Thread Group 1-10,text,true,,1005,3174,45,45,https://loadtest-platform.dev.govirto.com/graphql,6052,0,0
+1614701163621,9649,Add  SKU to cart,200,OK,Thread Group 1-1,text,true,,328,2270,45,45,https://loadtest-platform.dev.govirto.com/graphql,9649,0,800
+1614701171294,2048,Get product detail  ,200,OK,Thread Group 1-41,text,true,,1003,3174,45,45,https://loadtest-platform.dev.govirto.com/graphql,2048,0,0
+1614701163948,9394,Add  SKU to cart,200,OK,Thread Group 1-5,text,true,,328,2270,45,45,https://loadtest-platform.dev.govirto.com/graphql,9394,0,801
+1614701166228,7194,Add  SKU to cart,200,OK,Thread Group 1-37,text,true,,327,2271,45,45,https://loadtest-platform.dev.govirto.com/graphql,7194,0,0
+1614701159481,13977," Search 50 products  with prices, availability, tax, discounts",200,OK,Thread Group 1-40,text,true,,37846,2987,45,45,https://loadtest-platform.dev.govirto.com/graphql,11667,0,0
+1614701165611,8121,Add  SKU to cart,200,OK,Thread Group 1-23,text,true,,328,2271,45,45,https://loadtest-platform.dev.govirto.com/graphql,8121,0,0
+1614701164654,9326,Add  SKU to cart,200,OK,Thread Group 1-8,text,true,,328,2270,45,45,https://loadtest-platform.dev.govirto.com/graphql,9326,0,0
+1614701163620,10726," Search 50 products  with prices, availability, tax, discounts",200,OK,Thread Group 1-44,text,true,,37829,2986,45,45,https://loadtest-platform.dev.govirto.com/graphql,9804,0,0
+1614701162845,11658," Search 50 products  with prices, availability, tax, discounts",200,OK,Thread Group 1-43,text,true,,37809,2986,45,45,https://loadtest-platform.dev.govirto.com/graphql,10119,0,0
+1614701165615,8993," Search 50 products  with prices, availability, tax, discounts",200,OK,Thread Group 1-45,text,true,,37833,2987,45,45,https://loadtest-platform.dev.govirto.com/graphql,8124,0,0
+1614701169190,5740,Get product detail  ,200,OK,Thread Group 1-34,text,true,,1003,3174,45,45,https://loadtest-platform.dev.govirto.com/graphql,5740,0,0
+1614701165083,10060,Add  SKU to cart,200,OK,Thread Group 1-18,text,true,,328,2271,45,45,https://loadtest-platform.dev.govirto.com/graphql,10060,0,0
+1614701170271,5074,Add  SKU to cart,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,Thread Group 1-20,text,false,,3529,0,45,45,https://loadtest-platform.dev.govirto.com/graphql,0,0,0
+1614701173732,1614,Get product detail  ,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,Thread Group 1-23,text,false,,3529,0,45,45,https://loadtest-platform.dev.govirto.com/graphql,0,0,0
+1614701171313,4034,Get product detail  ,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,Thread Group 1-14,text,false,,3529,0,44,44,https://loadtest-platform.dev.govirto.com/graphql,0,0,0
+1614701165615,9734,Add  SKU to cart,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,Thread Group 1-12,text,false,,3529,0,43,43,https://loadtest-platform.dev.govirto.com/graphql,0,0,0
+1614701171103,4248,Add  SKU to cart,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,Thread Group 1-24,text,false,,3529,0,42,42,https://loadtest-platform.dev.govirto.com/graphql,0,0,0
+1614701167216,8137,Add  SKU to cart,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,Thread Group 1-4,text,false,,3529,0,41,41,https://loadtest-platform.dev.govirto.com/graphql,0,0,3942
+1614701170497,4859,Get product detail  ,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,Thread Group 1-13,text,false,,3529,0,39,39,https://loadtest-platform.dev.govirto.com/graphql,0,0,0
+1614701167216,8141,Add  SKU to cart,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,Thread Group 1-19,text,false,,3529,0,39,39,https://loadtest-platform.dev.govirto.com/graphql,0,0,0
+1614701169213,6145,Add  SKU to cart,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,Thread Group 1-30,text,false,,3529,0,38,38,https://loadtest-platform.dev.govirto.com/graphql,0,0,0
+1614701174547,813,Get product detail  ,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,Thread Group 1-43,text,false,,3529,0,37,37,https://loadtest-platform.dev.govirto.com/graphql,0,0,0
+1614701169633,5731,Add  SKU to cart,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,Thread Group 1-25,text,false,,3529,0,35,35,https://loadtest-platform.dev.govirto.com/graphql,0,0,0
+1614701173223,2142,Get product detail  ,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,Thread Group 1-36,text,false,,3529,0,35,35,https://loadtest-platform.dev.govirto.com/graphql,0,0,0
+1614701173343,2019,Get cart,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,Thread Group 1-5,text,false,,3529,0,35,35,https://loadtest-platform.dev.govirto.com/graphql,0,0,0
+1614701173980,1387,Get product detail  ,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,Thread Group 1-8,text,false,,3637,0,32,32,https://loadtest-platform.dev.govirto.com/graphql,0,0,1387
+1614701172582,2788,Add  SKU to cart,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,Thread Group 1-26,text,false,,3529,0,31,31,https://loadtest-platform.dev.govirto.com/graphql,0,0,0
+1614701173460,1909,Get product detail  ,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,Thread Group 1-40,text,false,,3529,0,31,31,https://loadtest-platform.dev.govirto.com/graphql,0,0,0
+1614701168874,6499,Add  SKU to cart,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,Thread Group 1-28,text,false,,3529,0,29,29,https://loadtest-platform.dev.govirto.com/graphql,0,0,0
+1614701173343,2039,Add  SKU to cart,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,Thread Group 1-41,text,false,,3529,0,28,28,https://loadtest-platform.dev.govirto.com/graphql,0,0,0
+1614701175144,240,Get product detail  ,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,Thread Group 1-18,text,false,,3529,0,27,27,https://loadtest-platform.dev.govirto.com/graphql,0,0,0
+1614701167536,7854,Add  SKU to cart,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,Thread Group 1-9,text,false,,3529,0,26,26,https://loadtest-platform.dev.govirto.com/graphql,0,0,0
+1614701170273,5117,Get product detail  ,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,Thread Group 1-35,text,false,,3529,0,26,26,https://loadtest-platform.dev.govirto.com/graphql,0,0,0
+1614701170247,5143,Add  SKU to cart,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,Thread Group 1-39,text,false,,3529,0,26,26,https://loadtest-platform.dev.govirto.com/graphql,0,0,0
+1614701172404,2987,Add  SKU to cart,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,Thread Group 1-21,text,false,,3529,0,23,23,https://loadtest-platform.dev.govirto.com/graphql,0,0,0
+1614701170278,5114,Get product detail  ,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,Thread Group 1-22,text,false,,3529,0,22,22,https://loadtest-platform.dev.govirto.com/graphql,0,0,0
+1614701170270,5123,Add  SKU to cart,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,Thread Group 1-33,text,false,,3529,0,21,21,https://loadtest-platform.dev.govirto.com/graphql,0,0,0
+1614701174930,463,Add  SKU to cart,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,Thread Group 1-34,text,false,,3529,0,21,21,https://loadtest-platform.dev.govirto.com/graphql,0,0,0
+1614701173270,2121,Get cart,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,Thread Group 1-1,text,false,,3529,0,23,23,https://loadtest-platform.dev.govirto.com/graphql,0,0,0
+1614701173222,2169,Get cart,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,Thread Group 1-2,text,false,,3529,0,23,23,https://loadtest-platform.dev.govirto.com/graphql,0,0,0
+1614701165276,10120,Add  SKU to cart,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,Thread Group 1-6,text,false,,3529,0,17,17,https://loadtest-platform.dev.govirto.com/graphql,0,0,759
+1614701172021,3375,Add  SKU to cart,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,Thread Group 1-27,text,false,,3529,0,17,17,https://loadtest-platform.dev.govirto.com/graphql,0,0,0
+1614701173269,2129,Add  SKU to cart,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,Thread Group 1-10,text,false,,3529,0,16,16,https://loadtest-platform.dev.govirto.com/graphql,0,0,1277
+1614701172781,2617,Get product detail  ,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,Thread Group 1-17,text,false,,3529,0,16,16,https://loadtest-platform.dev.govirto.com/graphql,0,0,0
+1614701168577,6821,Add  SKU to cart,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,Thread Group 1-29,text,false,,3529,0,14,14,https://loadtest-platform.dev.govirto.com/graphql,0,0,0
+1614701174348,1051,Get product detail  ,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,Thread Group 1-44,text,false,,3529,0,13,13,https://loadtest-platform.dev.govirto.com/graphql,0,0,0
+1614701170128,5271,Add  SKU to cart,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,Thread Group 1-38,text,false,,3529,0,11,11,https://loadtest-platform.dev.govirto.com/graphql,0,0,0
+1614701167536,7863,Add  SKU to cart,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,Thread Group 1-32,text,false,,3529,0,11,11,https://loadtest-platform.dev.govirto.com/graphql,0,0,0
+1614701174611,789,Get product detail  ,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,Thread Group 1-45,text,false,,3529,0,9,9,https://loadtest-platform.dev.govirto.com/graphql,0,0,0
+1614701165615,9785,Add  SKU to cart,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,Thread Group 1-11,text,false,,3529,0,9,9,https://loadtest-platform.dev.govirto.com/graphql,0,0,0
+1614701173422,1978,Get product detail  ,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,Thread Group 1-37,text,false,,3529,0,8,8,https://loadtest-platform.dev.govirto.com/graphql,0,0,0
+1614701173269,2132,Get product detail  ,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,Thread Group 1-15,text,false,,3529,0,7,7,https://loadtest-platform.dev.govirto.com/graphql,0,0,0
+1614701169638,5765,Add  SKU to cart,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,Thread Group 1-7,text,false,,3529,0,5,5,https://loadtest-platform.dev.govirto.com/graphql,0,0,1619
+1614701172094,3309,Get product detail  ,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,Thread Group 1-42,text,false,,3529,0,5,5,https://loadtest-platform.dev.govirto.com/graphql,0,0,0
+1614701165614,9790,Add  SKU to cart,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,Thread Group 1-3,text,false,,3529,0,5,5,https://loadtest-platform.dev.govirto.com/graphql,0,0,763
+1614701170768,4637,Add  SKU to cart,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,Thread Group 1-16,text,false,,3529,0,2,2,https://loadtest-platform.dev.govirto.com/graphql,0,0,0
+1614701170355,5050,Add  SKU to cart,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: Socket closed,Thread Group 1-31,text,false,,3529,0,2,2,https://loadtest-platform.dev.govirto.com/graphql,0,0,0
