@@ -1,0 +1,17 @@
+phantom:
+  address: {{address}} # [Target's address]:[target's port]
+  load_profile:
+    load_type: rps # schedule load by defining requests per second
+    schedule: line(1, 100, 10m) # starting from 1rps growing linearly to 100rps during 10 minutes
+  ammo_type: phantom  
+  ammofile: ammo-facet.txt
+  writelog: all
+console:
+  enabled: true # enable console output
+telegraf:
+  enabled: false
+autostop:
+  autostop:
+    - time(5000,15) # stops test, if average answer time exceeds 5000ms
+    - http(5xx,25%,15s) # stop test, if amount of 5xx http codes in every second of last 5s period exceeds 25% of answers
+    - net(xx,25,15) # stop test, if amount of non-zero net-codes in every second of last 15s period is more than 25

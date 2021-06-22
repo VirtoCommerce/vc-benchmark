@@ -1,8 +1,9 @@
+
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 321
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -22,10 +23,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 322
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -45,10 +46,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 418
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -75,10 +76,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 334
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -99,10 +100,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 412
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -127,10 +128,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 529
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -165,10 +166,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 544
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -203,10 +204,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 311
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -225,10 +226,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 517
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -263,10 +264,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 348
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -288,10 +289,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 509
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -326,10 +327,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 279
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -346,10 +347,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 464
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -380,10 +381,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 469
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -414,10 +415,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 515
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -452,10 +453,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 358
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -478,10 +479,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 530
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -516,10 +517,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 519
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -554,10 +555,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 281
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -574,10 +575,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 281
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -594,10 +595,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 515
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -632,10 +633,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 477
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -667,10 +668,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 513
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -705,10 +706,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 385
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -733,10 +734,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 374
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -760,10 +761,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 516
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -798,10 +799,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 524
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -836,10 +837,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 491
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -872,10 +873,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 333
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -896,10 +897,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 517
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -934,10 +935,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 526
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -972,10 +973,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 517
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -1010,10 +1011,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 515
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -1048,10 +1049,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 390
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -1076,10 +1077,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 295
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -1097,10 +1098,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 315
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -1120,10 +1121,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 526
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -1158,10 +1159,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 318
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -1181,10 +1182,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 320
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -1204,10 +1205,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 516
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -1242,10 +1243,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 523
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -1280,10 +1281,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 268
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -1299,10 +1300,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 376
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -1327,10 +1328,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 530
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -1365,10 +1366,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 476
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -1400,10 +1401,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 333
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -1424,10 +1425,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 333
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -1448,10 +1449,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 518
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -1486,10 +1487,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 535
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -1524,10 +1525,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 311
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -1546,10 +1547,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 449
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -1579,10 +1580,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 438
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -1611,10 +1612,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 443
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -1643,10 +1644,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 297
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -1664,10 +1665,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 515
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -1702,10 +1703,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 524
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -1740,10 +1741,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 333
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -1764,10 +1765,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 362
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -1790,10 +1791,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 296
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -1811,10 +1812,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 283
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -1831,10 +1832,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 409
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -1860,10 +1861,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 517
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -1898,10 +1899,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 381
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -1925,10 +1926,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 425
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -1956,10 +1957,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 533
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -1994,10 +1995,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 512
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -2032,10 +2033,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 405
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -2061,10 +2062,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 527
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -2099,10 +2100,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 531
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -2137,10 +2138,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 268
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -2156,10 +2157,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 515
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -2194,10 +2195,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 516
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -2232,10 +2233,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 449
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -2265,10 +2266,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 481
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -2300,10 +2301,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 450
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -2333,10 +2334,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 294
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -2354,10 +2355,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 520
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -2392,10 +2393,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 268
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -2411,10 +2412,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 281
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -2431,10 +2432,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 521
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -2469,10 +2470,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 347
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -2494,10 +2495,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 526
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -2532,10 +2533,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 531
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -2570,10 +2571,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 519
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -2608,10 +2609,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 281
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -2628,10 +2629,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 317
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -2651,10 +2652,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 295
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -2672,10 +2673,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 512
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -2710,10 +2711,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 360
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -2736,10 +2737,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 421
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -2767,10 +2768,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 321
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -2790,10 +2791,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 322
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -2813,10 +2814,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 418
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -2843,10 +2844,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 334
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -2867,10 +2868,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 390
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -2895,10 +2896,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 507
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -2933,10 +2934,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 518
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -2971,10 +2972,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 406
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -3001,10 +3002,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 370
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -3028,10 +3029,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 307
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -3050,10 +3051,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 294
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -3071,10 +3072,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 332
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -3095,10 +3096,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 341
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -3120,10 +3121,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 344
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -3145,10 +3146,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 268
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -3164,10 +3165,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 339
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -3188,10 +3189,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 269
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -3207,10 +3208,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 294
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -3228,10 +3229,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 468
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -3262,10 +3263,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 331
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -3286,10 +3287,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 516
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -3324,10 +3325,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 281
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -3344,10 +3345,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 281
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -3364,10 +3365,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 346
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -3389,10 +3390,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 339
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -3414,10 +3415,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 269
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -3433,10 +3434,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 267
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -3452,10 +3453,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 428
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -3483,10 +3484,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 359
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -3509,10 +3510,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 346
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -3534,10 +3535,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 281
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -3554,10 +3555,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 516
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -3592,10 +3593,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 527
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -3630,10 +3631,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 526
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -3668,10 +3669,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 376
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -3695,10 +3696,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 387
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -3723,10 +3724,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 385
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -3751,10 +3752,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 515
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -3789,10 +3790,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 517
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -3827,10 +3828,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 437
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -3858,10 +3859,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 387
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -3886,10 +3887,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 409
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -3916,10 +3917,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 412
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -3946,10 +3947,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 381
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -3973,10 +3974,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 281
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -3993,10 +3994,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 354
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -4019,10 +4020,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 334
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -4043,10 +4044,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 465
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -4076,10 +4077,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 381
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -4103,10 +4104,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 307
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -4125,10 +4126,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 393
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -4153,10 +4154,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 360
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -4179,10 +4180,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 531
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -4217,10 +4218,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 318
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -4240,10 +4241,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 281
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -4260,10 +4261,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 520
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -4298,10 +4299,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 515
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -4336,10 +4337,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 323
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -4359,10 +4360,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 429
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -4391,10 +4392,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 322
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -4414,10 +4415,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 481
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -4449,10 +4450,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 367
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -4475,10 +4476,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 518
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -4513,10 +4514,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 461
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -4547,10 +4548,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 294
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -4568,10 +4569,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 521
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -4606,10 +4607,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 533
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -4644,10 +4645,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 311
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -4666,10 +4667,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 281
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -4686,10 +4687,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 502
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -4724,10 +4725,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 325
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -4747,10 +4748,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 430
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -4779,10 +4780,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 533
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -4817,10 +4818,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 334
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -4841,10 +4842,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 508
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -4879,10 +4880,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 519
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -4917,10 +4918,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 493
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -4952,10 +4953,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 367
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -4978,10 +4979,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 339
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -5002,10 +5003,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 519
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -5040,10 +5041,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 305
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -5062,10 +5063,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 267
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -5081,10 +5082,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 411
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -5111,10 +5112,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 367
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -5138,10 +5139,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 514
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -5176,10 +5177,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 333
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -5200,10 +5201,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 515
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -5238,10 +5239,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 512
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -5276,10 +5277,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 378
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -5303,10 +5304,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 529
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -5341,10 +5342,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 529
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -5379,10 +5380,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 307
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -5401,10 +5402,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 294
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -5422,10 +5423,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 268
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -5441,10 +5442,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 303
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -5463,10 +5464,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 281
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -5483,10 +5484,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 321
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -5506,10 +5507,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 322
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -5529,10 +5530,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 418
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -5559,10 +5560,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 334
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -5583,10 +5584,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 390
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -5611,10 +5612,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 507
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -5649,10 +5650,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 457
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -5682,10 +5683,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 383
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -5710,10 +5711,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 386
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -5738,10 +5739,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 511
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -5776,10 +5777,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 516
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -5814,10 +5815,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 333
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -5838,10 +5839,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 353
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -5863,10 +5864,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 325
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -5886,10 +5887,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 522
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",
@@ -5924,10 +5925,10 @@ Host: {{Host}}
   "userGroups": []
 }
 {{Length}} _api_pricing_evaluate
-POST /api/pricing/evaluate?api_key={{ApiKey}} HTTP/1.1
+POST /api/pricing/evaluate?api_key=a9fc01c2c3a34dc9a712e9f1bac9276d HTTP/1.1
 Content-Type: application/json
 Content-Length: 320
-Host: {{Host}}
+Host: localhost:8888
 
 {
   "storeId": "Electronics",

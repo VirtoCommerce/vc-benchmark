@@ -1,1 +1,0 @@
-dotnet VirtoCommerce.AmmoGenerator.Transform.dll %1 %2

@@ -18,3 +18,10 @@
 
 #### Run Yandex Tank 
 - run docker run -v $(pwd):/var/loadtest -v $(pwd):/root/.ssh --net host -it direvius/yandex-tank (where $(pwd) is the full path where scripts files placed)
+
+## System configuration
+![image](https://github.com/VirtoCommerce/vc-benchmark/raw/yandex-tank-second/YandexTank/System%20configuration.png)
+
+
+## Results
+![image](https://github.com/VirtoCommerce/vc-benchmark/raw/yandex-tank-second/YandexTank/Load%20test%20results.png)
