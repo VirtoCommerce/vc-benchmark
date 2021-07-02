@@ -767,7 +767,7 @@
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename">/home/aleksandr/Projects/jmeter/vc-benchmark/jmeter/xAPI/results/result_xApi_load_tests_45_60_1800_29_01.jtl</stringProp>
+          <stringProp name="filename">/home/aleksandr/Projects/jmeter/vc-benchmark/jmeter/xAPI/results/result_xApi_load_tests_45_60_1800_21_06.jtl</stringProp>
         </ResultCollector>
         <hashTree/>
         <ResultCollector guiclass="StatGraphVisualizer" testclass="ResultCollector" testname="Aggregate Graph" enabled="true">
