@@ -1846,6 +1846,940 @@ fragment currencyFields on CurrencyType {
             <hashTree/>
           </hashTree>
         </hashTree>
+        <IfController guiclass="IfControllerPanel" testclass="IfController" testname="Login with 50% probability" enabled="true">
+          <stringProp name="IfController.condition">${__groovy(${__Random(0,1)} == 1)}</stringProp>
+          <boolProp name="IfController.evaluateAll">false</boolProp>
+          <boolProp name="IfController.useExpression">true</boolProp>
+        </IfController>
+        <hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="login" enabled="true">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">{&quot;userName&quot;:&quot;${username}&quot;,&quot;password&quot;:&quot;${password}&quot;}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain"></stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol"></stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/storefrontapi/account/login</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Sec-Fetch-Mode" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Mode</stringProp>
+                  <stringProp name="Header.value">cors</stringProp>
+                </elementProp>
+                <elementProp name="Referer" elementType="Header">
+                  <stringProp name="Header.name">Referer</stringProp>
+                  <stringProp name="Header.value">https://${serverName}</stringProp>
+                </elementProp>
+                <elementProp name="apollographql-client-name" elementType="Header">
+                  <stringProp name="Header.name">apollographql-client-name</stringProp>
+                  <stringProp name="Header.value">x-api-graphql-client</stringProp>
+                </elementProp>
+                <elementProp name="Sec-Fetch-Site" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
+                  <stringProp name="Header.value">same-origin</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Language" elementType="Header">
+                  <stringProp name="Header.name">Accept-Language</stringProp>
+                  <stringProp name="Header.value">ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3</stringProp>
+                </elementProp>
+                <elementProp name="Origin" elementType="Header">
+                  <stringProp name="Header.name">Origin</stringProp>
+                  <stringProp name="Header.value">https://${serverName}</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">*/*</stringProp>
+                </elementProp>
+                <elementProp name="content-type" elementType="Header">
+                  <stringProp name="Header.name">content-type</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Encoding" elementType="Header">
+                  <stringProp name="Header.name">Accept-Encoding</stringProp>
+                  <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                </elementProp>
+                <elementProp name="User-Agent" elementType="Header">
+                  <stringProp name="Header.name">User-Agent</stringProp>
+                  <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0</stringProp>
+                </elementProp>
+                <elementProp name="Sec-Fetch-Dest" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Dest</stringProp>
+                  <stringProp name="Header.value">empty</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+              <collectionProp name="Asserion.test_strings">
+                <stringProp name="-1350226782">{&quot;succeeded&quot;:true,&quot;errors&quot;:[]}</stringProp>
+              </collectionProp>
+              <stringProp name="Assertion.custom_message"></stringProp>
+              <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+              <boolProp name="Assertion.assume_success">true</boolProp>
+              <intProp name="Assertion.test_type">16</intProp>
+            </ResponseAssertion>
+            <hashTree/>
+            <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="DelayTimer" enabled="true">
+              <stringProp name="ConstantTimer.delay">${DelayTimer.min}</stringProp>
+              <stringProp name="RandomTimer.range">${DelayTimer.max}</stringProp>
+            </UniformRandomTimer>
+            <hashTree/>
+          </hashTree>
+          <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="isLogin" enabled="true">
+            <stringProp name="scriptLanguage">java</stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="script">vars.put(&quot;isLogin&quot;, &quot;true&quot;);</stringProp>
+          </JSR223Sampler>
+          <hashTree/>
+          <HTTPSamplerProxy guiclass="GraphQLHTTPSamplerGui" testclass="HTTPSamplerProxy" testname="GetMe" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument" enabled="true">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">{&quot;operationName&quot;:&quot;GetMe&quot;,&quot;variables&quot;:{&quot;first&quot;:1,&quot;after&quot;:&quot;0&quot;},&quot;query&quot;:&quot;query GetMe($after: String, $first: Int, $sort: String) {\n  me {\n    id\n    memberId\n    userName\n    email\n    emailConfirmed\n    photoUrl\n    phoneNumber\n    permissions\n    contact {\n      firstName\n      lastName\n      fullName\n      organizations(after: $after, first: $first, sort: $sort) {\n        items {\n          id\n          name\n        }\n      }\n    }\n  }\n}&quot;}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain"></stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol"></stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/xapi/graphql</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="GraphQLHTTPSampler.operationName">GetMe</stringProp>
+            <stringProp name="GraphQLHTTPSampler.query">query GetMe($after: String, $first: Int, $sort: String) {
+  me {
+    id
+    memberId
+    userName
+    email
+    emailConfirmed
+    photoUrl
+    phoneNumber
+    permissions
+    contact {
+      firstName
+      lastName
+      fullName
+      organizations(after: $after, first: $first, sort: $sort) {
+        items {
+          id
+          name
+        }
+      }
+    }
+  }
+}
+</stringProp>
+            <stringProp name="GraphQLHTTPSampler.variables">{&quot;first&quot;:1,&quot;after&quot;:&quot;0&quot;}</stringProp>
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Sec-Fetch-Mode" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Mode</stringProp>
+                  <stringProp name="Header.value">cors</stringProp>
+                </elementProp>
+                <elementProp name="Referer" elementType="Header">
+                  <stringProp name="Header.name">Referer</stringProp>
+                  <stringProp name="Header.value">https://${serverName}</stringProp>
+                </elementProp>
+                <elementProp name="apollographql-client-name" elementType="Header">
+                  <stringProp name="Header.name">apollographql-client-name</stringProp>
+                  <stringProp name="Header.value">x-api-graphql-client</stringProp>
+                </elementProp>
+                <elementProp name="Sec-Fetch-Site" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
+                  <stringProp name="Header.value">same-origin</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Language" elementType="Header">
+                  <stringProp name="Header.name">Accept-Language</stringProp>
+                  <stringProp name="Header.value">ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3</stringProp>
+                </elementProp>
+                <elementProp name="Origin" elementType="Header">
+                  <stringProp name="Header.name">Origin</stringProp>
+                  <stringProp name="Header.value">https://${serverName}</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">*/*</stringProp>
+                </elementProp>
+                <elementProp name="content-type" elementType="Header">
+                  <stringProp name="Header.name">content-type</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Encoding" elementType="Header">
+                  <stringProp name="Header.name">Accept-Encoding</stringProp>
+                  <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                </elementProp>
+                <elementProp name="User-Agent" elementType="Header">
+                  <stringProp name="Header.name">User-Agent</stringProp>
+                  <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0</stringProp>
+                </elementProp>
+                <elementProp name="Sec-Fetch-Dest" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Dest</stringProp>
+                  <stringProp name="Header.value">empty</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+            <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="Init.UserId" enabled="true">
+              <stringProp name="JSONPostProcessor.referenceNames">Init.UserId</stringProp>
+              <stringProp name="JSONPostProcessor.jsonPathExprs">$.data.me.id</stringProp>
+              <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
+              <stringProp name="Scope.variable">userId</stringProp>
+              <stringProp name="TestPlan.comments">Overwriting the guest ID with the existing user ID</stringProp>
+            </JSONPostProcessor>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="GraphQLHTTPSamplerGui" testclass="HTTPSamplerProxy" testname="MergeCart" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument" enabled="true">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">{&quot;operationName&quot;:&quot;MergeCart&quot;,&quot;variables&quot;:{&quot;command&quot;:{&quot;storeId&quot;:&quot;${Init.StoreId}&quot;,&quot;userId&quot;:&quot;${Init.UserId}&quot;,&quot;secondCartId&quot;:&quot;${Init.CartId}&quot;,&quot;currencyCode&quot;:&quot;${Init.CurrencyCode}&quot;,&quot;cultureName&quot;:&quot;${Init.CultureName}&quot;}},&quot;query&quot;:&quot;mutation MergeCart($command: InputMergeCartType!) {\n  mergeCart(command: $command) {\n    id\n  }\n}&quot;}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain"></stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol"></stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/xapi/graphql</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="GraphQLHTTPSampler.operationName">MergeCart</stringProp>
+            <stringProp name="GraphQLHTTPSampler.query">mutation MergeCart($command: InputMergeCartType!) {
+  mergeCart(command: $command) {
+    id
+  }
+}
+</stringProp>
+            <stringProp name="GraphQLHTTPSampler.variables">{
+	&quot;command&quot;:{
+		&quot;storeId&quot;:&quot;${Init.StoreId}&quot;,
+		&quot;userId&quot;:&quot;${Init.UserId}&quot;,
+		&quot;secondCartId&quot;:&quot;${Init.CartId}&quot;,
+		&quot;currencyCode&quot;:&quot;${Init.CurrencyCode}&quot;,
+		&quot;cultureName&quot;:&quot;${Init.CultureName}&quot;
+	}
+}</stringProp>
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Sec-Fetch-Mode" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Mode</stringProp>
+                  <stringProp name="Header.value">cors</stringProp>
+                </elementProp>
+                <elementProp name="Referer" elementType="Header">
+                  <stringProp name="Header.name">Referer</stringProp>
+                  <stringProp name="Header.value">https://${serverName}</stringProp>
+                </elementProp>
+                <elementProp name="apollographql-client-name" elementType="Header">
+                  <stringProp name="Header.name">apollographql-client-name</stringProp>
+                  <stringProp name="Header.value">x-api-graphql-client</stringProp>
+                </elementProp>
+                <elementProp name="Sec-Fetch-Site" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
+                  <stringProp name="Header.value">same-origin</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Language" elementType="Header">
+                  <stringProp name="Header.name">Accept-Language</stringProp>
+                  <stringProp name="Header.value">ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3</stringProp>
+                </elementProp>
+                <elementProp name="Origin" elementType="Header">
+                  <stringProp name="Header.name">Origin</stringProp>
+                  <stringProp name="Header.value">https://${serverName}</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">*/*</stringProp>
+                </elementProp>
+                <elementProp name="content-type" elementType="Header">
+                  <stringProp name="Header.name">content-type</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Encoding" elementType="Header">
+                  <stringProp name="Header.name">Accept-Encoding</stringProp>
+                  <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                </elementProp>
+                <elementProp name="User-Agent" elementType="Header">
+                  <stringProp name="Header.name">User-Agent</stringProp>
+                  <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0</stringProp>
+                </elementProp>
+                <elementProp name="Sec-Fetch-Dest" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Dest</stringProp>
+                  <stringProp name="Header.value">empty</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+            <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="Init.CartId" enabled="true">
+              <stringProp name="TestPlan.comments">Change cartId after login</stringProp>
+              <stringProp name="JSONPostProcessor.referenceNames">Init.CartId</stringProp>
+              <stringProp name="JSONPostProcessor.jsonPathExprs">$.data.mergeCart.id</stringProp>
+              <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
+            </JSONPostProcessor>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="GraphQLHTTPSamplerGui" testclass="HTTPSamplerProxy" testname="GetMe" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument" enabled="true">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">{&quot;operationName&quot;:&quot;GetMe&quot;,&quot;variables&quot;:{&quot;first&quot;:1,&quot;after&quot;:&quot;0&quot;},&quot;query&quot;:&quot;query GetMe($after: String, $first: Int, $sort: String) {\n  me {\n    id\n    memberId\n    userName\n    email\n    emailConfirmed\n    photoUrl\n    phoneNumber\n    permissions\n    contact {\n      firstName\n      lastName\n      fullName\n      organizations(after: $after, first: $first, sort: $sort) {\n        items {\n          id\n          name\n        }\n      }\n    }\n  }\n}&quot;}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain"></stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol"></stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/xapi/graphql</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="GraphQLHTTPSampler.operationName">GetMe</stringProp>
+            <stringProp name="GraphQLHTTPSampler.query">query GetMe($after: String, $first: Int, $sort: String) {
+  me {
+    id
+    memberId
+    userName
+    email
+    emailConfirmed
+    photoUrl
+    phoneNumber
+    permissions
+    contact {
+      firstName
+      lastName
+      fullName
+      organizations(after: $after, first: $first, sort: $sort) {
+        items {
+          id
+          name
+        }
+      }
+    }
+  }
+}
+</stringProp>
+            <stringProp name="GraphQLHTTPSampler.variables">{&quot;first&quot;:1,&quot;after&quot;:&quot;0&quot;}</stringProp>
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Sec-Fetch-Mode" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Mode</stringProp>
+                  <stringProp name="Header.value">cors</stringProp>
+                </elementProp>
+                <elementProp name="Referer" elementType="Header">
+                  <stringProp name="Header.name">Referer</stringProp>
+                  <stringProp name="Header.value">https://${serverName}</stringProp>
+                </elementProp>
+                <elementProp name="apollographql-client-name" elementType="Header">
+                  <stringProp name="Header.name">apollographql-client-name</stringProp>
+                  <stringProp name="Header.value">x-api-graphql-client</stringProp>
+                </elementProp>
+                <elementProp name="Sec-Fetch-Site" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
+                  <stringProp name="Header.value">same-origin</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Language" elementType="Header">
+                  <stringProp name="Header.name">Accept-Language</stringProp>
+                  <stringProp name="Header.value">ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3</stringProp>
+                </elementProp>
+                <elementProp name="Origin" elementType="Header">
+                  <stringProp name="Header.name">Origin</stringProp>
+                  <stringProp name="Header.value">https://${serverName}</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">*/*</stringProp>
+                </elementProp>
+                <elementProp name="content-type" elementType="Header">
+                  <stringProp name="Header.name">content-type</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Encoding" elementType="Header">
+                  <stringProp name="Header.name">Accept-Encoding</stringProp>
+                  <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                </elementProp>
+                <elementProp name="User-Agent" elementType="Header">
+                  <stringProp name="Header.name">User-Agent</stringProp>
+                  <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0</stringProp>
+                </elementProp>
+                <elementProp name="Sec-Fetch-Dest" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Dest</stringProp>
+                  <stringProp name="Header.value">empty</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="GraphQLHTTPSamplerGui" testclass="HTTPSamplerProxy" testname="GetMenus" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument" enabled="true">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">{&quot;operationName&quot;:&quot;GetMenus&quot;,&quot;variables&quot;:{&quot;storeId&quot;:&quot;${Init.StoreId}&quot;,&quot;cultureName&quot;:&quot;${Init.CultureName}&quot;},&quot;query&quot;:&quot;query GetMenus($storeId: String!, $cultureName: String, $keyword: String) {\n  menus(storeId: $storeId, cultureName: $cultureName, keyword: $keyword) {\n    name\n    items {\n      title\n      url\n      priority\n    }\n  }\n}&quot;}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${serverName}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol"></stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/xapi/graphql</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="GraphQLHTTPSampler.operationName">GetMenus</stringProp>
+            <stringProp name="GraphQLHTTPSampler.query">query GetMenus($storeId: String!, $cultureName: String, $keyword: String) {
+  menus(storeId: $storeId, cultureName: $cultureName, keyword: $keyword) {
+    name
+    items {
+      title
+      url
+      priority
+    }
+  }
+}
+</stringProp>
+            <stringProp name="GraphQLHTTPSampler.variables">{&quot;storeId&quot;:&quot;${Init.StoreId}&quot;,&quot;cultureName&quot;:&quot;${Init.CultureName}&quot;}</stringProp>
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Sec-Fetch-Mode" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Mode</stringProp>
+                  <stringProp name="Header.value">cors</stringProp>
+                </elementProp>
+                <elementProp name="Referer" elementType="Header">
+                  <stringProp name="Header.name">Referer</stringProp>
+                  <stringProp name="Header.value">https://${serverName}</stringProp>
+                </elementProp>
+                <elementProp name="apollographql-client-name" elementType="Header">
+                  <stringProp name="Header.name">apollographql-client-name</stringProp>
+                  <stringProp name="Header.value">x-api-graphql-client</stringProp>
+                </elementProp>
+                <elementProp name="Sec-Fetch-Site" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
+                  <stringProp name="Header.value">same-origin</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Language" elementType="Header">
+                  <stringProp name="Header.name">Accept-Language</stringProp>
+                  <stringProp name="Header.value">ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3</stringProp>
+                </elementProp>
+                <elementProp name="Origin" elementType="Header">
+                  <stringProp name="Header.name">Origin</stringProp>
+                  <stringProp name="Header.value">https://${serverName}</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">*/*</stringProp>
+                </elementProp>
+                <elementProp name="content-type" elementType="Header">
+                  <stringProp name="Header.name">content-type</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Encoding" elementType="Header">
+                  <stringProp name="Header.name">Accept-Encoding</stringProp>
+                  <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                </elementProp>
+                <elementProp name="User-Agent" elementType="Header">
+                  <stringProp name="Header.name">User-Agent</stringProp>
+                  <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0</stringProp>
+                </elementProp>
+                <elementProp name="Sec-Fetch-Dest" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Dest</stringProp>
+                  <stringProp name="Header.value">empty</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="GraphQLHTTPSamplerGui" testclass="HTTPSamplerProxy" testname="GetOrders" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument" enabled="true">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">{&quot;operationName&quot;:&quot;GetOrders&quot;,&quot;variables&quot;:{&quot;userId&quot;:&quot;${Init.UserId}&quot;,&quot;cultureName&quot;:&quot;${Init.CultureName}&quot;,&quot;sort&quot;:&quot;createdDate:desc&quot;,&quot;first&quot;:4,&quot;after&quot;:&quot;0&quot;,&quot;filter&quot;:&quot;&quot;},&quot;query&quot;:&quot;query GetOrders($filter: String, $sort: String, $cultureName: String, $userId: String, $after: String, $first: Int) {\n  orders(\n    filter: $filter\n    sort: $sort\n    cultureName: $cultureName\n    userId: $userId\n    after: $after\n    first: $first\n  ) {\n    totalCount\n    items {\n      id\n      createdDate\n      status\n      currency {\n        code\n      }\n      total {\n        ...moneyFields\n      }\n      inPayments {\n        number\n      }\n      number\n      customerId\n      purchaseOrderNumber\n    }\n  }\n}\n\nfragment moneyFields on MoneyType {\n  amount\n  decimalDigits\n  formattedAmount\n  formattedAmountWithoutCurrency\n  formattedAmountWithoutPoint\n  formattedAmountWithoutPointAndCurrency\n  currency {\n    ...currencyFields\n  }\n}\n\nfragment currencyFields on CurrencyType {\n  code\n  customFormatting\n  exchangeRate\n  symbol\n}&quot;}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${serverName}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol"></stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/xapi/graphql</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="GraphQLHTTPSampler.operationName">GetOrders</stringProp>
+            <stringProp name="GraphQLHTTPSampler.query">query GetOrders($filter: String, $sort: String, $cultureName: String, $userId: String, $after: String, $first: Int) {
+  orders(
+    filter: $filter
+    sort: $sort
+    cultureName: $cultureName
+    userId: $userId
+    after: $after
+    first: $first
+  ) {
+    totalCount
+    items {
+      id
+      createdDate
+      status
+      currency {
+        code
+      }
+      total {
+        ...moneyFields
+      }
+      inPayments {
+        number
+      }
+      number
+      customerId
+      purchaseOrderNumber
+    }
+  }
+}
+
+fragment moneyFields on MoneyType {
+  amount
+  decimalDigits
+  formattedAmount
+  formattedAmountWithoutCurrency
+  formattedAmountWithoutPoint
+  formattedAmountWithoutPointAndCurrency
+  currency {
+    ...currencyFields
+  }
+}
+
+fragment currencyFields on CurrencyType {
+  code
+  customFormatting
+  exchangeRate
+  symbol
+}
+</stringProp>
+            <stringProp name="GraphQLHTTPSampler.variables">{
+	&quot;userId&quot;:&quot;${Init.UserId}&quot;,
+	&quot;cultureName&quot;:&quot;${Init.CultureName}&quot;,
+	&quot;sort&quot;:&quot;createdDate:desc&quot;,
+	&quot;first&quot;:4,
+	&quot;after&quot;:&quot;0&quot;,
+	&quot;filter&quot;:&quot;&quot;
+}
+</stringProp>
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Sec-Fetch-Mode" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Mode</stringProp>
+                  <stringProp name="Header.value">cors</stringProp>
+                </elementProp>
+                <elementProp name="Referer" elementType="Header">
+                  <stringProp name="Header.name">Referer</stringProp>
+                  <stringProp name="Header.value">https://${serverName}/account/dashboard</stringProp>
+                </elementProp>
+                <elementProp name="apollographql-client-name" elementType="Header">
+                  <stringProp name="Header.name">apollographql-client-name</stringProp>
+                  <stringProp name="Header.value">x-api-graphql-client</stringProp>
+                </elementProp>
+                <elementProp name="Sec-Fetch-Site" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
+                  <stringProp name="Header.value">same-origin</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Language" elementType="Header">
+                  <stringProp name="Header.name">Accept-Language</stringProp>
+                  <stringProp name="Header.value">ru-RU,ru;q=0.8,en-US;q=0.${Keyword.maxCount},en;q=0.3</stringProp>
+                </elementProp>
+                <elementProp name="Origin" elementType="Header">
+                  <stringProp name="Header.name">Origin</stringProp>
+                  <stringProp name="Header.value">https://${serverName}</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">*/*</stringProp>
+                </elementProp>
+                <elementProp name="content-type" elementType="Header">
+                  <stringProp name="Header.name">content-type</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Encoding" elementType="Header">
+                  <stringProp name="Header.name">Accept-Encoding</stringProp>
+                  <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                </elementProp>
+                <elementProp name="User-Agent" elementType="Header">
+                  <stringProp name="Header.name">User-Agent</stringProp>
+                  <stringProp name="Header.value">Mozilla/${Keyword.maxCount}.0 (Windows NT ${Group1.loadPerc}.0; Win64; x64; rv:${Group1.loadPerc}1.0) Gecko/${SearchRequests.min}0${Group1.loadPerc}0${Group1.loadPerc}1 Firefox/${Group1.loadPerc}1.0</stringProp>
+                </elementProp>
+                <elementProp name="Sec-Fetch-Dest" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Dest</stringProp>
+                  <stringProp name="Header.value">empty</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="GraphQLHTTPSamplerGui" testclass="HTTPSamplerProxy" testname="getMyCart" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument" enabled="true">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">{&quot;operationName&quot;:&quot;getMyCart&quot;,&quot;variables&quot;:{&quot;storeId&quot;:&quot;${Init.StoreId}&quot;,&quot;userId&quot;:&quot;${Init.UserId}&quot;,&quot;cultureName&quot;:&quot;${Init.CultureName}&quot;,&quot;currencyCode&quot;:&quot;${Init.CurrencyCode}&quot;},&quot;query&quot;:&quot;query getMyCart($storeId: String!, $userId: String!, $currencyCode: String!, $cultureName: String) {\n  cart(\n    storeId: $storeId\n    userId: $userId\n    currencyCode: $currencyCode\n    cultureName: $cultureName\n  ) {\n    id\n    name\n    comment\n    purchaseOrderNumber\n    coupons {\n      code\n    }\n    itemsCount\n    itemsQuantity\n    shipments {\n      id\n      shipmentMethodCode\n      shipmentMethodOption\n      deliveryAddress {\n        ...cartAddressFields\n      }\n      price {\n        ...moneyFields\n      }\n    }\n    discounts {\n      promotionId\n      description\n      amount\n      coupon\n    }\n    payments {\n      id\n      paymentGatewayCode\n      billingAddress {\n        ...cartAddressFields\n      }\n    }\n    addresses {\n      ...cartAddressFields\n    }\n    items {\n      ...lineItemFields\n    }\n    currency {\n      ...currencyFields\n    }\n    total {\n      ...moneyFields\n    }\n    discountTotal {\n      ...moneyFields\n    }\n    subTotal {\n      ...moneyFields\n    }\n    shippingTotal {\n      ...moneyFields\n    }\n    shippingPrice {\n      ...moneyFields\n    }\n    taxTotal {\n      ...moneyFields\n    }\n    extendedPriceTotal {\n      ...moneyFields\n    }\n    extendedPriceTotalWithTax {\n      ...moneyFields\n    }\n    validationErrors(ruleSet: \&quot;items\&quot;) {\n      errorCode\n      errorMessage\n      errorParameters {\n        key\n        value\n      }\n      objectId\n    }\n    availablePaymentMethods {\n      code\n      logoUrl\n      price {\n        ...moneyFields\n      }\n    }\n    availableShippingMethods {\n      id\n      code\n      logoUrl\n      optionName\n      optionDescription\n      price {\n        ...moneyFields\n      }\n    }\n    gifts {\n      id\n      imageUrl\n      name\n      lineItemId\n    }\n    availableGifts {\n      id\n      imageUrl\n      name\n      lineItemId\n    }\n  }\n}\n\nfragment cartAddressFields on CartAddressType {\n  id\n  name\n  organization\n  firstName\n  lastName\n  line1\n  line2\n  city\n  countryCode\n  countryName\n  regionId\n  regionName\n  postalCode\n  zip\n  phone\n  email\n  addressType\n}\n\nfragment lineItemFields on LineItemType {\n  id\n  imageUrl\n  inStockQuantity\n  isGift\n  isReadOnly\n  isReccuring\n  isValid\n  name\n  productId\n  product {\n    id\n    brandName\n    slug\n    masterVariation {\n      id\n      slug\n    }\n    minQuantity\n    maxQuantity\n    variations {\n      id\n      minQuantity\n      maxQuantity\n    }\n  }\n  quantity\n  sku\n  thumbnailImageUrl\n  validationErrors {\n    errorCode\n    errorMessage\n    errorParameters {\n      key\n      value\n    }\n  }\n  extendedPrice {\n    ...moneyFields\n  }\n  listPrice {\n    ...moneyFields\n  }\n  salePrice {\n    ...moneyFields\n  }\n  taxTotal {\n    ...moneyFields\n  }\n}\n\nfragment moneyFields on MoneyType {\n  amount\n  decimalDigits\n  formattedAmount\n  formattedAmountWithoutCurrency\n  formattedAmountWithoutPoint\n  formattedAmountWithoutPointAndCurrency\n  currency {\n    ...currencyFields\n  }\n}\n\nfragment currencyFields on CurrencyType {\n  code\n  customFormatting\n  exchangeRate\n  symbol\n}&quot;}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${serverName}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol"></stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/xapi/graphql</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="GraphQLHTTPSampler.operationName">getMyCart</stringProp>
+            <stringProp name="GraphQLHTTPSampler.query">query getMyCart($storeId: String!, $userId: String!, $currencyCode: String!, $cultureName: String) {
+  cart(
+    storeId: $storeId
+    userId: $userId
+    currencyCode: $currencyCode
+    cultureName: $cultureName
+  ) {
+    id
+    name
+    comment
+    purchaseOrderNumber
+    coupons {
+      code
+    }
+    itemsCount
+    itemsQuantity
+    shipments {
+      id
+      shipmentMethodCode
+      shipmentMethodOption
+      deliveryAddress {
+        ...cartAddressFields
+      }
+      price {
+        ...moneyFields
+      }
+    }
+    discounts {
+      promotionId
+      description
+      amount
+      coupon
+    }
+    payments {
+      id
+      paymentGatewayCode
+      billingAddress {
+        ...cartAddressFields
+      }
+    }
+    addresses {
+      ...cartAddressFields
+    }
+    items {
+      ...lineItemFields
+    }
+    currency {
+      ...currencyFields
+    }
+    total {
+      ...moneyFields
+    }
+    discountTotal {
+      ...moneyFields
+    }
+    subTotal {
+      ...moneyFields
+    }
+    shippingTotal {
+      ...moneyFields
+    }
+    shippingPrice {
+      ...moneyFields
+    }
+    taxTotal {
+      ...moneyFields
+    }
+    extendedPriceTotal {
+      ...moneyFields
+    }
+    extendedPriceTotalWithTax {
+      ...moneyFields
+    }
+    validationErrors(ruleSet: &quot;items&quot;) {
+      errorCode
+      errorMessage
+      errorParameters {
+        key
+        value
+      }
+      objectId
+    }
+    availablePaymentMethods {
+      code
+      logoUrl
+      price {
+        ...moneyFields
+      }
+    }
+    availableShippingMethods {
+      id
+      code
+      logoUrl
+      optionName
+      optionDescription
+      price {
+        ...moneyFields
+      }
+    }
+    gifts {
+      id
+      imageUrl
+      name
+      lineItemId
+    }
+    availableGifts {
+      id
+      imageUrl
+      name
+      lineItemId
+    }
+  }
+}
+
+fragment cartAddressFields on CartAddressType {
+  id
+  name
+  organization
+  firstName
+  lastName
+  line1
+  line2
+  city
+  countryCode
+  countryName
+  regionId
+  regionName
+  postalCode
+  zip
+  phone
+  email
+  addressType
+}
+
+fragment lineItemFields on LineItemType {
+  id
+  imageUrl
+  inStockQuantity
+  isGift
+  isReadOnly
+  isReccuring
+  isValid
+  name
+  productId
+  product {
+    id
+    brandName
+    slug
+    masterVariation {
+      id
+      slug
+    }
+    minQuantity
+    maxQuantity
+    variations {
+      id
+      minQuantity
+      maxQuantity
+    }
+  }
+  quantity
+  sku
+  thumbnailImageUrl
+  validationErrors {
+    errorCode
+    errorMessage
+    errorParameters {
+      key
+      value
+    }
+  }
+  extendedPrice {
+    ...moneyFields
+  }
+  listPrice {
+    ...moneyFields
+  }
+  salePrice {
+    ...moneyFields
+  }
+  taxTotal {
+    ...moneyFields
+  }
+}
+
+fragment moneyFields on MoneyType {
+  amount
+  decimalDigits
+  formattedAmount
+  formattedAmountWithoutCurrency
+  formattedAmountWithoutPoint
+  formattedAmountWithoutPointAndCurrency
+  currency {
+    ...currencyFields
+  }
+}
+
+fragment currencyFields on CurrencyType {
+  code
+  customFormatting
+  exchangeRate
+  symbol
+}
+</stringProp>
+            <stringProp name="GraphQLHTTPSampler.variables">{
+	&quot;storeId&quot;:&quot;${Init.StoreId}&quot;,
+	&quot;userId&quot;:&quot;${Init.UserId}&quot;,
+	&quot;cultureName&quot;:&quot;${Init.CultureName}&quot;,
+	&quot;currencyCode&quot;:&quot;${Init.CurrencyCode}&quot;
+}</stringProp>
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Sec-Fetch-Mode" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Mode</stringProp>
+                  <stringProp name="Header.value">cors</stringProp>
+                </elementProp>
+                <elementProp name="Referer" elementType="Header">
+                  <stringProp name="Header.name">Referer</stringProp>
+                  <stringProp name="Header.value">https://${serverName}</stringProp>
+                </elementProp>
+                <elementProp name="apollographql-client-name" elementType="Header">
+                  <stringProp name="Header.name">apollographql-client-name</stringProp>
+                  <stringProp name="Header.value">x-api-graphql-client</stringProp>
+                </elementProp>
+                <elementProp name="Sec-Fetch-Site" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
+                  <stringProp name="Header.value">same-origin</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Language" elementType="Header">
+                  <stringProp name="Header.name">Accept-Language</stringProp>
+                  <stringProp name="Header.value">ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3</stringProp>
+                </elementProp>
+                <elementProp name="Origin" elementType="Header">
+                  <stringProp name="Header.name">Origin</stringProp>
+                  <stringProp name="Header.value">https://${serverName}</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">*/*</stringProp>
+                </elementProp>
+                <elementProp name="content-type" elementType="Header">
+                  <stringProp name="Header.name">content-type</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Encoding" elementType="Header">
+                  <stringProp name="Header.name">Accept-Encoding</stringProp>
+                  <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                </elementProp>
+                <elementProp name="User-Agent" elementType="Header">
+                  <stringProp name="Header.name">User-Agent</stringProp>
+                  <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0</stringProp>
+                </elementProp>
+                <elementProp name="Sec-Fetch-Dest" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Dest</stringProp>
+                  <stringProp name="Header.value">empty</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+        </hashTree>
         <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="Loop of user requests" enabled="true">
           <boolProp name="LoopController.continue_forever">true</boolProp>
           <stringProp name="LoopController.loops">${__Random(${SearchRequests.min}, ${SearchRequests.max})}</stringProp>
@@ -3257,6 +4191,82 @@ fragment currencyFields on CurrencyType {
             </hashTree>
           </hashTree>
         </hashTree>
+        <IfController guiclass="IfControllerPanel" testclass="IfController" testname="Logout" enabled="true">
+          <stringProp name="IfController.condition">${__groovy(vars.get(&quot;isLogin&quot;) == &quot;true&quot;)}</stringProp>
+          <boolProp name="IfController.evaluateAll">false</boolProp>
+          <boolProp name="IfController.useExpression">true</boolProp>
+        </IfController>
+        <hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="logout" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${serverName}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol"></stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/storefrontapi/account/logout</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Sec-Fetch-Mode" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Mode</stringProp>
+                  <stringProp name="Header.value">cors</stringProp>
+                </elementProp>
+                <elementProp name="Referer" elementType="Header">
+                  <stringProp name="Header.name">Referer</stringProp>
+                  <stringProp name="Header.value">https://${serverName}/account/dashboard</stringProp>
+                </elementProp>
+                <elementProp name="Sec-Fetch-Site" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
+                  <stringProp name="Header.value">same-origin</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Language" elementType="Header">
+                  <stringProp name="Header.name">Accept-Language</stringProp>
+                  <stringProp name="Header.value">ru-RU,ru;q=0.8,en-US;q=0.${Keyword.maxCount},en;q=0.3</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">*/*</stringProp>
+                </elementProp>
+                <elementProp name="content-type" elementType="Header">
+                  <stringProp name="Header.name">content-type</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Encoding" elementType="Header">
+                  <stringProp name="Header.name">Accept-Encoding</stringProp>
+                  <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                </elementProp>
+                <elementProp name="User-Agent" elementType="Header">
+                  <stringProp name="Header.name">User-Agent</stringProp>
+                  <stringProp name="Header.value">Mozilla/${Keyword.maxCount}.0 (Windows NT ${rampUp}.0; Win6${totalThreads}; x6${totalThreads}; rv:${rampUp}${SearchRequests.min}.0) Gecko/${SearchRequests.min}0${rampUp}0${rampUp}1 Firefox/${rampUp}${SearchRequests.min}.0</stringProp>
+                </elementProp>
+                <elementProp name="Sec-Fetch-Dest" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Dest</stringProp>
+                  <stringProp name="Header.value">empty</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+          <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="isLogin" enabled="true">
+            <stringProp name="scriptLanguage">java</stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="script">vars.put(&quot;isLogin&quot;, &quot;false&quot;);</stringProp>
+          </JSR223Sampler>
+          <hashTree/>
+        </hashTree>
       </hashTree>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Group3 (Catalog Surfing)" enabled="true">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
@@ -3870,6 +4880,940 @@ fragment currencyFields on CurrencyType {
               <stringProp name="JSONPostProcessor.jsonPathExprs">$.data.cart.id</stringProp>
               <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
             </JSONPostProcessor>
+            <hashTree/>
+          </hashTree>
+        </hashTree>
+        <IfController guiclass="IfControllerPanel" testclass="IfController" testname="Login with 50% probability" enabled="true">
+          <stringProp name="IfController.condition">${__groovy(${__Random(0,1)} == 1)}</stringProp>
+          <boolProp name="IfController.evaluateAll">false</boolProp>
+          <boolProp name="IfController.useExpression">true</boolProp>
+        </IfController>
+        <hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="login" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">{&quot;userName&quot;:&quot;${username}&quot;,&quot;password&quot;:&quot;${password}&quot;}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <stringProp name="HTTPSampler.domain"></stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol"></stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/storefrontapi/account/login</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Sec-Fetch-Mode" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Mode</stringProp>
+                  <stringProp name="Header.value">cors</stringProp>
+                </elementProp>
+                <elementProp name="Referer" elementType="Header">
+                  <stringProp name="Header.name">Referer</stringProp>
+                  <stringProp name="Header.value">https://${serverName}</stringProp>
+                </elementProp>
+                <elementProp name="apollographql-client-name" elementType="Header">
+                  <stringProp name="Header.name">apollographql-client-name</stringProp>
+                  <stringProp name="Header.value">x-api-graphql-client</stringProp>
+                </elementProp>
+                <elementProp name="Sec-Fetch-Site" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
+                  <stringProp name="Header.value">same-origin</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Language" elementType="Header">
+                  <stringProp name="Header.name">Accept-Language</stringProp>
+                  <stringProp name="Header.value">ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3</stringProp>
+                </elementProp>
+                <elementProp name="Origin" elementType="Header">
+                  <stringProp name="Header.name">Origin</stringProp>
+                  <stringProp name="Header.value">https://${serverName}</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">*/*</stringProp>
+                </elementProp>
+                <elementProp name="content-type" elementType="Header">
+                  <stringProp name="Header.name">content-type</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Encoding" elementType="Header">
+                  <stringProp name="Header.name">Accept-Encoding</stringProp>
+                  <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                </elementProp>
+                <elementProp name="User-Agent" elementType="Header">
+                  <stringProp name="Header.name">User-Agent</stringProp>
+                  <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0</stringProp>
+                </elementProp>
+                <elementProp name="Sec-Fetch-Dest" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Dest</stringProp>
+                  <stringProp name="Header.value">empty</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+              <collectionProp name="Asserion.test_strings">
+                <stringProp name="-1350226782">{&quot;succeeded&quot;:true,&quot;errors&quot;:[]}</stringProp>
+              </collectionProp>
+              <stringProp name="Assertion.custom_message"></stringProp>
+              <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+              <boolProp name="Assertion.assume_success">true</boolProp>
+              <intProp name="Assertion.test_type">16</intProp>
+            </ResponseAssertion>
+            <hashTree/>
+            <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="DelayTimer" enabled="true">
+              <stringProp name="ConstantTimer.delay">${DelayTimer.min}</stringProp>
+              <stringProp name="RandomTimer.range">${DelayTimer.max}</stringProp>
+            </UniformRandomTimer>
+            <hashTree/>
+          </hashTree>
+          <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="isLogin" enabled="true">
+            <stringProp name="scriptLanguage">java</stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="script">vars.put(&quot;isLogin&quot;, &quot;true&quot;);</stringProp>
+          </JSR223Sampler>
+          <hashTree/>
+          <HTTPSamplerProxy guiclass="GraphQLHTTPSamplerGui" testclass="HTTPSamplerProxy" testname="GetMe" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument" enabled="true">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">{&quot;operationName&quot;:&quot;GetMe&quot;,&quot;variables&quot;:{&quot;first&quot;:1,&quot;after&quot;:&quot;0&quot;},&quot;query&quot;:&quot;query GetMe($after: String, $first: Int, $sort: String) {\n  me {\n    id\n    memberId\n    userName\n    email\n    emailConfirmed\n    photoUrl\n    phoneNumber\n    permissions\n    contact {\n      firstName\n      lastName\n      fullName\n      organizations(after: $after, first: $first, sort: $sort) {\n        items {\n          id\n          name\n        }\n      }\n    }\n  }\n}&quot;}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain"></stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol"></stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/xapi/graphql</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="GraphQLHTTPSampler.operationName">GetMe</stringProp>
+            <stringProp name="GraphQLHTTPSampler.query">query GetMe($after: String, $first: Int, $sort: String) {
+  me {
+    id
+    memberId
+    userName
+    email
+    emailConfirmed
+    photoUrl
+    phoneNumber
+    permissions
+    contact {
+      firstName
+      lastName
+      fullName
+      organizations(after: $after, first: $first, sort: $sort) {
+        items {
+          id
+          name
+        }
+      }
+    }
+  }
+}
+</stringProp>
+            <stringProp name="GraphQLHTTPSampler.variables">{&quot;first&quot;:1,&quot;after&quot;:&quot;0&quot;}</stringProp>
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Sec-Fetch-Mode" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Mode</stringProp>
+                  <stringProp name="Header.value">cors</stringProp>
+                </elementProp>
+                <elementProp name="Referer" elementType="Header">
+                  <stringProp name="Header.name">Referer</stringProp>
+                  <stringProp name="Header.value">https://${serverName}</stringProp>
+                </elementProp>
+                <elementProp name="apollographql-client-name" elementType="Header">
+                  <stringProp name="Header.name">apollographql-client-name</stringProp>
+                  <stringProp name="Header.value">x-api-graphql-client</stringProp>
+                </elementProp>
+                <elementProp name="Sec-Fetch-Site" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
+                  <stringProp name="Header.value">same-origin</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Language" elementType="Header">
+                  <stringProp name="Header.name">Accept-Language</stringProp>
+                  <stringProp name="Header.value">ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3</stringProp>
+                </elementProp>
+                <elementProp name="Origin" elementType="Header">
+                  <stringProp name="Header.name">Origin</stringProp>
+                  <stringProp name="Header.value">https://${serverName}</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">*/*</stringProp>
+                </elementProp>
+                <elementProp name="content-type" elementType="Header">
+                  <stringProp name="Header.name">content-type</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Encoding" elementType="Header">
+                  <stringProp name="Header.name">Accept-Encoding</stringProp>
+                  <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                </elementProp>
+                <elementProp name="User-Agent" elementType="Header">
+                  <stringProp name="Header.name">User-Agent</stringProp>
+                  <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0</stringProp>
+                </elementProp>
+                <elementProp name="Sec-Fetch-Dest" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Dest</stringProp>
+                  <stringProp name="Header.value">empty</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+            <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="Init.UserId" enabled="true">
+              <stringProp name="JSONPostProcessor.referenceNames">Init.UserId</stringProp>
+              <stringProp name="JSONPostProcessor.jsonPathExprs">$.data.me.id</stringProp>
+              <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
+              <stringProp name="Scope.variable">userId</stringProp>
+              <stringProp name="TestPlan.comments">Overwriting the guest ID with the existing user ID</stringProp>
+            </JSONPostProcessor>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="GraphQLHTTPSamplerGui" testclass="HTTPSamplerProxy" testname="MergeCart" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument" enabled="true">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">{&quot;operationName&quot;:&quot;MergeCart&quot;,&quot;variables&quot;:{&quot;command&quot;:{&quot;storeId&quot;:&quot;${Init.StoreId}&quot;,&quot;userId&quot;:&quot;${Init.UserId}&quot;,&quot;secondCartId&quot;:&quot;${Init.CartId}&quot;,&quot;currencyCode&quot;:&quot;${Init.CurrencyCode}&quot;,&quot;cultureName&quot;:&quot;${Init.CultureName}&quot;}},&quot;query&quot;:&quot;mutation MergeCart($command: InputMergeCartType!) {\n  mergeCart(command: $command) {\n    id\n  }\n}&quot;}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain"></stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol"></stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/xapi/graphql</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="GraphQLHTTPSampler.operationName">MergeCart</stringProp>
+            <stringProp name="GraphQLHTTPSampler.query">mutation MergeCart($command: InputMergeCartType!) {
+  mergeCart(command: $command) {
+    id
+  }
+}
+</stringProp>
+            <stringProp name="GraphQLHTTPSampler.variables">{
+	&quot;command&quot;:{
+		&quot;storeId&quot;:&quot;${Init.StoreId}&quot;,
+		&quot;userId&quot;:&quot;${Init.UserId}&quot;,
+		&quot;secondCartId&quot;:&quot;${Init.CartId}&quot;,
+		&quot;currencyCode&quot;:&quot;${Init.CurrencyCode}&quot;,
+		&quot;cultureName&quot;:&quot;${Init.CultureName}&quot;
+	}
+}</stringProp>
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Sec-Fetch-Mode" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Mode</stringProp>
+                  <stringProp name="Header.value">cors</stringProp>
+                </elementProp>
+                <elementProp name="Referer" elementType="Header">
+                  <stringProp name="Header.name">Referer</stringProp>
+                  <stringProp name="Header.value">https://${serverName}</stringProp>
+                </elementProp>
+                <elementProp name="apollographql-client-name" elementType="Header">
+                  <stringProp name="Header.name">apollographql-client-name</stringProp>
+                  <stringProp name="Header.value">x-api-graphql-client</stringProp>
+                </elementProp>
+                <elementProp name="Sec-Fetch-Site" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
+                  <stringProp name="Header.value">same-origin</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Language" elementType="Header">
+                  <stringProp name="Header.name">Accept-Language</stringProp>
+                  <stringProp name="Header.value">ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3</stringProp>
+                </elementProp>
+                <elementProp name="Origin" elementType="Header">
+                  <stringProp name="Header.name">Origin</stringProp>
+                  <stringProp name="Header.value">https://${serverName}</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">*/*</stringProp>
+                </elementProp>
+                <elementProp name="content-type" elementType="Header">
+                  <stringProp name="Header.name">content-type</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Encoding" elementType="Header">
+                  <stringProp name="Header.name">Accept-Encoding</stringProp>
+                  <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                </elementProp>
+                <elementProp name="User-Agent" elementType="Header">
+                  <stringProp name="Header.name">User-Agent</stringProp>
+                  <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0</stringProp>
+                </elementProp>
+                <elementProp name="Sec-Fetch-Dest" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Dest</stringProp>
+                  <stringProp name="Header.value">empty</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+            <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="Init.CartId" enabled="true">
+              <stringProp name="TestPlan.comments">Change cartId after login</stringProp>
+              <stringProp name="JSONPostProcessor.referenceNames">Init.CartId</stringProp>
+              <stringProp name="JSONPostProcessor.jsonPathExprs">$.data.mergeCart.id</stringProp>
+              <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
+            </JSONPostProcessor>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="GraphQLHTTPSamplerGui" testclass="HTTPSamplerProxy" testname="GetMe" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument" enabled="true">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">{&quot;operationName&quot;:&quot;GetMe&quot;,&quot;variables&quot;:{&quot;first&quot;:1,&quot;after&quot;:&quot;0&quot;},&quot;query&quot;:&quot;query GetMe($after: String, $first: Int, $sort: String) {\n  me {\n    id\n    memberId\n    userName\n    email\n    emailConfirmed\n    photoUrl\n    phoneNumber\n    permissions\n    contact {\n      firstName\n      lastName\n      fullName\n      organizations(after: $after, first: $first, sort: $sort) {\n        items {\n          id\n          name\n        }\n      }\n    }\n  }\n}&quot;}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain"></stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol"></stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/xapi/graphql</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="GraphQLHTTPSampler.operationName">GetMe</stringProp>
+            <stringProp name="GraphQLHTTPSampler.query">query GetMe($after: String, $first: Int, $sort: String) {
+  me {
+    id
+    memberId
+    userName
+    email
+    emailConfirmed
+    photoUrl
+    phoneNumber
+    permissions
+    contact {
+      firstName
+      lastName
+      fullName
+      organizations(after: $after, first: $first, sort: $sort) {
+        items {
+          id
+          name
+        }
+      }
+    }
+  }
+}
+</stringProp>
+            <stringProp name="GraphQLHTTPSampler.variables">{&quot;first&quot;:1,&quot;after&quot;:&quot;0&quot;}</stringProp>
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Sec-Fetch-Mode" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Mode</stringProp>
+                  <stringProp name="Header.value">cors</stringProp>
+                </elementProp>
+                <elementProp name="Referer" elementType="Header">
+                  <stringProp name="Header.name">Referer</stringProp>
+                  <stringProp name="Header.value">https://${serverName}</stringProp>
+                </elementProp>
+                <elementProp name="apollographql-client-name" elementType="Header">
+                  <stringProp name="Header.name">apollographql-client-name</stringProp>
+                  <stringProp name="Header.value">x-api-graphql-client</stringProp>
+                </elementProp>
+                <elementProp name="Sec-Fetch-Site" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
+                  <stringProp name="Header.value">same-origin</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Language" elementType="Header">
+                  <stringProp name="Header.name">Accept-Language</stringProp>
+                  <stringProp name="Header.value">ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3</stringProp>
+                </elementProp>
+                <elementProp name="Origin" elementType="Header">
+                  <stringProp name="Header.name">Origin</stringProp>
+                  <stringProp name="Header.value">https://${serverName}</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">*/*</stringProp>
+                </elementProp>
+                <elementProp name="content-type" elementType="Header">
+                  <stringProp name="Header.name">content-type</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Encoding" elementType="Header">
+                  <stringProp name="Header.name">Accept-Encoding</stringProp>
+                  <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                </elementProp>
+                <elementProp name="User-Agent" elementType="Header">
+                  <stringProp name="Header.name">User-Agent</stringProp>
+                  <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0</stringProp>
+                </elementProp>
+                <elementProp name="Sec-Fetch-Dest" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Dest</stringProp>
+                  <stringProp name="Header.value">empty</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="GraphQLHTTPSamplerGui" testclass="HTTPSamplerProxy" testname="GetMenus" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument" enabled="true">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">{&quot;operationName&quot;:&quot;GetMenus&quot;,&quot;variables&quot;:{&quot;storeId&quot;:&quot;${Init.StoreId}&quot;,&quot;cultureName&quot;:&quot;${Init.CultureName}&quot;},&quot;query&quot;:&quot;query GetMenus($storeId: String!, $cultureName: String, $keyword: String) {\n  menus(storeId: $storeId, cultureName: $cultureName, keyword: $keyword) {\n    name\n    items {\n      title\n      url\n      priority\n    }\n  }\n}&quot;}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${serverName}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol"></stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/xapi/graphql</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="GraphQLHTTPSampler.operationName">GetMenus</stringProp>
+            <stringProp name="GraphQLHTTPSampler.query">query GetMenus($storeId: String!, $cultureName: String, $keyword: String) {
+  menus(storeId: $storeId, cultureName: $cultureName, keyword: $keyword) {
+    name
+    items {
+      title
+      url
+      priority
+    }
+  }
+}
+</stringProp>
+            <stringProp name="GraphQLHTTPSampler.variables">{&quot;storeId&quot;:&quot;${Init.StoreId}&quot;,&quot;cultureName&quot;:&quot;${Init.CultureName}&quot;}</stringProp>
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Sec-Fetch-Mode" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Mode</stringProp>
+                  <stringProp name="Header.value">cors</stringProp>
+                </elementProp>
+                <elementProp name="Referer" elementType="Header">
+                  <stringProp name="Header.name">Referer</stringProp>
+                  <stringProp name="Header.value">https://${serverName}</stringProp>
+                </elementProp>
+                <elementProp name="apollographql-client-name" elementType="Header">
+                  <stringProp name="Header.name">apollographql-client-name</stringProp>
+                  <stringProp name="Header.value">x-api-graphql-client</stringProp>
+                </elementProp>
+                <elementProp name="Sec-Fetch-Site" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
+                  <stringProp name="Header.value">same-origin</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Language" elementType="Header">
+                  <stringProp name="Header.name">Accept-Language</stringProp>
+                  <stringProp name="Header.value">ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3</stringProp>
+                </elementProp>
+                <elementProp name="Origin" elementType="Header">
+                  <stringProp name="Header.name">Origin</stringProp>
+                  <stringProp name="Header.value">https://${serverName}</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">*/*</stringProp>
+                </elementProp>
+                <elementProp name="content-type" elementType="Header">
+                  <stringProp name="Header.name">content-type</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Encoding" elementType="Header">
+                  <stringProp name="Header.name">Accept-Encoding</stringProp>
+                  <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                </elementProp>
+                <elementProp name="User-Agent" elementType="Header">
+                  <stringProp name="Header.name">User-Agent</stringProp>
+                  <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0</stringProp>
+                </elementProp>
+                <elementProp name="Sec-Fetch-Dest" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Dest</stringProp>
+                  <stringProp name="Header.value">empty</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="GraphQLHTTPSamplerGui" testclass="HTTPSamplerProxy" testname="GetOrders" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument" enabled="true">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">{&quot;operationName&quot;:&quot;GetOrders&quot;,&quot;variables&quot;:{&quot;userId&quot;:&quot;${Init.UserId}&quot;,&quot;cultureName&quot;:&quot;${Init.CultureName}&quot;,&quot;sort&quot;:&quot;createdDate:desc&quot;,&quot;first&quot;:4,&quot;after&quot;:&quot;0&quot;,&quot;filter&quot;:&quot;&quot;},&quot;query&quot;:&quot;query GetOrders($filter: String, $sort: String, $cultureName: String, $userId: String, $after: String, $first: Int) {\n  orders(\n    filter: $filter\n    sort: $sort\n    cultureName: $cultureName\n    userId: $userId\n    after: $after\n    first: $first\n  ) {\n    totalCount\n    items {\n      id\n      createdDate\n      status\n      currency {\n        code\n      }\n      total {\n        ...moneyFields\n      }\n      inPayments {\n        number\n      }\n      number\n      customerId\n      purchaseOrderNumber\n    }\n  }\n}\n\nfragment moneyFields on MoneyType {\n  amount\n  decimalDigits\n  formattedAmount\n  formattedAmountWithoutCurrency\n  formattedAmountWithoutPoint\n  formattedAmountWithoutPointAndCurrency\n  currency {\n    ...currencyFields\n  }\n}\n\nfragment currencyFields on CurrencyType {\n  code\n  customFormatting\n  exchangeRate\n  symbol\n}&quot;}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${serverName}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol"></stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/xapi/graphql</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="GraphQLHTTPSampler.operationName">GetOrders</stringProp>
+            <stringProp name="GraphQLHTTPSampler.query">query GetOrders($filter: String, $sort: String, $cultureName: String, $userId: String, $after: String, $first: Int) {
+  orders(
+    filter: $filter
+    sort: $sort
+    cultureName: $cultureName
+    userId: $userId
+    after: $after
+    first: $first
+  ) {
+    totalCount
+    items {
+      id
+      createdDate
+      status
+      currency {
+        code
+      }
+      total {
+        ...moneyFields
+      }
+      inPayments {
+        number
+      }
+      number
+      customerId
+      purchaseOrderNumber
+    }
+  }
+}
+
+fragment moneyFields on MoneyType {
+  amount
+  decimalDigits
+  formattedAmount
+  formattedAmountWithoutCurrency
+  formattedAmountWithoutPoint
+  formattedAmountWithoutPointAndCurrency
+  currency {
+    ...currencyFields
+  }
+}
+
+fragment currencyFields on CurrencyType {
+  code
+  customFormatting
+  exchangeRate
+  symbol
+}
+</stringProp>
+            <stringProp name="GraphQLHTTPSampler.variables">{
+	&quot;userId&quot;:&quot;${Init.UserId}&quot;,
+	&quot;cultureName&quot;:&quot;${Init.CultureName}&quot;,
+	&quot;sort&quot;:&quot;createdDate:desc&quot;,
+	&quot;first&quot;:4,
+	&quot;after&quot;:&quot;0&quot;,
+	&quot;filter&quot;:&quot;&quot;
+}
+</stringProp>
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Sec-Fetch-Mode" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Mode</stringProp>
+                  <stringProp name="Header.value">cors</stringProp>
+                </elementProp>
+                <elementProp name="Referer" elementType="Header">
+                  <stringProp name="Header.name">Referer</stringProp>
+                  <stringProp name="Header.value">https://${serverName}/account/dashboard</stringProp>
+                </elementProp>
+                <elementProp name="apollographql-client-name" elementType="Header">
+                  <stringProp name="Header.name">apollographql-client-name</stringProp>
+                  <stringProp name="Header.value">x-api-graphql-client</stringProp>
+                </elementProp>
+                <elementProp name="Sec-Fetch-Site" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
+                  <stringProp name="Header.value">same-origin</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Language" elementType="Header">
+                  <stringProp name="Header.name">Accept-Language</stringProp>
+                  <stringProp name="Header.value">ru-RU,ru;q=0.8,en-US;q=0.${Keyword.maxCount},en;q=0.3</stringProp>
+                </elementProp>
+                <elementProp name="Origin" elementType="Header">
+                  <stringProp name="Header.name">Origin</stringProp>
+                  <stringProp name="Header.value">https://${serverName}</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">*/*</stringProp>
+                </elementProp>
+                <elementProp name="content-type" elementType="Header">
+                  <stringProp name="Header.name">content-type</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Encoding" elementType="Header">
+                  <stringProp name="Header.name">Accept-Encoding</stringProp>
+                  <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                </elementProp>
+                <elementProp name="User-Agent" elementType="Header">
+                  <stringProp name="Header.name">User-Agent</stringProp>
+                  <stringProp name="Header.value">Mozilla/${Keyword.maxCount}.0 (Windows NT ${Group1.loadPerc}.0; Win64; x64; rv:${Group1.loadPerc}1.0) Gecko/${SearchRequests.min}0${Group1.loadPerc}0${Group1.loadPerc}1 Firefox/${Group1.loadPerc}1.0</stringProp>
+                </elementProp>
+                <elementProp name="Sec-Fetch-Dest" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Dest</stringProp>
+                  <stringProp name="Header.value">empty</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="GraphQLHTTPSamplerGui" testclass="HTTPSamplerProxy" testname="getMyCart" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument" enabled="true">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">{&quot;operationName&quot;:&quot;getMyCart&quot;,&quot;variables&quot;:{&quot;storeId&quot;:&quot;${Init.StoreId}&quot;,&quot;userId&quot;:&quot;${Init.UserId}&quot;,&quot;cultureName&quot;:&quot;${Init.CultureName}&quot;,&quot;currencyCode&quot;:&quot;${Init.CurrencyCode}&quot;},&quot;query&quot;:&quot;query getMyCart($storeId: String!, $userId: String!, $currencyCode: String!, $cultureName: String) {\n  cart(\n    storeId: $storeId\n    userId: $userId\n    currencyCode: $currencyCode\n    cultureName: $cultureName\n  ) {\n    id\n    name\n    comment\n    purchaseOrderNumber\n    coupons {\n      code\n    }\n    itemsCount\n    itemsQuantity\n    shipments {\n      id\n      shipmentMethodCode\n      shipmentMethodOption\n      deliveryAddress {\n        ...cartAddressFields\n      }\n      price {\n        ...moneyFields\n      }\n    }\n    discounts {\n      promotionId\n      description\n      amount\n      coupon\n    }\n    payments {\n      id\n      paymentGatewayCode\n      billingAddress {\n        ...cartAddressFields\n      }\n    }\n    addresses {\n      ...cartAddressFields\n    }\n    items {\n      ...lineItemFields\n    }\n    currency {\n      ...currencyFields\n    }\n    total {\n      ...moneyFields\n    }\n    discountTotal {\n      ...moneyFields\n    }\n    subTotal {\n      ...moneyFields\n    }\n    shippingTotal {\n      ...moneyFields\n    }\n    shippingPrice {\n      ...moneyFields\n    }\n    taxTotal {\n      ...moneyFields\n    }\n    extendedPriceTotal {\n      ...moneyFields\n    }\n    extendedPriceTotalWithTax {\n      ...moneyFields\n    }\n    validationErrors(ruleSet: \&quot;items\&quot;) {\n      errorCode\n      errorMessage\n      errorParameters {\n        key\n        value\n      }\n      objectId\n    }\n    availablePaymentMethods {\n      code\n      logoUrl\n      price {\n        ...moneyFields\n      }\n    }\n    availableShippingMethods {\n      id\n      code\n      logoUrl\n      optionName\n      optionDescription\n      price {\n        ...moneyFields\n      }\n    }\n    gifts {\n      id\n      imageUrl\n      name\n      lineItemId\n    }\n    availableGifts {\n      id\n      imageUrl\n      name\n      lineItemId\n    }\n  }\n}\n\nfragment cartAddressFields on CartAddressType {\n  id\n  name\n  organization\n  firstName\n  lastName\n  line1\n  line2\n  city\n  countryCode\n  countryName\n  regionId\n  regionName\n  postalCode\n  zip\n  phone\n  email\n  addressType\n}\n\nfragment lineItemFields on LineItemType {\n  id\n  imageUrl\n  inStockQuantity\n  isGift\n  isReadOnly\n  isReccuring\n  isValid\n  name\n  productId\n  product {\n    id\n    brandName\n    slug\n    masterVariation {\n      id\n      slug\n    }\n    minQuantity\n    maxQuantity\n    variations {\n      id\n      minQuantity\n      maxQuantity\n    }\n  }\n  quantity\n  sku\n  thumbnailImageUrl\n  validationErrors {\n    errorCode\n    errorMessage\n    errorParameters {\n      key\n      value\n    }\n  }\n  extendedPrice {\n    ...moneyFields\n  }\n  listPrice {\n    ...moneyFields\n  }\n  salePrice {\n    ...moneyFields\n  }\n  taxTotal {\n    ...moneyFields\n  }\n}\n\nfragment moneyFields on MoneyType {\n  amount\n  decimalDigits\n  formattedAmount\n  formattedAmountWithoutCurrency\n  formattedAmountWithoutPoint\n  formattedAmountWithoutPointAndCurrency\n  currency {\n    ...currencyFields\n  }\n}\n\nfragment currencyFields on CurrencyType {\n  code\n  customFormatting\n  exchangeRate\n  symbol\n}&quot;}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${serverName}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol"></stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/xapi/graphql</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="GraphQLHTTPSampler.operationName">getMyCart</stringProp>
+            <stringProp name="GraphQLHTTPSampler.query">query getMyCart($storeId: String!, $userId: String!, $currencyCode: String!, $cultureName: String) {
+  cart(
+    storeId: $storeId
+    userId: $userId
+    currencyCode: $currencyCode
+    cultureName: $cultureName
+  ) {
+    id
+    name
+    comment
+    purchaseOrderNumber
+    coupons {
+      code
+    }
+    itemsCount
+    itemsQuantity
+    shipments {
+      id
+      shipmentMethodCode
+      shipmentMethodOption
+      deliveryAddress {
+        ...cartAddressFields
+      }
+      price {
+        ...moneyFields
+      }
+    }
+    discounts {
+      promotionId
+      description
+      amount
+      coupon
+    }
+    payments {
+      id
+      paymentGatewayCode
+      billingAddress {
+        ...cartAddressFields
+      }
+    }
+    addresses {
+      ...cartAddressFields
+    }
+    items {
+      ...lineItemFields
+    }
+    currency {
+      ...currencyFields
+    }
+    total {
+      ...moneyFields
+    }
+    discountTotal {
+      ...moneyFields
+    }
+    subTotal {
+      ...moneyFields
+    }
+    shippingTotal {
+      ...moneyFields
+    }
+    shippingPrice {
+      ...moneyFields
+    }
+    taxTotal {
+      ...moneyFields
+    }
+    extendedPriceTotal {
+      ...moneyFields
+    }
+    extendedPriceTotalWithTax {
+      ...moneyFields
+    }
+    validationErrors(ruleSet: &quot;items&quot;) {
+      errorCode
+      errorMessage
+      errorParameters {
+        key
+        value
+      }
+      objectId
+    }
+    availablePaymentMethods {
+      code
+      logoUrl
+      price {
+        ...moneyFields
+      }
+    }
+    availableShippingMethods {
+      id
+      code
+      logoUrl
+      optionName
+      optionDescription
+      price {
+        ...moneyFields
+      }
+    }
+    gifts {
+      id
+      imageUrl
+      name
+      lineItemId
+    }
+    availableGifts {
+      id
+      imageUrl
+      name
+      lineItemId
+    }
+  }
+}
+
+fragment cartAddressFields on CartAddressType {
+  id
+  name
+  organization
+  firstName
+  lastName
+  line1
+  line2
+  city
+  countryCode
+  countryName
+  regionId
+  regionName
+  postalCode
+  zip
+  phone
+  email
+  addressType
+}
+
+fragment lineItemFields on LineItemType {
+  id
+  imageUrl
+  inStockQuantity
+  isGift
+  isReadOnly
+  isReccuring
+  isValid
+  name
+  productId
+  product {
+    id
+    brandName
+    slug
+    masterVariation {
+      id
+      slug
+    }
+    minQuantity
+    maxQuantity
+    variations {
+      id
+      minQuantity
+      maxQuantity
+    }
+  }
+  quantity
+  sku
+  thumbnailImageUrl
+  validationErrors {
+    errorCode
+    errorMessage
+    errorParameters {
+      key
+      value
+    }
+  }
+  extendedPrice {
+    ...moneyFields
+  }
+  listPrice {
+    ...moneyFields
+  }
+  salePrice {
+    ...moneyFields
+  }
+  taxTotal {
+    ...moneyFields
+  }
+}
+
+fragment moneyFields on MoneyType {
+  amount
+  decimalDigits
+  formattedAmount
+  formattedAmountWithoutCurrency
+  formattedAmountWithoutPoint
+  formattedAmountWithoutPointAndCurrency
+  currency {
+    ...currencyFields
+  }
+}
+
+fragment currencyFields on CurrencyType {
+  code
+  customFormatting
+  exchangeRate
+  symbol
+}
+</stringProp>
+            <stringProp name="GraphQLHTTPSampler.variables">{
+	&quot;storeId&quot;:&quot;${Init.StoreId}&quot;,
+	&quot;userId&quot;:&quot;${Init.UserId}&quot;,
+	&quot;cultureName&quot;:&quot;${Init.CultureName}&quot;,
+	&quot;currencyCode&quot;:&quot;${Init.CurrencyCode}&quot;
+}</stringProp>
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Sec-Fetch-Mode" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Mode</stringProp>
+                  <stringProp name="Header.value">cors</stringProp>
+                </elementProp>
+                <elementProp name="Referer" elementType="Header">
+                  <stringProp name="Header.name">Referer</stringProp>
+                  <stringProp name="Header.value">https://${serverName}</stringProp>
+                </elementProp>
+                <elementProp name="apollographql-client-name" elementType="Header">
+                  <stringProp name="Header.name">apollographql-client-name</stringProp>
+                  <stringProp name="Header.value">x-api-graphql-client</stringProp>
+                </elementProp>
+                <elementProp name="Sec-Fetch-Site" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
+                  <stringProp name="Header.value">same-origin</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Language" elementType="Header">
+                  <stringProp name="Header.name">Accept-Language</stringProp>
+                  <stringProp name="Header.value">ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3</stringProp>
+                </elementProp>
+                <elementProp name="Origin" elementType="Header">
+                  <stringProp name="Header.name">Origin</stringProp>
+                  <stringProp name="Header.value">https://${serverName}</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">*/*</stringProp>
+                </elementProp>
+                <elementProp name="content-type" elementType="Header">
+                  <stringProp name="Header.name">content-type</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Encoding" elementType="Header">
+                  <stringProp name="Header.name">Accept-Encoding</stringProp>
+                  <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                </elementProp>
+                <elementProp name="User-Agent" elementType="Header">
+                  <stringProp name="Header.name">User-Agent</stringProp>
+                  <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0</stringProp>
+                </elementProp>
+                <elementProp name="Sec-Fetch-Dest" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Dest</stringProp>
+                  <stringProp name="Header.value">empty</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
             <hashTree/>
           </hashTree>
         </hashTree>
@@ -5246,6 +7190,82 @@ fragment currencyFields on CurrencyType {
             </hashTree>
           </hashTree>
         </hashTree>
+        <IfController guiclass="IfControllerPanel" testclass="IfController" testname="Logout" enabled="true">
+          <stringProp name="IfController.condition">${__groovy(vars.get(&quot;isLogin&quot;) == &quot;true&quot;)}</stringProp>
+          <boolProp name="IfController.evaluateAll">false</boolProp>
+          <boolProp name="IfController.useExpression">true</boolProp>
+        </IfController>
+        <hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="logout" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${serverName}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol"></stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/storefrontapi/account/logout</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Sec-Fetch-Mode" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Mode</stringProp>
+                  <stringProp name="Header.value">cors</stringProp>
+                </elementProp>
+                <elementProp name="Referer" elementType="Header">
+                  <stringProp name="Header.name">Referer</stringProp>
+                  <stringProp name="Header.value">https://${serverName}/account/dashboard</stringProp>
+                </elementProp>
+                <elementProp name="Sec-Fetch-Site" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
+                  <stringProp name="Header.value">same-origin</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Language" elementType="Header">
+                  <stringProp name="Header.name">Accept-Language</stringProp>
+                  <stringProp name="Header.value">ru-RU,ru;q=0.8,en-US;q=0.${Keyword.maxCount},en;q=0.3</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">*/*</stringProp>
+                </elementProp>
+                <elementProp name="content-type" elementType="Header">
+                  <stringProp name="Header.name">content-type</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Encoding" elementType="Header">
+                  <stringProp name="Header.name">Accept-Encoding</stringProp>
+                  <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                </elementProp>
+                <elementProp name="User-Agent" elementType="Header">
+                  <stringProp name="Header.name">User-Agent</stringProp>
+                  <stringProp name="Header.value">Mozilla/${Keyword.maxCount}.0 (Windows NT ${rampUp}.0; Win6${totalThreads}; x6${totalThreads}; rv:${rampUp}${SearchRequests.min}.0) Gecko/${SearchRequests.min}0${rampUp}0${rampUp}1 Firefox/${rampUp}${SearchRequests.min}.0</stringProp>
+                </elementProp>
+                <elementProp name="Sec-Fetch-Dest" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Dest</stringProp>
+                  <stringProp name="Header.value">empty</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+          <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="isLogin" enabled="true">
+            <stringProp name="scriptLanguage">java</stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="script">vars.put(&quot;isLogin&quot;, &quot;false&quot;);</stringProp>
+          </JSR223Sampler>
+          <hashTree/>
+        </hashTree>
         <DebugSampler guiclass="TestBeanGUI" testclass="DebugSampler" testname="Debug Sampler" enabled="true">
           <boolProp name="displayJMeterProperties">false</boolProp>
           <boolProp name="displayJMeterVariables">true</boolProp>
@@ -5876,7 +7896,6 @@ fragment currencyFields on CurrencyType {
         </IfController>
         <hashTree>
           <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="login" enabled="true">
-            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="" elementType="HTTPArgument">
@@ -5886,6 +7905,7 @@ fragment currencyFields on CurrencyType {
                 </elementProp>
               </collectionProp>
             </elementProp>
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
             <stringProp name="HTTPSampler.domain"></stringProp>
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
@@ -5966,6 +7986,14 @@ fragment currencyFields on CurrencyType {
             </UniformRandomTimer>
             <hashTree/>
           </hashTree>
+          <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="isLogin" enabled="true">
+            <stringProp name="scriptLanguage">java</stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="script">vars.put(&quot;isLogin&quot;, &quot;true&quot;);</stringProp>
+          </JSR223Sampler>
+          <hashTree/>
           <HTTPSamplerProxy guiclass="GraphQLHTTPSamplerGui" testclass="HTTPSamplerProxy" testname="GetMe" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
               <collectionProp name="Arguments.arguments">
@@ -12462,6 +14490,82 @@ fragment orderAddressFields on OrderAddressType {
             </JSONPostProcessor>
             <hashTree/>
           </hashTree>
+        </hashTree>
+        <IfController guiclass="IfControllerPanel" testclass="IfController" testname="Logout" enabled="true">
+          <stringProp name="IfController.condition">${__groovy(vars.get(&quot;isLogin&quot;) == &quot;true&quot;)}</stringProp>
+          <boolProp name="IfController.evaluateAll">false</boolProp>
+          <boolProp name="IfController.useExpression">true</boolProp>
+        </IfController>
+        <hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="logout" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${serverName}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol"></stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/storefrontapi/account/logout</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Sec-Fetch-Mode" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Mode</stringProp>
+                  <stringProp name="Header.value">cors</stringProp>
+                </elementProp>
+                <elementProp name="Referer" elementType="Header">
+                  <stringProp name="Header.name">Referer</stringProp>
+                  <stringProp name="Header.value">https://${serverName}/account/dashboard</stringProp>
+                </elementProp>
+                <elementProp name="Sec-Fetch-Site" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
+                  <stringProp name="Header.value">same-origin</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Language" elementType="Header">
+                  <stringProp name="Header.name">Accept-Language</stringProp>
+                  <stringProp name="Header.value">ru-RU,ru;q=0.8,en-US;q=0.${Keyword.maxCount},en;q=0.3</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">*/*</stringProp>
+                </elementProp>
+                <elementProp name="content-type" elementType="Header">
+                  <stringProp name="Header.name">content-type</stringProp>
+                  <stringProp name="Header.value">application/json</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Encoding" elementType="Header">
+                  <stringProp name="Header.name">Accept-Encoding</stringProp>
+                  <stringProp name="Header.value">gzip, deflate, br</stringProp>
+                </elementProp>
+                <elementProp name="User-Agent" elementType="Header">
+                  <stringProp name="Header.name">User-Agent</stringProp>
+                  <stringProp name="Header.value">Mozilla/${Keyword.maxCount}.0 (Windows NT ${rampUp}.0; Win6${totalThreads}; x6${totalThreads}; rv:${rampUp}${SearchRequests.min}.0) Gecko/${SearchRequests.min}0${rampUp}0${rampUp}1 Firefox/${rampUp}${SearchRequests.min}.0</stringProp>
+                </elementProp>
+                <elementProp name="Sec-Fetch-Dest" elementType="Header">
+                  <stringProp name="Header.name">Sec-Fetch-Dest</stringProp>
+                  <stringProp name="Header.value">empty</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+          <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="isLogin" enabled="true">
+            <stringProp name="scriptLanguage">java</stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="script">vars.put(&quot;isLogin&quot;, &quot;false&quot;);</stringProp>
+          </JSR223Sampler>
+          <hashTree/>
         </hashTree>
       </hashTree>
       <ResultCollector guiclass="GraphVisualizer" testclass="ResultCollector" testname="Graph Results" enabled="false">
